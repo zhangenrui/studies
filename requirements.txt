@@ -1,0 +1,34 @@
+# python
+python>=3.8
+
+# base
+ipykernel
+markdown
+packaging
+python-levenshtein
+pyyaml
+requests
+sortedcollections
+sortedcontainers
+tqdm
+
+# ml
+numpy
+scikit-learn
+
+# nlp
+jieba
+hanlp
+gensim
+opencc
+
+# pytorch
+accelerate
+transformers~=4.8
+torch~=1.8
+torchkeras
+
+# tensorflow
+keras
+bert4keras
+tensorflow>=2.3
