@@ -20,7 +20,7 @@ Problems Index
 - [`剑指Offer No.0014 剪绳子1 (中等, 2021-11)`](#剑指offer-no0014-剪绳子1-中等-2021-11)
 - [`剑指Offer No.0015 二进制中1的个数 (简单, 2021-11)`](#剑指offer-no0015-二进制中1的个数-简单-2021-11)
 - [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
-- [`剑指Offer No.0017 打印从1到最大的n位数（全排列） (中等, 2021-11)`](#剑指offer-no0017-打印从1到最大的n位数全排列-中等-2021-11)
+- [`剑指Offer No.0017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-no0017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
 - [`剑指Offer No.0018 删除链表的节点 (简单, 2021-11)`](#剑指offer-no0018-删除链表的节点-简单-2021-11)
 - [`剑指Offer No.0021 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`](#剑指offer-no0021-调整数组顺序使奇数位于偶数前面-简单-2021-11)
 - [`剑指Offer No.0022 链表中倒数第k个节点 (简单, 2021-11)`](#剑指offer-no0022-链表中倒数第k个节点-简单-2021-11)
@@ -37,6 +37,10 @@ Problems Index
 - [`剑指Offer No.0032 层序遍历二叉树-3（之字形遍历） (简单, 2021-11)`](#剑指offer-no0032-层序遍历二叉树-3之字形遍历-简单-2021-11)
 - [`剑指Offer No.0033 二叉搜索树的后序遍历序列 (中等, 2021-12)`](#剑指offer-no0033-二叉搜索树的后序遍历序列-中等-2021-12)
 - [`剑指Offer No.0034 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no0034-二叉树中和为某一值的路径-中等-2021-12)
+- [`剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no0035-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`](#剑指offer-no0036-二叉搜索树与双向链表-中等-2021-12)
+- [`剑指Offer No.0037 序列化二叉树 (困难, 2021-12)`](#剑指offer-no0037-序列化二叉树-困难-2021-12)
+- [`剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no0038-字符串的排列全排列-中等-2021-12)
 - [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-11)`](#剑指offer-no0047-礼物的最大价值-中等-2021-11)
@@ -1182,13 +1186,12 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0017 打印从1到最大的n位数（全排列） (中等, 2021-11)`
+### `剑指Offer No.0017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`
 
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
-<!-- Tag: DFS、经典 -->
+<!-- Tag: DFS -->
 
 <summary><b>问题简述</b></summary>
 
@@ -1220,7 +1223,7 @@ class Solution:
 <summary><b>思路</b></summary>
 
 - 考虑大数情况下，直接遍历会存在越界问题；
-- 本题实际考察的是数的全排列问题，同时需要去除前置 0；
+- 本题实际上是一个 N 叉树（N=9）的遍历问题；
 
 <!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
 
@@ -3066,6 +3069,792 @@ class Solution:
             buf.pop()
         
         dfs(root, target)
+        return ret
+```
+
+</details>
+
+---
+### `剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`
+
+
+[![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
+[![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 链表、哈希表、经典 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+复制带随机指针的链表，返回复制后链表的头结点；
+```
+
+<details><summary><b>详细描述</b></summary>
+
+**注意**：本题的输入输出带有迷惑性，它们并不是实际的输入和输出，而是链表的数组展现；
+
+```txt
+给你一个长度为 n 的链表，每个节点包含一个额外增加的随机指针 random ，该指针可以指向链表中的任何节点或空节点。
+
+构造这个链表的 深拷贝。深拷贝应该正好由 n 个 全新 节点组成，其中每个新节点的值都设为其对应的原节点的值。新节点的 next 指针和 random 指针也都应指向复制链表中的新节点，并使原链表和复制链表中的这些指针能够表示相同的链表状态。复制链表中的指针都不应指向原链表中的节点 。
+
+例如，如果原链表中有 X 和 Y 两个节点，其中 X.random --> Y 。那么在复制链表中对应的两个节点 x 和 y ，同样有 x.random --> y 。
+
+返回复制链表的头节点。
+
+用一个由 n 个节点组成的链表来表示输入/输出中的链表。每个节点用一个 [val, random_index] 表示：
+
+val：一个表示 Node.val 的整数。
+random_index：随机指针指向的节点索引（范围从 0 到 n-1）；如果不指向任何节点，则为  null 。
+你的代码 只 接受原链表的头节点 head 作为传入参数。
+
+示例 1：
+    输入：head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+    输出：[[7,null],[13,0],[11,4],[10,2],[1,0]]
+示例 2：
+    输入：head = [[1,1],[2,1]]
+    输出：[[1,1],[2,1]]
+示例 3：
+    输入：head = [[3,null],[3,0],[3,null]]
+    输出：[[3,null],[3,0],[3,null]]
+示例 4：
+    输入：head = []
+    输出：[]
+    解释：给定的链表为空（空指针），因此返回 null。
+
+提示：
+    -10000 <= Node.val <= 10000
+    Node.random 为空（null）或指向链表中的节点。
+    节点数目不超过 1000 。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路1：哈希表</b></summary>
+
+- 先看下普通链表的复制：
+
+    <details><summary><b>普通链表的复制</b></summary>
+
+    ```python
+        class Solution:
+            def copyList(self, head: 'Node') -> 'Node':
+                cur = head
+                ret = pre = Node(0)  # 伪头结点
+                while cur:
+                    node = Node(cur.val) # 复制节点 cur
+                    pre.next = node      # 新链表的 前驱节点 -> 当前节点
+                    # pre.random = '???' # 新链表的 「 前驱节点 -> 当前节点 」 无法确定
+                    cur = cur.next       # 遍历下一节点
+                    pre = node           # 保存当前新节点
+                return ret.next
+    ```
+
+    </details>
+
+- 首先要理解本题的难点：
+    - 复制当前节点的时候，随机指针指向的节点可能还没有创建；
+    - 即使你先按普通链表先把节点都创建出来，由于链表无法随机访问的性质，你也不知道随机节点在哪个位置；
+- 解决方法是利用哈希表（写法1）：
+    - 第一次遍历时，记录每个节点对应的复制节点；
+    - 第二次遍历时，根据原链表的指向从哈希表中提取对应的节点，建立指向关系；
+- 本题还有一种递归的写法（写法2）：
+    - 同样用一个哈希表保存
+
+<details><summary><b>Python：迭代（写法1）</b></summary>
+
+```python
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+"""
+
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        if not head: return None  # 使用伪头结点，可以省去这行
+
+        dp = dict()
+
+        # 第一次遍历，生成复制节点，并记录到哈希表
+        p = head
+        while p:
+            dp[p] = Node(p.val)
+            p = p.next
+        
+        # 写法1：使用伪头结点，可以省去对 head 为 None 的判断
+        cur = head
+        ret = pre = Node(0)  # 伪头结点
+        while cur:
+            pre.next = dp[cur]  # 这里可以不用 get，因为一定存在
+            pre.next.random = dp.get(cur.random)  # get 方法在 key 不存在时，默认返回 None
+            cur = cur.next
+            pre = pre.next
+
+        return ret.next
+
+        # 写法2：相比使用伪头结点
+        # cur = head
+        # while cur:
+        #     dp[cur].next = dp.get(cur.next)
+        #     dp[cur].random = dp.get(cur.random)
+        #     cur = cur.next
+        
+        # return dp[head]
+```
+
+</details>
+
+
+<details><summary><b>Python：递归（写法2）</b></summary>
+
+- 【不推荐】虽然代码量会少一点，但是不好理解；
+
+```python
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+"""
+
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        if not head: return None
+
+        dp = dict()
+        
+        def dfs(p):
+            if not p: return None
+
+            if p not in dp:
+                dp[p] = Node(p.val)
+                dp[p].next = dfs(p.next)
+                dp[p].random = dfs(p.random)
+        
+            return dp[p]
+        
+        return dfs(head)
+```
+
+</details>
+
+
+<summary><b>思路2：复制+拆分</b></summary>
+
+<div align="center"><img src="../_assets/剑指Offer_0035_中等_复杂链表的复制.png" height="300" /></div>
+
+> 详见：[复杂链表的复制（哈希表 / 拼接与拆分，清晰图解）](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/solution/jian-zhi-offer-35-fu-za-lian-biao-de-fu-zhi-ha-xi-/)
+
+- 注意这个方法需要遍历三次：
+    - 第一次复制节点
+    - 第二次设置随机节点
+    - 第三次拆分
+- 因为随机节点指向任意，所以必须先设置完所有随机节点后才能拆分；
+
+<details><summary><b>Python</b></summary>
+
+```python
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+"""
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+"""
+
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        if not head: return None
+
+        # 复制节点
+        cur = head
+        while cur:
+            nod = Node(cur.val)  # 创建节点
+            cur.next, nod.next = nod, cur.next  # 接入新节点
+            cur = nod.next  # 遍历下一个节点
+
+        # 设置随机节点，因为随机节点指向任意，所以必须先设置随机节点后才能断开
+        cur = head
+        while cur:
+            if cur.random:
+                cur.next.random = cur.random.next
+            cur = cur.next.next
+
+        # 拆分节点
+        cur = head
+        ret = nxt = head.next
+        while nxt.next:
+            # 开始拆分
+            cur.next = cur.next.next
+            nxt.next = nxt.next.next
+
+            # 下一组
+            cur = cur.next
+            nxt = nxt.next
+        
+        return ret
+```
+
+</details>
+
+---
+### `剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`
+
+
+[![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 二叉树、递归、经典 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的循环双向链表。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的循环双向链表。要求不能创建任何新的节点，只能调整树中节点指针的指向。
+
+为了让您更好地理解问题，以下面的二叉搜索树为例：
+
+     4
+    / \
+   2   5
+  / \
+ 1   3
+
+我们希望将这个二叉搜索树转化为双向循环链表。链表中的每个节点都有一个前驱和后继指针。对于双向循环链表，第一个节点的前驱是最后一个节点，最后一个节点的后继是第一个节点。
+
+下图展示了上面的二叉搜索树转化成的链表。“head” 表示指向链表中有最小元素的节点。
+
+ head -> 1 <-> 2 <-> 3 <-> 4 <-> 5 (1 和 5 也互连)
+         ↑-----------------------↑
+
+特别地，我们希望可以就地完成转换操作。当转化完成以后，树中节点的左指针需要指向前驱，树中节点的右指针需要指向后继。还需要返回链表中的第一个节点的指针。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 根据二叉搜索树的性质，其**中序遍历**结果就是一个有序的单向链表；
+- 因此本题要做的就是在中序遍历的过程中，修改指针的指向，得到双向链表；
+- 考虑使用中序遍历访问树的各节点，记 `cur`，初始化前驱节点 `pre=None`；  
+  1. 在访问每个节点时构建 `cur` 和前驱节点 `pre` 的引用指向；  
+  2. 当 `pre=None` 时，说明该节点是最左叶子节点（中序遍历访问的第一个节点），即头结点 `ret`；否则修改双向节点引用，即 `pre.right = cur`， `cur.left = pre`；
+  3. **在访问右子树前，将 `pre` 指向 `cur`；**
+  4. 中序遍历完成后，最后构建头节点和尾节点的引用指向。  
+
+<details><summary><b>Python</b></summary>
+
+```python
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+"""
+class Solution:
+    def treeToDoublyList(self, root: 'Node') -> 'Node':
+        if not root: return None
+
+        self.ret = self.pre = None
+
+        def dfs(cur):
+            if not cur:
+                return
+
+            dfs(cur.left)
+            if self.pre:
+                self.pre.right = cur
+                cur.left = self.pre
+            else:  # 达到最左叶子节点（只执行一次）
+                self.ret = cur  # 双向链表的头结点
+            
+            self.pre = cur  # 在遍历右子树前，将 pre 指向 cur
+            dfs(cur.right)
+
+        dfs(root)
+        # 遍历结束时，pre 指向最右叶子节点
+        self.ret.left = self.pre 
+        self.pre.right = self.ret
+        return self.ret
+```
+
+</details>
+
+---
+### `剑指Offer No.0037 序列化二叉树 (困难, 2021-12)`
+
+
+[![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 二叉树 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+实现两个函数，分别用来序列化和反序列化二叉树。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+请实现两个函数，分别用来序列化和反序列化二叉树。
+
+你需要设计一个算法来实现二叉树的序列化与反序列化。这里不限定你的序列 / 反序列化算法执行逻辑，你只需要保证一个二叉树可以被序列化为一个字符串并且将这个字符串反序列化为原始的树结构。
+
+提示：输入输出格式与 LeetCode 目前使用的方式一致，详情请参阅 LeetCode 序列化二叉树的格式。你并非必须采取这种方式，你也可以采用其他的方法解决这个问题。
+
+示例：
+    输入：root = [1,2,3,null,null,4,5]
+    输出：[1,2,3,null,null,4,5]
+
+注意：本题与主站 297 题相同：https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+~~<summary><b>思路1：中序遍历+前序/后序遍历</b></summary>~~
+
+- **只适用于树种节点不重复的情况**；
+- 单独的中序/前序/后序能不能还原二叉树；
+- 但是中序 + 前序/后序就可以；
+- 因此可以序列化可以输出，中序+前序/后序的结果，反序列化时再用他们还原；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Codec:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+
+        :type root: TreeNode
+        :rtype: str
+        """
+
+        inorder = []
+        preorder = []
+
+        def in_dfs(r):
+            if not r: return
+
+            in_dfs(r.left)
+            inorder.append(r.val)
+            in_dfs(r.right)
+
+        def pre_dfs(r):
+            if not r: return
+
+            preorder.append(r.val)
+            pre_dfs(r.left)
+            pre_dfs(r.right)
+
+        in_dfs(root)
+        pre_dfs(root)
+        return str(inorder) + ', ' + str(preorder)
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+
+        :type data: str
+        :rtype: TreeNode
+        """
+        inorder, preorder = eval(data)
+
+        def dfs(inorder, preorder):
+            if not inorder and not preorder: return
+
+            root_val = preorder[0]
+            root = TreeNode(root_val)
+            root_idx = inorder.index(root_val)
+
+            root.left = dfs(inorder[:root_idx], preorder[1:root_idx + 1])
+            root.right = dfs(inorder[root_idx + 1:], preorder[root_idx + 1:])
+            
+            return root
+        
+        return dfs(inorder, preorder)
+
+# Your Codec object will be instantiated and called as such:
+# codec = Codec()
+# codec.deserialize(codec.serialize(root))
+```
+
+</details>
+
+
+<summary><b>思路2：层序遍历</b></summary>
+
+- 无论是序列化还是反序列化，都需要用到辅助队列；
+- 层序遍历的缺点是可能会保存很多无效的空节点；
+
+<details><summary><b>Python</b></summary>
+
+```python
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Codec:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        from collections import deque
+
+        if not root: return '[]'  # 空判断
+
+        buf = deque([root])
+        ret = []
+        while buf:
+            p = buf.popleft()
+            if p:
+                ret.append(p.val)
+                buf.append(p.left)
+                buf.append(p.right)
+            else:  # 注意空节点也要保存
+                ret.append(None)
+
+        return str(ret)
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        from collections import deque
+
+        data = eval(data)  # 利用 python 的 eval 函数方便的将字符串还原为列表
+        if not data: return None  # 空判断
+
+        i = 0  # 记录当前节点在 data 中的位置
+        root = TreeNode(data[i])
+        i += 1
+        buf = deque([root])
+
+        while buf:
+            p = buf.popleft()
+            if data[i] is not None:  # 因为在 if 中 0 也是 False，所以保险起见用 is not None 来判断
+                p.left = TreeNode(data[i])
+                buf.append(p.left)  # 新节点入队，当生成下一层的节点时，依然按照从左往右的顺序
+            i += 1
+            if data[i] is not None:
+                p.right = TreeNode(data[i])
+                buf.append(p.right)
+            i += 1
+
+        return root
+
+
+# Your Codec object will be instantiated and called as such:
+# codec = Codec()
+# codec.deserialize(codec.serialize(root))
+```
+
+</details>
+
+---
+### `剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`
+
+
+[![DFS+剪枝](https://img.shields.io/badge/DFS+剪枝-lightgray.svg)](算法-深度优先搜索(DFS).md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: DFS+剪枝、经典 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+输入一个字符串，打印出该字符串中字符的所有排列。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+输入一个字符串，打印出该字符串中字符的所有排列。
+
+你可以以任意顺序返回这个字符串数组，但里面不能有重复元素。
+
+示例:
+    输入：s = "abc"
+    输出：["abc","acb","bac","bca","cab","cba"]
+
+限制：
+    1 <= s 的长度 <= 8
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路1：DFS树状遍历+剪枝</b></summary>
+
+- 深度优先求全排列的过程实际上相当于是一个**多叉树的先序遍历过程**；
+    - 假设共有 `n` 种状态都不重复，则：
+    - 第一层有 `n` 种选择；
+    - 第二层有 `n - 1` 种选择；
+    - ...
+    - 共有 `n!` 种可能；
+
+    <details><summary><b>图示</b></summary>
+
+    <div align="center"><img src="../_assets/剑指Offer_0038_中等_字符串的排列2.png" height="200" /></div>
+
+    </details>
+
+**本题的难点是如何过滤重复的状态**
+
+- **写法1）** 遍历所有状态，直接用 `set` 保存结果（不剪枝）：
+
+    <details><summary><b>Python</b></summary>
+
+    ```python
+    class Solution:
+        def permutation(self, s: str) -> List[str]:
+
+            N = len(s)
+            buf = []
+            ret = set()
+            visited = [False] * N
+            def dfs(deep):
+                if deep == N:
+                    ret.add(''.join(buf))
+                    return
+
+                for i in range(N):
+                    if not visited[i]:
+                        # 标记
+                        buf.append(s[i])
+                        visited[i] = True
+                        # 进入下一层
+                        dfs(deep + 1)
+                        # 回溯（撤销标记）
+                        buf.pop()  
+                        visited[i] = False
+            
+            dfs(0)
+            return list(ret)
+    ```
+
+    </details>
+
+- **写法2）** 跳过重复字符（需排序）：
+    - 其中用于剪枝的代码不太好理解，其解析详见：[「代码随想录」剑指 Offer 38. 字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/dai-ma-sui-xiang-lu-jian-zhi-offer-38-zi-gwt6/)
+  
+        ```python
+        if not visited[i - 1] and i > 0 and s[i] == s[i - 1]: 
+            continue
+        ```
+
+    <details><summary><b>Python</b></summary>
+
+    ```python
+    class Solution:
+        def permutation(self, s: str) -> List[str]:
+
+            s = sorted(s)  # 排序，使相同字符在一起
+            N = len(s)
+            ret = []  # 保存结果
+            buf = []  # 临时结果
+            visited = [False] * N  # 记录是否访问
+            def dfs(deep):  # 传入递归深度
+                if deep == N:
+                    ret.append(''.join(buf))
+                    return
+
+                for i in range(N):
+                    # 剪枝
+                    if visited[i - 1] is False and i > 0 and s[i] == s[i - 1]:
+                        continue
+
+                    # 下面的代码居然可以（区别仅在于 visited[i - 1] 的状态），
+                    # 但是效率不如上面的，具体解析可参考：[「代码随想录」剑指 Offer 38. 字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/dai-ma-sui-xiang-lu-jian-zhi-offer-38-zi-gwt6/)
+                    # if visited[i - 1] is True and i > 0 and s[i] == s[i - 1]:
+                    #     continue
+
+                    if not visited[i]:  # 如果当前位置还没访问过
+                        # 标记当前位置
+                        visited[i] = True
+                        buf.append(s[i])
+                        # 下一个位置
+                        dfs(deep + 1)
+                        # 回溯
+                        buf.pop()
+                        visited[i] = False
+
+            dfs(0)
+            return ret
+    ```
+
+    </details>
+
+- **写法3）** 在每一层用一个 `set` 保存已经用过的字符（不排序）：
+
+    <details><summary><b>Python</b></summary>
+
+    ```python
+    class Solution:
+        def permutation(self, s: str) -> List[str]:
+
+            N = len(s)
+            buf = []
+            ret = set()
+            visited = [False] * N
+            def dfs(deep):
+                if deep == N:
+                    ret.add(''.join(buf))
+                    return
+
+                used = set()  # 记录用过的字符
+                for i in range(N):
+                    if s[i] in used:  # 如果是已经用过的
+                        continue
+
+                    if not visited[i]:
+                        # 标记
+                        used.add(s[i])
+                        buf.append(s[i])
+                        visited[i] = True
+                        # 进入下一层
+                        dfs(deep + 1)
+                        # 回溯（撤销标记）
+                        buf.pop()  
+                        visited[i] = False
+            
+            dfs(0)
+            return list(ret)
+    ```
+
+    </details>
+
+- **写法2）** 原地交换
+    > [剑指 Offer 38. 字符串的排列（回溯法，清晰图解）](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/mian-shi-ti-38-zi-fu-chuan-de-pai-lie-hui-su-fa-by/)
+
+    - 这个写法有点像“下一个排列”，只是没有使用字典序；
+
+    <details><summary><b>Python</b></summary>
+
+    ```python
+    class Solution:
+        def permutation(self, s: str) -> List[str]:
+            N = len(s)
+            buf = list(s)
+            ret = []
+
+            def dfs(deep):
+                if deep == N - 1:
+                    ret.append(''.join(buf))   # 添加排列方案
+                    return
+
+                used = set()
+                for i in range(deep, N):  # 注意遍历范围，类似选择排序
+                    if buf[i] in used:  # 已经用过的状态
+                        continue
+
+                    used.add(buf[i])
+                    buf[deep], buf[i] = buf[i], buf[deep]  # 交换，将 buf[i] 固定在第 deep 位
+                    dfs(deep + 1)               # 开启固定第 x + 1 位字符
+                    buf[deep], buf[i] = buf[i], buf[deep]  # 恢复交换
+
+            dfs(0)
+            return ret
+    ```
+
+    </details>
+
+
+<summary><b>思路2：下一个排列</b></summary>
+
+> [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/zi-fu-chuan-de-pai-lie-by-leetcode-solut-hhvs/)
+
+- 先排序得到最小的字典序结果；
+- 循环直到不存在下一个更大的排列；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def permutation(self, s: str) -> List[str]:
+        
+        def nextPermutation(nums: List[str]) -> bool:
+            i = len(nums) - 2
+            while i >= 0 and nums[i] >= nums[i + 1]:
+                i -= 1
+
+            if i < 0:
+                return False
+            else:
+                j = len(nums) - 1
+                while j >= 0 and nums[i] >= nums[j]:
+                    j -= 1
+                nums[i], nums[j] = nums[j], nums[i]
+
+            left, right = i + 1, len(nums) - 1
+            while left < right:
+                nums[left], nums[right] = nums[right], nums[left]
+                left += 1
+                right -= 1
+
+            return True
+
+        buf = sorted(s)
+        ret = [''.join(buf)]
+        while nextPermutation(buf):
+            ret.append(''.join(buf))
+
         return ret
 ```
 

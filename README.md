@@ -5,9 +5,9 @@ studies
 ![pytorch-version](https://img.shields.io/badge/pytorch-1.8+-green)
 ![tf-version](https://img.shields.io/badge/tensorflow-2.3+-green)
 ![repo-size](https://img.shields.io/github/repo-size/imhuay/studies)
-
 <!-- ![total-lines](https://img.shields.io/tokei/lines/github/imhuay/studies) -->
 <!-- ![code-size](https://img.shields.io/github/languages/code-size/imhuay/studies) -->
+
 <!-- ![followers](https://img.shields.io/github/followers/imhuay?style=social) -->
 <!-- ![user-stars](https://img.shields.io/github/stars/imhuay?style=social) -->
 
@@ -83,7 +83,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [39] <a href="algorithm/topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [43] <a href="algorithm/topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
@@ -99,7 +99,7 @@ Algorithm Studies
 - [`剑指Offer No.0014 剪绳子1 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0014-剪绳子1-中等-2021-11)
 - [`剑指Offer No.0015 二进制中1的个数 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0015-二进制中1的个数-简单-2021-11)
 - [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
-- [`剑指Offer No.0017 打印从1到最大的n位数（全排列） (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0017-打印从1到最大的n位数全排列-中等-2021-11)
+- [`剑指Offer No.0017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
 - [`剑指Offer No.0018 删除链表的节点 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0018-删除链表的节点-简单-2021-11)
 - [`剑指Offer No.0021 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0021-调整数组顺序使奇数位于偶数前面-简单-2021-11)
 - [`剑指Offer No.0022 链表中倒数第k个节点 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0022-链表中倒数第k个节点-简单-2021-11)
@@ -116,6 +116,10 @@ Algorithm Studies
 - [`剑指Offer No.0032 层序遍历二叉树-3（之字形遍历） (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0032-层序遍历二叉树-3之字形遍历-简单-2021-11)
 - [`剑指Offer No.0033 二叉搜索树的后序遍历序列 (中等, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0033-二叉搜索树的后序遍历序列-中等-2021-12)
 - [`剑指Offer No.0034 二叉树中和为某一值的路径 (中等, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0034-二叉树中和为某一值的路径-中等-2021-12)
+- [`剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0035-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0036-二叉搜索树与双向链表-中等-2021-12)
+- [`剑指Offer No.0037 序列化二叉树 (困难, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0037-序列化二叉树-困难-2021-12)
+- [`剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0038-字符串的排列全排列-中等-2021-12)
 - [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0047-礼物的最大价值-中等-2021-11)
@@ -134,14 +138,16 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-经典问题&代码 [6] <a href="algorithm/topics/题集-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 题集-经典问题&代码 [8] <a href="algorithm/topics/题集-经典问题&代码.md">¶</a></b></summary>
 
 - [`剑指Offer No.0007 重建二叉树 (中等, 2021-11)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0007-重建二叉树-中等-2021-11)
 - [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
-- [`剑指Offer No.0017 打印从1到最大的n位数（全排列） (中等, 2021-11)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0017-打印从1到最大的n位数全排列-中等-2021-11)
 - [`剑指Offer No.0024 反转链表 (简单, 2021-11)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0024-反转链表-简单-2021-11)
 - [`剑指Offer No.0029 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0029-顺时针打印矩阵3种思路4个写法-中等-2021-11)
 - [`剑指Offer No.0031 栈的压入、弹出序列 (中等, 2021-11)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0031-栈的压入弹出序列-中等-2021-11)
+- [`剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0035-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0036-二叉搜索树与双向链表-中等-2021-12)
+- [`剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`](algorithm/topics/题集-经典问题&代码.md#剑指offer-no0038-字符串的排列全排列-中等-2021-12)
 
 </details>
 
@@ -189,11 +195,12 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-哈希表(Hash) [3] <a href="algorithm/topics/技巧-哈希表(Hash).md">¶</a></b></summary>
+<details><summary><b> 技巧-哈希表(Hash) [4] <a href="algorithm/topics/技巧-哈希表(Hash).md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithm/topics/技巧-哈希表(Hash).md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](algorithm/topics/技巧-哈希表(Hash).md#leetcode-no0187-重复的dna序列-中等-2021-10)
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](algorithm/topics/技巧-哈希表(Hash).md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
+- [`剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithm/topics/技巧-哈希表(Hash).md#剑指offer-no0035-复杂链表的复制深拷贝-中等-2021-12)
 
 </details>
 
@@ -241,7 +248,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 数据结构-树、二叉树 [14] <a href="algorithm/topics/数据结构-树、二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-树、二叉树 [16] <a href="algorithm/topics/数据结构-树、二叉树.md">¶</a></b></summary>
 
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](algorithm/topics/数据结构-树、二叉树.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](algorithm/topics/数据结构-树、二叉树.md#leetcode-no0111-二叉树的最小深度-简单-2021-10)
@@ -255,12 +262,14 @@ Algorithm Studies
 - [`剑指Offer No.0032 层序遍历二叉树-3（之字形遍历） (简单, 2021-11)`](algorithm/topics/数据结构-树、二叉树.md#剑指offer-no0032-层序遍历二叉树-3之字形遍历-简单-2021-11)
 - [`剑指Offer No.0033 二叉搜索树的后序遍历序列 (中等, 2021-12)`](algorithm/topics/数据结构-树、二叉树.md#剑指offer-no0033-二叉搜索树的后序遍历序列-中等-2021-12)
 - [`剑指Offer No.0034 二叉树中和为某一值的路径 (中等, 2021-12)`](algorithm/topics/数据结构-树、二叉树.md#剑指offer-no0034-二叉树中和为某一值的路径-中等-2021-12)
+- [`剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`](algorithm/topics/数据结构-树、二叉树.md#剑指offer-no0036-二叉搜索树与双向链表-中等-2021-12)
+- [`剑指Offer No.0037 序列化二叉树 (困难, 2021-12)`](algorithm/topics/数据结构-树、二叉树.md#剑指offer-no0037-序列化二叉树-困难-2021-12)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](algorithm/topics/数据结构-树、二叉树.md#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](algorithm/topics/数据结构-树、二叉树.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
 
 </details>
 
-<details><summary><b> 数据结构-链表 [7] <a href="algorithm/topics/数据结构-链表.md">¶</a></b></summary>
+<details><summary><b> 数据结构-链表 [8] <a href="algorithm/topics/数据结构-链表.md">¶</a></b></summary>
 
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithm/topics/数据结构-链表.md#leetcode-no0002-两数相加-中等-2021-10)
 - [`LeetCode No.0086 分隔链表 (中等, 2021-10)`](algorithm/topics/数据结构-链表.md#leetcode-no0086-分隔链表-中等-2021-10)
@@ -269,6 +278,7 @@ Algorithm Studies
 - [`剑指Offer No.0022 链表中倒数第k个节点 (简单, 2021-11)`](algorithm/topics/数据结构-链表.md#剑指offer-no0022-链表中倒数第k个节点-简单-2021-11)
 - [`剑指Offer No.0024 反转链表 (简单, 2021-11)`](algorithm/topics/数据结构-链表.md#剑指offer-no0024-反转链表-简单-2021-11)
 - [`剑指Offer No.0025 合并两个排序的链表 (简单, 2021-11)`](algorithm/topics/数据结构-链表.md#剑指offer-no0025-合并两个排序的链表-简单-2021-11)
+- [`剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithm/topics/数据结构-链表.md#剑指offer-no0035-复杂链表的复制深拷贝-中等-2021-12)
 
 </details>
 
@@ -313,7 +323,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-深度优先搜索(DFS) [9] <a href="algorithm/topics/算法-深度优先搜索(DFS).md">¶</a></b></summary>
+<details><summary><b> 算法-深度优先搜索(DFS) [10] <a href="algorithm/topics/算法-深度优先搜索(DFS).md">¶</a></b></summary>
 
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](algorithm/topics/算法-深度优先搜索(DFS).md#leetcode-no0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode No.0437 路径总和3 (中等, 2021-10)`](algorithm/topics/算法-深度优先搜索(DFS).md#leetcode-no0437-路径总和3-中等-2021-10)
@@ -321,13 +331,14 @@ Algorithm Studies
 - [`剑指Offer No.0012 矩阵中的路径 (中等, 2021-11)`](algorithm/topics/算法-深度优先搜索(DFS).md#剑指offer-no0012-矩阵中的路径-中等-2021-11)
 - [`剑指Offer No.0012 矩阵中的路径 (中等, 2021-11)`](algorithm/topics/算法-深度优先搜索(DFS).md#剑指offer-no0012-矩阵中的路径-中等-2021-11)
 - [`剑指Offer No.0013 机器人的运动范围 (中等, 2021-11)`](algorithm/topics/算法-深度优先搜索(DFS).md#剑指offer-no0013-机器人的运动范围-中等-2021-11)
-- [`剑指Offer No.0017 打印从1到最大的n位数（全排列） (中等, 2021-11)`](algorithm/topics/算法-深度优先搜索(DFS).md#剑指offer-no0017-打印从1到最大的n位数全排列-中等-2021-11)
+- [`剑指Offer No.0017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](algorithm/topics/算法-深度优先搜索(DFS).md#剑指offer-no0017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
 - [`剑指Offer No.0034 二叉树中和为某一值的路径 (中等, 2021-12)`](algorithm/topics/算法-深度优先搜索(DFS).md#剑指offer-no0034-二叉树中和为某一值的路径-中等-2021-12)
+- [`剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`](algorithm/topics/算法-深度优先搜索(DFS).md#剑指offer-no0038-字符串的排列全排列-中等-2021-12)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](algorithm/topics/算法-深度优先搜索(DFS).md#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 
 </details>
 
-<details><summary><b> 算法-递归(迭代)、分治 [15] <a href="algorithm/topics/算法-递归(迭代)、分治.md">¶</a></b></summary>
+<details><summary><b> 算法-递归(迭代)、分治 [16] <a href="algorithm/topics/算法-递归(迭代)、分治.md">¶</a></b></summary>
 
 - [`LeetCode No.0021 合并两个有序链表 (简单, 2021-10)`](algorithm/topics/算法-递归(迭代)、分治.md#leetcode-no0021-合并两个有序链表-简单-2021-10)
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](algorithm/topics/算法-递归(迭代)、分治.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
@@ -341,6 +352,7 @@ Algorithm Studies
 - [`剑指Offer No.0026 树的子结构 (中等, 2021-11)`](algorithm/topics/算法-递归(迭代)、分治.md#剑指offer-no0026-树的子结构-中等-2021-11)
 - [`剑指Offer No.0027 二叉树的镜像 (简单, 2021-11)`](algorithm/topics/算法-递归(迭代)、分治.md#剑指offer-no0027-二叉树的镜像-简单-2021-11)
 - [`剑指Offer No.0028 对称的二叉树 (简单, 2021-11)`](algorithm/topics/算法-递归(迭代)、分治.md#剑指offer-no0028-对称的二叉树-简单-2021-11)
+- [`剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`](algorithm/topics/算法-递归(迭代)、分治.md#剑指offer-no0036-二叉搜索树与双向链表-中等-2021-12)
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](algorithm/topics/算法-递归(迭代)、分治.md#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](algorithm/topics/算法-递归(迭代)、分治.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
 - [`剑指Offer(突击版) No.0076 数组中的第K大的数字 (中等, 2021-10)`](algorithm/topics/算法-递归(迭代)、分治.md#剑指offer突击版-no0076-数组中的第k大的数字-中等-2021-10)
