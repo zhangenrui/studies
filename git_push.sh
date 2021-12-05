@@ -40,11 +40,11 @@ git push
 echo
 
 # 子仓库（单目录） algorithm
-name="algorithm"
-echo "=== Start Push $name ==="
-git subtree split --prefix=$algo --branch $name --rejoin
-git subtree push --prefix=$algo $name master --squash
-echo
+#name="algorithm"
+#echo "=== Start Push $name ==="
+#git subtree split --prefix=$algo --branch $name --rejoin
+#git subtree push --prefix=$algo $name master --squash
+#echo
 
 # 子仓库（多目录） pytorch_trainer
 #name="pytorch_trainer"
