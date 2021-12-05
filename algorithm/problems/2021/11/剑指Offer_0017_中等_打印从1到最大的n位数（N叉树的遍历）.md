@@ -1,4 +1,4 @@
-<!-- Tag: DFS、经典 -->
+<!-- Tag: DFS -->
 
 <summary><b>问题简述</b></summary>
 
@@ -30,7 +30,7 @@
 <summary><b>思路</b></summary>
 
 - 考虑大数情况下，直接遍历会存在越界问题；
-- 本题实际考察的是数的全排列问题，同时需要去除前置 0；
+- 本题实际上是一个 N 叉树（N=9）的遍历问题；
 
 <!-- <div align="center"><img src="../../../_assets/xxx.png" height="300" /></div> -->
 
