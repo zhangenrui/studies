@@ -61,9 +61,10 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 数据结构-堆、优先队列 [2] <a href="topics/数据结构-堆、优先队列.md">¶</a></b></summary>
+<details><summary><b> 数据结构-堆、优先队列 [3] <a href="topics/数据结构-堆、优先队列.md">¶</a></b></summary>
 
 - [`剑指Offer No.0040 最小的k个数（partition操作） (简单, 2021-12)`](topics/数据结构-堆、优先队列.md#剑指offer-no0040-最小的k个数partition操作-简单-2021-12)
+- [`剑指Offer No.0041 数据流中的中位数 (困难, 2021-12)`](topics/数据结构-堆、优先队列.md#剑指offer-no0041-数据流中的中位数-困难-2021-12)
 - [`剑指Offer(突击版) No.0076 数组中的第K大的数字 (中等, 2021-10)`](topics/数据结构-堆、优先队列.md#剑指offer突击版-no0076-数组中的第k大的数字-中等-2021-10)
 
 </details>
@@ -118,6 +119,14 @@ Algorithm Studies
 - [`剑指Offer No.0037 序列化二叉树 (困难, 2021-12)`](topics/数据结构-树、二叉树.md#剑指offer-no0037-序列化二叉树-困难-2021-12)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](topics/数据结构-树、二叉树.md#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](topics/数据结构-树、二叉树.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
+
+</details>
+
+<details><summary><b> 数据结构-设计 [3] <a href="topics/数据结构-设计.md">¶</a></b></summary>
+
+- [`剑指Offer No.0009 用两个栈实现队列 (简单, 2021-11)`](topics/数据结构-设计.md#剑指offer-no0009-用两个栈实现队列-简单-2021-11)
+- [`剑指Offer No.0030 包含min函数的栈 (简单, 2021-11)`](topics/数据结构-设计.md#剑指offer-no0030-包含min函数的栈-简单-2021-11)
+- [`剑指Offer No.0041 数据流中的中位数 (困难, 2021-12)`](topics/数据结构-设计.md#剑指offer-no0041-数据流中的中位数-困难-2021-12)
 
 </details>
 
@@ -242,7 +251,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [45] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [46] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
@@ -281,6 +290,7 @@ Algorithm Studies
 - [`剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0038-字符串的排列全排列-中等-2021-12)
 - [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.0040 最小的k个数（partition操作） (简单, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0040-最小的k个数partition操作-简单-2021-12)
+- [`剑指Offer No.0041 数据流中的中位数 (困难, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0041-数据流中的中位数-困难-2021-12)
 - [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](topics/题集-剑指Offer.md#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0047-礼物的最大价值-中等-2021-11)
