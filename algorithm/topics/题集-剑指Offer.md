@@ -46,6 +46,7 @@ Problems Index
 - [`剑指Offer No.0041 数据流中的中位数 (困难, 2021-12)`](#剑指offer-no0041-数据流中的中位数-困难-2021-12)
 - [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
+- [`剑指Offer No.0045 把数组排成最小的数 (中等, 2021-12)`](#剑指offer-no0045-把数组排成最小的数-中等-2021-12)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-11)`](#剑指offer-no0047-礼物的最大价值-中等-2021-11)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
@@ -4318,10 +4319,9 @@ class MedianFinder:
 ### `剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`
 
 
-[![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
-<!-- Tag: 前缀和、动态规划 -->
+<!-- Tag: 动态规划 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -4335,7 +4335,6 @@ class MedianFinder:
 输入一个整型数组，数组中的一个或连续多个整数组成一个子数组。求所有子数组的和的最大值。
 
 要求时间复杂度为O(n)。
- 
 
 示例1:
     输入: nums = [-2,1,-3,4,-1,2,1,-5,4]
@@ -4353,23 +4352,43 @@ class MedianFinder:
 
 </details>
 
-<summary><b>思路</b></summary>
+<summary><b>思路：动态规划</b></summary>
 
-<details><summary><b>代码：动态规划（Python）</b></summary>
-
-- **状态定义**：记 `dp[i]` 表示以元素 `nums[i]` 结尾的连续子数组最大和；
+- **状态定义**：记 `dp[i]` 表示以 `nums[i]` 结尾的连续子数组最大和；
+  > “以 `nums[i]` 结尾”表示就是这个数一定会加上去，那么要看的就是这个数前面的部分要不要加上去——大于零就加，小于零就舍弃。
 - **转移方程**：
     - 当 $dp[i-1] > 0$ 时：执行 $dp[i] = dp[i-1] + nums[i]$；
     - 当 $dp[i-1] \le 0$ 时：执行 $dp[i] = nums[i]$；
 
 - 时间复杂度：`O(N)`；
-- 空间复杂度：`O(1)`，实际上不需要存储所有状态，只需要保存 `dp[i-1]` 即可（滚动数组）；
+- 空间复杂度：`O(1)`，实际上不需要存储所有状态，只需要保存 `dp[i-1]` 即可，然后用一个变量保存历史最大值；
+
+
+<details><summary><b>Python：未优化</b></summary>
+
+```python
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+
+        n = len(nums)
+        dp = [float('-inf')] * n
+
+        dp[0] = nums[0]
+        for i in range(1, n):
+            dp[i] = max(nums[i], dp[i-1] + nums[i])
+        
+        return max(dp)
+```
+
+</details>
+
+<details><summary><b>Python：空间优化</b></summary>
 
 ```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         """"""
-        dp = 0
+        dp = float('-inf')
         ret = nums[0]
         for i in range(len(nums)):
             if dp > 0:
@@ -4384,37 +4403,14 @@ class Solution:
 
 </details>
 
-
-<details><summary><b>代码：前缀和（Python）</b></summary>
-
-- 最大连续子数组 = 最大前缀和 - 最小前缀和
-
-```python
-class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
-        """"""
-        ret = nums[0]
-        pre_sum = 0
-        min_pre_sum = 0
-
-        for i in range(len(nums)):
-            pre_sum += nums[i]
-            ret = max(ret, pre_sum - min_pre_sum)
-            min_pre_sum = min(min_pre_sum, pre_sum)
-        
-        return ret
-```
-
-</details>
-
 ---
 ### `剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`
 
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
-[![迭代](https://img.shields.io/badge/迭代-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![找规律](https://img.shields.io/badge/找规律-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
-<!-- Tag: 数学、迭代 -->
+<!-- Tag: 数学、找规律 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -4449,7 +4445,7 @@ class Solution:
 </details>
 
 
-<summary><b>思路：找规律+迭代</b></summary>
+<summary><b>思路：找规律</b></summary>
 
 <div align="center"><img src="../_assets/剑指Offer_0044_中等_数字序列中某一位的数字.png" height="300" /></div>
 
@@ -4473,6 +4469,107 @@ class Solution:
 
 ```
 > [数字序列中某一位的数字（迭代 + 求整 / 求余，清晰图解）](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/solution/mian-shi-ti-44-shu-zi-xu-lie-zhong-mou-yi-wei-de-6/)
+
+</details>
+
+---
+### `剑指Offer No.0045 把数组排成最小的数 (中等, 2021-12)`
+
+
+[![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序(快排).md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 排序 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+xxx
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+输入一个非负整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。
+
+示例 1:
+    输入: [10,2]
+    输出: "102"
+示例 2:
+    输入: [3,30,34,5,9]
+    输出: "3033459"
+
+提示:
+    0 < nums.length <= 100
+说明:
+    输出结果可能非常大，所以你需要返回一个字符串而不是整数
+    拼接起来的数字可能会有前导 0，最后结果不需要去掉前导 0
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 算法基于以下结论：若 `x + y < y + x` 则 `x` 应该排在 `y` 前面/左边；
+- 关于该结论的证明详见：[把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/solution/mian-shi-ti-45-ba-shu-zu-pai-cheng-zui-xiao-de-s-4/)
+
+- 根于该规则对 `nums` 排序后拼接即可；
+
+
+<details><summary><b>Python：使用库函数</b></summary>
+
+```python
+import functools
+
+class Solution:
+    def minNumber(self, nums: List[int]) -> str:
+
+        def cmp(x1, x2):
+            if x1 + x2 < x2 + x1:
+                return -1
+            elif x1 + x2 > x2 + x1:
+                return 1
+            else:
+                return 0
+
+        # Python3 的 sort 中取消了 cmp 参数，需要通过 functools.cmp_to_key 转换
+        nums = sorted([str(x) for x in nums], key=functools.cmp_to_key(cmp))
+        # print(nums)
+        return ''.join(nums)
+```
+
+</details>
+
+
+<details><summary><b>Python：手动实现排序（快排）</b></summary>
+
+```python
+class Solution:
+    def minNumber(self, nums: List[int]) -> str:
+
+        nums = [str(x) for x in nums]
+        
+        def qsort(lo, hi):
+            if lo >= hi: return
+            
+            i, j = lo, hi
+            while i < j:
+                while nums[j] + nums[lo] >= nums[lo] + nums[j] and i < j: j -= 1
+                while nums[i] + nums[lo] <= nums[lo] + nums[i] and i < j: i += 1
+                nums[i], nums[j] = nums[j], nums[i]
+            nums[i], nums[lo] = nums[lo], nums[i]
+            
+            qsort(lo, i - 1)
+            qsort(i + 1, hi)
+
+        qsort(0, len(nums) - 1)
+        return ''.join(nums)
+```
 
 </details>
 
