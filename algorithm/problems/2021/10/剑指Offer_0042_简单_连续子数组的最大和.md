@@ -1,4 +1,4 @@
-<!-- Tag: 前缀和、动态规划 -->
+<!-- Tag: 动态规划 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -12,7 +12,6 @@
 输入一个整型数组，数组中的一个或连续多个整数组成一个子数组。求所有子数组的和的最大值。
 
 要求时间复杂度为O(n)。
- 
 
 示例1:
     输入: nums = [-2,1,-3,4,-1,2,1,-5,4]
@@ -30,23 +29,43 @@
 
 </details>
 
-<summary><b>思路</b></summary>
+<summary><b>思路：动态规划</b></summary>
 
-<details><summary><b>代码：动态规划（Python）</b></summary>
-
-- **状态定义**：记 `dp[i]` 表示以元素 `nums[i]` 结尾的连续子数组最大和；
+- **状态定义**：记 `dp[i]` 表示以 `nums[i]` 结尾的连续子数组最大和；
+  > “以 `nums[i]` 结尾”表示就是这个数一定会加上去，那么要看的就是这个数前面的部分要不要加上去——大于零就加，小于零就舍弃。
 - **转移方程**：
     - 当 $dp[i-1] > 0$ 时：执行 $dp[i] = dp[i-1] + nums[i]$；
     - 当 $dp[i-1] \le 0$ 时：执行 $dp[i] = nums[i]$；
 
 - 时间复杂度：`O(N)`；
-- 空间复杂度：`O(1)`，实际上不需要存储所有状态，只需要保存 `dp[i-1]` 即可（滚动数组）；
+- 空间复杂度：`O(1)`，实际上不需要存储所有状态，只需要保存 `dp[i-1]` 即可，然后用一个变量保存历史最大值；
+
+
+<details><summary><b>Python：未优化</b></summary>
+
+```python
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+
+        n = len(nums)
+        dp = [float('-inf')] * n
+
+        dp[0] = nums[0]
+        for i in range(1, n):
+            dp[i] = max(nums[i], dp[i-1] + nums[i])
+        
+        return max(dp)
+```
+
+</details>
+
+<details><summary><b>Python：空间优化</b></summary>
 
 ```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         """"""
-        dp = 0
+        dp = float('-inf')
         ret = nums[0]
         for i in range(len(nums)):
             if dp > 0:
@@ -55,29 +74,6 @@ class Solution:
                 dp = nums[i]
 
             ret = max(ret, dp)
-        
-        return ret
-```
-
-</details>
-
-
-<details><summary><b>代码：前缀和（Python）</b></summary>
-
-- 最大连续子数组 = 最大前缀和 - 最小前缀和
-
-```python
-class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
-        """"""
-        ret = nums[0]
-        pre_sum = 0
-        min_pre_sum = 0
-
-        for i in range(len(nums)):
-            pre_sum += nums[i]
-            ret = max(ret, pre_sum - min_pre_sum)
-            min_pre_sum = min(min_pre_sum, pre_sum)
         
         return ret
 ```
