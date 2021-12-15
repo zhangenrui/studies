@@ -1,4 +1,4 @@
-<!-- Tag: 数学、迭代 -->
+<!-- Tag: 数学、找规律 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -33,7 +33,7 @@
 </details>
 
 
-<summary><b>思路：找规律+迭代</b></summary>
+<summary><b>思路：找规律</b></summary>
 
 <div align="center"><img src="../../../_assets/剑指Offer_0044_中等_数字序列中某一位的数字.png" height="300" /></div>
 
