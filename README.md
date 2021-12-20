@@ -83,7 +83,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [47] <a href="algorithm/topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [48] <a href="algorithm/topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
@@ -126,7 +126,8 @@ Algorithm Studies
 - [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
 - [`剑指Offer No.0045 把数组排成最小的数 (中等, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0045-把数组排成最小的数-中等-2021-12)
-- [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0047-礼物的最大价值-中等-2021-11)
+- [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
+- [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0047-礼物的最大价值-中等-2021-12)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
@@ -313,7 +314,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-动态规划(DP、记忆化搜索) [8] <a href="algorithm/topics/算法-动态规划(DP、记忆化搜索).md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(DP、记忆化搜索) [9] <a href="algorithm/topics/算法-动态规划(DP、记忆化搜索).md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0010-斐波那契数列-1-简单-2021-11)
@@ -321,7 +322,8 @@ Algorithm Studies
 - [`剑指Offer No.0010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0010-斐波那契数列-2青蛙跳台阶-简单-2021-11)
 - [`剑指Offer No.0014 剪绳子1 (中等, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0014-剪绳子1-中等-2021-11)
 - [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
-- [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0047-礼物的最大价值-中等-2021-11)
+- [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
+- [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0047-礼物的最大价值-中等-2021-12)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
 
 </details>

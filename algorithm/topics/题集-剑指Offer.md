@@ -47,7 +47,8 @@ Problems Index
 - [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
 - [`剑指Offer No.0045 把数组排成最小的数 (中等, 2021-12)`](#剑指offer-no0045-把数组排成最小的数-中等-2021-12)
-- [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-11)`](#剑指offer-no0047-礼物的最大价值-中等-2021-11)
+- [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
+- [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](#剑指offer-no0047-礼物的最大价值-中等-2021-12)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](#剑指offer-no0055-二叉树的深度-简单-2021-11)
@@ -4574,7 +4575,92 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0047 礼物的最大价值 (中等, 2021-11)`
+### `剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`
+
+
+[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 动态规划 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给定一个数字，我们按照如下规则把它翻译为字符串：0 翻译成 “a” ，1 翻译成 “b”，……，11 翻译成 “l”，……，25 翻译成 “z”。求一个数字有多少种不同的翻译方法。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+给定一个数字，我们按照如下规则把它翻译为字符串：0 翻译成 “a” ，1 翻译成 “b”，……，11 翻译成 “l”，……，25 翻译成 “z”。一个数字可能有多个翻译。请编程实现一个函数，用来计算一个数字有多少种不同的翻译方法。
+
+示例 1:
+    输入: 12258
+    输出: 5
+    解释: 12258有5种不同的翻译，分别是"bccfi", "bwfi", "bczi", "mcfi"和"mzi"
+
+提示：
+    0 <= num < 231
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路：动态规划</b></summary>
+
+- 首先要意识到本题是一个有条件的斐波那契数列/跳台阶问题；
+    - 假设不是26个字母，而是100个不同的字母，那么是不是 `dp[i] = dp[i-1] + dp[i-2]`？；
+- 因此本题另一个考察点就是如何实现这个条件判断；
+
+<details><summary><b>Python</b></summary>
+
+```python
+import math
+
+
+class Solution:
+    def translateNum(self, num: int) -> int:
+
+        # num 的位数
+        N = int(math.log10(num)) + 1 if num > 0 else 1
+
+        def slide(i):
+            """截取 num 中的两位数，效果如下
+            Examples:
+                >>> slide(54321, 1)
+                54
+                >>> slide(54321, 2)
+                43
+                >>> slide(54321, 3)
+                32
+            """
+            return num // 10 ** (N - i - 1) % 100
+
+        dp0 = 1
+        dp1 = 2 if slide(1) < 26 else 1
+
+        if N == 1:
+            return dp0
+        if N == 2:
+            return dp1
+
+        for i in range(2, N):
+            if 9 < slide(i) < 26:  # “01” 不能翻译成 “a”，所以要大于 9
+                dp0, dp1 = dp1, dp0 + dp1
+            else:
+                dp0, dp1 = dp1, dp1
+
+        return dp1
+```
+
+</details>
+
+---
+### `剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`
 
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
@@ -4586,15 +4672,12 @@ class Solution:
 ```txt
 给定 m*n 的整型数组 grid，求从左上角到右下角路线中和的最大值（每次向下或向右移动一格）
 
-示例 1:
-    输入: 
-    [
-      [1,3,1],
-      [1,5,1],
+示例输入: 
+      [1,3,1]
+      [1,5,1]
       [4,2,1]
-    ]
-    输出: 12
-    解释: 路径 1→3→5→2→1 可以拿到最多价值的礼物
+输出: 12
+解释: 路径 1→3→5→2→1 可以拿到最多价值的礼物
 ```
 
 <details><summary><b>详细描述</b></summary>
@@ -4635,12 +4718,11 @@ class Solution:
 - `dp[i][j] = max(dp[i-1][j], dp[i][j-1]) + grid[i][j]`
 
 **初始状态**
-- `dp[0][0] = grid[0][0]`
 - `dp[i][0] = sum(grid[:i][0])`
 - `dp[0][j] = sum(grid[0][:j])`
 
 
-<details><summary><b>动态规划（Python）</b></summary>
+<details><summary><b>Python：本地修改</b></summary>
 
 因为 `dp[i][j]` 只与 `dp[i-1][j]` 和 `dp[i][j-1]` 有关，因此可以直接将 grid 作为 dp 矩阵，原地修改；
 > [题解：礼物的最大价值（动态规划，清晰图解）](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/solution/mian-shi-ti-47-li-wu-de-zui-da-jie-zhi-dong-tai-gu/)
@@ -4661,6 +4743,51 @@ class Solution:
                 grid[i][j] += max(grid[i][j - 1], grid[i - 1][j])
 
         return grid[-1][-1]
+```
+
+</details>
+
+
+<details><summary><b>Python：非本地修改，优化空间复杂度</b></summary>
+
+<br/>因为不存在回溯（每次只能向下或向右），所以只需要保存上一行（或上一列）的结果即可；
+
+**状态定义**
+- 记 `dp[j] := 从左上角走至 (i,j) 位置时的最大值` 
+
+**转移方程**
+- `dp[j] = max(dp[j-1], dp[j]) + grid[i][j]`
+
+    ```
+    dp[j-1] + grid[i][j] 表示路线为 grid[i-1][j-1] → grid[i-1][j] → grid[i][j]，即先往右再向下
+    dp[j]   + grid[i][j] 表示路线为 grid[i-1][j-1] → grid[i][j-1] → grid[i][j]，即先向下再往右
+    然后选择这两条路线中较大的更新 dp[j]
+    ```
+
+**初始状态**
+- `dp[j] = sum(grid[0][:j])`
+
+```python
+class Solution:
+    def maxValue(self, grid: List[List[int]]) -> int:
+        if not grid or not grid[0]: return 0
+
+        m, n = len(grid), len(grid[0])
+
+        # 初始化第一行的结果
+        dp = [grid[0][0]] + [0] * (n - 1)
+        for i in range(1, n):
+            dp[i] = dp[i - 1] + grid[0][i]
+
+        for i in range(1, m):
+            dp[0] = dp[0] + grid[i][0]
+            for j in range(1, n):
+                # dp[j-1] + grid[i][j] 表示 grid[i-1][j-1] → grid[i][j-1] → grid[i][j]
+                # dp[j]   + grid[i][j] 表示 grid[i-1][j-1] → grid[i-1][j] → grid[i][j]
+                # 然后选择这两条路线中较大的更新 dp[j]
+                dp[j] = max(dp[j-1], dp[j]) + grid[i][j]
+        
+        return dp[n-1]
 ```
 
 </details>
