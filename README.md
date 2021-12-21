@@ -55,7 +55,7 @@ Repo Index
 Algorithm Studies
 ---
 
-<details><summary><b> 题集-LeetCode [23] <a href="algorithm/topics/题集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 题集-LeetCode [24] <a href="algorithm/topics/题集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithm/topics/题集-LeetCode.md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithm/topics/题集-LeetCode.md#leetcode-no0002-两数相加-中等-2021-10)
@@ -73,6 +73,7 @@ Algorithm Studies
 - [`LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`](algorithm/topics/题集-LeetCode.md#leetcode-no0167-两数之和2输入有序数组-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](algorithm/topics/题集-LeetCode.md#leetcode-no0187-重复的dna序列-中等-2021-10)
 - [`LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`](algorithm/topics/题集-LeetCode.md#leetcode-no0240-搜索二维矩阵2-中等-2021-10)
+- [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithm/topics/题集-LeetCode.md#leetcode-no0343-整数拆分-中等-2021-12)
 - [`LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`](algorithm/topics/题集-LeetCode.md#leetcode-no0352-将数据流变为多个不相交区间-困难-2021-10)
 - [`LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`](algorithm/topics/题集-LeetCode.md#leetcode-no0434-字符串中的单词数-简单-2021-10)
 - [`LeetCode No.0437 路径总和3 (中等, 2021-10)`](algorithm/topics/题集-LeetCode.md#leetcode-no0437-路径总和3-中等-2021-10)
@@ -96,7 +97,7 @@ Algorithm Studies
 - [`剑指Offer No.0011 旋转数组的最小数字 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0011-旋转数组的最小数字-简单-2021-11)
 - [`剑指Offer No.0012 矩阵中的路径 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0012-矩阵中的路径-中等-2021-11)
 - [`剑指Offer No.0013 机器人的运动范围 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0013-机器人的运动范围-中等-2021-11)
-- [`剑指Offer No.0014 剪绳子1 (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0014-剪绳子1-中等-2021-11)
+- [`剑指Offer No.0014 剪绳子1（整数拆分） (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0014-剪绳子1整数拆分-中等-2021-11)
 - [`剑指Offer No.0015 二进制中1的个数 (简单, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0015-二进制中1的个数-简单-2021-11)
 - [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
 - [`剑指Offer No.0017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](algorithm/topics/题集-剑指Offer.md#剑指offer-no0017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
@@ -160,13 +161,14 @@ Algorithm Studies
 
 <details><summary><b>More ...<a href="algorithm/README.md">¶</a></b></summary>
 
-<details><summary><b> 基础-模拟、数学、找规律 [11] <a href="algorithm/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
+<details><summary><b> 基础-模拟、数学、找规律 [12] <a href="algorithm/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithm/topics/基础-模拟、数学、找规律.md#leetcode-no0005-最长回文子串-中等-2021-10)
+- [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithm/topics/基础-模拟、数学、找规律.md#leetcode-no0343-整数拆分-中等-2021-12)
 - [`LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`](algorithm/topics/基础-模拟、数学、找规律.md#leetcode-no0352-将数据流变为多个不相交区间-困难-2021-10)
 - [`LeetCode No.0441 排列硬币 (简单, 2021-10)`](algorithm/topics/基础-模拟、数学、找规律.md#leetcode-no0441-排列硬币-简单-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithm/topics/基础-模拟、数学、找规律.md#leetcode-no0859-亲密字符串-简单-2021-11)
-- [`剑指Offer No.0014 剪绳子1 (中等, 2021-11)`](algorithm/topics/基础-模拟、数学、找规律.md#剑指offer-no0014-剪绳子1-中等-2021-11)
+- [`剑指Offer No.0014 剪绳子1（整数拆分） (中等, 2021-11)`](algorithm/topics/基础-模拟、数学、找规律.md#剑指offer-no0014-剪绳子1整数拆分-中等-2021-11)
 - [`剑指Offer No.0029 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](algorithm/topics/基础-模拟、数学、找规律.md#剑指offer-no0029-顺时针打印矩阵3种思路4个写法-中等-2021-11)
 - [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithm/topics/基础-模拟、数学、找规律.md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](algorithm/topics/基础-模拟、数学、找规律.md#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
@@ -214,7 +216,7 @@ Algorithm Studies
 
 <details><summary><b> 技巧-贪心 [1] <a href="algorithm/topics/技巧-贪心.md">¶</a></b></summary>
 
-- [`剑指Offer No.0014 剪绳子1 (中等, 2021-11)`](algorithm/topics/技巧-贪心.md#剑指offer-no0014-剪绳子1-中等-2021-11)
+- [`剑指Offer No.0014 剪绳子1（整数拆分） (中等, 2021-11)`](algorithm/topics/技巧-贪心.md#剑指offer-no0014-剪绳子1整数拆分-中等-2021-11)
 
 </details>
 
@@ -314,13 +316,14 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-动态规划(DP、记忆化搜索) [9] <a href="algorithm/topics/算法-动态规划(DP、记忆化搜索).md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(DP、记忆化搜索) [10] <a href="algorithm/topics/算法-动态规划(DP、记忆化搜索).md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#leetcode-no0005-最长回文子串-中等-2021-10)
+- [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#leetcode-no0343-整数拆分-中等-2021-12)
 - [`剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0010-斐波那契数列-1-简单-2021-11)
 - [`剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0010-斐波那契数列-1-简单-2021-11)
 - [`剑指Offer No.0010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0010-斐波那契数列-2青蛙跳台阶-简单-2021-11)
-- [`剑指Offer No.0014 剪绳子1 (中等, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0014-剪绳子1-中等-2021-11)
+- [`剑指Offer No.0014 剪绳子1（整数拆分） (中等, 2021-11)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0014-剪绳子1整数拆分-中等-2021-11)
 - [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
 - [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](algorithm/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0047-礼物的最大价值-中等-2021-12)
@@ -409,6 +412,7 @@ Coding Lab
 - [`SentenceBert: Bert 句向量`](src/README.md#sentencebert-bert-句向量)
 - [`BertSequenceTagging: Bert 序列标注`](src/README.md#bertsequencetagging-bert-序列标注)
 - [`BertTextClassification: Bert 文本分类`](src/README.md#berttextclassification-bert-文本分类)
+- [`LayerNorm: Layer Normalization`](src/README.md#layernorm-layer-normalization)
 
 
 ### Pytorch Utils [¶](src/README.md#pytorch-utils)

@@ -24,6 +24,7 @@ Coding Lab
 - [`SentenceBert: Bert 句向量`](#sentencebert-bert-句向量)
 - [`BertSequenceTagging: Bert 序列标注`](#bertsequencetagging-bert-序列标注)
 - [`BertTextClassification: Bert 文本分类`](#berttextclassification-bert-文本分类)
+- [`LayerNorm: Layer Normalization`](#layernorm-layer-normalization)
 
 </details>
 
@@ -336,6 +337,16 @@ Bert 序列标注
 
 ```python
 Bert 文本分类
+```
+
+
+### `LayerNorm: Layer Normalization`
+> [source](huaytools/pytorch/nn/normalization/layer_norm.py#L28)
+
+```python
+Layer Normalization
+
+Almost same as `nn.LayerNorm`
 ```
 
 

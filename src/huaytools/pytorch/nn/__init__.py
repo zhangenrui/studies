@@ -13,3 +13,4 @@ from .adversarial_training import *
 from .bert import *
 from .crf import *
 from .transformer import *
+from .normalization import *
