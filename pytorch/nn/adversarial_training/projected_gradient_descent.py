@@ -27,7 +27,7 @@ __all__ = [
 
 class PGM:
     """@Pytorch Train Plugin
-    对抗训练 - Projected Gradient Method (for NLP)
+    Projected Gradient Method (对抗训练)
 
     Examples:
         >>> def training_step(model, batch, optimizer, steps=3, pgm=PGM(param_pattern='word_embedding')):
