@@ -36,8 +36,8 @@ Coding Lab
 - [`ContrastiveLoss: 对比损失（默认距离函数为欧几里得距离）`](#contrastiveloss-对比损失默认距离函数为欧几里得距离)
 - [`CrossEntropyLoss: 交叉熵`](#crossentropyloss-交叉熵)
 - [`TripletLoss: Triplet 损失，常用于无监督学习、few-shot 学习`](#tripletloss-triplet-损失常用于无监督学习few-shot-学习)
-- [`FGM: 对抗训练 - Fast Gradient Method (for NLP)`](#fgm-对抗训练-fast-gradient-method-for-nlp)
-- [`PGM: 对抗训练 - Projected Gradient Method (for NLP)`](#pgm-对抗训练-projected-gradient-method-for-nlp)
+- [`FGM: Fast Gradient Method (对抗训练)`](#fgm-fast-gradient-method-对抗训练)
+- [`PGM: Projected Gradient Method (对抗训练)`](#pgm-projected-gradient-method-对抗训练)
 - [`Trainer: Trainer 基类`](#trainer-trainer-基类)
 - [`set_seed: 设置全局随机数种子，使实验可复现`](#set_seed-设置全局随机数种子使实验可复现)
 - [`init_weights: 默认参数初始化`](#init_weights-默认参数初始化)
@@ -557,11 +557,11 @@ Examples:
 ```
 
 
-### `FGM: 对抗训练 - Fast Gradient Method (for NLP)`
+### `FGM: Fast Gradient Method (对抗训练)`
 > [source](huaytools/pytorch/nn/adversarial_training/fast_gradient_method.py#L28)
 
 ```python
-对抗训练 - Fast Gradient Method (for NLP)
+Fast Gradient Method (对抗训练)
 
 Examples:
     >>> def training_step(model, batch, optimizer, fgm=FGM(param_pattern='word_embedding')):
@@ -588,11 +588,11 @@ References:
 ```
 
 
-### `PGM: 对抗训练 - Projected Gradient Method (for NLP)`
+### `PGM: Projected Gradient Method (对抗训练)`
 > [source](huaytools/pytorch/nn/adversarial_training/projected_gradient_descent.py#L28)
 
 ```python
-对抗训练 - Projected Gradient Method (for NLP)
+Projected Gradient Method (对抗训练)
 
 Examples:
     >>> def training_step(model, batch, optimizer, steps=3, pgm=PGM(param_pattern='word_embedding')):

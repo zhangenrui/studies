@@ -27,7 +27,7 @@ __all__ = [
 
 class FGM:
     """@Pytorch Train Plugin
-    对抗训练 - Fast Gradient Method (for NLP)
+    Fast Gradient Method (对抗训练)
 
     Examples:
         >>> def training_step(model, batch, optimizer, fgm=FGM(param_pattern='word_embedding')):
