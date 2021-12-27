@@ -25,8 +25,8 @@ opencc
 # pytorch
 accelerate
 transformers~=4.8
-torch~=1.8
-torchkeras
+torch
+torchtext
 
 # tensorflow
 keras
