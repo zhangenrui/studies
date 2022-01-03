@@ -30,12 +30,51 @@
 
 <!-- <div align="center"><img src="../../../_assets/xxx.png" height="300" /></div> -->
 
-<summary><b>思路：哈希表</b></summary>
+
+<summary><b>思路1：哈希表</b></summary>
 
 <details><summary><b>Python</b></summary>
 
 ```python
+class Solution:
+    def firstUniqChar(self, s: str) -> str:
+        dic = defaultdict(int)  # python 3.6 之后 dict 默认就是有序的
+
+        for c in s:
+            dic[c] += 1
+
+        for c in s:
+            if dic[c] == 1: 
+                return c
+
+        return ' '
 ```
 
 </details>
 
+
+<summary><b>思路1：有序哈希表</b></summary>
+
+<details><summary><b>Python</b></summary>
+
+- python 3.6 之后 dict 默认就是有序的；
+    > [为什么 Python 3.6 以后字典有序并且效率更高？](https://www.cnblogs.com/xieqiankun/p/python_dict.html)
+
+```python
+from collections import defaultdict
+
+class Solution:
+    def firstUniqChar(self, s: str) -> str:
+        dic = defaultdict(int)  # python 3.6 之后 dict 默认就是有序的
+
+        for c in s:
+            dic[c] += 1
+
+        for c, v in dic.items():
+            if v == 1: 
+                return c
+
+        return ' '
+```
+
+</details>
