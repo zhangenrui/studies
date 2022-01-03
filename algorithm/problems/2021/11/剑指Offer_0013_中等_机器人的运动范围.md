@@ -14,7 +14,7 @@
 
 提示：
     1 <= n,m <= 100
-    0 <= k <= 20
+    0 <= k <= 20
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof

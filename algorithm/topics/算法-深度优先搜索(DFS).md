@@ -47,7 +47,7 @@ Problems Index
       9  20
         /  \
        15   7
-    返回它的最小深度 2 。
+    返回它的最小深度 2 。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
@@ -101,7 +101,7 @@ class Solution:
 <summary><b>问题描述</b></summary>
 
 ```txt
-给定一个二叉树的根节点 root ，和一个整数 targetSum ，求该二叉树里节点值之和等于 targetSum 的 路径 的数目。
+给定一个二叉树的根节点 root ，和一个整数 targetSum ，求该二叉树里节点值之和等于 targetSum 的 路径 的数目。
 
 路径 不需要从根节点开始，也不需要在叶子节点结束，但是路径方向必须是向下的（只能从父节点到子节点）。
 
@@ -319,7 +319,7 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-给定一个 m x n 二维字符矩阵 board 和字符串 word。如果 word 存在于网格中，返回 true ；否则，返回 false 。
+给定一个 m x n 二维字符矩阵 board 和字符串 word。如果 word 存在于网格中，返回 true ；否则，返回 false 。
 
 其中单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
 ```
@@ -327,7 +327,7 @@ class Solution:
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false 。
+给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false 。
 
 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
 
@@ -339,12 +339,12 @@ class Solution:
 示例 2：
     输入：board = [["a","b"],["c","d"]], word = "abcd"
     输出：false
- 
+ 
 提示：
     1 <= board.length <= 200
     1 <= board[i].length <= 200
     board 和 word 仅由大小写英文字母组成
- 
+ 
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof
@@ -413,7 +413,7 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-给定一个 m x n 二维字符矩阵 board 和字符串 word。如果 word 存在于网格中，返回 true ；否则，返回 false 。
+给定一个 m x n 二维字符矩阵 board 和字符串 word。如果 word 存在于网格中，返回 true ；否则，返回 false 。
 
 其中单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
 ```
@@ -421,7 +421,7 @@ class Solution:
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false 。
+给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false 。
 
 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
 
@@ -433,12 +433,12 @@ class Solution:
 示例 2：
     输入：board = [["a","b"],["c","d"]], word = "abcd"
     输出：false
- 
+ 
 提示：
     1 <= board.length <= 200
     1 <= board[i].length <= 200
     board 和 word 仅由大小写英文字母组成
- 
+ 
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof
@@ -517,7 +517,7 @@ class Solution:
 
 提示：
     1 <= n,m <= 100
-    0 <= k <= 20
+    0 <= k <= 20
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof
@@ -1023,7 +1023,7 @@ class Solution:
     / \
    1   4
     \
-     2
+     2
     输出: 4
 示例 2:
     输入: root = [5,3,6,2,4,null,null,1], k = 3

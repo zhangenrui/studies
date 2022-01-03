@@ -14,7 +14,7 @@
       9  20
         /  \
        15   7
-    返回它的最大深度 3 。
+    返回它的最大深度 3 。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/maximum-depth-of-binary-tree

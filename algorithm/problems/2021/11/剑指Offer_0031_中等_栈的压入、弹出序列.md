@@ -27,7 +27,7 @@
 提示：
     0 <= pushed.length == popped.length <= 1000
     0 <= pushed[i], popped[i] < 1000
-    pushed 是 popped 的排列。
+    pushed 是 popped 的排列。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof

@@ -305,14 +305,14 @@ public:
 <summary><b>问题描述</b></summary>
 
 ```txt
-给你 n 个非负整数 a1，a2，...，an，每个数代表坐标中的一个点 (i, ai) 。在坐标内画 n 条垂直线，垂直线 i 的两个端点分别为 (i, ai) 和 (i, 0) 。找出其中的两条线，使得它们与 x 轴共同构成的容器可以容纳最多的水。
+给你 n 个非负整数 a1，a2，...，an，每个数代表坐标中的一个点 (i, ai) 。在坐标内画 n 条垂直线，垂直线 i 的两个端点分别为 (i, ai) 和 (i, 0) 。找出其中的两条线，使得它们与 x 轴共同构成的容器可以容纳最多的水。
 
 说明：不能倾斜容器。
 
 示例 1：
     输入：[1,8,6,2,5,4,8,3,7]
     输出：49 
-    解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。
+    解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/container-with-most-water
@@ -368,7 +368,7 @@ class Solution:
 <details><summary><b>详细描述</b></summary> 
 
 ```text
-给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
+给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
 
 注意：答案中不可以包含重复的三元组。
 
@@ -471,7 +471,7 @@ class Solution:
 <details><summary><b>详细描述</b></summary> 
 
 ```text
-给定一个包括 n 个整数的数组 nums 和 一个目标值 target。找出 nums 中的三个整数，使得它们的和与 target 最接近。返回这三个数的和。假定每组输入只存在唯一答案。
+给定一个包括 n 个整数的数组 nums 和 一个目标值 target。找出 nums 中的三个整数，使得它们的和与 target 最接近。返回这三个数的和。假定每组输入只存在唯一答案。
 
 示例：
     输入：nums = [-1,2,1,-4], target = 1
@@ -683,25 +683,25 @@ class Solution:
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
+给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
 
-返回被除数 dividend 除以除数 divisor 得到的商。
+返回被除数 dividend 除以除数 divisor 得到的商。
 
 整数除法的结果应当截去（truncate）其小数部分，例如：truncate(8.345) = 8 以及 truncate(-2.7335) = -2
 
-示例 1:
+示例 1:
     输入: dividend = 10, divisor = 3
     输出: 3
     解释: 10/3 = truncate(3.33333..) = truncate(3) = 3
-示例 2:
+示例 2:
     输入: dividend = 7, divisor = -3
     输出: -2
     解释: 7/-3 = truncate(-2.33333..) = -2
 
 提示：
     被除数和除数均为 32 位有符号整数。
-    除数不为 0。
-    假设我们的环境只能存储 32 位有符号整数，其数值范围是 [−2^31,  2^31 − 1]。本题中，如果除法结果溢出，则返回 2^31 − 1。
+    除数不为 0。
+    假设我们的环境只能存储 32 位有符号整数，其数值范围是 [−2^31,  2^31 − 1]。本题中，如果除法结果溢出，则返回 2^31 − 1。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/divide-two-integers
@@ -776,20 +776,20 @@ class Solution:
 ```txt
 整数数组 nums 按升序排列，数组中的值 互不相同 。
 
-在传递给函数之前，nums 在预先未知的某个下标 k（0 <= k < nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]（下标 从 0 开始 计数）。例如， [0,1,2,4,5,6,7] 在下标 3 处经旋转后可能变为 [4,5,6,7,0,1,2] 。
+在传递给函数之前，nums 在预先未知的某个下标 k（0 <= k < nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]（下标 从 0 开始 计数）。例如， [0,1,2,4,5,6,7] 在下标 3 处经旋转后可能变为 [4,5,6,7,0,1,2] 。
 
-给你 旋转后 的数组 nums 和一个整数 target ，如果 nums 中存在这个目标值 target ，则返回它的下标，否则返回 -1 。
+给你 旋转后 的数组 nums 和一个整数 target ，如果 nums 中存在这个目标值 target ，则返回它的下标，否则返回 -1 。
 
 示例 1：
     输入：nums = [4,5,6,7,0,1,2], target = 0
     输出：4
-示例 2：
+示例 2：
     输入：nums = [4,5,6,7,0,1,2], target = 3
     输出：-1
 示例 3：
     输入：nums = [1], target = 0
     输出：-1
- 
+ 
 
 提示：
     1 <= nums.length <= 5000
@@ -797,7 +797,7 @@ class Solution:
     nums 中的每个值都 独一无二
     题目数据保证 nums 在预先未知的某个下标上进行了旋转
     -10^4 <= target <= 10^4
- 
+ 
 进阶：你可以设计一个时间复杂度为 O(log n) 的解决方案吗？
 
 来源：力扣（LeetCode）
@@ -864,7 +864,7 @@ class Solution:
 <summary><b>问题描述</b></summary>
 
 ```txt
-给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
+给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
 
 示例 1（如图）：
     输入：height = [0,1,0,2,1,0,1,3,2,1,2,1]
@@ -963,7 +963,7 @@ public:
 示例 2：
     输入：head = [2,1], x = 2
     输出：[1,2]
- 
+ 
 提示：
     链表中节点的数目在范围 [0, 200] 内
     -100 <= Node.val <= 100
@@ -1040,7 +1040,7 @@ class Solution:
       9  20
         /  \
        15   7
-    返回它的最大深度 3 。
+    返回它的最大深度 3 。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
@@ -1094,7 +1094,7 @@ class Solution:
       9  20
         /  \
        15   7
-    返回它的最小深度 2 。
+    返回它的最小深度 2 。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/minimum-depth-of-binary-tree
@@ -1154,13 +1154,13 @@ class Solution:
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给定一个已按照 非递减顺序排列 的整数数组 numbers ，请你从数组中找出两个数满足相加之和等于目标数 target 。
+给定一个已按照 非递减顺序排列 的整数数组 numbers ，请你从数组中找出两个数满足相加之和等于目标数 target 。
 
 函数应该以长度为 2 的整数数组的形式返回这两个数的下标值。numbers 的下标 从 1 开始计数 ，所以答案数组应当满足 1 <= answer[0] < answer[1] <= numbers.length 。
 
 你可以假设每个输入 只对应唯一的答案 ，而且你 不可以 重复使用相同的元素。
 
- 
+ 
 示例 1：
     输入：numbers = [2,7,11,15], target = 9
     输出：[1,2]
@@ -1359,7 +1359,7 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target。
+编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target。
 该矩阵具有以下特性：
     每行的元素从左到右升序排列。
     每列的元素从上到下升序排列。
@@ -1368,7 +1368,7 @@ class Solution:
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target 。该矩阵具有以下特性：
+编写一个高效的算法来搜索 m x n 矩阵 matrix 中的一个目标值 target 。该矩阵具有以下特性：
 
     每行的元素从左到右升序排列。
     每列的元素从上到下升序排列。
@@ -1384,10 +1384,10 @@ class Solution:
     m == matrix.length
     n == matrix[i].length
     1 <= n, m <= 300
-    -10^9 <= matrix[i][j] <= 10^9
+    -10^9 <= matrix[i][j] <= 10^9
     每行的所有元素从左到右升序排列
     每列的所有元素从上到下升序排列
-    -10^9 <= target <= 10^9
+    -10^9 <= target <= 10^9
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/search-a-2d-matrix-ii
@@ -1479,23 +1479,23 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-给定一个正整数 n，将其拆分为至少两个正整数的和，使这些整数的乘积最大化。返回最大乘积。
+给定一个正整数 n，将其拆分为至少两个正整数的和，使这些整数的乘积最大化。返回最大乘积。
 ```
 
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给定一个正整数 n，将其拆分为至少两个正整数的和，并使这些整数的乘积最大化。 返回你可以获得的最大乘积。
+给定一个正整数 n，将其拆分为至少两个正整数的和，并使这些整数的乘积最大化。 返回你可以获得的最大乘积。
 
 示例 1:
     输入: 2
     输出: 1
     解释: 2 = 1 + 1, 1 × 1 = 1。
-示例 2:
+示例 2:
     输入: 10
     输出: 36
-    解释: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36。
-说明: 你可以假设 n 不小于 2 且不大于 58。
+    解释: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36。
+说明: 你可以假设 n 不小于 2 且不大于 58。
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/integer-break
@@ -1600,12 +1600,12 @@ class Solution:
 <summary><b>问题描述</b></summary>
 
 ```txt
-给你一个由非负整数 a1, a2, ..., an 组成的数据流输入，请你将到目前为止看到的数字总结为不相交的区间列表。
+给你一个由非负整数 a1, a2, ..., an 组成的数据流输入，请你将到目前为止看到的数字总结为不相交的区间列表。
 
 实现 SummaryRanges 类：
     SummaryRanges() 使用一个空数据流初始化对象。
     void addNum(int val) 向数据流中加入整数 val 。
-    int[][] getIntervals() 以不相交区间 [starti, endi] 的列表形式返回对数据流中整数的总结。
+    int[][] getIntervals() 以不相交区间 [starti, endi] 的列表形式返回对数据流中整数的总结。
 
 进阶：如果存在大量合并，并且与数据流的大小相比，不相交区间的数量很小，该怎么办?
 
@@ -1816,7 +1816,7 @@ class Solution:
 <summary><b>问题描述</b></summary>
 
 ```txt
-给定一个二叉树的根节点 root ，和一个整数 targetSum ，求该二叉树里节点值之和等于 targetSum 的 路径 的数目。
+给定一个二叉树的根节点 root ，和一个整数 targetSum ，求该二叉树里节点值之和等于 targetSum 的 路径 的数目。
 
 路径 不需要从根节点开始，也不需要在叶子节点结束，但是路径方向必须是向下的（只能从父节点到子节点）。
 
@@ -1942,9 +1942,9 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-你总共有 n 枚硬币，并计划将它们按阶梯状排列。对于一个由 k 行组成的阶梯，其第 i 行必须正好有 i 枚硬币。阶梯的最后一行 可能 是不完整的。
+你总共有 n 枚硬币，并计划将它们按阶梯状排列。对于一个由 k 行组成的阶梯，其第 i 行必须正好有 i 枚硬币。阶梯的最后一行 可能 是不完整的。
 
-给你一个数字 n ，计算并返回可形成 完整阶梯行 的总行数。
+给你一个数字 n ，计算并返回可形成 完整阶梯行 的总行数。
 
 示例 1：
     输入：n = 5
@@ -2009,8 +2009,8 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-找出 nums1 中每个元素在 nums2 中的下一个比其大的值，不存在输出 -1；
-其中 nums1 是 nums2 的子集。
+找出 nums1 中每个元素在 nums2 中的下一个比其大的值，不存在输出 -1；
+其中 nums1 是 nums2 的子集。
 
 本题实际上就是模拟了**单调栈**最常见的使用场景；
 ```
@@ -2019,11 +2019,11 @@ class Solution:
 
 ```txt
 
-给你两个 没有重复元素 的数组 nums1 和 nums2 ，其中 nums1 是 nums2 的子集。
+给你两个 没有重复元素 的数组 nums1 和 nums2 ，其中 nums1 是 nums2 的子集。
 
-请你找出 nums1 中每个元素在 nums2 中的下一个比其大的值。
+请你找出 nums1 中每个元素在 nums2 中的下一个比其大的值。
 
-nums1 中数字 x 的下一个更大元素是指 x 在 nums2 中对应位置的右边的第一个比 x 大的元素。如果不存在，对应位置输出 -1 。
+nums1 中数字 x 的下一个更大元素是指 x 在 nums2 中对应位置的右边的第一个比 x 大的元素。如果不存在，对应位置输出 -1 。
 
 示例 1:
     输入: nums1 = [4,1,2], nums2 = [1,3,4,2].
@@ -2036,15 +2036,15 @@ nums1 中数字 x 的下一个更大元素是指 x 在 nums2 中对应位
     输入: nums1 = [2,4], nums2 = [1,2,3,4].
     输出: [3,-1]
     解释:
-        对于 num1 中的数字 2 ，第二个数组中的下一个较大数字是 3 。
+        对于 num1 中的数字 2 ，第二个数组中的下一个较大数字是 3 。
         对于 num1 中的数字 4 ，第二个数组中没有下一个更大的数字，因此输出 -1 。
- 
+ 
 提示：
     1 <= nums1.length <= nums2.length <= 1000
     0 <= nums1[i], nums2[i] <= 10^4
     nums1和nums2中所有整数 互不相同
     nums1 中的所有整数同样出现在 nums2 中
- 
+ 
 
 进阶：你可以设计一个时间复杂度为 O(nums1.length + nums2.length) 的解决方案吗？
 
@@ -2161,7 +2161,7 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-给你两个字符串 s 和 goal ，只要我们可以通过交换 s 中的两个字母得到与 goal 相等的结果，就返回 true ；否则返回 false。
+给你两个字符串 s 和 goal ，只要我们可以通过交换 s 中的两个字母得到与 goal 相等的结果，就返回 true ；否则返回 false。
 
 例如，在 "abcd" 中交换下标 0 和下标 2 的元素可以生成 "cbad" 。
 ```
@@ -2169,12 +2169,12 @@ class Solution:
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给你两个字符串 s 和 goal ，只要我们可以通过交换 s 中的两个字母得到与 goal 相等的结果，就返回 true ；否则返回 false 。
+给你两个字符串 s 和 goal ，只要我们可以通过交换 s 中的两个字母得到与 goal 相等的结果，就返回 true ；否则返回 false 。
 
 交换字母的定义是：取两个下标 i 和 j （下标从 0 开始）且满足 i != j ，接着交换 s[i] 和 s[j] 处的字符。
 
 例如，在 "abcd" 中交换下标 0 和下标 2 的元素可以生成 "cbad" 。
- 
+ 
 
 示例 1：
     输入：s = "ab", goal = "ba"
@@ -2191,7 +2191,7 @@ class Solution:
 示例 4：
     输入：s = "aaaaaaabc", goal = "aaaaaaacb"
     输出：true
- 
+ 
 
 提示：
     1 <= s.length, goal.length <= 2 * 10^4

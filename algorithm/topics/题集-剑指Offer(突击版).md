@@ -30,11 +30,11 @@ Problems Index
 符合下列属性的数组 arr 称为 山峰数组（山脉数组） ：
 
     arr.length >= 3
-    存在 i（0 < i < arr.length - 1）使得：
+    存在 i（0 < i < arr.length - 1）使得：
         arr[0] < arr[1] < ... arr[i-1] < arr[i]
         arr[i] > arr[i+1] > ... > arr[arr.length - 1]
     
-    给定由整数组成的山峰数组 arr ，返回任何满足 arr[0] < arr[1] < ... arr[i - 1] < arr[i] > arr[i + 1] > ... > arr[arr.length - 1] 的下标 i ，即山峰顶部。
+    给定由整数组成的山峰数组 arr ，返回任何满足 arr[0] < arr[1] < ... arr[i - 1] < arr[i] > arr[i + 1] > ... > arr[arr.length - 1] 的下标 i ，即山峰顶部。
 
 示例 1：
     输入：arr = [0,1,0]
@@ -56,7 +56,7 @@ Problems Index
     3 <= arr.length <= 10^4
     0 <= arr[i] <= 10^6
     题目数据保证 arr 是一个山脉数组
- 
+ 
 进阶：很容易想到时间复杂度 O(n) 的解决方案，你可以设计一个 O(log(n)) 的解决方案吗？
 
 来源：力扣（LeetCode）
@@ -121,13 +121,13 @@ class Solution:
 示例 1:
     输入: [3,2,1,5,6,4] 和 k = 2
     输出: 5
-示例 2:
+示例 2:
     输入: [3,2,3,1,2,4,5,5,6] 和 k = 4
     输出: 4
 
 提示：
     1 <= k <= nums.length <= 10^4
-    -10^4 <= nums[i] <= 10^4
+    -10^4 <= nums[i] <= 10^4
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/xx4gT2

@@ -3,7 +3,7 @@
 <summary><b>问题简述</b></summary>
 
 ```txt
-给定一个 m x n 二维字符矩阵 board 和字符串 word。如果 word 存在于网格中，返回 true ；否则，返回 false 。
+给定一个 m x n 二维字符矩阵 board 和字符串 word。如果 word 存在于网格中，返回 true ；否则，返回 false 。
 
 其中单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
 ```
@@ -11,7 +11,7 @@
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false 。
+给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false 。
 
 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
 
@@ -23,12 +23,12 @@
 示例 2：
     输入：board = [["a","b"],["c","d"]], word = "abcd"
     输出：false
- 
+ 
 提示：
     1 <= board.length <= 200
     1 <= board[i].length <= 200
     board 和 word 仅由大小写英文字母组成
- 
+ 
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof

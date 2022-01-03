@@ -17,10 +17,10 @@
 示例 2：
     输入：arr = [0,1,2,1], k = 1
     输出：[0]
- 
+ 
 限制：
     0 <= k <= arr.length <= 10000
-    0 <= arr[i] <= 10000
+    0 <= arr[i] <= 10000
 
 来源：力扣（LeetCode）
 链接：https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof
