@@ -34,7 +34,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-双指针、滑动窗口 [8] <a href="topics/技巧-双指针、滑动窗口.md">¶</a></b></summary>
+<details><summary><b> 技巧-双指针、滑动窗口 [9] <a href="topics/技巧-双指针、滑动窗口.md">¶</a></b></summary>
 
 - [`LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`](topics/技巧-双指针、滑动窗口.md#leetcode-no0011-盛最多水的容器-中等-2021-10)
 - [`LeetCode No.0015 三数之和 (中等, 2021-10)`](topics/技巧-双指针、滑动窗口.md#leetcode-no0015-三数之和-中等-2021-10)
@@ -44,6 +44,7 @@ Algorithm Studies
 - [`LeetCode No.0611 有效三角形的个数 (中等, 2021-10)`](topics/技巧-双指针、滑动窗口.md#leetcode-no0611-有效三角形的个数-中等-2021-10)
 - [`剑指Offer No.0021 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`](topics/技巧-双指针、滑动窗口.md#剑指offer-no0021-调整数组顺序使奇数位于偶数前面-简单-2021-11)
 - [`剑指Offer No.0022 链表中倒数第k个节点 (简单, 2021-11)`](topics/技巧-双指针、滑动窗口.md#剑指offer-no0022-链表中倒数第k个节点-简单-2021-11)
+- [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`](topics/技巧-双指针、滑动窗口.md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-12)
 
 </details>
 
@@ -158,7 +159,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-动态规划(DP、记忆化搜索) [10] <a href="topics/算法-动态规划(DP、记忆化搜索).md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(DP、记忆化搜索) [11] <a href="topics/算法-动态规划(DP、记忆化搜索).md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](topics/算法-动态规划(DP、记忆化搜索).md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](topics/算法-动态规划(DP、记忆化搜索).md#leetcode-no0343-整数拆分-中等-2021-12)
@@ -170,6 +171,7 @@ Algorithm Studies
 - [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0047-礼物的最大价值-中等-2021-12)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
+- [`剑指Offer No.0049 丑数 (中等, 2021-12)`](topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no0049-丑数-中等-2021-12)
 
 </details>
 
@@ -255,7 +257,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [48] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [50] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
@@ -301,6 +303,8 @@ Algorithm Studies
 - [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0047-礼物的最大价值-中等-2021-12)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
+- [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-12)
+- [`剑指Offer No.0049 丑数 (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0049-丑数-中等-2021-12)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
 - [`剑指Offer No.0063 买卖股票的最佳时机 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0063-买卖股票的最佳时机-中等-2021-11)
@@ -315,7 +319,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-经典问题&代码 [10] <a href="topics/题集-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 题集-经典问题&代码 [11] <a href="topics/题集-经典问题&代码.md">¶</a></b></summary>
 
 - [`剑指Offer No.0007 重建二叉树 (中等, 2021-11)`](topics/题集-经典问题&代码.md#剑指offer-no0007-重建二叉树-中等-2021-11)
 - [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](topics/题集-经典问题&代码.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
@@ -327,5 +331,6 @@ Algorithm Studies
 - [`剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`](topics/题集-经典问题&代码.md#剑指offer-no0038-字符串的排列全排列-中等-2021-12)
 - [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](topics/题集-经典问题&代码.md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.0040 最小的k个数（partition操作） (简单, 2021-12)`](topics/题集-经典问题&代码.md#剑指offer-no0040-最小的k个数partition操作-简单-2021-12)
+- [`剑指Offer No.0049 丑数 (中等, 2021-12)`](topics/题集-经典问题&代码.md#剑指offer-no0049-丑数-中等-2021-12)
 
 </details>

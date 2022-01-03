@@ -1,4 +1,4 @@
-<!-- Tag:  -->
+<!-- Tag: 动态规划、经典 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -31,10 +31,10 @@
 
 <summary><b>思路：动态规划</b></summary>
 
-<details><summary><b>Python</b></summary>
-
 - [丑数（动态规划，清晰图解）](https://leetcode-cn.com/problems/chou-shu-lcof/solution/mian-shi-ti-49-chou-shu-dong-tai-gui-hua-qing-xi-t/)
 - [丑数，清晰的推导思路](https://leetcode-cn.com/problems/chou-shu-lcof/solution/chou-shu-ii-qing-xi-de-tui-dao-si-lu-by-mrsate/)
+
+<details><summary><b>Python</b></summary>
 
 ```python
 class Solution:
@@ -46,7 +46,7 @@ class Solution:
         for i in range(1, n):
             n2, n3, n5 = dp[a] * 2, dp[b] * 3, dp[c] * 5
             dp[i] = min(n2, n3, n5)
-            
+
             if dp[i] == n2: 
                 a += 1
             if dp[i] == n3: 

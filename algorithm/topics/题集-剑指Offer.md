@@ -50,6 +50,8 @@ Problems Index
 - [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](#剑指offer-no0047-礼物的最大价值-中等-2021-12)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
+- [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-12)
+- [`剑指Offer No.0049 丑数 (中等, 2021-12)`](#剑指offer-no0049-丑数-中等-2021-12)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](#剑指offer-no0055-二叉树的深度-简单-2021-11)
 - [`剑指Offer No.0063 买卖股票的最佳时机 (中等, 2021-11)`](#剑指offer-no0063-买卖股票的最佳时机-中等-2021-11)
@@ -4707,9 +4709,9 @@ class Solution:
 给定 m*n 的整型数组 grid，求从左上角到右下角路线中和的最大值（每次向下或向右移动一格）
 
 示例输入: 
-      [1,3,1]
-      [1,5,1]
-      [4,2,1]
+    [1,3,1]
+    [1,5,1]
+    [4,2,1]
 输出: 12
 解释: 路径 1→3→5→2→1 可以拿到最多价值的礼物
 ```
@@ -4917,6 +4919,145 @@ class Solution:
             idx[s[j]] = j  # 更新位置 i
             ret = max(ret, dp)  # 更新最大长度
         return ret
+```
+
+</details>
+
+---
+### `剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`
+
+
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 双指针 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+从字符串中找出最长的不包含重复字符的子字符串，返回其长度。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。
+
+示例 1:
+    输入: "abcabcbb"
+    输出: 3 
+    解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+示例 2:
+    输入: "bbbbb"
+    输出: 1
+    解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+示例 3:
+    输入: "pwwkew"
+    输出: 3
+    解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
+        请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+ 
+提示：
+    s.length <= 40000
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路：双指针</b></summary>
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        if not s: return 0
+        
+        c2p = dict()
+        lo = -1  # 左指针
+        ret = 1
+        for hi, c in enumerate(s):  # 遍历右指针
+            if c not in c2p or c2p[c] < lo:  # 如果当前字符还没有出现过，或者出现过但是在左指针的左侧，可以更新最大长度
+                ret = max(ret, hi - lo)
+            else:  # 否则更新左指针
+                lo = c2p[c]
+
+            c2p[c] = hi  # 更新字符最新位置
+
+        return ret
+```
+
+</details>
+
+---
+### `剑指Offer No.0049 丑数 (中等, 2021-12)`
+
+
+[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 动态规划、经典 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+我们把只包含质因子 2、3 和 5 的数称作丑数（Ugly Number）。
+求按从小到大的顺序的第 n 个丑数。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+我们把只包含质因子 2、3 和 5 的数称作丑数（Ugly Number）。求按从小到大的顺序的第 n 个丑数。
+
+示例:
+    输入: n = 10
+    输出: 12
+    解释: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12 是前 10 个丑数。
+说明:
+    1 是丑数。
+    n 不超过1690。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/chou-shu-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路：动态规划</b></summary>
+
+- [丑数（动态规划，清晰图解）](https://leetcode-cn.com/problems/chou-shu-lcof/solution/mian-shi-ti-49-chou-shu-dong-tai-gui-hua-qing-xi-t/)
+- [丑数，清晰的推导思路](https://leetcode-cn.com/problems/chou-shu-lcof/solution/chou-shu-ii-qing-xi-de-tui-dao-si-lu-by-mrsate/)
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def nthUglyNumber(self, n: int) -> int:
+
+        dp = [1] * n
+        a, b, c = 0, 0, 0
+
+        for i in range(1, n):
+            n2, n3, n5 = dp[a] * 2, dp[b] * 3, dp[c] * 5
+            dp[i] = min(n2, n3, n5)
+
+            if dp[i] == n2: 
+                a += 1
+            if dp[i] == n3: 
+                b += 1
+            if dp[i] == n5: 
+                c += 1
+        
+        return dp[-1]
+
 ```
 
 </details>
