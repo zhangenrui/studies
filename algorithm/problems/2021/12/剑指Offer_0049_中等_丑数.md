@@ -29,32 +29,69 @@
 
 <!-- <div align="center"><img src="../../../_assets/xxx.png" height="300" /></div> -->
 
-<summary><b>思路：动态规划</b></summary>
+<summary><b>思路：暴力解</b></summary>
 
-> [丑数（动态规划，清晰图解）](https://leetcode-cn.com/problems/chou-shu-lcof/solution/mian-shi-ti-49-chou-shu-dong-tai-gui-hua-qing-xi-t/)
+- 根据丑数的定义，有如下推论：
+    - 一个丑数乘以 2、3、5 之后，还是丑数；
+    - 从 1 开始，对每个丑数都乘以 2、3、5，再加入丑数序列（移除重复），那么不会产生遗漏；
+- 对已有的丑数乘以 2、3、5，取其中大于已知最大丑数的最小值；
 
 <details><summary><b>Python</b></summary>
 
-- 关于这份代码的理解，可以参考：[丑数，清晰的推导思路](https://leetcode-cn.com/problems/chou-shu-lcof/solution/chou-shu-ii-qing-xi-de-tui-dao-si-lu-by-mrsate/)
+```python
+class Solution:
+    def nthUglyNumber(self, n: int) -> int:
+
+        dp = [1]
+        for i in range(1, n):
+            M = dp[-1]  # 当前最大丑数
+
+            tmp = []
+            for x in dp[::-1]:  # 逆序遍历
+                if x * 5 < M:
+                    break
+                    
+                if x * 2 > M:
+                    tmp.append(x * 2)
+                if x * 3 > M:
+                    tmp.append(x * 3)
+                if x * 5 > M:
+                    tmp.append(x * 5)
+
+            dp.append(min(tmp))
+
+        return dp[-1]
+```
+
+</details>
+
+<summary><b>思路：动态规划</b></summary>
+
+- 暴力解中存在大量重复计算，可以考虑动态规划；
+
+<details><summary><b>Python</b></summary>
+
+- 代码解读：[丑数，清晰的推导思路](https://leetcode-cn.com/problems/chou-shu-lcof/solution/chou-shu-ii-qing-xi-de-tui-dao-si-lu-by-mrsate/)
 
 ```python
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
 
         dp = [1] * n
-        a, b, c = 0, 0, 0
+        p1, p2, p3 = 0, 0, 0  # 三指针归并
 
         for i in range(1, n):
-            n2, n3, n5 = dp[a] * 2, dp[b] * 3, dp[c] * 5
+            n2, n3, n5 = dp[p1] * 2, dp[p2] * 3, dp[p3] * 5
             dp[i] = min(n2, n3, n5)
 
-            if dp[i] == n2: 
-                a += 1
-            if dp[i] == n3: 
-                b += 1
-            if dp[i] == n5: 
-                c += 1
-        
+            # 去重：使用 if 而不是 elif
+            if dp[i] == n2:
+                p1 += 1
+            if dp[i] == n3:
+                p2 += 1
+            if dp[i] == n5:
+                p3 += 1
+
         return dp[-1]
 
 ```
