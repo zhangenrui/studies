@@ -48,12 +48,13 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-哈希表(Hash) [4] <a href="topics/技巧-哈希表(Hash).md">¶</a></b></summary>
+<details><summary><b> 技巧-哈希表(Hash) [5] <a href="topics/技巧-哈希表(Hash).md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](topics/技巧-哈希表(Hash).md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](topics/技巧-哈希表(Hash).md#leetcode-no0187-重复的dna序列-中等-2021-10)
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](topics/技巧-哈希表(Hash).md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`](topics/技巧-哈希表(Hash).md#剑指offer-no0035-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer No.0050 第一个只出现一次的字符 (简单, 2021-12)`](topics/技巧-哈希表(Hash).md#剑指offer-no0050-第一个只出现一次的字符-简单-2021-12)
 
 </details>
 
@@ -257,7 +258,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [50] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [51] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
@@ -305,6 +306,7 @@ Algorithm Studies
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer No.0049 丑数 (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0049-丑数-中等-2021-12)
+- [`剑指Offer No.0050 第一个只出现一次的字符 (简单, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0050-第一个只出现一次的字符-简单-2021-12)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
 - [`剑指Offer No.0063 买卖股票的最佳时机 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0063-买卖股票的最佳时机-中等-2021-11)
