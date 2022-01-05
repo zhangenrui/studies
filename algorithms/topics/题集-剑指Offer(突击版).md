@@ -14,7 +14,7 @@ Problems Index
 ### `剑指Offer(突击版) No.0069 山峰数组的顶部 (简单, 2021-10)`
 
 
-[![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分法.md)
+[![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![剑指Offer(突击版)](https://img.shields.io/badge/剑指Offer(突击版)-lightgray.svg)](题集-剑指Offer(突击版).md)
 <!-- Tag: 二分查找 -->
 
@@ -100,8 +100,8 @@ class Solution:
 
 
 [![堆](https://img.shields.io/badge/堆-lightgray.svg)](数据结构-堆、优先队列.md)
-[![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-递归(迭代)、分治.md)
-[![快排](https://img.shields.io/badge/快排-lightgray.svg)](算法-排序(快排).md)
+[![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-分治.md)
+[![快排](https://img.shields.io/badge/快排-lightgray.svg)](算法-排序.md)
 [![剑指Offer(突击版)](https://img.shields.io/badge/剑指Offer(突击版)-lightgray.svg)](题集-剑指Offer(突击版).md)
 <!-- Tag: 堆、分治、快排 -->
 

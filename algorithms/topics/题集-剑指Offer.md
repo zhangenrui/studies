@@ -121,7 +121,7 @@ class Solution:
 ### `剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`
 
 
-[![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分法.md)
+[![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 二分查找 -->
 
@@ -292,9 +292,9 @@ public:
 
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 链表、栈、DFS、递归 -->
 
@@ -384,7 +384,7 @@ class Solution:
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-分治.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 二叉树、分治、经典 -->
@@ -470,8 +470,8 @@ class Solution:
 ### `剑指Offer No.0009 用两个栈实现队列 (简单, 2021-11)`
 
 
-[![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
-[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
+[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![设计](https://img.shields.io/badge/设计-lightgray.svg)](数据结构-设计.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 栈、队列、设计 -->
@@ -710,7 +710,7 @@ class Solution:
 ### `剑指Offer No.0011 旋转数组的最小数字 (简单, 2021-11)`
 
 
-[![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分法.md)
+[![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 二分查找 -->
 
@@ -1144,8 +1144,8 @@ class Solution:
 ### `剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`
 
 
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
-[![二分法](https://img.shields.io/badge/二分法-lightgray.svg)](算法-二分法.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
+[![二分法](https://img.shields.io/badge/二分法-lightgray.svg)](算法-二分.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 递归、二分法、经典 -->
@@ -1535,8 +1535,8 @@ class Solution:
 
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
-[![迭代](https://img.shields.io/badge/迭代-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
+[![迭代](https://img.shields.io/badge/迭代-lightgray.svg)](算法-递归、迭代.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 链表、递归、迭代、经典 -->
@@ -1664,8 +1664,8 @@ class Solution:
 
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
-[![迭代](https://img.shields.io/badge/迭代-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
+[![迭代](https://img.shields.io/badge/迭代-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 链表、递归、迭代 -->
 
@@ -1782,7 +1782,7 @@ class Solution:
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 二叉树、递归 -->
 
@@ -1929,7 +1929,7 @@ public:
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 二叉树、递归 -->
 
@@ -2019,7 +2019,7 @@ class Solution:
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 二叉树、递归 -->
 
@@ -2378,7 +2378,7 @@ class Solution:
 ### `剑指Offer No.0030 包含min函数的栈 (简单, 2021-11)`
 
 
-[![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
 [![数组](https://img.shields.io/badge/数组-lightgray.svg)](数据结构-数组、矩阵(二维数组).md)
 [![设计](https://img.shields.io/badge/设计-lightgray.svg)](数据结构-设计.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -2467,7 +2467,7 @@ class MinStack:
 ### `剑指Offer No.0031 栈的压入、弹出序列 (中等, 2021-11)`
 
 
-[![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
 [![数组](https://img.shields.io/badge/数组-lightgray.svg)](数据结构-数组、矩阵(二维数组).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -2565,7 +2565,7 @@ class Solution:
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: BFS、二叉树、队列 -->
 
@@ -2698,7 +2698,7 @@ public:
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: BFS、二叉树、队列 -->
 
@@ -2825,7 +2825,7 @@ class Solution:
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: BFS、二叉树、队列 -->
 
@@ -3370,7 +3370,7 @@ class Solution:
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 二叉树、递归、经典 -->
@@ -3909,9 +3909,9 @@ class Solution:
 ### `剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`
 
 
-[![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序(快排).md)
+[![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
-[![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-分治.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 排序、模拟、分治、经典 -->
@@ -4056,7 +4056,7 @@ class Solution:
 
 
 [![优先队列](https://img.shields.io/badge/优先队列-lightgray.svg)](数据结构-堆、优先队列.md)
-[![快排](https://img.shields.io/badge/快排-lightgray.svg)](算法-排序(快排).md)
+[![快排](https://img.shields.io/badge/快排-lightgray.svg)](算法-排序.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 优先队列、快排、经典 -->
@@ -4515,7 +4515,7 @@ class Solution:
 ### `剑指Offer No.0045 把数组排成最小的数 (中等, 2021-12)`
 
 
-[![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序(快排).md)
+[![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 排序 -->
 
@@ -5193,7 +5193,7 @@ class Solution:
 ### `剑指Offer No.0051 数组中的逆序对 (困难, 2022-01)`
 
 
-[![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-分治.md)
 [![树状数组](https://img.shields.io/badge/树状数组-lightgray.svg)](数据结构-线段树、树状数组.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -5520,7 +5520,7 @@ public:
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归(迭代)、分治.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: 二叉树、递归 -->
 

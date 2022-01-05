@@ -198,6 +198,12 @@ Algorithm Studies
 
 </details>
 
+<details><summary><b> 技巧-单调栈 [1] <a href="algorithms/topics/技巧-单调栈.md">¶</a></b></summary>
+
+- [`LeetCode No.0496 下一个更大元素 (简单, 2021-11)`](algorithms/topics/技巧-单调栈.md#leetcode-no0496-下一个更大元素-简单-2021-11)
+
+</details>
+
 <details><summary><b> 技巧-双指针、滑动窗口 [9] <a href="algorithms/topics/技巧-双指针、滑动窗口.md">¶</a></b></summary>
 
 - [`LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`](algorithms/topics/技巧-双指针、滑动窗口.md#leetcode-no0011-盛最多水的容器-中等-2021-10)
@@ -254,17 +260,16 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 数据结构-栈(单调栈)、队列 [9] <a href="algorithms/topics/数据结构-栈(单调栈)、队列.md">¶</a></b></summary>
+<details><summary><b> 数据结构-栈、队列 [8] <a href="algorithms/topics/数据结构-栈、队列.md">¶</a></b></summary>
 
-- [`LeetCode No.0496 下一个更大元素 (简单, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#leetcode-no0496-下一个更大元素-简单-2021-11)
-- [`剑指Offer No.0006 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#剑指offer-no0006-从尾到头打印链表-简单-2021-11)
-- [`剑指Offer No.0009 用两个栈实现队列 (简单, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#剑指offer-no0009-用两个栈实现队列-简单-2021-11)
-- [`剑指Offer No.0009 用两个栈实现队列 (简单, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#剑指offer-no0009-用两个栈实现队列-简单-2021-11)
-- [`剑指Offer No.0030 包含min函数的栈 (简单, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#剑指offer-no0030-包含min函数的栈-简单-2021-11)
-- [`剑指Offer No.0031 栈的压入、弹出序列 (中等, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#剑指offer-no0031-栈的压入弹出序列-中等-2021-11)
-- [`剑指Offer No.0032 层序遍历二叉树-1 (简单, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#剑指offer-no0032-层序遍历二叉树-1-简单-2021-11)
-- [`剑指Offer No.0032 层序遍历二叉树-2 (简单, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#剑指offer-no0032-层序遍历二叉树-2-简单-2021-11)
-- [`剑指Offer No.0032 层序遍历二叉树-3（之字形遍历） (简单, 2021-11)`](algorithms/topics/数据结构-栈(单调栈)、队列.md#剑指offer-no0032-层序遍历二叉树-3之字形遍历-简单-2021-11)
+- [`剑指Offer No.0006 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0006-从尾到头打印链表-简单-2021-11)
+- [`剑指Offer No.0009 用两个栈实现队列 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0009-用两个栈实现队列-简单-2021-11)
+- [`剑指Offer No.0009 用两个栈实现队列 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0009-用两个栈实现队列-简单-2021-11)
+- [`剑指Offer No.0030 包含min函数的栈 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0030-包含min函数的栈-简单-2021-11)
+- [`剑指Offer No.0031 栈的压入、弹出序列 (中等, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0031-栈的压入弹出序列-中等-2021-11)
+- [`剑指Offer No.0032 层序遍历二叉树-1 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0032-层序遍历二叉树-1-简单-2021-11)
+- [`剑指Offer No.0032 层序遍历二叉树-2 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0032-层序遍历二叉树-2-简单-2021-11)
+- [`剑指Offer No.0032 层序遍历二叉树-3（之字形遍历） (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0032-层序遍历二叉树-3之字形遍历-简单-2021-11)
 
 </details>
 
@@ -316,17 +321,26 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-二分法 [9] <a href="algorithms/topics/算法-二分法.md">¶</a></b></summary>
+<details><summary><b> 算法-二分 [9] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
 
-- [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/算法-二分法.md#leetcode-no0029-两数相除-中等-2021-10)
-- [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/算法-二分法.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
-- [`LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`](algorithms/topics/算法-二分法.md#leetcode-no0240-搜索二维矩阵2-中等-2021-10)
-- [`LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`](algorithms/topics/算法-二分法.md#leetcode-no0352-将数据流变为多个不相交区间-困难-2021-10)
-- [`LeetCode No.0441 排列硬币 (简单, 2021-10)`](algorithms/topics/算法-二分法.md#leetcode-no0441-排列硬币-简单-2021-10)
-- [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](algorithms/topics/算法-二分法.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
-- [`剑指Offer No.0011 旋转数组的最小数字 (简单, 2021-11)`](algorithms/topics/算法-二分法.md#剑指offer-no0011-旋转数组的最小数字-简单-2021-11)
-- [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/算法-二分法.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
-- [`剑指Offer(突击版) No.0069 山峰数组的顶部 (简单, 2021-10)`](algorithms/topics/算法-二分法.md#剑指offer突击版-no0069-山峰数组的顶部-简单-2021-10)
+- [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0029-两数相除-中等-2021-10)
+- [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
+- [`LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0240-搜索二维矩阵2-中等-2021-10)
+- [`LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0352-将数据流变为多个不相交区间-困难-2021-10)
+- [`LeetCode No.0441 排列硬币 (简单, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0441-排列硬币-简单-2021-10)
+- [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](algorithms/topics/算法-二分.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
+- [`剑指Offer No.0011 旋转数组的最小数字 (简单, 2021-11)`](algorithms/topics/算法-二分.md#剑指offer-no0011-旋转数组的最小数字-简单-2021-11)
+- [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/算法-二分.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
+- [`剑指Offer(突击版) No.0069 山峰数组的顶部 (简单, 2021-10)`](algorithms/topics/算法-二分.md#剑指offer突击版-no0069-山峰数组的顶部-简单-2021-10)
+
+</details>
+
+<details><summary><b> 算法-分治 [4] <a href="algorithms/topics/算法-分治.md">¶</a></b></summary>
+
+- [`剑指Offer No.0007 重建二叉树 (中等, 2021-11)`](algorithms/topics/算法-分治.md#剑指offer-no0007-重建二叉树-中等-2021-11)
+- [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/算法-分治.md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
+- [`剑指Offer No.0051 数组中的逆序对 (困难, 2022-01)`](algorithms/topics/算法-分治.md#剑指offer-no0051-数组中的逆序对-困难-2022-01)
+- [`剑指Offer(突击版) No.0076 数组中的第K大的数字 (中等, 2021-10)`](algorithms/topics/算法-分治.md#剑指offer突击版-no0076-数组中的第k大的数字-中等-2021-10)
 
 </details>
 
@@ -354,12 +368,12 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-排序(快排) [4] <a href="algorithms/topics/算法-排序(快排).md">¶</a></b></summary>
+<details><summary><b> 算法-排序 [4] <a href="algorithms/topics/算法-排序.md">¶</a></b></summary>
 
-- [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/算法-排序(快排).md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
-- [`剑指Offer No.0040 最小的k个数（partition操作） (简单, 2021-12)`](algorithms/topics/算法-排序(快排).md#剑指offer-no0040-最小的k个数partition操作-简单-2021-12)
-- [`剑指Offer No.0045 把数组排成最小的数 (中等, 2021-12)`](algorithms/topics/算法-排序(快排).md#剑指offer-no0045-把数组排成最小的数-中等-2021-12)
-- [`剑指Offer(突击版) No.0076 数组中的第K大的数字 (中等, 2021-10)`](algorithms/topics/算法-排序(快排).md#剑指offer突击版-no0076-数组中的第k大的数字-中等-2021-10)
+- [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
+- [`剑指Offer No.0040 最小的k个数（partition操作） (简单, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no0040-最小的k个数partition操作-简单-2021-12)
+- [`剑指Offer No.0045 把数组排成最小的数 (中等, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no0045-把数组排成最小的数-中等-2021-12)
+- [`剑指Offer(突击版) No.0076 数组中的第K大的数字 (中等, 2021-10)`](algorithms/topics/算法-排序.md#剑指offer突击版-no0076-数组中的第k大的数字-中等-2021-10)
 
 </details>
 
@@ -378,25 +392,21 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-递归(迭代)、分治 [17] <a href="algorithms/topics/算法-递归(迭代)、分治.md">¶</a></b></summary>
+<details><summary><b> 算法-递归、迭代 [13] <a href="algorithms/topics/算法-递归、迭代.md">¶</a></b></summary>
 
-- [`LeetCode No.0021 合并两个有序链表 (简单, 2021-10)`](algorithms/topics/算法-递归(迭代)、分治.md#leetcode-no0021-合并两个有序链表-简单-2021-10)
-- [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/算法-递归(迭代)、分治.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
-- [`剑指Offer No.0006 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0006-从尾到头打印链表-简单-2021-11)
-- [`剑指Offer No.0007 重建二叉树 (中等, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0007-重建二叉树-中等-2021-11)
-- [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
-- [`剑指Offer No.0024 反转链表 (简单, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0024-反转链表-简单-2021-11)
-- [`剑指Offer No.0024 反转链表 (简单, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0024-反转链表-简单-2021-11)
-- [`剑指Offer No.0025 合并两个排序的链表 (简单, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0025-合并两个排序的链表-简单-2021-11)
-- [`剑指Offer No.0025 合并两个排序的链表 (简单, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0025-合并两个排序的链表-简单-2021-11)
-- [`剑指Offer No.0026 树的子结构 (中等, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0026-树的子结构-中等-2021-11)
-- [`剑指Offer No.0027 二叉树的镜像 (简单, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0027-二叉树的镜像-简单-2021-11)
-- [`剑指Offer No.0028 对称的二叉树 (简单, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0028-对称的二叉树-简单-2021-11)
-- [`剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0036-二叉搜索树与双向链表-中等-2021-12)
-- [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
-- [`剑指Offer No.0051 数组中的逆序对 (困难, 2022-01)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0051-数组中的逆序对-困难-2022-01)
-- [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
-- [`剑指Offer(突击版) No.0076 数组中的第K大的数字 (中等, 2021-10)`](algorithms/topics/算法-递归(迭代)、分治.md#剑指offer突击版-no0076-数组中的第k大的数字-中等-2021-10)
+- [`LeetCode No.0021 合并两个有序链表 (简单, 2021-10)`](algorithms/topics/算法-递归、迭代.md#leetcode-no0021-合并两个有序链表-简单-2021-10)
+- [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/算法-递归、迭代.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
+- [`剑指Offer No.0006 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0006-从尾到头打印链表-简单-2021-11)
+- [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
+- [`剑指Offer No.0024 反转链表 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0024-反转链表-简单-2021-11)
+- [`剑指Offer No.0024 反转链表 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0024-反转链表-简单-2021-11)
+- [`剑指Offer No.0025 合并两个排序的链表 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0025-合并两个排序的链表-简单-2021-11)
+- [`剑指Offer No.0025 合并两个排序的链表 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0025-合并两个排序的链表-简单-2021-11)
+- [`剑指Offer No.0026 树的子结构 (中等, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0026-树的子结构-中等-2021-11)
+- [`剑指Offer No.0027 二叉树的镜像 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0027-二叉树的镜像-简单-2021-11)
+- [`剑指Offer No.0028 对称的二叉树 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0028-对称的二叉树-简单-2021-11)
+- [`剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0036-二叉搜索树与双向链表-中等-2021-12)
+- [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
 
 </details>
 

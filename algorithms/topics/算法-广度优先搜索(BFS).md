@@ -17,7 +17,7 @@ Problems Index
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: BFS、二叉树、队列 -->
 
@@ -150,7 +150,7 @@ public:
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: BFS、二叉树、队列 -->
 
@@ -277,7 +277,7 @@ class Solution:
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈(单调栈)、队列.md)
+[![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 <!-- Tag: BFS、二叉树、队列 -->
 
