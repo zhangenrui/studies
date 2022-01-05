@@ -40,7 +40,7 @@ class args:  # noqa
     script_path = os.path.dirname(__file__)
     repo_path = os.path.abspath(os.path.join(script_path, '..'))
     src_path = os.path.join(repo_path, 'src')
-    algo_path = os.path.join(repo_path, 'algorithm')
+    algo_path = os.path.join(repo_path, 'algorithms')
     prefix_topics = 'topics'
     prefix_problems = 'problems'
     prefix_notes = 'notes'
