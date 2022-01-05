@@ -125,6 +125,12 @@ Algorithm Studies
 
 </details>
 
+<details><summary><b> 数据结构-线段树、树状数组 [1] <a href="topics/数据结构-线段树、树状数组.md">¶</a></b></summary>
+
+- [`剑指Offer No.0051 数组中的逆序对 (困难, 2022-01)`](topics/数据结构-线段树、树状数组.md#剑指offer-no0051-数组中的逆序对-困难-2022-01)
+
+</details>
+
 <details><summary><b> 数据结构-设计 [3] <a href="topics/数据结构-设计.md">¶</a></b></summary>
 
 - [`剑指Offer No.0009 用两个栈实现队列 (简单, 2021-11)`](topics/数据结构-设计.md#剑指offer-no0009-用两个栈实现队列-简单-2021-11)
@@ -208,7 +214,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-递归(迭代)、分治 [16] <a href="topics/算法-递归(迭代)、分治.md">¶</a></b></summary>
+<details><summary><b> 算法-递归(迭代)、分治 [17] <a href="topics/算法-递归(迭代)、分治.md">¶</a></b></summary>
 
 - [`LeetCode No.0021 合并两个有序链表 (简单, 2021-10)`](topics/算法-递归(迭代)、分治.md#leetcode-no0021-合并两个有序链表-简单-2021-10)
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](topics/算法-递归(迭代)、分治.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
@@ -224,6 +230,7 @@ Algorithm Studies
 - [`剑指Offer No.0028 对称的二叉树 (简单, 2021-11)`](topics/算法-递归(迭代)、分治.md#剑指offer-no0028-对称的二叉树-简单-2021-11)
 - [`剑指Offer No.0036 二叉搜索树与双向链表 (中等, 2021-12)`](topics/算法-递归(迭代)、分治.md#剑指offer-no0036-二叉搜索树与双向链表-中等-2021-12)
 - [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](topics/算法-递归(迭代)、分治.md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
+- [`剑指Offer No.0051 数组中的逆序对 (困难, 2022-01)`](topics/算法-递归(迭代)、分治.md#剑指offer-no0051-数组中的逆序对-困难-2022-01)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](topics/算法-递归(迭代)、分治.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
 - [`剑指Offer(突击版) No.0076 数组中的第K大的数字 (中等, 2021-10)`](topics/算法-递归(迭代)、分治.md#剑指offer突击版-no0076-数组中的第k大的数字-中等-2021-10)
 
@@ -258,7 +265,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [51] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [52] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
@@ -307,6 +314,7 @@ Algorithm Studies
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer No.0049 丑数 (中等, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0049-丑数-中等-2021-12)
 - [`剑指Offer No.0050 第一个只出现一次的字符 (简单, 2021-12)`](topics/题集-剑指Offer.md#剑指offer-no0050-第一个只出现一次的字符-简单-2021-12)
+- [`剑指Offer No.0051 数组中的逆序对 (困难, 2022-01)`](topics/题集-剑指Offer.md#剑指offer-no0051-数组中的逆序对-困难-2022-01)
 - [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
 - [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0055-二叉树的深度-简单-2021-11)
 - [`剑指Offer No.0063 买卖股票的最佳时机 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no0063-买卖股票的最佳时机-中等-2021-11)
@@ -321,7 +329,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-经典问题&代码 [11] <a href="topics/题集-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 题集-经典问题&代码 [12] <a href="topics/题集-经典问题&代码.md">¶</a></b></summary>
 
 - [`剑指Offer No.0007 重建二叉树 (中等, 2021-11)`](topics/题集-经典问题&代码.md#剑指offer-no0007-重建二叉树-中等-2021-11)
 - [`剑指Offer No.0016 数值的整数次方（快速幂） (中等, 2021-11)`](topics/题集-经典问题&代码.md#剑指offer-no0016-数值的整数次方快速幂-中等-2021-11)
@@ -334,5 +342,6 @@ Algorithm Studies
 - [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](topics/题集-经典问题&代码.md#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.0040 最小的k个数（partition操作） (简单, 2021-12)`](topics/题集-经典问题&代码.md#剑指offer-no0040-最小的k个数partition操作-简单-2021-12)
 - [`剑指Offer No.0049 丑数 (中等, 2021-12)`](topics/题集-经典问题&代码.md#剑指offer-no0049-丑数-中等-2021-12)
+- [`剑指Offer No.0051 数组中的逆序对 (困难, 2022-01)`](topics/题集-经典问题&代码.md#剑指offer-no0051-数组中的逆序对-困难-2022-01)
 
 </details>
