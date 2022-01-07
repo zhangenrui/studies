@@ -6480,7 +6480,7 @@ class Solution:
         def f1():
             return s[n:] + s[:n]
         
-        # 法2：列表
+        # 法2：列表（面试推荐写法）
         def f2():
             ret = []
             # for i in range(n, len(s)):
