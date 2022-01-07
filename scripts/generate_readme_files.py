@@ -166,13 +166,14 @@ class AlgorithmReadme:
             src, pid, lv, pn = fn.rsplit('_', maxsplit=3)
 
             txt = open(fp, encoding='utf8').read()
-            tag_append = [src] if src != self.template_name else []
+            tag_append = [src]  # if src != self.template_name else []
             tags = RE_SEP.split(RE_TAG.search(txt).group(1)) + tag_append
             tags = [tag.strip() for tag in tags]
             tag2topic = {tag: self.tag2topic_map[tag.lower()] for tag in tags}
             topics = list(tag2topic.values())
 
-            head = f'`{src} No.{pid} {pn} ({lv}, {suffix})`'
+            pid = f'No.{pid}' if pid.isnumeric() else pid
+            head = f'`{src} {pid} {pn} ({lv}, {suffix})`'
             lines = txt.split('\n')
             # lines[0] = f'### {head}'
             lines.insert(0, '')
