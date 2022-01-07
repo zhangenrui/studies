@@ -12,14 +12,14 @@
 输入一棵二叉树的根节点，求该树的深度。从根节点到叶节点依次经过的节点（含根、叶节点）形成树的一条路径，最长路径的长度为树的深度。
 
 例如：
-给定二叉树 [3,9,20,null,null,15,7]，
-
-    3
-   / \
-  9  20
-    /  \
-   15   7
-返回它的最大深度 3 。
+    给定二叉树 [3,9,20,null,null,15,7]，
+    
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    返回它的最大深度 3 。
 
 提示：
     节点总数 <= 10000
@@ -59,6 +59,31 @@ public:
         return 1 + max(maxDepth(root->left), maxDepth(root->right));
     }
 };
+```
+
+</details>
+
+
+<details><summary><b>Python</b></summary>
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+
+        def dfs(node):
+            if node is None:
+                return 0
+            
+            return 1 + max(dfs(node.left), dfs(node.right))
+
+        return dfs(root)
 ```
 
 </details>
