@@ -22,7 +22,7 @@ Algorithm Studies
 
 <details><summary><b> 基础-模板 [1] <a href="topics/基础-模板.md">¶</a></b></summary>
 
-- [`*模板 字符串 split (简单, 模板库-字符串)`](topics/基础-模板.md#模板-字符串-split-简单-模板库-字符串)
+- [`+模板 字符串 split (简单, 模板库-字符串)`](topics/基础-模板.md#模板-字符串-split-简单-模板库-字符串)
 
 </details>
 
@@ -92,7 +92,7 @@ Algorithm Studies
 
 <details><summary><b> 数据结构-字符串 [6] <a href="topics/数据结构-字符串.md">¶</a></b></summary>
 
-- [`*模板 字符串 split (简单, 模板库-字符串)`](topics/数据结构-字符串.md#模板-字符串-split-简单-模板库-字符串)
+- [`+模板 字符串 split (简单, 模板库-字符串)`](topics/数据结构-字符串.md#模板-字符串-split-简单-模板库-字符串)
 - [`LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`](topics/数据结构-字符串.md#leetcode-no0434-字符串中的单词数-简单-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](topics/数据结构-字符串.md#leetcode-no0859-亲密字符串-简单-2021-11)
 - [`剑指Offer No.0005 替换空格 (简单, 2021-11)`](topics/数据结构-字符串.md#剑指offer-no0005-替换空格-简单-2021-11)
