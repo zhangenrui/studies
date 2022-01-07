@@ -21,7 +21,7 @@ Problems Index
 - [`剑指Offer No.0017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-no0017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
 - [`剑指Offer No.0034 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no0034-二叉树中和为某一值的路径-中等-2021-12)
 - [`剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no0038-字符串的排列全排列-中等-2021-12)
-- [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
+- [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no0054-二叉搜索树的第k大节点-简单-2022-01)
 
 ---
 
@@ -998,7 +998,7 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`
+### `剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2022-01)`
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
@@ -1009,31 +1009,31 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-给定一棵二叉搜索树，请找出其中第k大的节点。
+给定一棵二叉搜索树，请找出其中第 k 大的节点的值。
 ```
 
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给定一棵二叉搜索树，请找出其中第k大的节点。
+给定一棵二叉搜索树，请找出其中第 k 大的节点的值。
 
 示例 1:
     输入: root = [3,1,4,null,2], k = 1
-     3
-    / \
-   1   4
-    \
-     2
+       3
+      / \
+     1   4
+      \
+       2
     输出: 4
 示例 2:
     输入: root = [5,3,6,2,4,null,null,1], k = 3
-        5
-       / \
-      3   6
-     / \
-    2   4
-   /
-  1
+           5
+          / \
+         3   6
+        / \
+       2   4
+      /
+     1
     输出: 4
 
 限制：
@@ -1051,12 +1051,12 @@ class Solution:
 
 <summary><b>思路</b></summary>
 
-- 二叉搜索树的性质：中序遍历的结果为递增序列；
-- 为了得到第 K 大，需要递减序列，“反向”中序遍历即可：即按“右中左”的顺序深度搜索；
+- 根据二叉搜索树的性质，其中序遍历的结果为递增序列；
+- 为了得到第 k 大的数，需要递减序列，“反向”中序遍历即可：即按“右中左”的顺序深度搜索（正向为“左中右”）；
 - 利用辅助变量提前结束搜索；
 
 
-<details><summary><b>C++：反向中序遍历</b></summary>
+<details><summary><b>C++</b></summary>
 
 ```cpp
 /**
@@ -1071,23 +1071,58 @@ class Solution:
 class Solution {
     int k;
     int ret;
+
+    void inOrder(TreeNode* node) {
+        if (node == nullptr) return;
+
+        inOrder(node->right);  // 先遍历右子树
+        if (--this->k == 0) {  // 因为 k>0，实际上第 1 大指的是索引为 0 的位置，所以要先 --
+            this->ret = node->val;
+            return;
+        }
+        inOrder(node->left);
+    }
+    
 public:
     int kthLargest(TreeNode* root, int k) {
         this->k = k;
         inOrder(root);
         return this->ret;
     }
-
-    void inOrder(TreeNode* node) {
-        if (node == nullptr) return;
-
-        inOrder(node->right);  // 先遍历右子树
-        if (this->k == 0) return;
-        this->k -= 1;
-        if (this->k == 0) this->ret = node->val;
-        inOrder(node->left);
-    }
 };
+```
+
+</details>
+
+<details><summary><b>Python</b></summary>
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def kthLargest(self, root: TreeNode, k: int) -> int:
+
+        self.cnt = 0
+        self.ret = -1
+        
+        def dfs(node):
+            if node is None:
+                return 
+            
+            dfs(node.right)
+            self.cnt += 1
+            if self.cnt == k:
+                self.ret = node.val
+                return 
+            dfs(node.left)
+        
+        dfs(root)
+        return self.ret
 ```
 
 </details>

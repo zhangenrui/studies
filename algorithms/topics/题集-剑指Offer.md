@@ -32,9 +32,9 @@ Problems Index
 - [`剑指Offer No.0029 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](#剑指offer-no0029-顺时针打印矩阵3种思路4个写法-中等-2021-11)
 - [`剑指Offer No.0030 包含min函数的栈 (简单, 2021-11)`](#剑指offer-no0030-包含min函数的栈-简单-2021-11)
 - [`剑指Offer No.0031 栈的压入、弹出序列 (中等, 2021-11)`](#剑指offer-no0031-栈的压入弹出序列-中等-2021-11)
-- [`剑指Offer No.0032 层序遍历二叉树-1 (简单, 2021-11)`](#剑指offer-no0032-层序遍历二叉树-1-简单-2021-11)
-- [`剑指Offer No.0032 层序遍历二叉树-2 (简单, 2021-11)`](#剑指offer-no0032-层序遍历二叉树-2-简单-2021-11)
-- [`剑指Offer No.0032 层序遍历二叉树-3（之字形遍历） (简单, 2021-11)`](#剑指offer-no0032-层序遍历二叉树-3之字形遍历-简单-2021-11)
+- [`剑指Offer No.0032 1-层序遍历二叉树 (简单, 2021-11)`](#剑指offer-no0032-1-层序遍历二叉树-简单-2021-11)
+- [`剑指Offer No.0032 2-层序遍历二叉树 (简单, 2021-11)`](#剑指offer-no0032-2-层序遍历二叉树-简单-2021-11)
+- [`剑指Offer No.0032 3-层序遍历二叉树（之字形遍历） (简单, 2021-11)`](#剑指offer-no0032-3-层序遍历二叉树之字形遍历-简单-2021-11)
 - [`剑指Offer No.0033 二叉搜索树的后序遍历序列 (中等, 2021-12)`](#剑指offer-no0033-二叉搜索树的后序遍历序列-中等-2021-12)
 - [`剑指Offer No.0034 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no0034-二叉树中和为某一值的路径-中等-2021-12)
 - [`剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no0035-复杂链表的复制深拷贝-中等-2021-12)
@@ -44,20 +44,26 @@ Problems Index
 - [`剑指Offer No.0039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](#剑指offer-no0039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.0040 最小的k个数（partition操作） (简单, 2021-12)`](#剑指offer-no0040-最小的k个数partition操作-简单-2021-12)
 - [`剑指Offer No.0041 数据流中的中位数 (困难, 2021-12)`](#剑指offer-no0041-数据流中的中位数-困难-2021-12)
-- [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`](#剑指offer-no0042-连续子数组的最大和-简单-2021-10)
-- [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`](#剑指offer-no0044-数字序列中某一位的数字-中等-2021-11)
+- [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-12)`](#剑指offer-no0042-连续子数组的最大和-简单-2021-12)
+- [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-12)`](#剑指offer-no0044-数字序列中某一位的数字-中等-2021-12)
 - [`剑指Offer No.0045 把数组排成最小的数 (中等, 2021-12)`](#剑指offer-no0045-把数组排成最小的数-中等-2021-12)
 - [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
 - [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](#剑指offer-no0047-礼物的最大价值-中等-2021-12)
-- [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`](#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-11)
 - [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer No.0049 丑数 (中等, 2021-12)`](#剑指offer-no0049-丑数-中等-2021-12)
 - [`剑指Offer No.0050 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no0050-第一个只出现一次的字符-简单-2021-12)
 - [`剑指Offer No.0051 数组中的逆序对 (困难, 2022-01)`](#剑指offer-no0051-数组中的逆序对-困难-2022-01)
-- [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`](#剑指offer-no0054-二叉搜索树的第k大节点-简单-2021-11)
-- [`剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`](#剑指offer-no0055-二叉树的深度-简单-2021-11)
-- [`剑指Offer No.0063 买卖股票的最佳时机 (中等, 2021-11)`](#剑指offer-no0063-买卖股票的最佳时机-中等-2021-11)
-- [`剑指Offer No.0067 把字符串转换成整数 (中等, 2021-11)`](#剑指offer-no0067-把字符串转换成整数-中等-2021-11)
+- [`剑指Offer No.0052 两个链表的第一个公共节点 (简单, 2022-01)`](#剑指offer-no0052-两个链表的第一个公共节点-简单-2022-01)
+- [`剑指Offer No.0053 1-求0～n-1中缺失的数字 (简单, 2022-01)`](#剑指offer-no0053-1-求0n-1中缺失的数字-简单-2022-01)
+- [`剑指Offer No.0053 2-在排序数组中查找数字 (简单, 2022-01)`](#剑指offer-no0053-2-在排序数组中查找数字-简单-2022-01)
+- [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no0054-二叉搜索树的第k大节点-简单-2022-01)
+- [`剑指Offer No.0055 1-求二叉树的深度 (简单, 2022-01)`](#剑指offer-no0055-1-求二叉树的深度-简单-2022-01)
+- [`剑指Offer No.0055 2-判断是否为平衡二叉树 (简单, 2022-01)`](#剑指offer-no0055-2-判断是否为平衡二叉树-简单-2022-01)
+- [`剑指Offer No.0056 1-数组中数字出现的次数 (中等, 2022-01)`](#剑指offer-no0056-1-数组中数字出现的次数-中等-2022-01)
+- [`剑指Offer No.0057 1-和为s的两个数字 (简单, 2022-01)`](#剑指offer-no0057-1-和为s的两个数字-简单-2022-01)
+- [`剑指Offer No.0057 2-和为s的连续正数序列 (简单, 2022-01)`](#剑指offer-no0057-2-和为s的连续正数序列-简单-2022-01)
+- [`剑指Offer No.0063 买卖股票的最佳时机 (中等, 2022-01)`](#剑指offer-no0063-买卖股票的最佳时机-中等-2022-01)
+- [`剑指Offer No.0067 把字符串转换成整数 (中等, 2022-01)`](#剑指offer-no0067-把字符串转换成整数-中等-2022-01)
 
 ---
 
@@ -2560,7 +2566,7 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0032 层序遍历二叉树-1 (简单, 2021-11)`
+### `剑指Offer No.0032 1-层序遍历二叉树 (简单, 2021-11)`
 
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
@@ -2693,7 +2699,7 @@ public:
 </details>
 
 ---
-### `剑指Offer No.0032 层序遍历二叉树-2 (简单, 2021-11)`
+### `剑指Offer No.0032 2-层序遍历二叉树 (简单, 2021-11)`
 
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
@@ -2820,7 +2826,7 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0032 层序遍历二叉树-3（之字形遍历） (简单, 2021-11)`
+### `剑指Offer No.0032 3-层序遍历二叉树（之字形遍历） (简单, 2021-11)`
 
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
@@ -4355,7 +4361,7 @@ class MedianFinder:
 </details>
 
 ---
-### `剑指Offer No.0042 连续子数组的最大和 (简单, 2021-10)`
+### `剑指Offer No.0042 连续子数组的最大和 (简单, 2021-12)`
 
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
@@ -4443,7 +4449,7 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-11)`
+### `剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-12)`
 
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
@@ -4831,112 +4837,19 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-11)`
-
-
-[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
-<!-- Tag: 动态规划 -->
-
-<summary><b>问题简述</b></summary>
-
-```txt
-求字符串 s 中最长的不包含重复字符的子串，返回其长度；
-```
-
-<details><summary><b>详细描述</b></summary>
-
-```txt
-请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。
-
-示例 1:
-    输入: "abcabcbb"
-    输出: 3 
-    解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
-示例 2:
-    输入: "bbbbb"
-    输出: 1
-    解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
-示例 3:
-    输入: "pwwkew"
-    输出: 3
-    解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
-         请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
-
-提示：
-    s.length <= 40000
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-```
-
-<!-- <div align="center"><img src="./_assets/xxx.png" height="300" /></div> -->
-
-</details>
-
-
-<summary><b>思路：动态规划</b></summary>
-
-**状态定义**
-- 记 `dp[j] := 以第 j 个字符为结尾的不含重复字符的子串的最大长度`；
-
-**转移方程**
-```
-dp[j] = dp[j-1] + 1     if dp[j-1] <  j-i
-      = j-i             if dp[j-1] >= j-i
-
-其中 i 表示字符 s[j] 上一次出现的位置；
-```
-
-- 使用一个 hash 表记录每个字符上一次出现的位置；
-- 因为当前状态只与上一个状态有关，因此可以使用一个变量代替数组（滚动）；
-
-**初始状态**
-- `dp[0] = 1`
-
-**图解**
-> [最长不含重复字符的子字符串（动态规划 / 双指针 + 哈希表，清晰图解）](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/solution/mian-shi-ti-48-zui-chang-bu-han-zhong-fu-zi-fu-d-9/)
-
-<div align="center"><img src="../_assets/剑指Offer_0048_中等_最长不含重复字符的子字符串.png" height="300" /></div>
-
-
-<details><summary><b>Python：动态规划+哈希表</b></summary>
-
-```python
-class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        idx = dict()  # 记录每个字符上一次出现的位置
-        ret = dp = 0
-        for j in range(len(s)):
-            if s[j] not in idx:
-                dp = dp + 1
-            else:
-                i = idx[s[j]]  # 获取位置 i
-                if dp < j - i:
-                    dp = dp + 1
-                else:
-                    dp = j - i
-
-            idx[s[j]] = j  # 更新位置 i
-            ret = max(ret, dp)  # 更新最大长度
-        return ret
-```
-
-</details>
-
----
 ### `剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`
 
 
+[![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
-<!-- Tag: 双指针 -->
+<!-- Tag: 哈希表、双指针、动态规划 -->
 
 <summary><b>问题简述</b></summary>
 
 ```txt
-从字符串中找出最长的不包含重复字符的子字符串，返回其长度。
+求字符串 s 中的最长不重复子串，返回其长度；
 ```
 
 <details><summary><b>详细描述</b></summary>
@@ -4970,7 +4883,11 @@ class Solution:
 
 <!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
 
-<summary><b>思路：双指针</b></summary>
+<summary><b>思路1：双指针（推荐）</b></summary>
+
+- 双指针同向遍历每个字符；同时使用哈希表记录每个字符的最新位置；
+- 如果右指针遇到已经出现过的字符，则将左指针移动到该字符的位置，更新最大长度；
+- 具体细节见代码；
 
 <details><summary><b>Python</b></summary>
 
@@ -4990,6 +4907,55 @@ class Solution:
 
             c2p[c] = hi  # 更新字符最新位置
 
+        return ret
+```
+
+</details>
+
+
+<summary><b>思路2：动态规划</b></summary>
+
+> [最长不含重复字符的子字符串（动态规划 / 双指针 + 哈希表，清晰图解）](https://
+
+**状态定义**
+leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/solution/mian-shi-ti-48-zui-chang-bu-han-zhong-fu-zi-fu-d-9/)
+- 记 `dp[i] := 以第 i 个字符为结尾的不含重复字符的子串的最大长度`；
+
+**转移方程**
+```
+dp[i] = dp[i-1] + 1     if dp[i-1] < i-i
+      = i-j             else
+
+其中 j 表示字符 s[i] 上一次出现的位置；
+```
+
+- 使用一个 hash 表记录每个字符上一次出现的位置；
+- 因为当前状态只与上一个状态有关，因此可以使用一个变量代替数组（滚动）；
+
+**初始状态**
+- `dp[0] = 1`
+
+<!-- <div align="center"><img src="../_assets/剑指Offer_0048_中等_最长不含重复字符的子字符串.png" height="300" /></div> -->
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        idx = dict()
+        ret = dp = 0
+        for i, c in enumerate(s):
+            if c not in idx:
+                dp = dp + 1
+            else:
+                j = idx[c]  # 如果 c 已经出现过，获取其上一个出现的位置
+                if dp < i - j:  # 参考双指针思路，这里相当于上一次出现的位置在左指针之前，不影响更新长度
+                    dp = dp + 1
+                else:  # 反之，在左指针之后
+                    dp = i - j
+
+            idx[c] = i  # 更新位置 i
+            ret = max(ret, dp)  # 更新最大长度
         return ret
 ```
 
@@ -5421,7 +5387,262 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2021-11)`
+### `剑指Offer No.0052 两个链表的第一个公共节点 (简单, 2022-01)`
+
+
+[![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 链表、双指针 -->
+
+<summary><b>问题描述</b></summary>
+
+```txt
+输入两个链表，找出它们的第一个公共节点。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路1</b></summary>
+
+> [两个链表的第一个公共节点（差值法） - 宫水三叶](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/solution/gong-shui-san-xie-zhao-liang-tiao-lian-b-ifqw/)
+
+- 分别遍历两个链表，得到两个链表的长度，记为 `l1` 和 `l2`；
+- 让较长的先走 `|l1 - l2|` 步，然后一起走，第一个相同节点即为公共节点；
+
+<details><summary><b>Python</b></summary>
+
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+
+        def get_list_len(p):
+            cnt = 0
+            while p:
+                p = p.next
+                cnt += 1
+            
+            return cnt
+
+        la = get_list_len(headA)
+        lb = get_list_len(headB)
+
+        if la > lb:
+            p1, p2 = headA, headB
+        else:
+            p1, p2 = headB, headA
+
+        c = abs(la - lb)
+        while c:
+            p1 = p1.next
+            c -= 1
+
+        while p1 != p2:
+            p1 = p1.next
+            p2 = p2.next
+
+        return p1
+```
+
+</details>
+
+<summary><b>思路2</b></summary>
+
+> [两个链表的第一个公共节点 - Krahets](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/solution/jian-zhi-offer-52-liang-ge-lian-biao-de-gcruu/)
+
+- 本质上跟思路1 是类似的，但是更巧妙，写法也更简洁；
+- 把 headA 和 headB 都分为两段，记 `headA = la + lc`，`headB = lb + lc`，其中 `lc` 为公共部分；
+- 对指针 pa，当遍历完 headA 后紧接着遍历 headB；指针 pb 和 headB 同理，那么遍历过程如下：
+
+    ```
+    headA -> headB = la -> lc -> lb -> lc
+    headB -> headA = lb -> lc -> la -> lc
+    ```
+
+- 因为 `la + lc + lb == lb + lc + la`，当 pa 和 pb 遍历完这三段时，接下去的第一个节点就是公共节点；
+- 如果 lc 部分的长度为 0，那么公共节点就是 NULL；
+
+<details><summary><b>Python</b></summary>
+
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        
+        pa, pb = headA, headB
+        while pa != pb:
+            # 如果两个链表没有公共节点，循环结束时，pa == pa == None
+            pa = pa.next if pa else headB
+            pb = pb.next if pb else headA
+        
+        return pa
+```
+
+</details>
+
+---
+### `剑指Offer No.0053 1-求0～n-1中缺失的数字 (简单, 2022-01)`
+
+
+[![二分](https://img.shields.io/badge/二分-lightgray.svg)](算法-二分.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 二分 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+数组 [0, .., n-1] 中缺失一位，找出这个数字
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+一个长度为n-1的递增排序数组中的所有数字都是唯一的，并且每个数字都在范围0～n-1之内。在范围0～n-1内的n个数字中有且只有一个数字不在该数组中，请找出这个数字。
+
+示例 1:
+    输入: [0,1,3]
+    输出: 2
+示例 2:
+    输入: [0,1,2,3,4,5,6,7,9]
+    输出: 8
+
+限制：
+    1 <= 数组长度 <= 10000
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 在该数字之前，有 `nums[i] == i`，之后有 `nums[i] != i`，根据该性质可以使用二分查找；
+- 跳出循环时，变量 `l` 和 `r` 分别指向 “右子数组的首位元素” 和 “左子数组的末位元素”，即 `l == r + 1`，缺失的元素正是 `l`
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+
+        l, r = 0, len(nums) - 1
+
+        while l <= r:
+            m = (l + r) // 2
+            if nums[m] == m:
+                l = m + 1
+            else:
+                r = m - 1
+        
+        return l
+```
+
+</details>
+
+---
+### `剑指Offer No.0053 2-在排序数组中查找数字 (简单, 2022-01)`
+
+
+[![二分](https://img.shields.io/badge/二分-lightgray.svg)](算法-二分.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 二分 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+统计给定数字在排序数组中出现的次数。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+统计一个数字在排序数组中出现的次数。
+
+示例 1:
+    输入: nums = [5,7,7,8,8,10], target = 8
+    输出: 2
+示例 2:
+    输入: nums = [5,7,7,8,8,10], target = 6
+    输出: 0
+
+提示：
+    0 <= nums.length <= 10^5
+    -10^9 <= nums[i] <= 10^9
+    nums 是一个非递减数组
+    -10^9 <= target <= 10^9
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 二分法分别查找目标值的左右边界；
+- 小技巧：如果二分查找的是右边界，那么可以通过查找 `target - 1` 来获得左边界，因为二分查找实际上找的是目标值的插入位置；
+
+<details><summary><b>Python：使用库函数</b></summary>
+
+```python
+import bisect
+
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        idx_r, idx_l = bisect.bisect_right(nums, target), bisect.bisect_left(nums, target)
+        # idx_r, idx_l = bisect.bisect_right(nums, target), bisect.bisect_right(nums, target - 1)
+        return idx_r - idx_l
+```
+
+</details>
+
+<details><summary><b>Python：不使用库函数</b></summary>
+
+```python
+class Solution:
+    def search(self, nums: [int], target: int) -> int:
+        
+        def bisect(tar):
+            l, r = 0, len(nums) - 1
+            while l <= r:
+                m = (l + r) // 2
+                if nums[m] <= tar: 
+                    l = m + 1
+                else: 
+                    r = m - 1
+            return l
+        
+        return bisect(target) - bisect(target - 1)
+```
+
+</details>
+
+---
+### `剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2022-01)`
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
@@ -5432,31 +5653,31 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-给定一棵二叉搜索树，请找出其中第k大的节点。
+给定一棵二叉搜索树，请找出其中第 k 大的节点的值。
 ```
 
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-给定一棵二叉搜索树，请找出其中第k大的节点。
+给定一棵二叉搜索树，请找出其中第 k 大的节点的值。
 
 示例 1:
     输入: root = [3,1,4,null,2], k = 1
-     3
-    / \
-   1   4
-    \
-     2
+       3
+      / \
+     1   4
+      \
+       2
     输出: 4
 示例 2:
     输入: root = [5,3,6,2,4,null,null,1], k = 3
-        5
-       / \
-      3   6
-     / \
-    2   4
-   /
-  1
+           5
+          / \
+         3   6
+        / \
+       2   4
+      /
+     1
     输出: 4
 
 限制：
@@ -5474,12 +5695,12 @@ class Solution:
 
 <summary><b>思路</b></summary>
 
-- 二叉搜索树的性质：中序遍历的结果为递增序列；
-- 为了得到第 K 大，需要递减序列，“反向”中序遍历即可：即按“右中左”的顺序深度搜索；
+- 根据二叉搜索树的性质，其中序遍历的结果为递增序列；
+- 为了得到第 k 大的数，需要递减序列，“反向”中序遍历即可：即按“右中左”的顺序深度搜索（正向为“左中右”）；
 - 利用辅助变量提前结束搜索；
 
 
-<details><summary><b>C++：反向中序遍历</b></summary>
+<details><summary><b>C++</b></summary>
 
 ```cpp
 /**
@@ -5494,35 +5715,69 @@ class Solution:
 class Solution {
     int k;
     int ret;
+
+    void inOrder(TreeNode* node) {
+        if (node == nullptr) return;
+
+        inOrder(node->right);  // 先遍历右子树
+        if (--this->k == 0) {  // 因为 k>0，实际上第 1 大指的是索引为 0 的位置，所以要先 --
+            this->ret = node->val;
+            return;
+        }
+        inOrder(node->left);
+    }
+    
 public:
     int kthLargest(TreeNode* root, int k) {
         this->k = k;
         inOrder(root);
         return this->ret;
     }
-
-    void inOrder(TreeNode* node) {
-        if (node == nullptr) return;
-
-        inOrder(node->right);  // 先遍历右子树
-        if (this->k == 0) return;
-        this->k -= 1;
-        if (this->k == 0) this->ret = node->val;
-        inOrder(node->left);
-    }
 };
 ```
 
 </details>
 
+<details><summary><b>Python</b></summary>
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def kthLargest(self, root: TreeNode, k: int) -> int:
+
+        self.cnt = 0
+        self.ret = -1
+        
+        def dfs(node):
+            if node is None:
+                return 
+            
+            dfs(node.right)
+            self.cnt += 1
+            if self.cnt == k:
+                self.ret = node.val
+                return 
+            dfs(node.left)
+        
+        dfs(root)
+        return self.ret
+```
+
+</details>
+
 ---
-### `剑指Offer No.0055 二叉树的深度 (简单, 2021-11)`
+### `剑指Offer No.0055 1-求二叉树的深度 (简单, 2022-01)`
 
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
-[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
-<!-- Tag: 二叉树、递归 -->
+<!-- Tag: 二叉树 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -5536,14 +5791,14 @@ public:
 输入一棵二叉树的根节点，求该树的深度。从根节点到叶节点依次经过的节点（含根、叶节点）形成树的一条路径，最长路径的长度为树的深度。
 
 例如：
-给定二叉树 [3,9,20,null,null,15,7]，
-
-    3
-   / \
-  9  20
-    /  \
-   15   7
-返回它的最大深度 3 。
+    给定二叉树 [3,9,20,null,null,15,7]，
+    
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    返回它的最大深度 3 。
 
 提示：
     节点总数 <= 10000
@@ -5587,8 +5842,447 @@ public:
 
 </details>
 
+
+<details><summary><b>Python</b></summary>
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+
+        def dfs(node):
+            if node is None:
+                return 0
+
+            return 1 + max(dfs(node.left), dfs(node.right))
+
+        # def dfs(node):  # 可以看做是一个后序遍历的过程
+        #     if node is None:
+        #         return 0
+            
+        #     lh = dfs(node.left)
+        #     # ...
+        #     rh = dfs(node.right)
+        #     # ...
+        #     return 1 + max(lh, rh)
+
+        return dfs(root)
+```
+
+</details>
+
 ---
-### `剑指Offer No.0063 买卖股票的最佳时机 (中等, 2021-11)`
+### `剑指Offer No.0055 2-判断是否为平衡二叉树 (简单, 2022-01)`
+
+
+[![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 二叉树 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+输入一棵二叉树的根节点，判断该树是不是平衡二叉树。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+输入一棵二叉树的根节点，判断该树是不是平衡二叉树。如果某二叉树中任意节点的左右子树的深度相差不超过1，那么它就是一棵平衡二叉树。
+
+示例 1:
+    给定二叉树 [3,9,20,null,null,15,7]
+
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    返回 true 。
+
+示例 2:
+    给定二叉树 [1,2,2,3,3,null,null,4,4]
+
+           1
+          / \
+         2   2
+        / \
+       3   3
+      / \
+     4   4
+    返回 false 。
+
+限制：
+    0 <= 树的结点个数 <= 10000
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路1: 先序遍历，自顶向下（次优解）</b></summary>
+
+- 设计一个求树高度的子函数；
+- 如果左右子树的高度差 <= 1 则返回 True；然后递归遍历左右子树；
+- 存在大量重复计算，时间复杂度 `O(NlogN)`
+
+<details><summary><b>Python</b></summary>
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isBalanced(self, root: TreeNode) -> bool:
+
+        def depth(node):
+            if node is None:
+                return 0
+            return 1 + max(depth(node.left), depth(node.right))
+        
+        def dfs(node):
+            if node is None:
+                return True
+            
+            return abs(depth(node.left) - depth(node.right)) <= 1 \
+                and dfs(node.left) \
+                and dfs(node.right)
+            
+        return dfs(root)
+```
+
+</details>
+
+<summary><b>思路2: 后序遍历，自底向上（最优解）</b></summary>
+
+> [平衡二叉树（从底至顶、从顶至底，清晰图解）](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/solution/mian-shi-ti-55-ii-ping-heng-er-cha-shu-cong-di-zhi/)
+
+<details><summary><b>Python</b></summary>
+
+- 可以在求二叉树深度的过程中，提前判断是否为平衡二叉树，若不是则提前结束（剪枝）；
+- 时间复杂度：`O(N)`；
+
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isBalanced(self, root: TreeNode) -> bool:
+
+        def dfs(node):
+            if node is None:
+                return 0
+
+            lh = dfs(node.left)  # 左子树的高度
+            if lh == -1:
+                return -1
+
+            rh = dfs(node.right)  # 右子树的高度
+            if rh == -1:
+                return -1
+
+            if abs(lh - rh) <= 1:
+                return 1 + max(lh, rh) + 1
+            else:
+                return -1
+
+        return dfs(root) != -1
+```
+
+</details>
+
+---
+### `剑指Offer No.0056 1-数组中数字出现的次数 (中等, 2022-01)`
+
+
+[![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 位运算 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+一个整型数组中除两个数字外，其他数字都出现了两次。求这两个只出现一次的数字。
+要求时间复杂度是O(n)，空间复杂度是O(1)。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+一个整型数组 nums 里除两个数字之外，其他数字都出现了两次。请写程序找出这两个只出现一次的数字。要求时间复杂度是O(n)，空间复杂度是O(1)。
+
+示例 1：
+    输入：nums = [4,1,4,6]
+    输出：[1,6] 或 [6,1]
+示例 2：
+    输入：nums = [1,2,10,4,1,4,3,3]
+    输出：[2,10] 或 [10,2]
+
+限制：
+    2 <= nums.length <= 10000
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 异或运算的性质：
+    ```
+    性质1：0^a = a
+    性质2：a^a = 0
+    性质3（交换律）：a^b = b^a
+    性质4（结合律）：(a^b)^c = a^(b^c)
+    ```
+- 根据性质1 和性质2，可以构造如下算法：
+    ```
+    定义 all_xor(nums) := nums[0] ^ nums[1] ^ .. ^ nums[-1]
+    记这两个不同的数分别为 a 和 b
+    则 ab = a ^ b = all_xor(nums)  # 存在两个相同数字的都被消去
+    因为 a != b，则 ab 的二进制表示中必然有一个为 1（因为 0^1=1）
+    根据这个位置的 1 将 nums 分为两组 ls 和 rs
+    则结果为 [all_xor(ls), all_xor(rs)]
+    ```
+
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def singleNumbers(self, nums: List[int]) -> List[int]:
+        
+        def all_xor(ns):
+            r = 0
+            for x in ns:
+                r ^= x
+            return r
+
+        # 求 a^b
+        ab = all_xor(nums)
+
+        # 找出二进制 ab 中从左往右第一个 1 的索引
+        idx = 0
+        while not ab & 1:
+            ab >>= 1
+            idx += 1
+        
+        # 将 nums 根据 1 的位置分为两部分
+        y = 1 << idx
+        ls, rs = [], []
+        for x in nums:
+            if x & y:
+                ls.append(x)
+            else:
+                rs.append(x)
+        
+        return [all_xor(ls), all_xor(rs)]
+        
+```
+
+</details>
+
+---
+### `剑指Offer No.0057 1-和为s的两个数字 (简单, 2022-01)`
+
+
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 双指针 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给定一个递增数组和目标值 s，求数组中和为 s 的两个数；
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+输入一个递增排序的数组和一个数字s，在数组中查找两个数，使得它们的和正好是s。
+如果有多对数字的和等于s，则输出任意一对即可。
+
+示例 1：
+    输入：nums = [2,7,11,15], target = 9
+    输出：[2,7] 或者 [7,2]
+示例 2：
+    输入：nums = [10,26,30,31,47,60], target = 40
+    输出：[10,30] 或者 [30,10]
+
+限制：
+    1 <= nums.length <= 10^5
+    1 <= nums[i] <= 10^6
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 首尾双指针，相向遍历；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+        l, r = 0, len(nums) - 1
+
+        while l <= r:
+            s = nums[l] + nums[r]
+            if s == target:
+                return [nums[l], nums[r]]
+            if s < target:
+                l += 1
+            else:
+                r -= 1
+        
+        return []
+```
+
+</details>
+
+---
+### `剑指Offer No.0057 2-和为s的连续正数序列 (简单, 2022-01)`
+
+
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+<!-- Tag: 双指针 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
+
+序列内的数字由小到大排列，不同序列按照首个数字从小到大排列。
+
+示例 1：
+    输入：target = 9
+    输出：[[2,3,4],[4,5]]
+示例 2：
+    输入：target = 15
+    输出：[[1,2,3,4,5],[4,5,6],[7,8]]
+
+限制：
+    1 <= target <= 10^5
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路1：双指针</b></summary>
+
+```
+1 初始化 左边界 l = 1 ，右边界 r = 2，结果列表 ret = []；
+2 循环 当 l + r <= target 时：
+    记 l 到 r 的连续和为 s
+    当 s > target 时： 向右移动左边界 l += 1；
+    当 s < target 时： 向右移动右边界 r += 1；
+    当 s = target 时： 记录连续整数序列，左右边界同时右移，l += 1, r += 1；
+3 返回结果列表 ret；
+
+```
+
+- **Tips**: 求连续和可以在移动双指针的过程中同步加减，并不需要每次用求和公式计算；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def findContinuousSequence(self, target: int) -> List[List[int]]:
+
+        l, r = 1, 2
+        s = l + r
+
+        ret = []
+        while l + r <= target:
+            if s > target:
+                s -= l  # 先减
+                l += 1
+            elif s < target:
+                r += 1
+                s += r  # 后加
+            else:
+                ret.append(list(range(l, r + 1)))
+                s -= l  # 先减
+                l += 1
+                r += 1
+                s += r  # 后加
+
+        return ret
+
+```
+
+</details>
+
+
+<summary><b>思路2：数学</b></summary>
+
+> [和为 s 的连续正数序列（求和公式 / 滑动窗口，清晰图解）](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/jian-zhi-offer-57-ii-he-wei-s-de-lian-xu-t85z/)
+
+- 当确定左边界和 target 时，可以通过求根公式得到右边界（去掉负根）；
+- 当右边界为整数时得到一组解；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def findContinuousSequence(self, target: int):
+        i, j, res = 1, 2, []
+        while i < j:
+            # 当确定左边界和 target 时，可以通过求根公式得到右边界（去掉负根）
+            j = (-1 + (1 + 4 * (2 * target + i * i - i)) ** 0.5) / 2
+            # 当 j 为整数时得到一组解
+            if i < j and j == int(j):
+                res.append(list(range(i, int(j) + 1)))
+            i += 1
+        return res
+```
+
+</details>
+
+---
+### `剑指Offer No.0063 买卖股票的最佳时机 (中等, 2022-01)`
 
 
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
@@ -5660,7 +6354,7 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0067 把字符串转换成整数 (中等, 2021-11)`
+### `剑指Offer No.0067 把字符串转换成整数 (中等, 2022-01)`
 
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
