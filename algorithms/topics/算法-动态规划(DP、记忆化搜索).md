@@ -41,10 +41,10 @@ Problems Index
 
 ### `LeetCode No.0005 最长回文子串 (中等, 2021-10)`
 
-
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: DP、模拟 -->
 
 <summary><b>问题简述</b></summary>
@@ -140,12 +140,13 @@ public:
 </details>
 
 ---
-### `LeetCode No.0343 整数拆分 (中等, 2021-12)`
 
+### `LeetCode No.0343 整数拆分 (中等, 2021-12)`
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 数学、动态规划 -->
 
 <summary><b>问题简述</b></summary>
@@ -261,12 +262,13 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`
 
+### `剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![记忆化搜索](https://img.shields.io/badge/记忆化搜索-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: DP、记忆化搜索 -->
 
 <summary><b>问题简述</b></summary>
@@ -352,12 +354,13 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`
 
+### `剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![记忆化搜索](https://img.shields.io/badge/记忆化搜索-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: DP、记忆化搜索 -->
 
 <summary><b>问题简述</b></summary>
@@ -443,11 +446,12 @@ class Solution:
 </details>
 
 ---
+
 ### `剑指Offer No.0010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`
 
-
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: DP -->
 
 <summary><b>问题简述</b></summary>
@@ -508,13 +512,14 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0014 剪绳子1（整数拆分） (中等, 2021-11)`
 
+### `剑指Offer No.0014 剪绳子1（整数拆分） (中等, 2021-11)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![贪心](https://img.shields.io/badge/贪心-lightgray.svg)](技巧-贪心.md)
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: 动态规划、贪心、数学 -->
 
 <summary><b>问题简述</b></summary>
@@ -629,11 +634,12 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0042 连续子数组的最大和 (简单, 2021-12)`
 
+### `剑指Offer No.0042 连续子数组的最大和 (简单, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: 动态规划 -->
 
 <summary><b>问题简述</b></summary>
@@ -717,11 +723,12 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`
 
+### `剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: 动态规划 -->
 
 <summary><b>问题简述</b></summary>
@@ -802,11 +809,12 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`
 
+### `剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: 动态规划 -->
 
 <summary><b>问题简述</b></summary>
@@ -935,13 +943,14 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`
 
+### `剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: 哈希表、双指针、动态规划 -->
 
 <summary><b>问题简述</b></summary>
@@ -1060,12 +1069,13 @@ class Solution:
 </details>
 
 ---
-### `剑指Offer No.0049 丑数 (中等, 2021-12)`
 
+### `剑指Offer No.0049 丑数 (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
 <!-- Tag: 动态规划、经典 -->
 
 <summary><b>问题简述</b></summary>

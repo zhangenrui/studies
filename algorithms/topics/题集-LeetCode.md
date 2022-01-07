@@ -35,9 +35,9 @@ Problems Index
 
 ### `LeetCode No.0001 两数之和 (简单, 2021-10)`
 
-
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 哈希表 -->
 
 <summary><b>问题简述</b></summary>
@@ -105,11 +105,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0002 两数相加 (中等, 2021-10)`
 
+### `LeetCode No.0002 两数相加 (中等, 2021-10)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 链表 -->
 
 <summary><b>问题简述</b></summary>
@@ -194,12 +195,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0005 最长回文子串 (中等, 2021-10)`
 
+### `LeetCode No.0005 最长回文子串 (中等, 2021-10)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: DP、模拟 -->
 
 <summary><b>问题简述</b></summary>
@@ -295,11 +297,12 @@ public:
 </details>
 
 ---
-### `LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`
 
+### `LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 双指针 -->
 
 <summary><b>问题描述</b></summary>
@@ -351,11 +354,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0015 三数之和 (中等, 2021-10)`
 
+### `LeetCode No.0015 三数之和 (中等, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 双指针 -->
 
 <summary><b>问题简述</b></summary> 
@@ -454,11 +458,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0016 最接近的三数之和 (中等, 2021-10)`
 
+### `LeetCode No.0016 最接近的三数之和 (中等, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 双指针 -->
 
 <summary><b>问题简述</b></summary> 
@@ -572,11 +577,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0021 合并两个有序链表 (简单, 2021-10)`
 
+### `LeetCode No.0021 合并两个有序链表 (简单, 2021-10)`
 
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 递归 -->
 
 <summary><b>问题描述</b></summary>
@@ -666,12 +672,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0029 两数相除 (中等, 2021-10)`
 
+### `LeetCode No.0029 两数相除 (中等, 2021-10)`
 
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 位运算、二分查找 -->
 
 <summary><b>问题简述</b></summary>
@@ -757,11 +764,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`
 
+### `LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 二分查找 -->
 
 <summary><b>问题简述</b></summary>
@@ -854,11 +862,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0042 接雨水 (困难, 2021-10)`
 
+### `LeetCode No.0042 接雨水 (困难, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 双指针 -->
 
 <summary><b>问题描述</b></summary>
@@ -941,11 +950,12 @@ public:
 </details>
 
 ---
-### `LeetCode No.0086 分隔链表 (中等, 2021-10)`
 
+### `LeetCode No.0086 分隔链表 (中等, 2021-10)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 链表 -->
 
 <summary><b>问题描述</b></summary>
@@ -1018,12 +1028,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`
 
+### `LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 二叉树，递归 -->
 
 <summary><b>问题描述</b></summary>
@@ -1072,12 +1083,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`
 
+### `LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 二叉树，DFS -->
 
 <summary><b>问题描述</b></summary>
@@ -1136,11 +1148,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`
 
+### `LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 双指针 -->
 
 <summary><b>问题简述</b></summary>
@@ -1211,12 +1224,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`
 
+### `LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 哈希表、位运算 -->
 
 <summary><b>问题简述</b></summary>
@@ -1349,11 +1363,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`
 
+### `LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 二分查找 -->
 
 <summary><b>问题简述</b></summary>
@@ -1468,12 +1483,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0343 整数拆分 (中等, 2021-12)`
 
+### `LeetCode No.0343 整数拆分 (中等, 2021-12)`
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 数学、动态规划 -->
 
 <summary><b>问题简述</b></summary>
@@ -1589,12 +1605,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`
 
+### `LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 二分查找、模拟 -->
 
 <summary><b>问题描述</b></summary>
@@ -1758,11 +1775,12 @@ SortedDict({2: 22, 3: 33, 4: 44, 6: 66, 7: 77})
 </details>
 
 ---
-### `LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`
 
+### `LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 字符串 -->
 
 <summary><b>问题描述</b></summary>
@@ -1804,13 +1822,14 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0437 路径总和3 (中等, 2021-10)`
 
+### `LeetCode No.0437 路径总和3 (中等, 2021-10)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
 [![深度优先搜索](https://img.shields.io/badge/深度优先搜索-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 二叉树、深度优先搜索、前缀和 -->
 
 <summary><b>问题描述</b></summary>
@@ -1931,12 +1950,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0441 排列硬币 (简单, 2021-10)`
 
+### `LeetCode No.0441 排列硬币 (简单, 2021-10)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 二分查找、数学 -->
 
 <summary><b>问题简述</b></summary>
@@ -1999,11 +2019,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0496 下一个更大元素 (简单, 2021-11)`
 
+### `LeetCode No.0496 下一个更大元素 (简单, 2021-11)`
 
 [![单调栈](https://img.shields.io/badge/单调栈-lightgray.svg)](技巧-单调栈.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 单调栈 -->
 
 <summary><b>问题简述</b></summary>
@@ -2079,11 +2100,12 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0611 有效三角形的个数 (中等, 2021-10)`
 
+### `LeetCode No.0611 有效三角形的个数 (中等, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 双指针 -->
 
 <summary><b>问题简述</b></summary> 
@@ -2150,12 +2172,13 @@ class Solution:
 </details>
 
 ---
-### `LeetCode No.0859 亲密字符串 (简单, 2021-11)`
 
+### `LeetCode No.0859 亲密字符串 (简单, 2021-11)`
 
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
 <!-- Tag: 模拟、字符串 -->
 
 <summary><b>问题简述</b></summary>

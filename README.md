@@ -84,7 +84,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [58] <a href="algorithms/topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [60] <a href="algorithms/topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.0004 二维数组中的查找 (中等, 2021-11)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0004-二维数组中的查找-中等-2021-11)
@@ -142,6 +142,8 @@ Algorithm Studies
 - [`剑指Offer No.0056 1-数组中数字出现的次数 (中等, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0056-1-数组中数字出现的次数-中等-2022-01)
 - [`剑指Offer No.0057 1-和为s的两个数字 (简单, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0057-1-和为s的两个数字-简单-2022-01)
 - [`剑指Offer No.0057 2-和为s的连续正数序列 (简单, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0057-2-和为s的连续正数序列-简单-2022-01)
+- [`剑指Offer No.0058 1-翻转单词顺序 (简单, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0058-1-翻转单词顺序-简单-2022-01)
+- [`剑指Offer No.0058 2-左旋转字符串 (简单, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0058-2-左旋转字符串-简单-2022-01)
 - [`剑指Offer No.0063 买卖股票的最佳时机 (中等, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0063-买卖股票的最佳时机-中等-2022-01)
 - [`剑指Offer No.0067 把字符串转换成整数 (中等, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no0067-把字符串转换成整数-中等-2022-01)
 
@@ -211,7 +213,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-双指针、滑动窗口 [12] <a href="algorithms/topics/技巧-双指针、滑动窗口.md">¶</a></b></summary>
+<details><summary><b> 技巧-双指针、滑动窗口 [13] <a href="algorithms/topics/技巧-双指针、滑动窗口.md">¶</a></b></summary>
 
 - [`LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`](algorithms/topics/技巧-双指针、滑动窗口.md#leetcode-no0011-盛最多水的容器-中等-2021-10)
 - [`LeetCode No.0015 三数之和 (中等, 2021-10)`](algorithms/topics/技巧-双指针、滑动窗口.md#leetcode-no0015-三数之和-中等-2021-10)
@@ -225,6 +227,7 @@ Algorithm Studies
 - [`剑指Offer No.0052 两个链表的第一个公共节点 (简单, 2022-01)`](algorithms/topics/技巧-双指针、滑动窗口.md#剑指offer-no0052-两个链表的第一个公共节点-简单-2022-01)
 - [`剑指Offer No.0057 1-和为s的两个数字 (简单, 2022-01)`](algorithms/topics/技巧-双指针、滑动窗口.md#剑指offer-no0057-1-和为s的两个数字-简单-2022-01)
 - [`剑指Offer No.0057 2-和为s的连续正数序列 (简单, 2022-01)`](algorithms/topics/技巧-双指针、滑动窗口.md#剑指offer-no0057-2-和为s的连续正数序列-简单-2022-01)
+- [`剑指Offer No.0058 1-翻转单词顺序 (简单, 2022-01)`](algorithms/topics/技巧-双指针、滑动窗口.md#剑指offer-no0058-1-翻转单词顺序-简单-2022-01)
 
 </details>
 
@@ -253,11 +256,13 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 数据结构-字符串 [4] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
+<details><summary><b> 数据结构-字符串 [6] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
 
+- [`*模板 No.001 split (简单, 模板库-字符串)`](algorithms/topics/数据结构-字符串.md#模板-no001-split-简单-模板库-字符串)
 - [`LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`](algorithms/topics/数据结构-字符串.md#leetcode-no0434-字符串中的单词数-简单-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#leetcode-no0859-亲密字符串-简单-2021-11)
 - [`剑指Offer No.0005 替换空格 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#剑指offer-no0005-替换空格-简单-2021-11)
+- [`剑指Offer No.0058 2-左旋转字符串 (简单, 2022-01)`](algorithms/topics/数据结构-字符串.md#剑指offer-no0058-2-左旋转字符串-简单-2022-01)
 - [`剑指Offer No.0067 把字符串转换成整数 (中等, 2022-01)`](algorithms/topics/数据结构-字符串.md#剑指offer-no0067-把字符串转换成整数-中等-2022-01)
 
 </details>

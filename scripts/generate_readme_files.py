@@ -100,6 +100,7 @@ class AlgorithmReadme:
     def __init__(self):
         """"""
         self.args = args
+        self.template_name = '*模板'
         self.toc_head = 'Algorithm Studies'
         self.prefix_topics = args.prefix_topics
         self.prefix_problems = args.prefix_problems
@@ -133,7 +134,7 @@ class AlgorithmReadme:
 
     def gen_tags_svg(self, tags):  # noqa
         """"""
-        lns = ['\n']
+        lns = []
         for idx, (tag, topic) in enumerate(tags.items()):
             """"""
             # ![ForgiveDB](https://img.shields.io/badge/ForgiveDB-HuiZ-brightgreen.svg)
@@ -162,21 +163,24 @@ class AlgorithmReadme:
         for fn, fp, suffix in file_iter:
             # fn, _ = os.path.splitext(f)
             # fp = os.path.join(args.problems_path, f)
-            src, pid, lv, pn = fn.split('_')
+            src, pid, lv, pn = fn.rsplit('_', maxsplit=3)
 
             txt = open(fp, encoding='utf8').read()
-            tags = RE_TAG.search(txt)
-            tags = [tag.strip() for tag in RE_SEP.split(tags.group(1)) + [src]]
+            tag_append = [src] if src != self.template_name else []
+            tags = RE_SEP.split(RE_TAG.search(txt).group(1)) + tag_append
+            tags = [tag.strip() for tag in tags]
             tag2topic = {tag: self.tag2topic_map[tag.lower()] for tag in tags}
             topics = list(tag2topic.values())
 
             head = f'`{src} No.{pid} {pn} ({lv}, {suffix})`'
             lines = txt.split('\n')
             # lines[0] = f'### {head}'
+            lines.insert(0, '')
             lines.insert(0, self.gen_tags_svg(tag2topic))
+            lines.insert(0, '')
             lines.insert(0, f'### {head}')
             txt = '\n'.join(lines)
-            txt = txt.rstrip().replace(r'../../../_assets', '../_assets') + '\n\n---'
+            txt = txt.rstrip().replace(r'../../../_assets', '../_assets') + '\n\n---\n'
             for topic in topics:
                 problems_dt[topic].append((head, txt))
 
