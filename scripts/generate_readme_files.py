@@ -256,10 +256,14 @@ class AlgorithmReadme:
         file_write_helper(os.path.join(args.algo_path, 'README.md'), '\n'.join(readme_lines))
 
         # append_blocks = sorted(append_blocks, key=lambda x: (x[1], -x[2]))
+
+        def block_assert(_block):
+            return '题集' in _block[0] or '模板' in _block[0]
+
         append_blocks = sorted(append_blocks)
         for it in append_blocks:
             block = it[0]
-            if '题集' in block[0]:
+            if block_assert(block):
                 append_lines += block
 
         append_lines.append('<details><summary><b>More ...<a href="{url}">¶</a></b></summary>\n'.format(
@@ -268,7 +272,7 @@ class AlgorithmReadme:
 
         for it in append_blocks:
             block = it[0]
-            if '题集' not in block[0]:
+            if not block_assert(block):
                 append_lines += block
 
         append_lines.append(end_details)

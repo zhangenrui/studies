@@ -55,6 +55,12 @@ Repo Index
 Algorithm Studies
 ---
 
+<details><summary><b> 基础-模板 [1] <a href="algorithms/topics/基础-模板.md">¶</a></b></summary>
+
+- [`*模板 字符串 split (简单, 模板库-字符串)`](algorithms/topics/基础-模板.md#模板-字符串-split-简单-模板库-字符串)
+
+</details>
+
 <details><summary><b> 题集-LeetCode [24] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0001-两数之和-简单-2021-10)
@@ -189,12 +195,6 @@ Algorithm Studies
 - [`剑指Offer No.0044 数字序列中某一位的数字 (中等, 2021-12)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no0044-数字序列中某一位的数字-中等-2021-12)
 - [`剑指Offer No.0063 买卖股票的最佳时机 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no0063-买卖股票的最佳时机-中等-2022-01)
 - [`剑指Offer No.0067 把字符串转换成整数 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no0067-把字符串转换成整数-中等-2022-01)
-
-</details>
-
-<details><summary><b> 基础-模板 [1] <a href="algorithms/topics/基础-模板.md">¶</a></b></summary>
-
-- [`*模板 字符串 split (简单, 模板库-字符串)`](algorithms/topics/基础-模板.md#模板-字符串-split-简单-模板库-字符串)
 
 </details>
 
