@@ -2022,7 +2022,7 @@ class Solution:
 
 ### `LeetCode No.0496 下一个更大元素 (简单, 2021-11)`
 
-[![单调栈](https://img.shields.io/badge/单调栈-lightgray.svg)](技巧-单调栈.md)
+[![单调栈](https://img.shields.io/badge/单调栈-lightgray.svg)](技巧-单调栈、单调队列.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!-- Tag: 单调栈 -->

@@ -14,14 +14,14 @@ Problems Index
 ---
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](#leetcode-no0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode No.0437 路径总和3 (中等, 2021-10)`](#leetcode-no0437-路径总和3-中等-2021-10)
-- [`剑指Offer No.0006 从尾到头打印链表 (简单, 2021-11)`](#剑指offer-no0006-从尾到头打印链表-简单-2021-11)
-- [`剑指Offer No.0012 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no0012-矩阵中的路径-中等-2021-11)
-- [`剑指Offer No.0012 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no0012-矩阵中的路径-中等-2021-11)
-- [`剑指Offer No.0013 机器人的运动范围 (中等, 2021-11)`](#剑指offer-no0013-机器人的运动范围-中等-2021-11)
-- [`剑指Offer No.0017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-no0017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
-- [`剑指Offer No.0034 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no0034-二叉树中和为某一值的路径-中等-2021-12)
-- [`剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no0038-字符串的排列全排列-中等-2021-12)
-- [`剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no0054-二叉搜索树的第k大节点-简单-2022-01)
+- [`剑指Offer No.006 从尾到头打印链表 (简单, 2021-11)`](#剑指offer-no006-从尾到头打印链表-简单-2021-11)
+- [`剑指Offer No.012 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no012-矩阵中的路径-中等-2021-11)
+- [`剑指Offer No.012 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no012-矩阵中的路径-中等-2021-11)
+- [`剑指Offer No.013 机器人的运动范围 (中等, 2021-11)`](#剑指offer-no013-机器人的运动范围-中等-2021-11)
+- [`剑指Offer No.017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-no017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
+- [`剑指Offer No.034 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no034-二叉树中和为某一值的路径-中等-2021-12)
+- [`剑指Offer No.038 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no038-字符串的排列全排列-中等-2021-12)
+- [`剑指Offer No.054 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no054-二叉搜索树的第k大节点-简单-2022-01)
 
 ---
 
@@ -218,7 +218,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0006 从尾到头打印链表 (简单, 2021-11)`
+### `剑指Offer No.006 从尾到头打印链表 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
@@ -311,7 +311,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0012 矩阵中的路径 (中等, 2021-11)`
+### `剑指Offer No.012 矩阵中的路径 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![DFS+回溯](https://img.shields.io/badge/DFS+回溯-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -406,7 +406,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0012 矩阵中的路径 (中等, 2021-11)`
+### `剑指Offer No.012 矩阵中的路径 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![DFS+回溯](https://img.shields.io/badge/DFS+回溯-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -501,7 +501,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0013 机器人的运动范围 (中等, 2021-11)`
+### `剑指Offer No.013 机器人的运动范围 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -567,7 +567,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`
+### `剑指Offer No.017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -656,7 +656,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0034 二叉树中和为某一值的路径 (中等, 2021-12)`
+### `剑指Offer No.034 二叉树中和为某一值的路径 (中等, 2021-12)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -748,7 +748,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0038 字符串的排列（全排列） (中等, 2021-12)`
+### `剑指Offer No.038 字符串的排列（全排列） (中等, 2021-12)`
 
 [![DFS+剪枝](https://img.shields.io/badge/DFS+剪枝-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
@@ -1007,7 +1007,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0054 二叉搜索树的第k大节点 (简单, 2022-01)`
+### `剑指Offer No.054 二叉搜索树的第k大节点 (简单, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-树、二叉树.md)
 [![dfs](https://img.shields.io/badge/dfs-lightgray.svg)](算法-深度优先搜索(DFS).md)

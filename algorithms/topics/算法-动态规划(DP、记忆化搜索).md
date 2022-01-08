@@ -27,15 +27,15 @@ Problems Index
 ---
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](#leetcode-no0343-整数拆分-中等-2021-12)
-- [`剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`](#剑指offer-no0010-斐波那契数列-1-简单-2021-11)
-- [`剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`](#剑指offer-no0010-斐波那契数列-1-简单-2021-11)
-- [`剑指Offer No.0010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`](#剑指offer-no0010-斐波那契数列-2青蛙跳台阶-简单-2021-11)
-- [`剑指Offer No.0014 剪绳子1（整数拆分） (中等, 2021-11)`](#剑指offer-no0014-剪绳子1整数拆分-中等-2021-11)
-- [`剑指Offer No.0042 连续子数组的最大和 (简单, 2021-12)`](#剑指offer-no0042-连续子数组的最大和-简单-2021-12)
-- [`剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](#剑指offer-no0046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
-- [`剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`](#剑指offer-no0047-礼物的最大价值-中等-2021-12)
-- [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-12)
-- [`剑指Offer No.0049 丑数 (中等, 2021-12)`](#剑指offer-no0049-丑数-中等-2021-12)
+- [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](#剑指offer-no010-斐波那契数列-1-简单-2021-11)
+- [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](#剑指offer-no010-斐波那契数列-1-简单-2021-11)
+- [`剑指Offer No.010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`](#剑指offer-no010-斐波那契数列-2青蛙跳台阶-简单-2021-11)
+- [`剑指Offer No.014 剪绳子1（整数拆分） (中等, 2021-11)`](#剑指offer-no014-剪绳子1整数拆分-中等-2021-11)
+- [`剑指Offer No.042 连续子数组的最大和 (简单, 2021-12)`](#剑指offer-no042-连续子数组的最大和-简单-2021-12)
+- [`剑指Offer No.046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](#剑指offer-no046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
+- [`剑指Offer No.047 礼物的最大价值 (中等, 2021-12)`](#剑指offer-no047-礼物的最大价值-中等-2021-12)
+- [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
+- [`剑指Offer No.049 丑数 (中等, 2021-12)`](#剑指offer-no049-丑数-中等-2021-12)
 
 ---
 
@@ -263,7 +263,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`
+### `剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![记忆化搜索](https://img.shields.io/badge/记忆化搜索-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
@@ -355,7 +355,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0010 斐波那契数列-1 (简单, 2021-11)`
+### `剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![记忆化搜索](https://img.shields.io/badge/记忆化搜索-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
@@ -447,7 +447,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`
+### `剑指Offer No.010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -513,7 +513,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0014 剪绳子1（整数拆分） (中等, 2021-11)`
+### `剑指Offer No.014 剪绳子1（整数拆分） (中等, 2021-11)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![贪心](https://img.shields.io/badge/贪心-lightgray.svg)](技巧-贪心.md)
@@ -635,7 +635,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0042 连续子数组的最大和 (简单, 2021-12)`
+### `剑指Offer No.042 连续子数组的最大和 (简单, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -724,7 +724,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`
+### `剑指Offer No.046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -810,7 +810,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0047 礼物的最大价值 (中等, 2021-12)`
+### `剑指Offer No.047 礼物的最大价值 (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -944,7 +944,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`
+### `剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
@@ -1070,7 +1070,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0049 丑数 (中等, 2021-12)`
+### `剑指Offer No.049 丑数 (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)

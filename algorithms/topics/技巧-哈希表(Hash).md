@@ -8,10 +8,10 @@ Problems Index
 ---
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](#leetcode-no0187-重复的dna序列-中等-2021-10)
-- [`剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`](#剑指offer-no0003-数组中重复的数字-简单-2021-11)
-- [`剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no0035-复杂链表的复制深拷贝-中等-2021-12)
-- [`剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no0048-最长不含重复字符的子字符串-中等-2021-12)
-- [`剑指Offer No.0050 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no0050-第一个只出现一次的字符-简单-2021-12)
+- [`剑指Offer No.003 数组中重复的数字 (简单, 2021-11)`](#剑指offer-no003-数组中重复的数字-简单-2021-11)
+- [`剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no035-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
+- [`剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no050-第一个只出现一次的字符-简单-2021-12)
 
 ---
 
@@ -227,7 +227,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0003 数组中重复的数字 (简单, 2021-11)`
+### `剑指Offer No.003 数组中重复的数字 (简单, 2021-11)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -285,7 +285,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0035 复杂链表的复制（深拷贝） (中等, 2021-12)`
+### `剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
@@ -532,7 +532,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0048 最长不含重复字符的子字符串 (中等, 2021-12)`
+### `剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
@@ -658,7 +658,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0050 第一个只出现一次的字符 (简单, 2021-12)`
+### `剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
