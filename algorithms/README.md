@@ -112,7 +112,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 数据结构-栈、队列 [8] <a href="topics/数据结构-栈、队列.md">¶</a></b></summary>
+<details><summary><b> 数据结构-栈、队列 [9] <a href="topics/数据结构-栈、队列.md">¶</a></b></summary>
 
 - [`剑指Offer No.006 从尾到头打印链表 (简单, 2021-11)`](topics/数据结构-栈、队列.md#剑指offer-no006-从尾到头打印链表-简单-2021-11)
 - [`剑指Offer No.009 用两个栈实现队列 (简单, 2021-11)`](topics/数据结构-栈、队列.md#剑指offer-no009-用两个栈实现队列-简单-2021-11)
@@ -122,6 +122,7 @@ Algorithm Studies
 - [`剑指Offer No.032 1-层序遍历二叉树 (简单, 2021-11)`](topics/数据结构-栈、队列.md#剑指offer-no032-1-层序遍历二叉树-简单-2021-11)
 - [`剑指Offer No.032 2-层序遍历二叉树 (简单, 2021-11)`](topics/数据结构-栈、队列.md#剑指offer-no032-2-层序遍历二叉树-简单-2021-11)
 - [`剑指Offer No.032 3-层序遍历二叉树（之字形遍历） (简单, 2021-11)`](topics/数据结构-栈、队列.md#剑指offer-no032-3-层序遍历二叉树之字形遍历-简单-2021-11)
+- [`剑指Offer No.059 2-队列的最大值 (中等, 2022-01)`](topics/数据结构-栈、队列.md#剑指offer-no059-2-队列的最大值-中等-2022-01)
 
 </details>
 
@@ -153,11 +154,12 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 数据结构-设计 [3] <a href="topics/数据结构-设计.md">¶</a></b></summary>
+<details><summary><b> 数据结构-设计 [4] <a href="topics/数据结构-设计.md">¶</a></b></summary>
 
 - [`剑指Offer No.009 用两个栈实现队列 (简单, 2021-11)`](topics/数据结构-设计.md#剑指offer-no009-用两个栈实现队列-简单-2021-11)
 - [`剑指Offer No.030 包含min函数的栈 (简单, 2021-11)`](topics/数据结构-设计.md#剑指offer-no030-包含min函数的栈-简单-2021-11)
 - [`剑指Offer No.041 数据流中的中位数 (困难, 2021-12)`](topics/数据结构-设计.md#剑指offer-no041-数据流中的中位数-困难-2021-12)
+- [`剑指Offer No.059 2-队列的最大值 (中等, 2022-01)`](topics/数据结构-设计.md#剑指offer-no059-2-队列的最大值-中等-2022-01)
 
 </details>
 
@@ -294,7 +296,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [61] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [62] <a href="topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.003 数组中重复的数字 (简单, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.004 二维数组中的查找 (中等, 2021-11)`](topics/题集-剑指Offer.md#剑指offer-no004-二维数组中的查找-中等-2021-11)
@@ -355,6 +357,7 @@ Algorithm Studies
 - [`剑指Offer No.058 1-翻转单词顺序 (简单, 2022-01)`](topics/题集-剑指Offer.md#剑指offer-no058-1-翻转单词顺序-简单-2022-01)
 - [`剑指Offer No.058 2-左旋转字符串 (简单, 2022-01)`](topics/题集-剑指Offer.md#剑指offer-no058-2-左旋转字符串-简单-2022-01)
 - [`剑指Offer No.059 1-滑动窗口的最大值 (困难, 2022-01)`](topics/题集-剑指Offer.md#剑指offer-no059-1-滑动窗口的最大值-困难-2022-01)
+- [`剑指Offer No.059 2-队列的最大值 (中等, 2022-01)`](topics/题集-剑指Offer.md#剑指offer-no059-2-队列的最大值-中等-2022-01)
 - [`剑指Offer No.063 买卖股票的最佳时机 (中等, 2022-01)`](topics/题集-剑指Offer.md#剑指offer-no063-买卖股票的最佳时机-中等-2022-01)
 - [`剑指Offer No.067 把字符串转换成整数 (中等, 2022-01)`](topics/题集-剑指Offer.md#剑指offer-no067-把字符串转换成整数-中等-2022-01)
 
