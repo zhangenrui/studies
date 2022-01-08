@@ -14,22 +14,23 @@ studies
 
 ### TODO
 
-- [ ] 【`2021.11.11`】pytorch_trainer: 为 EvaluateCallback 添加各种预定义评估指标，如 acc、f1 等，目前只有 loss；
-- [ ] 【`2021.11.11`】论文：What does BERT learn about the structure of language? —— Bert 各层的含义；
-- [ ] 【`2021.11.10`】bert-tokenizer 自动识别 `[MASK]` 等特殊标识；
-- [ ] 【`2021.11.07`】面试笔记：通识问题/项目问题
-- [ ] 【`2021.10.22`】max_batch_size 估算
+- [ ] 自动生成目录结构（books、papers 等）
+<!-- - [ ] 【`2021.11.11`】pytorch_trainer: 为 EvaluateCallback 添加各种预定义评估指标，如 acc、f1 等，目前只有 loss； -->
+<!-- - [ ] 【`2021.11.11`】论文：What does BERT learn about the structure of language? —— Bert 各层的含义； -->
+<!-- - [ ] 【`2021.11.10`】bert-tokenizer 自动识别 `[MASK]` 等特殊标识； -->
+<!-- - [ ] 【`2021.11.07`】面试笔记：通识问题/项目问题 -->
+<!-- - [ ] 【`2021.10.22`】max_batch_size 估算 -->
 
 <details><summary><b> Done </b></summary>
 
-- [x] 【`2021.11.06-2021.11.12`】优化 auto-readme，使用上一次的 commit info，而不是默认 'Auto-README'
+- [x] 【`2021.11.12`】优化 auto-readme，使用上一次的 commit info，而不是默认 'Auto-README'
     - 参考：`git commit -m "$(git log -"$(git rev-list origin/master..master --count)" --pretty=%B | cat)"`
     - 说明：使用 origin/master 到 master 之间所有的 commit 信息作为这次的 message；
-- [x] 【`2021.11.10-2021.11.11`】bert 支持加载指定层 -> `_test_load_appointed_layers()`
-- [x] 【`2021.11.04-2021.11.08`】把 __test.py 文件自动加入文档测试（放弃）
+- [x] 【`2021.11.11`】bert 支持加载指定层 -> `_test_load_appointed_layers()`
+- [x] 【`2021.11.08`】把 __test.py 文件自动加入文档测试（放弃）
     - 有些测试比较耗时，不需要全部加入自动测试；
     - __test.py 针对的是存在相对引用的模块，如果这些模块有改动，会即时测试，所以也不需要自动测试
-- [x] 【`2021.11.01-2021.11.03`】[pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) 代码阅读
+- [x] 【`2021.11.03`】[pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) 代码阅读
 
 </details>
 
@@ -57,7 +58,7 @@ Algorithm Studies
 
 <details><summary><b> 基础-模板 [1] <a href="algorithms/topics/基础-模板.md">¶</a></b></summary>
 
-- [`+模板 字符串 split (简单, 模板库-字符串)`](algorithms/topics/基础-模板.md#模板-字符串-split-简单-模板库-字符串)
+- [`+模板 字符串 split切分 (简单, 模板库-字符串)`](algorithms/topics/基础-模板.md#模板-字符串-split切分-简单-模板库-字符串)
 
 </details>
 
@@ -264,7 +265,7 @@ Algorithm Studies
 
 <details><summary><b> 数据结构-字符串 [6] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
 
-- [`+模板 字符串 split (简单, 模板库-字符串)`](algorithms/topics/数据结构-字符串.md#模板-字符串-split-简单-模板库-字符串)
+- [`+模板 字符串 split切分 (简单, 模板库-字符串)`](algorithms/topics/数据结构-字符串.md#模板-字符串-split切分-简单-模板库-字符串)
 - [`LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`](algorithms/topics/数据结构-字符串.md#leetcode-no0434-字符串中的单词数-简单-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#leetcode-no0859-亲密字符串-简单-2021-11)
 - [`剑指Offer No.0005 替换空格 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#剑指offer-no0005-替换空格-简单-2021-11)
