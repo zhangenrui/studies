@@ -198,7 +198,7 @@ class Solution:
 
 ### `LeetCode No.0005 最长回文子串 (中等, 2021-10)`
 
-[![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
+[![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
@@ -1487,7 +1487,7 @@ class Solution:
 ### `LeetCode No.0343 整数拆分 (中等, 2021-12)`
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
-[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(DP、记忆化搜索).md)
+[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!-- Tag: 数学、动态规划 -->

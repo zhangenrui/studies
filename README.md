@@ -91,7 +91,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer [62] <a href="algorithms/topics/题集-剑指Offer.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer [64] <a href="algorithms/topics/题集-剑指Offer.md">¶</a></b></summary>
 
 - [`剑指Offer No.003 数组中重复的数字 (简单, 2021-11)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no003-数组中重复的数字-简单-2021-11)
 - [`剑指Offer No.004 二维数组中的查找 (中等, 2021-11)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no004-二维数组中的查找-中等-2021-11)
@@ -153,6 +153,8 @@ Algorithm Studies
 - [`剑指Offer No.058 2-左旋转字符串 (简单, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no058-2-左旋转字符串-简单-2022-01)
 - [`剑指Offer No.059 1-滑动窗口的最大值 (困难, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no059-1-滑动窗口的最大值-困难-2022-01)
 - [`剑指Offer No.059 2-队列的最大值 (中等, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no059-2-队列的最大值-中等-2022-01)
+- [`剑指Offer No.061 扑克牌中的顺子 (简单, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no061-扑克牌中的顺子-简单-2022-01)
+- [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 - [`剑指Offer No.063 买卖股票的最佳时机 (中等, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no063-买卖股票的最佳时机-中等-2022-01)
 - [`剑指Offer No.067 把字符串转换成整数 (中等, 2022-01)`](algorithms/topics/题集-剑指Offer.md#剑指offer-no067-把字符串转换成整数-中等-2022-01)
 
@@ -165,7 +167,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-经典问题&代码 [12] <a href="algorithms/topics/题集-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 题集-经典问题&代码 [13] <a href="algorithms/topics/题集-经典问题&代码.md">¶</a></b></summary>
 
 - [`剑指Offer No.007 重建二叉树 (中等, 2021-11)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no007-重建二叉树-中等-2021-11)
 - [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
@@ -179,12 +181,13 @@ Algorithm Studies
 - [`剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no040-最小的k个数partition操作-简单-2021-12)
 - [`剑指Offer No.049 丑数 (中等, 2021-12)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no049-丑数-中等-2021-12)
 - [`剑指Offer No.051 数组中的逆序对 (困难, 2022-01)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no051-数组中的逆序对-困难-2022-01)
+- [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 
 </details>
 
 <details><summary><b>More ...<a href="algorithms/README.md">¶</a></b></summary>
 
-<details><summary><b> 基础-模拟、数学、找规律 [12] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
+<details><summary><b> 基础-模拟、数学、找规律 [14] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0343-整数拆分-中等-2021-12)
@@ -196,6 +199,8 @@ Algorithm Studies
 - [`剑指Offer No.039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.044 数字序列中某一位的数字 (中等, 2021-12)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no044-数字序列中某一位的数字-中等-2021-12)
 - [`剑指Offer No.044 数字序列中某一位的数字 (中等, 2021-12)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no044-数字序列中某一位的数字-中等-2021-12)
+- [`剑指Offer No.061 扑克牌中的顺子 (简单, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no061-扑克牌中的顺子-简单-2022-01)
+- [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 - [`剑指Offer No.063 买卖股票的最佳时机 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no063-买卖股票的最佳时机-中等-2022-01)
 - [`剑指Offer No.067 把字符串转换成整数 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no067-把字符串转换成整数-中等-2022-01)
 
@@ -377,19 +382,20 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-动态规划(DP、记忆化搜索) [11] <a href="algorithms/topics/算法-动态规划(DP、记忆化搜索).md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [12] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
-- [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#leetcode-no0005-最长回文子串-中等-2021-10)
-- [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#leetcode-no0343-整数拆分-中等-2021-12)
-- [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no010-斐波那契数列-1-简单-2021-11)
-- [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no010-斐波那契数列-1-简单-2021-11)
-- [`剑指Offer No.010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no010-斐波那契数列-2青蛙跳台阶-简单-2021-11)
-- [`剑指Offer No.014 剪绳子1（整数拆分） (中等, 2021-11)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no014-剪绳子1整数拆分-中等-2021-11)
-- [`剑指Offer No.042 连续子数组的最大和 (简单, 2021-12)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no042-连续子数组的最大和-简单-2021-12)
-- [`剑指Offer No.046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
-- [`剑指Offer No.047 礼物的最大价值 (中等, 2021-12)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no047-礼物的最大价值-中等-2021-12)
-- [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
-- [`剑指Offer No.049 丑数 (中等, 2021-12)`](algorithms/topics/算法-动态规划(DP、记忆化搜索).md#剑指offer-no049-丑数-中等-2021-12)
+- [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0005-最长回文子串-中等-2021-10)
+- [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0343-整数拆分-中等-2021-12)
+- [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no010-斐波那契数列-1-简单-2021-11)
+- [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no010-斐波那契数列-1-简单-2021-11)
+- [`剑指Offer No.010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no010-斐波那契数列-2青蛙跳台阶-简单-2021-11)
+- [`剑指Offer No.014 剪绳子1（整数拆分） (中等, 2021-11)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no014-剪绳子1整数拆分-中等-2021-11)
+- [`剑指Offer No.042 连续子数组的最大和 (简单, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no042-连续子数组的最大和-简单-2021-12)
+- [`剑指Offer No.046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
+- [`剑指Offer No.047 礼物的最大价值 (中等, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no047-礼物的最大价值-中等-2021-12)
+- [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
+- [`剑指Offer No.049 丑数 (中等, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no049-丑数-中等-2021-12)
+- [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 
 </details>
 
@@ -401,11 +407,12 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-排序 [4] <a href="algorithms/topics/算法-排序.md">¶</a></b></summary>
+<details><summary><b> 算法-排序 [5] <a href="algorithms/topics/算法-排序.md">¶</a></b></summary>
 
 - [`剑指Offer No.039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no040-最小的k个数partition操作-简单-2021-12)
 - [`剑指Offer No.045 把数组排成最小的数 (中等, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no045-把数组排成最小的数-中等-2021-12)
+- [`剑指Offer No.061 扑克牌中的顺子 (简单, 2022-01)`](algorithms/topics/算法-排序.md#剑指offer-no061-扑克牌中的顺子-简单-2022-01)
 - [`剑指Offer(突击版) No.076 数组中的第K大的数字 (中等, 2022-02)`](algorithms/topics/算法-排序.md#剑指offer突击版-no076-数组中的第k大的数字-中等-2022-02)
 
 </details>
