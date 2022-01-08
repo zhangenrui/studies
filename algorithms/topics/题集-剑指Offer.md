@@ -69,7 +69,10 @@ Problems Index
 - [`剑指Offer No.061 扑克牌中的顺子 (简单, 2022-01)`](#剑指offer-no061-扑克牌中的顺子-简单-2022-01)
 - [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 - [`剑指Offer No.063 买卖股票的最佳时机 (中等, 2022-01)`](#剑指offer-no063-买卖股票的最佳时机-中等-2022-01)
-- [`剑指Offer No.067 把字符串转换成整数 (中等, 2022-01)`](#剑指offer-no067-把字符串转换成整数-中等-2022-01)
+- [`剑指Offer No.064 求1~n的和 (中等, 2022-01)`](#剑指offer-no064-求1n的和-中等-2022-01)
+- [`剑指Offer No.065 不用加减乘除做加法 (简单, 2022-01)`](#剑指offer-no065-不用加减乘除做加法-简单-2022-01)
+- [`剑指Offer No.066 构建乘积数组 (中等, 2022-01)`](#剑指offer-no066-构建乘积数组-中等-2022-01)
+- [`剑指Offer No.067 把字符串转换成整数（atoi） (中等, 2022-01)`](#剑指offer-no067-把字符串转换成整数atoi-中等-2022-01)
 
 ---
 
@@ -6919,13 +6922,276 @@ class Solution:
 
 ---
 
-### `剑指Offer No.067 把字符串转换成整数 (中等, 2022-01)`
+### `剑指Offer No.064 求1~n的和 (中等, 2022-01)`
+
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
+<!-- Tag: 递归 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+求 1+2+...+n ，要求不能使用乘除法、for、while、if、else、switch、case等关键字及三目运算符。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+求 1+2+...+n ，要求不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句（A?B:C）。
+
+示例 1：
+    输入: n = 3
+    输出: 6
+示例 2：
+    输入: n = 9
+    输出: 45
+
+限制：
+    1 <= n <= 10000
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/qiu-12n-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 通过“短路”中止递归；
+- 在 Python 中 `and` 操作如果最后结果为真，返回最后一个表达式的值，`or` 操作如果结果为真，返回第一个结果为真的表达式的值（写法2）；
+
+<details><summary><b>Python：写法1</b></summary>
+
+```python
+class Solution:
+    def __init__(self):
+        self.res = 0
+
+    def sumNums(self, n: int) -> int:
+        n > 1 and self.sumNums(n - 1)  # 当 n <= 1 时，因为短路导致递归中止
+        self.res += n
+        return self.res
+```
+
+</details>
+
+<details><summary><b>Python：写法2</b></summary>
+
+```python
+class Solution:
+    def sumNums(self, n: int) -> int:
+        return n > 0 and (n + self.sumNums(n-1))
+```
+
+</details>
+
+---
+
+### `剑指Offer No.065 不用加减乘除做加法 (简单, 2022-01)`
+
+[![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
+<!-- Tag: 位运算 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+求两个整数之和，要求不能使用 “+”、“-”、“*”、“/” 运算符号。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+写一个函数，求两个整数之和，要求在函数体内不得使用 “+”、“-”、“*”、“/” 四则运算符号。
+
+示例:
+    输入: a = 1, b = 1
+    输出: 2
+
+提示：
+    a, b 均可能是负数或 0
+    结果不会溢出 32 位整数
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+<div align="center"><img src="../_assets/剑指Offer_065_简单_不用加减乘除做加法.png" height="300" /></div>
+
+> [不用加减乘除做加法（位运算，清晰图解）](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/solution/mian-shi-ti-65-bu-yong-jia-jian-cheng-chu-zuo-ji-7/)
+
+- 不用编程语言之间略有区别；
+
+<details><summary><b>Java（推荐）</b></summary>
+
+```java
+class Solution {
+    public int add(int a, int b) {
+        while(b != 0) { // 当进位为 0 时跳出
+            int c = (a & b) << 1;  // c = 进位
+            a ^= b; // a = 非进位和
+            b = c; // b = 进位
+        }
+        return a;
+    }
+}
+```
+
+</details>
+
+<details><summary><b>Python</b></summary>
+
+- Python 中
+
+```python
+class Solution:
+    def add(self, a: int, b: int) -> int:
+        x = 0xffffffff
+        a, b = a & x, b & x  # 转为补码形式
+        while b != 0:
+            a, b = (a ^ b), (a & b) << 1 & x
+        return a if a <= 0x7fffffff else ~(a ^ x)  # 还原
+```
+
+</details>
+
+<details><summary><b>C++</b></summary>
+
+> [不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/solution/dian-zan-yao-wo-zhi-dao-ni-xiang-kan-dia-ovxy/)
+
+```cpp
+class Solution {
+public:
+    int add(int a, int b) {
+        while (b) {
+            int carry = a & b; // 计算 进位
+            a = a ^ b; // 计算 本位
+            b = (unsigned)carry << 1;  // C++中负数不支持左位移
+        }
+        return a;
+    }
+};
+```
+
+</details>
+
+---
+
+### `剑指Offer No.066 构建乘积数组 (中等, 2022-01)`
+
+[![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
+<!-- Tag: 前缀和 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给定一个数组 A，试返回数组 B，其中 B[i] 的值是数组 A 中除了下标 i 以外的元素的积, 即 B[i]=A[0]×A[1]×…×A[i-1]×A[i+1]×…×A[n-1]。
+
+不能使用除法。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+给定一个数组 A[0,1,…,n-1]，请构建一个数组 B[0,1,…,n-1]，其中 B[i] 的值是数组 A 中除了下标 i 以外的元素的积, 即 B[i]=A[0]×A[1]×…×A[i-1]×A[i+1]×…×A[n-1]。不能使用除法。
+
+示例:
+    输入: [1,2,3,4,5]
+    输出: [120,60,40,30,24]
+
+提示：
+    所有元素乘积之和不会溢出 32 位整数
+    a.length <= 100000
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 双向构建前缀积（左→右、右→左），示例：
+
+    ```
+    l = [1, a1, a1a2, a1a2a3]
+    r = [a2a3a4, a3a4, a4, 1]
+    s = [l[0] * r[0] for i in range(len(a))]
+    ```
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def constructArr(self, a: List[int]) -> List[int]:
+
+        l = [1]
+        for x in a[:-1]:
+            l.append(l[-1] * x)
+        # print(l)
+
+        r = [1]
+        for x in a[::-1][:-1]:
+            r.append(r[-1]*x)
+        r = r[::-1]
+        # print(r)
+
+        return [l[i] * r[i] for i in range(len(a))]
+```
+
+</details>
+
+
+<details><summary><b>Python：空间优化</b></summary>
+
+- 实际上在求 s 的时候可以同步求前缀积，换言之，可以节省一组前缀积（这里优化掉 `l`）；
+
+```python
+class Solution:
+    def constructArr(self, a: List[int]) -> List[int]:
+
+        r = [1] * len(a)
+        for i in range(len(a) - 1, 0, -1):
+            r[i - 1] = r[i] * a[i]
+        # print(r)
+
+        pre = 1
+        for i, x in enumerate(a):
+            r[i] *= pre
+            pre *= x
+
+        return r
+```
+
+</details>
+
+---
+
+### `剑指Offer No.067 把字符串转换成整数（atoi） (中等, 2022-01)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 字符串、模拟 -->
+<!-- Tag: 字符串、模拟、经典 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -6988,6 +7254,7 @@ class Solution:
 
 - 把字符串当做数组，依次遍历每个字符，根据题目要求执行每一步操作；
 - 注意一些细节：如正负号、char 与 int 的互转、越界判断等，详见下方代码；
+- PS：不同编程语言中字符串的实现细节；
 
 
 <details><summary><b>C++</b></summary>
@@ -7002,25 +7269,97 @@ public:
         int ret = 0;
         int p = 0;      // 模拟指针
         int sign = 1;   // 正负
+        int s_max = INT_MAX / 10;
         
         while (isspace(str[p])) 
             p++;  // 跳过前置空格
+
+        // c++ 的字符串末尾有一个特殊字符，因此不需要做越界判断
+        // if (p == n) return 0;
         
         if (str[p] == '-') sign = -1;
         if (str[p] == '-' || str[p] == '+') p++;
         
         while (str[p] >= '0' && str[p] <= '9') {
-            int new_ret = ret * 10 + str[p] - '0';
-            if (new_ret / 10 != ret) {  // 越界判断
-                return sign > 0? INT_MAX : INT_MIN;
+            if (ret > s_max || (ret == s_max && str[p] > '7')) {  // 越界判断
+                return sign > 0 ? INT_MAX : INT_MIN;
             }
-            ret = new_ret;
+            ret = ret * 10 + (str[p] - '0');  // str[p] - '0' 必须括起来，否则顺序计算时会溢出
             p++;
         }
         
         return sign * ret;
     }
 };
+
+```
+
+</details>
+
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def strToInt(self, str: str) -> int:
+
+        n = len(str)
+        if n < 1: return 0
+
+        INT_MAX = 2 ** 31 - 1
+        INT_MIN = -2 ** 31
+
+        ret = 0  # 保存结果
+        sign = 1  # 记录符号
+        p = 0  # 模拟指针
+
+        # Python 字符串与 C++ 不同，时刻需要进行越界判断
+        while p < n and str[p] == ' ':
+            p += 1
+        
+        if p == n:  # 越界判断
+            return ret
+        
+        if str[p] == '-':
+            sign = -1
+        if str[p] in ('-', '+'):
+            p += 1
+        
+        while p < n and '0' <= str[p] <= '9':  # 注意越界判断
+            ret = ret * 10 + int(str[p])
+            p += 1
+            if ret > INT_MAX:  # python 中不存在越界，因此直接跟 INT_MAX 比较即可
+                return INT_MAX if sign == 1 else INT_MIN
+        
+        return ret * sign
+```
+
+</details>
+
+
+<details><summary><b>Java</b></summary>
+
+> [把字符串转换成整数（数字越界处理，清晰图解）](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/solution/mian-shi-ti-67-ba-zi-fu-chuan-zhuan-huan-cheng-z-4/)
+
+```java
+class Solution {
+    public int strToInt(String str) {
+        int res = 0, bndry = Integer.MAX_VALUE / 10;
+        int i = 0, sign = 1, length = str.length();
+        if(length == 0) return 0;
+        while(str.charAt(i) == ' ')
+            if(++i == length) return 0;
+        if(str.charAt(i) == '-') sign = -1;
+        if(str.charAt(i) == '-' || str.charAt(i) == '+') i++;
+        for(int j = i; j < length; j++) {
+            if(str.charAt(j) < '0' || str.charAt(j) > '9') break;
+            if(res > bndry || res == bndry && str.charAt(j) > '7')
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            res = res * 10 + (str.charAt(j) - '0');
+        }
+        return sign * res;
+    }
+}
 
 ```
 
