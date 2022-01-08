@@ -1,4 +1,4 @@
-<!-- Tag: 字符串、模拟 -->
+<!-- Tag: 字符串、模拟、经典 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -61,6 +61,7 @@
 
 - 把字符串当做数组，依次遍历每个字符，根据题目要求执行每一步操作；
 - 注意一些细节：如正负号、char 与 int 的互转、越界判断等，详见下方代码；
+- PS：不同编程语言中字符串的实现细节；
 
 
 <details><summary><b>C++</b></summary>
@@ -75,19 +76,22 @@ public:
         int ret = 0;
         int p = 0;      // 模拟指针
         int sign = 1;   // 正负
+        int s_max = INT_MAX / 10;
         
         while (isspace(str[p])) 
             p++;  // 跳过前置空格
+
+        // c++ 的字符串末尾有一个特殊字符，因此不需要做越界判断
+        // if (p == n) return 0;
         
         if (str[p] == '-') sign = -1;
         if (str[p] == '-' || str[p] == '+') p++;
         
         while (str[p] >= '0' && str[p] <= '9') {
-            int new_ret = ret * 10 + str[p] - '0';
-            if (new_ret / 10 != ret) {  // 越界判断
-                return sign > 0? INT_MAX : INT_MIN;
+            if (ret > s_max || (ret == s_max && str[p] > '7')) {  // 越界判断
+                return sign > 0 ? INT_MAX : INT_MIN;
             }
-            ret = new_ret;
+            ret = ret * 10 + (str[p] - '0');  // str[p] - '0' 必须括起来，否则顺序计算时会溢出
             p++;
         }
         
@@ -99,3 +103,71 @@ public:
 
 </details>
 
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def strToInt(self, str: str) -> int:
+
+        n = len(str)
+        if n < 1: return 0
+
+        INT_MAX = 2 ** 31 - 1
+        INT_MIN = -2 ** 31
+
+        ret = 0  # 保存结果
+        sign = 1  # 记录符号
+        p = 0  # 模拟指针
+
+        # Python 字符串与 C++ 不同，时刻需要进行越界判断
+        while p < n and str[p] == ' ':
+            p += 1
+        
+        if p == n:  # 越界判断
+            return ret
+        
+        if str[p] == '-':
+            sign = -1
+        if str[p] in ('-', '+'):
+            p += 1
+        
+        while p < n and '0' <= str[p] <= '9':  # 注意越界判断
+            ret = ret * 10 + int(str[p])
+            p += 1
+            if ret > INT_MAX:  # python 中不存在越界，因此直接跟 INT_MAX 比较即可
+                return INT_MAX if sign == 1 else INT_MIN
+        
+        return ret * sign
+```
+
+</details>
+
+
+<details><summary><b>Java</b></summary>
+
+> [把字符串转换成整数（数字越界处理，清晰图解）](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/solution/mian-shi-ti-67-ba-zi-fu-chuan-zhuan-huan-cheng-z-4/)
+
+```java
+class Solution {
+    public int strToInt(String str) {
+        int res = 0, bndry = Integer.MAX_VALUE / 10;
+        int i = 0, sign = 1, length = str.length();
+        if(length == 0) return 0;
+        while(str.charAt(i) == ' ')
+            if(++i == length) return 0;
+        if(str.charAt(i) == '-') sign = -1;
+        if(str.charAt(i) == '-' || str.charAt(i) == '+') i++;
+        for(int j = i; j < length; j++) {
+            if(str.charAt(j) < '0' || str.charAt(j) > '9') break;
+            if(res > bndry || res == bndry && str.charAt(j) > '7')
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            res = res * 10 + (str.charAt(j) - '0');
+        }
+        return sign * res;
+    }
+}
+
+```
+
+</details>
