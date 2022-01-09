@@ -2,6 +2,8 @@
 
 <summary><b>问题简述</b></summary>
 
+> [剑指 Offer 44. 数字序列中某一位的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)
+
 ```txt
 数字以0123456789101112131415…的格式序列化到一个字符序列中，求任意第n位对应的数字。
 ```
@@ -42,21 +44,24 @@
 
 <details><summary><b>Python：迭代+求整/求余</b></summary>
 
+> [数字序列中某一位的数字（迭代 + 求整 / 求余，清晰图解）](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/solution/mian-shi-ti-44-shu-zi-xu-lie-zhong-mou-yi-wei-de-6/)
+
 ```python
 class Solution:
     def findNthDigit(self, n: int) -> int:
-        digit, start, count = 1, 1, 9
-        while n > count:  # 1. 计算所属区间，如 1~9、10~99、100~999、... 等
-            n -= count
+        digit, start, cnt = 1, 1, 9
+        
+        while n > cnt:  # 1. 计算所属区间，如 1~9、10~99、100~999、... 等
+            n -= cnt
             start *= 10
             digit += 1
-            count = 9 * start * digit
+            cnt = 9 * start * digit
+        
         num = start + (n - 1) // digit  # 2. 计算属于区间中的哪个数字
         idx = (n - 1) % digit  # 3. 计算在该数字的第几位
         return int(str(num)[idx])  # 4. 返回结果
 
 ```
-> [数字序列中某一位的数字（迭代 + 求整 / 求余，清晰图解）](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/solution/mian-shi-ti-44-shu-zi-xu-lie-zhong-mou-yi-wei-de-6/)
 
 </details>
 
