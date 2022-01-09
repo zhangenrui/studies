@@ -56,7 +56,7 @@ class Solution:
 
 </details>
 
-<details><summary><b>Python（写法2）</b></summary>
+<details><summary><b>Python（写法2，推荐）</b></summary>
 
 > 《剑指Offer》中的写法
 
