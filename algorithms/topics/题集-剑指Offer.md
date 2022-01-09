@@ -17,11 +17,14 @@ Problems Index
 - [`剑指Offer No.011 旋转数组的最小数字 (简单, 2021-11)`](#剑指offer-no011-旋转数组的最小数字-简单-2021-11)
 - [`剑指Offer No.012 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no012-矩阵中的路径-中等-2021-11)
 - [`剑指Offer No.013 机器人的运动范围 (中等, 2021-11)`](#剑指offer-no013-机器人的运动范围-中等-2021-11)
-- [`剑指Offer No.014 剪绳子1（整数拆分） (中等, 2021-11)`](#剑指offer-no014-剪绳子1整数拆分-中等-2021-11)
+- [`剑指Offer No.014 1-剪绳子（整数拆分） (中等, 2021-11)`](#剑指offer-no014-1-剪绳子整数拆分-中等-2021-11)
+- [`剑指Offer No.014 2-剪绳子 (中等, 2021-11)`](#剑指offer-no014-2-剪绳子-中等-2021-11)
 - [`剑指Offer No.015 二进制中1的个数 (简单, 2021-11)`](#剑指offer-no015-二进制中1的个数-简单-2021-11)
 - [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
 - [`剑指Offer No.017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-no017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
 - [`剑指Offer No.018 删除链表的节点 (简单, 2021-11)`](#剑指offer-no018-删除链表的节点-简单-2021-11)
+- [`剑指Offer No.019 正则表达式匹配 (困难, 2021-11)`](#剑指offer-no019-正则表达式匹配-困难-2021-11)
+- [`剑指Offer No.020 表示数值的字符串 (中等, 2021-11)`](#剑指offer-no020-表示数值的字符串-中等-2021-11)
 - [`剑指Offer No.021 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`](#剑指offer-no021-调整数组顺序使奇数位于偶数前面-简单-2021-11)
 - [`剑指Offer No.022 链表中倒数第k个节点 (简单, 2021-11)`](#剑指offer-no022-链表中倒数第k个节点-简单-2021-11)
 - [`剑指Offer No.024 反转链表 (简单, 2021-11)`](#剑指offer-no024-反转链表-简单-2021-11)
@@ -45,6 +48,7 @@ Problems Index
 - [`剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`](#剑指offer-no040-最小的k个数partition操作-简单-2021-12)
 - [`剑指Offer No.041 数据流中的中位数 (困难, 2021-12)`](#剑指offer-no041-数据流中的中位数-困难-2021-12)
 - [`剑指Offer No.042 连续子数组的最大和 (简单, 2021-12)`](#剑指offer-no042-连续子数组的最大和-简单-2021-12)
+- [`剑指Offer No.043 1～n整数中1出现的次数 (困难, 2021-12)`](#剑指offer-no043-1n整数中1出现的次数-困难-2021-12)
 - [`剑指Offer No.044 数字序列中某一位的数字 (中等, 2021-12)`](#剑指offer-no044-数字序列中某一位的数字-中等-2021-12)
 - [`剑指Offer No.045 把数组排成最小的数 (中等, 2021-12)`](#剑指offer-no045-把数组排成最小的数-中等-2021-12)
 - [`剑指Offer No.046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](#剑指offer-no046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
@@ -964,7 +968,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.014 剪绳子1（整数拆分） (中等, 2021-11)`
+### `剑指Offer No.014 1-剪绳子（整数拆分） (中等, 2021-11)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![贪心](https://img.shields.io/badge/贪心-lightgray.svg)](技巧-贪心.md)
@@ -1029,7 +1033,7 @@ class Solution:
 
 </details>
 
-<details><summary><b>Python（写法2）</b></summary>
+<details><summary><b>Python（写法2，推荐）</b></summary>
 
 > 《剑指Offer》中的写法
 
@@ -1080,6 +1084,81 @@ class Solution:
             return int(math.pow(3, a) * 2)
         else:
             return int(math.pow(3, a))
+```
+
+</details>
+
+---
+
+### `剑指Offer No.014 2-剪绳子 (中等, 2021-11)`
+
+[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
+<!-- Tag: 数学 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+将 n 拆分为 m 段（m、n 都是整数，且 n>1 and m>1），求可能的最大乘积；
+
+答案需取模 1e9+7（1000000007）
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+给你一根长度为 n 的绳子，请把绳子剪成整数长度的 m 段（m、n都是整数，n>1并且m>1），每段绳子的长度记为 k[0],k[1]...k[m - 1] 。请问 k[0]*k[1]*...*k[m - 1] 可能的最大乘积是多少？例如，当绳子的长度是8时，我们把它剪成长度分别为2、3、3的三段，此时得到的最大乘积是18。
+
+答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。
+
+示例 1：
+    输入: 2
+    输出: 1
+    解释: 2 = 1 + 1, 1 × 1 = 1
+示例 2:
+    输入: 10
+    输出: 36
+    解释: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36
+
+提示：
+    2 <= n <= 1000
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 本题与“剪绳子1”的区别仅在于 n 的范围；
+- 对于较大的 n，使用动态规划可能会超时；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def cuttingRope(self, n: int) -> int:
+
+        if n == 2:
+            return 1
+        if n == 3:
+            return 2
+
+        y = n % 3  # 余数
+
+        if y == 2:
+            ret = 3 ** (n // 3) * 2
+        elif y == 1:
+            ret = 3 ** (n // 3 - 1) * 4
+        else:
+            ret = 3 ** (n // 3)
+        
+        return ret % 1000000007
 ```
 
 </details>
@@ -1421,6 +1500,219 @@ class Solution:
                 break
         
         return head
+```
+
+</details>
+
+---
+
+### `剑指Offer No.019 正则表达式匹配 (困难, 2021-11)`
+
+[![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
+[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
+[![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
+<!-- Tag: 字符串、动态规划、递归 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+请实现一个函数用来匹配包含'.'和'*'的正则表达式。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+请实现一个函数用来匹配包含'.'和'*'的正则表达式。模式中的字符'.'表示任意一个字符，而'*'表示它前面的字符可以出现任意次（含0次）。在本题中，匹配是指字符串的所有字符匹配整个模式。例如，字符串"aaa"与模式"a.a"和"ab*ac*a"匹配，但与"aa.a"和"ab*a"均不匹配。
+
+示例 1:
+    输入:
+    s = "aa"
+    p = "a"
+    输出: false
+    解释: "a" 无法匹配 "aa" 整个字符串。
+示例 2:
+    输入:
+    s = "aa"
+    p = "a*"
+    输出: true
+    解释: 因为 '*' 代表可以匹配零个或多个前面的那一个元素, 在这里前面的元素就是 'a'。因此，字符串 "aa" 可被视为 'a' 重复了一次。
+示例 3:
+    输入:
+    s = "ab"
+    p = ".*"
+    输出: true
+    解释: ".*" 表示可匹配零个或多个（'*'）任意字符（'.'）。
+示例 4:
+    输入:
+    s = "aab"
+    p = "c*a*b"
+    输出: true
+    解释: 因为 '*' 表示零个或多个，这里 'c' 为 0 个, 'a' 被重复一次。因此可以匹配字符串 "aab"。
+示例 5:
+    输入:
+    s = "mississippi"
+    p = "mis*is*p*."
+    输出: false
+    s 可能为空，且只包含从 a-z 的小写字母。
+    p 可能为空，且只包含从 a-z 的小写字母以及字符 . 和 *，无连续的 '*'。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路1：动态规划</b></summary>
+
+> [正则表达式匹配（动态规划，清晰图解） - Krahets](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/jian-zhi-offer-19-zheng-ze-biao-da-shi-pi-pei-dong/)
+
+- 记主串为 `s`，模式串为 `p`；
+- 将 `s` 的前 i 个 字符记为 `s[:i]`，p 的前 j 个字符记为 `p[:j]`；
+- 整体思路是从 `s[:1]` 和 `p[:1]` 开始，判断 `s[:i]` 和 `p[:j]` 能否匹配；
+
+
+<details><summary><b>Python</b></summary>
+
+```python
+
+```
+
+</details>
+
+<summary><b>思路2：递归</b></summary>
+
+<details><summary><b>Python</b></summary>
+
+```python
+
+```
+
+</details>
+
+---
+
+### `剑指Offer No.020 表示数值的字符串 (中等, 2021-11)`
+
+[![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
+[![有限状态自动机](https://img.shields.io/badge/有限状态自动机-lightgray.svg)](技巧-有限状态自动机.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
+<!-- Tag: 字符串、有限状态自动机 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+请实现一个函数用来判断字符串是否表示数值（包括整数和小数）。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+请实现一个函数用来判断字符串是否表示数值（包括整数和小数）。
+
+数值（按顺序）可以分成以下几个部分：
+
+    1. 若干空格
+    2. 一个 小数 或者 整数
+    3. （可选）一个 'e' 或 'E' ，后面跟着一个 整数
+    4. 若干空格
+
+小数（按顺序）可以分成以下几个部分：
+    1. （可选）一个符号字符（'+' 或 '-'）
+    2. 下述格式之一：
+        1. 至少一位数字，后面跟着一个点 '.'
+        2. 至少一位数字，后面跟着一个点 '.' ，后面再跟着至少一位数字
+        3. 一个点 '.' ，后面跟着至少一位数字
+
+整数（按顺序）可以分成以下几个部分：
+    1. （可选）一个符号字符（'+' 或 '-'）
+    2. 至少一位数字
+
+部分数值列举如下：
+    ["+100", "5e2", "-123", "3.1416", "-1E-16", "0123"]
+部分非数值列举如下：
+    ["12e", "1a3.14", "1.2.3", "+-5", "12e+5.4"]
+
+示例 1：
+    输入：s = "0"
+    输出：true
+示例 2：
+    输入：s = "e"
+    输出：false
+示例 3：
+    输入：s = "."
+    输出：false
+示例 4：
+    输入：s = "    .1  "
+    输出：true
+ 
+提示：
+    1 <= s.length <= 20
+    s 仅含英文字母（大写和小写），数字（0-9），加号 '+' ，减号 '-' ，空格 ' ' 或者点 '.' 。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路：有限状态自动机</b></summary>
+
+<div align="center"><img src="../_assets/剑指Offer_020_中等_表示数值的字符串.png" height="300" /></div>
+
+- 其中合法的结束状态有：2, 3, 7, 8
+
+> [表示数值的字符串（有限状态自动机，清晰图解） - Krahets](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/solution/mian-shi-ti-20-biao-shi-shu-zhi-de-zi-fu-chuan-y-2/)
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def isNumber(self, s: str) -> bool:
+        # '.'
+        # ' '
+        # 's': sign
+        # 'd': digit
+        # 'e': e/E
+        states = [
+            {' ': 0, 's': 1, 'd': 2, '.': 4},   # 0. start 'blank'
+            {'d': 2, '.': 4},                   # 1. 'sign' before 'e'
+            {'d': 2, '.': 3, 'e': 5, ' ': 8},   # 2. 'digit' before 'dot'
+            {'d': 3, 'e': 5, ' ': 8},           # 3. 'digit' after 'dot'
+            {'d': 3},                           # 4. 'digit' after 'dot' ('blank' before 'dot')
+            {'s': 6, 'd': 7},                   # 5. 'e'
+            {'d': 7},                           # 6. 'sign' after 'e'
+            {'d': 7, ' ': 8},                   # 7. 'digit' after 'e'
+            {' ': 8}                            # 8. end with 'blank'
+        ]
+
+        p = 0  # 开始状态 0
+        for c in s:
+            if '0' <= c <= '9':
+                t = 'd'  # digit
+            elif c in "+-":
+                t = 's'  # sign
+            elif c in "eE":
+                t = 'e'  # e or E
+            elif c in ". ":
+                t = c  # dot, blank
+            else:
+                t = '?'  # unknown
+
+            if t not in states[p]:
+                return False
+
+            p = states[p][t]
+
+        return p in (2, 3, 7, 8)
 ```
 
 </details>
@@ -4501,6 +4793,78 @@ class Solution:
 
 ---
 
+### `剑指Offer No.043 1～n整数中1出现的次数 (困难, 2021-12)`
+
+[![找规律](https://img.shields.io/badge/找规律-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+
+<!-- Tag: 找规律 -->
+
+<summary><b>问题简述</b></summary>
+
+> [剑指 Offer 43. 1～n 整数中 1 出现的次数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/)
+
+```txt
+输入一个整数 n ，求1～n这n个整数的十进制表示中1出现的次数。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+输入一个整数 n ，求1～n这n个整数的十进制表示中1出现的次数。
+
+例如，输入12，1～12这些整数中包含1 的数字有1、10、11和12，1一共出现了5次。
+
+示例 1：
+    输入：n = 12
+    输出：5
+示例 2：
+    输入：n = 13
+    输出：6
+
+限制：
+    1 <= n < 2^31
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 找规律的题目，很费时，建议直接看：[1～n 整数中 1 出现的次数（清晰图解） - Krahets](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/solution/mian-shi-ti-43-1n-zheng-shu-zhong-1-chu-xian-de-2/)
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def countDigitOne(self, n: int) -> int:
+        # 初始化一些变量
+        digit, ret = 1, 0
+        hi, cur, lo = n // 10, n % 10, 0
+
+        while hi != 0 or cur != 0:
+            if cur == 0:
+                ret += hi * digit
+            elif cur == 1:
+                ret += hi * digit + lo + 1
+            else:
+                ret += (hi + 1) * digit
+            lo += cur * digit
+            cur = hi % 10
+            hi //= 10
+            digit *= 10
+        return ret
+```
+
+</details>
+
+---
+
 ### `剑指Offer No.044 数字序列中某一位的数字 (中等, 2021-12)`
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
@@ -4510,6 +4874,8 @@ class Solution:
 <!-- Tag: 数学、找规律 -->
 
 <summary><b>问题简述</b></summary>
+
+> [剑指 Offer 44. 数字序列中某一位的数字 - 力扣（LeetCode）](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)
 
 ```txt
 数字以0123456789101112131415…的格式序列化到一个字符序列中，求任意第n位对应的数字。
@@ -4551,21 +4917,24 @@ class Solution:
 
 <details><summary><b>Python：迭代+求整/求余</b></summary>
 
+> [数字序列中某一位的数字（迭代 + 求整 / 求余，清晰图解）](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/solution/mian-shi-ti-44-shu-zi-xu-lie-zhong-mou-yi-wei-de-6/)
+
 ```python
 class Solution:
     def findNthDigit(self, n: int) -> int:
-        digit, start, count = 1, 1, 9
-        while n > count:  # 1. 计算所属区间，如 1~9、10~99、100~999、... 等
-            n -= count
+        digit, start, cnt = 1, 1, 9
+        
+        while n > cnt:  # 1. 计算所属区间，如 1~9、10~99、100~999、... 等
+            n -= cnt
             start *= 10
             digit += 1
-            count = 9 * start * digit
+            cnt = 9 * start * digit
+        
         num = start + (n - 1) // digit  # 2. 计算属于区间中的哪个数字
         idx = (n - 1) % digit  # 3. 计算在该数字的第几位
         return int(str(num)[idx])  # 4. 返回结果
 
 ```
-> [数字序列中某一位的数字（迭代 + 求整 / 求余，清晰图解）](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/solution/mian-shi-ti-44-shu-zi-xu-lie-zhong-mou-yi-wei-de-6/)
 
 </details>
 
