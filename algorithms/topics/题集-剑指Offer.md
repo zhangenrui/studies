@@ -1567,7 +1567,7 @@ class Solution:
 
 <!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
 
-<summary><b>思路1：动态规划</b></summary>
+<summary><b>思路：动态规划</b></summary>
 
 > [正则表达式匹配（动态规划，清晰图解） - Krahets](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/jian-zhi-offer-19-zheng-ze-biao-da-shi-pi-pei-dong/)
 
@@ -1579,17 +1579,69 @@ class Solution:
 <details><summary><b>Python</b></summary>
 
 ```python
+class Solution:
+    def isMatch(self, s: str, p: str) -> bool:
+        m, n = len(s), len(p)
 
+        # dp[i][j] := 代表字符串 s 的前 i 个字符和 p 的前 j 个字符能否匹配
+        dp = [[False] * (n + 1) for _ in range(m + 1)]
+
+        dp[0][0] = True  # ‘空主串’与‘空模式串’匹配
+
+        # 初始化首行：‘空主串’与‘特殊模式串’匹配（如 a*、a*b* 等）
+        for j in range(2, n + 1, 2):
+            dp[0][j] = dp[0][j - 2] and p[j - 1] == '*'
+
+        # 状态转移
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                # 便于理解，记 s[I] == s[i - 1] 表示 s 的第 i 个字符，p[J] 同理
+                I, J = i - 1, j - 1
+                # 根据 p 的 第 j 个字符是否为 *，分两种情况讨论
+                if p[J] != '*':
+                    # s[:i-1] 与 p[:j-1] 匹配的前提下，‘s 的第 i 个字符 == p 的第 j 个字符’ 或 ‘p 的第 j 个字符是 .’
+                    #   这里 s[i-1] 和 p[j-1] 分别表示的是 s 和 p 的第 i 个和第 j 个字符
+                    if dp[i - 1][j - 1] and (s[I] == p[J] or p[J] == '.'):
+                        dp[i][j] = True  # dp[i][j]
+                else:  # 当 p[J] == '*' 时
+                    # 情况1：* 匹配了 0 个字符，如 'a' 和 'ab*'
+                    if dp[i][j - 2]:
+                        dp[i][j] = True
+                    # 情况2：* 匹配了至少一个字符，如 'ab' 和 'ab*'
+                    #   dp[i - 1][j] == True 表示在 '[a]b' 和 '[ab*]' 中括号部分匹配的前提下，
+                    #   再看 s[I] 与 p[J-1] 是否相同，或者 p[J-1] 是否为 .
+                    elif dp[i - 1][j] and (s[I] == p[J - 1] or p[J - 1] == '.'):
+                        dp[i][j] = True
+
+        return dp[m][n]
 ```
 
 </details>
 
 <summary><b>思路2：递归</b></summary>
 
-<details><summary><b>Python</b></summary>
+- 看到一份非常简洁的递归代码；
+    > 见[正则表达式匹配（动态规划，清晰图解） - 评论区](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/jian-zhi-offer-19-zheng-ze-biao-da-shi-pi-pei-dong/)
 
-```python
+<details><summary><b>C++</b></summary>
 
+```cpp
+class Solution {
+public:
+    bool isMatch(string s, string p) 
+    {
+        if (p.empty()) 
+            return s.empty();
+        
+        bool first_match = !s.empty() && (s[0] == p[0] || p[0] == '.');
+        
+        // *前字符重复>=1次 || *前字符重复0次（不出现）
+        if (p.size() >= 2 && p[1] == '*')  
+            return (first_match && isMatch(s.substr(1), p)) || isMatch(s, p.substr(2));
+        else  // 不是*，减去已经匹配成功的头部，继续比较
+            return first_match && isMatch(s.substr(1), p.substr(1));    
+    }
+};
 ```
 
 </details>
