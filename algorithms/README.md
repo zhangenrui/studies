@@ -32,7 +32,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-位运算 [6] <a href="topics/技巧-位运算.md">¶</a></b></summary>
+<details><summary><b> 技巧-位运算 [7] <a href="topics/技巧-位运算.md">¶</a></b></summary>
 
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](topics/技巧-位运算.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](topics/技巧-位运算.md#leetcode-no0187-重复的dna序列-中等-2021-10)
@@ -40,6 +40,7 @@ Algorithm Studies
 - [`剑指Offer No.056 1-数组中数字出现的次数 (中等, 2022-01)`](topics/技巧-位运算.md#剑指offer-no056-1-数组中数字出现的次数-中等-2022-01)
 - [`剑指Offer No.056 2-数组中数字出现的次数 (中等, 2022-01)`](topics/技巧-位运算.md#剑指offer-no056-2-数组中数字出现的次数-中等-2022-01)
 - [`剑指Offer No.065 不用加减乘除做加法 (简单, 2022-01)`](topics/技巧-位运算.md#剑指offer-no065-不用加减乘除做加法-简单-2022-01)
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-01)`](topics/技巧-位运算.md#剑指offer2-no001-整数除法-中等-2022-01)
 
 </details>
 
@@ -76,7 +77,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-哈希表(Hash) [6] <a href="topics/技巧-哈希表(Hash).md">¶</a></b></summary>
+<details><summary><b> 技巧-哈希表(Hash) [7] <a href="topics/技巧-哈希表(Hash).md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](topics/技巧-哈希表(Hash).md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](topics/技巧-哈希表(Hash).md#leetcode-no0187-重复的dna序列-中等-2021-10)
@@ -84,6 +85,7 @@ Algorithm Studies
 - [`剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`](topics/技巧-哈希表(Hash).md#剑指offer-no035-复杂链表的复制深拷贝-中等-2021-12)
 - [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](topics/技巧-哈希表(Hash).md#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`](topics/技巧-哈希表(Hash).md#剑指offer-no050-第一个只出现一次的字符-简单-2021-12)
+- [`程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`](topics/技巧-哈希表(Hash).md#程序员面试金典-no0102-判定是否互为字符重排-简单-2022-01)
 
 </details>
 
@@ -253,13 +255,14 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-排序 [5] <a href="topics/算法-排序.md">¶</a></b></summary>
+<details><summary><b> 算法-排序 [6] <a href="topics/算法-排序.md">¶</a></b></summary>
 
 - [`剑指Offer No.039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](topics/算法-排序.md#剑指offer-no039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`](topics/算法-排序.md#剑指offer-no040-最小的k个数partition操作-简单-2021-12)
 - [`剑指Offer No.045 把数组排成最小的数 (中等, 2021-12)`](topics/算法-排序.md#剑指offer-no045-把数组排成最小的数-中等-2021-12)
 - [`剑指Offer No.061 扑克牌中的顺子 (简单, 2022-01)`](topics/算法-排序.md#剑指offer-no061-扑克牌中的顺子-简单-2022-01)
 - [`剑指Offer2 No.076 数组中的第K大的数字 (中等, 2022-02)`](topics/算法-排序.md#剑指offer2-no076-数组中的第k大的数字-中等-2022-02)
+- [`程序员面试金典 No.0101 判定字符是否唯一 (简单, 2022-01)`](topics/算法-排序.md#程序员面试金典-no0101-判定字符是否唯一-简单-2022-01)
 
 </details>
 
@@ -406,10 +409,18 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer2 [2] <a href="topics/题集-剑指Offer2.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer2 [3] <a href="topics/题集-剑指Offer2.md">¶</a></b></summary>
 
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-01)`](topics/题集-剑指Offer2.md#剑指offer2-no001-整数除法-中等-2022-01)
 - [`剑指Offer2 No.069 山峰数组的顶部 (简单, 2022-02)`](topics/题集-剑指Offer2.md#剑指offer2-no069-山峰数组的顶部-简单-2022-02)
 - [`剑指Offer2 No.076 数组中的第K大的数字 (中等, 2022-02)`](topics/题集-剑指Offer2.md#剑指offer2-no076-数组中的第k大的数字-中等-2022-02)
+
+</details>
+
+<details><summary><b> 题集-程序员面试金典 [2] <a href="topics/题集-程序员面试金典.md">¶</a></b></summary>
+
+- [`程序员面试金典 No.0101 判定字符是否唯一 (简单, 2022-01)`](topics/题集-程序员面试金典.md#程序员面试金典-no0101-判定字符是否唯一-简单-2022-01)
+- [`程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`](topics/题集-程序员面试金典.md#程序员面试金典-no0102-判定是否互为字符重排-简单-2022-01)
 
 </details>
 
