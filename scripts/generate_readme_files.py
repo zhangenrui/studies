@@ -96,6 +96,8 @@ def hn_line(line, lv=2):
 
 class AlgorithmReadme:
     """"""
+    sp_kw = {'题集', '模板', '经典'}
+    more_info = '更多细分类型'
 
     def __init__(self):
         """"""
@@ -258,7 +260,7 @@ class AlgorithmReadme:
         # append_blocks = sorted(append_blocks, key=lambda x: (x[1], -x[2]))
 
         def block_assert(_block):
-            return '题集' in _block[0] or '模板' in _block[0]
+            return any(kw in _block[0] for kw in self.sp_kw)
 
         append_blocks = sorted(append_blocks)
         for it in append_blocks:
@@ -266,7 +268,8 @@ class AlgorithmReadme:
             if block_assert(block):
                 append_lines += block
 
-        append_lines.append('<details><summary><b>More ...<a href="{url}">¶</a></b></summary>\n'.format(
+        append_lines.append('<details><summary><b>{more_info} ...<a href="{url}">¶</a></b></summary>\n'.format(
+            more_info=self.more_info,
             url=f'{self.prefix_algorithm}/README.md'
         ))
 

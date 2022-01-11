@@ -290,7 +290,7 @@ class Solution:
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
-[![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!-- Tag: 链表、哈希表、经典 -->
