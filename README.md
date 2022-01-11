@@ -62,7 +62,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 基础-经典问题&代码 [16] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 基础-经典问题&代码 [17] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
 
 - [`剑指Offer No.007 重建二叉树 (中等, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no007-重建二叉树-中等-2021-11)
 - [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
@@ -80,6 +80,7 @@ Algorithm Studies
 - [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 - [`剑指Offer No.067 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no067-把字符串转换成整数atoi-中等-2022-01)
 - [`剑指Offer No.068 1-二叉搜索树的最近公共祖先 (简单, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no068-1-二叉搜索树的最近公共祖先-简单-2022-01)
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-02)`](algorithms/topics/基础-经典问题&代码.md#剑指offer2-no001-整数除法-中等-2022-02)
 
 </details>
 
@@ -194,7 +195,7 @@ Algorithm Studies
 
 <details><summary><b> 题集-剑指Offer2 [3] <a href="algorithms/topics/题集-剑指Offer2.md">¶</a></b></summary>
 
-- [`剑指Offer2 No.001 整数除法 (中等, 2022-01)`](algorithms/topics/题集-剑指Offer2.md#剑指offer2-no001-整数除法-中等-2022-01)
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-02)`](algorithms/topics/题集-剑指Offer2.md#剑指offer2-no001-整数除法-中等-2022-02)
 - [`剑指Offer2 No.069 山峰数组的顶部 (简单, 2022-02)`](algorithms/topics/题集-剑指Offer2.md#剑指offer2-no069-山峰数组的顶部-简单-2022-02)
 - [`剑指Offer2 No.076 数组中的第K大的数字 (中等, 2022-02)`](algorithms/topics/题集-剑指Offer2.md#剑指offer2-no076-数组中的第k大的数字-中等-2022-02)
 
@@ -232,7 +233,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-位运算 [7] <a href="algorithms/topics/技巧-位运算.md">¶</a></b></summary>
+<details><summary><b> 技巧-位运算 [6] <a href="algorithms/topics/技巧-位运算.md">¶</a></b></summary>
 
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/技巧-位运算.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](algorithms/topics/技巧-位运算.md#leetcode-no0187-重复的dna序列-中等-2021-10)
@@ -240,7 +241,6 @@ Algorithm Studies
 - [`剑指Offer No.056 1-数组中数字出现的次数 (中等, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer-no056-1-数组中数字出现的次数-中等-2022-01)
 - [`剑指Offer No.056 2-数组中数字出现的次数 (中等, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer-no056-2-数组中数字出现的次数-中等-2022-01)
 - [`剑指Offer No.065 不用加减乘除做加法 (简单, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer-no065-不用加减乘除做加法-简单-2022-01)
-- [`剑指Offer2 No.001 整数除法 (中等, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer2-no001-整数除法-中等-2022-01)
 
 </details>
 
@@ -403,7 +403,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-二分 [11] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
+<details><summary><b> 算法-二分 [12] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
 
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
@@ -415,6 +415,7 @@ Algorithm Studies
 - [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/算法-二分.md#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
 - [`剑指Offer No.053 1-求0～n-1中缺失的数字 (简单, 2022-01)`](algorithms/topics/算法-二分.md#剑指offer-no053-1-求0n-1中缺失的数字-简单-2022-01)
 - [`剑指Offer No.053 2-在排序数组中查找数字 (简单, 2022-01)`](algorithms/topics/算法-二分.md#剑指offer-no053-2-在排序数组中查找数字-简单-2022-01)
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-02)`](algorithms/topics/算法-二分.md#剑指offer2-no001-整数除法-中等-2022-02)
 - [`剑指Offer2 No.069 山峰数组的顶部 (简单, 2022-02)`](algorithms/topics/算法-二分.md#剑指offer2-no069-山峰数组的顶部-简单-2022-02)
 
 </details>

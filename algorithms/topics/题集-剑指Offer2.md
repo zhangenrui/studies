@@ -6,18 +6,19 @@
 
 Problems Index
 ---
-- [`剑指Offer2 No.001 整数除法 (中等, 2022-01)`](#剑指offer2-no001-整数除法-中等-2022-01)
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-02)`](#剑指offer2-no001-整数除法-中等-2022-02)
 - [`剑指Offer2 No.069 山峰数组的顶部 (简单, 2022-02)`](#剑指offer2-no069-山峰数组的顶部-简单-2022-02)
 - [`剑指Offer2 No.076 数组中的第K大的数字 (中等, 2022-02)`](#剑指offer2-no076-数组中的第k大的数字-中等-2022-02)
 
 ---
 
-### `剑指Offer2 No.001 整数除法 (中等, 2022-01)`
+### `剑指Offer2 No.001 整数除法 (中等, 2022-02)`
 
-[![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
+[![二分](https://img.shields.io/badge/二分-lightgray.svg)](算法-二分.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer2](https://img.shields.io/badge/剑指Offer2-lightgray.svg)](题集-剑指Offer2.md)
 
-<!-- Tag: 位运算 -->
+<!-- Tag: 二分、经典 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -65,10 +66,93 @@ Problems Index
 <summary><b>思路1：减法（超时）</b></summary>
 
 - 用 a 循环减 b，直到为负；
+- 越界讨论：因为是整数除法，实际的越界情况就一种，就是 `a=-2^31,b=-1`
+- 极端情况：`a=2^31-1, b=1` 要循坏 `2^31-1` 次；
 
 <details><summary><b>Python</b></summary>
 
 ```python
+class Solution:
+    def divide(self, a: int, b: int) -> int:
+        assert b != 0
+        
+        MAX = 2 ** 31 - 1
+        if a == 0: return 0
+        if a == -2 ** 31 and b == -1: return MAX  # 越界
+        
+        # 转为两个整数操作
+        sign = 1
+        if a < 0:
+            sign *= -1
+            a = -a
+        
+        if b < 0:
+            sign *= -1
+            b = -b
+
+        # 循坏减去 b
+        ret = -1
+        while a > 0:
+            a -= b
+            ret += 1
+
+        if a == 0:  # 整除的情况
+            ret += 1 
+        
+        return sign * ret
+```
+
+</details>
+
+
+<summary><b>思路2：二分思想</b></summary>
+
+1. 初始化返回值 `ret = 0`
+2. `a > b` 时，不断将 `b` 翻倍（乘 2），直到再翻倍一次就大于 `a`，记翻倍后的数为 `tmp_b`，翻的倍数为 `tmp`，然后将 `ret` 加上 `tmp`、`a` 减去 `tmp_b`；
+3. `a` 减去 `tmp_b` 后循环以上过程，直到 `a` 小于 `b`；
+
+```
+以 a = 32, b = 3 为例，模拟过程如下：
+
+初始化 ret = 0
+第一轮：
+    32 / (3*2*2*2) = t1 / (1*2*2*2)  # 再乘一个 2 会大于 32
+    32 / 24 = 1 = t1 / 8 -> t1 = 8
+    (32 - 24) / 3 = 8 / 3
+    ret += t1 -> 8
+第二轮：
+    8 / (3*2) = t2 / (1*2)
+    8 / 6 = 1 = t2 / 2 -> t2 = 2
+    (8 - 6) / 3 = 0
+    ret += t2 -> 10
+因为 2 < 3 退出循环
+```
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def divide(self, a: int, b: int) -> int:
+        assert b != 0
+        if a == 0: return 0
+        if a == -2**31 and b == -1: return 2 ** 31 - 1
+        sign = 1 if (a > 0 and b > 0) or (a < 0 and b < 0) else -1
+        a = a if a > 0 else -a
+        b = b if b > 0 else -b
+        
+        # if a < b: return 0
+
+        ret = 0
+        while a >= b:
+            tmp, tmp_b = 1, b
+            while tmp_b * 2 < a:
+                tmp_b *= 2
+                tmp *= 2
+            
+            ret += tmp
+            a -= tmp_b
+
+        return ret * sign
 ```
 
 </details>
