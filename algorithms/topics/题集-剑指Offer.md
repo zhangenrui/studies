@@ -1838,10 +1838,10 @@ class Solution:
 ### `剑指Offer No.022 链表中倒数第k个节点 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
+[![快慢指针（链表）](https://img.shields.io/badge/快慢指针（链表）-lightgray.svg)](技巧-双指针-快慢指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、双指针 -->
+<!-- Tag: 链表、快慢指针（链表） -->
 
 <summary><b>问题简述</b></summary>
 
@@ -5865,10 +5865,10 @@ class Solution:
 ### `剑指Offer No.052 两个链表的第一个公共节点 (简单, 2022-01)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
+[![快慢指针（链表）](https://img.shields.io/badge/快慢指针（链表）-lightgray.svg)](技巧-双指针-快慢指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、双指针 -->
+<!-- Tag: 链表、快慢指针（链表） -->
 
 <summary><b>问题描述</b></summary>
 
