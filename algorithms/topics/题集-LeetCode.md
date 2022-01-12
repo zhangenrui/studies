@@ -301,7 +301,7 @@ public:
 
 ### `LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!-- Tag: 双指针 -->
@@ -358,7 +358,7 @@ class Solution:
 
 ### `LeetCode No.0015 三数之和 (中等, 2021-10)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!-- Tag: 双指针 -->
@@ -462,7 +462,7 @@ class Solution:
 
 ### `LeetCode No.0016 最接近的三数之和 (中等, 2021-10)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!-- Tag: 双指针 -->
@@ -866,7 +866,7 @@ class Solution:
 
 ### `LeetCode No.0042 接雨水 (困难, 2021-10)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!-- Tag: 双指针 -->
@@ -1285,7 +1285,7 @@ class Solution:
 
 ### `LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!-- Tag: 双指针 -->
@@ -2237,7 +2237,7 @@ class Solution:
 
 ### `LeetCode No.0611 有效三角形的个数 (中等, 2021-10)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!-- Tag: 双指针 -->

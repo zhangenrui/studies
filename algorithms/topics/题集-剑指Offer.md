@@ -1774,7 +1774,7 @@ class Solution:
 ### `剑指Offer No.021 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`
 
 [![数组](https://img.shields.io/badge/数组-lightgray.svg)](数据结构-数组、矩阵(二维数组).md)
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!-- Tag: 数组、双指针 -->
@@ -1838,7 +1838,7 @@ class Solution:
 ### `剑指Offer No.022 链表中倒数第k个节点 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!-- Tag: 链表、双指针 -->
@@ -5311,7 +5311,7 @@ class Solution:
 ### `剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
@@ -5865,7 +5865,7 @@ class Solution:
 ### `剑指Offer No.052 两个链表的第一个公共节点 (简单, 2022-01)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!-- Tag: 链表、双指针 -->
@@ -6708,7 +6708,7 @@ class Solution:
 
 ### `剑指Offer No.057 1-和为s的两个数字 (简单, 2022-01)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!-- Tag: 双指针 -->
@@ -6775,7 +6775,7 @@ class Solution:
 
 ### `剑指Offer No.057 2-和为s的连续正数序列 (简单, 2022-01)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!-- Tag: 双指针 -->
@@ -6887,7 +6887,7 @@ class Solution:
 
 ### `剑指Offer No.058 1-翻转单词顺序 (简单, 2022-01)`
 
-[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!-- Tag: 双指针 -->
@@ -7049,7 +7049,7 @@ class Solution:
 
 ### `剑指Offer No.059 1-滑动窗口的最大值 (困难, 2022-01)`
 
-[![滑动窗口](https://img.shields.io/badge/滑动窗口-lightgray.svg)](技巧-双指针、滑动窗口.md)
+[![滑动窗口](https://img.shields.io/badge/滑动窗口-lightgray.svg)](技巧-双指针-滑动窗口.md)
 [![单调队列](https://img.shields.io/badge/单调队列-lightgray.svg)](技巧-单调栈、单调队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
