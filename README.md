@@ -260,8 +260,9 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-双指针 [11] <a href="algorithms/topics/技巧-双指针.md">¶</a></b></summary>
+<details><summary><b> 技巧-双指针 [12] <a href="algorithms/topics/技巧-双指针.md">¶</a></b></summary>
 
+- [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/技巧-双指针.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`](algorithms/topics/技巧-双指针.md#leetcode-no0011-盛最多水的容器-中等-2021-10)
 - [`LeetCode No.0015 三数之和 (中等, 2021-10)`](algorithms/topics/技巧-双指针.md#leetcode-no0015-三数之和-中等-2021-10)
 - [`LeetCode No.0016 最接近的三数之和 (中等, 2021-10)`](algorithms/topics/技巧-双指针.md#leetcode-no0016-最接近的三数之和-中等-2021-10)

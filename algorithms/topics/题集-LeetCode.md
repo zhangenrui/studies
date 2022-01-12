@@ -201,9 +201,10 @@ class Solution:
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: DP、模拟 -->
+<!-- Tag: DP、模拟、双指针 -->
 
 <summary><b>问题简述</b></summary>
 
@@ -241,13 +242,19 @@ class Solution:
 
 </details>
 
-<summary><b>思路</b></summary>
-
-<details><summary><b>思路1：动态规划（C++）</b></summary>
+<summary><b>思路1：动态规划</b></summary>
 
 - 状态定义：`dp[i][j] := 子串 s[i:j] 是否为回文串`；
 - 状态转移方程：`dp[i][j] := dp[i+1][j-1] == True 且 s[i] == s[j]`；
-- 初始状态：`dp[i][j] := True` 当 `i == j` 或 `j == i + 1 && s[i] == s[j]` 
+- 初始状态
+    - 单个字符：`dp[i][j] := True` 当 `i == j` 
+    - 两个连续相同字符：`dp[i][j] := True` 当 `j == i + 1 && s[i] == s[j]`
+
+**注意**：
+- 动态规划并不是最适合的解，这里仅提供一个思路；
+- 如果要使用动态规划解本题，如何循环是关键，因为回文串的特点，从“双指针”的角度来看，需要从中心往两侧遍历，这跟大多数的 dp 问题略有不同；
+
+<details><summary><b>C++</b></summary>
 
 ```cpp
 class Solution {
@@ -288,11 +295,73 @@ public:
 
 </details>
 
-
-<details><summary><b>思路2：中心扩散法（Python, TODO）</b></summary>
+<details><summary><b>Python</b></summary>
 
 ```python
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        
+        n = len(s)
+        dp = [[0] * n for _ in range(n)]
 
+        for i in range(n):
+            dp[i][i] = 1
+        
+        start = 0
+        length = 1
+        for j in range(1, n):  # 子串的结束位置
+            for i in range(j - 1, -1, -1):  # 子串的开始位置
+                if i == j - 1:
+                    dp[i][j] = 1 if s[i] == s[j] else 0
+                else:
+                    dp[i][j] = 1 if dp[i + 1][j - 1] and s[i] == s[j] else 0
+
+                if dp[i][j]:
+                    if j - i + 1 > length:
+                        length = j - i + 1
+                        start = i
+
+        return s[start: start + length]
+```
+
+</details>
+
+<summary><b>思路2：模拟-中心扩散</b></summary>
+
+- 按照回文串的定义，遍历每个字符作为中点，向两边扩散；
+- 官方题解从 DP 的转移方程解释了为什么中心扩散可以得到正确答案（虽然这个结论非常直观），观察状态转移方程，可以看到所有状态在转移时的可能性都是唯一的：`dp[i][j] <- dp[i+1][j-1] <- dp[i+2][j-2] <- ...`，也就是说，从每一种边界情况开始「扩展」，都可以得出所有状态对应的答案。
+    > [最长回文子串 - 力扣官方题解](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zui-chang-hui-wen-zi-chuan-by-leetcode-solution/)
+
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+
+        n = len(s)
+        self.ret = s[0]
+        self.max = 1
+
+        # 从 s[l:r] 开始向两侧扩散，开始时，l==r 或者，l+1==r
+        def foo(l, r):
+            while l > 0 and r < n - 1 and s[l - 1] == s[r + 1]:
+                l -= 1
+                r += 1
+
+            if r - l + 1 > self.max:
+                # ret = s[l: r + 1]  # err，
+                self.ret = s[l: r + 1]
+                self.max = r - l + 1
+
+        for l in range(n):
+            foo(l, l)  # 奇数情况
+
+            # 偶数情况
+            if l < n - 1 and s[l + 1] == s[l]:
+                foo(l, l + 1)
+
+        return self.ret
 ```
 
 </details>
