@@ -36,10 +36,8 @@
 
 <summary><b>思路</b></summary>
 
-<details><summary><b>代码</b></summary>
+<details><summary><b>Python</b></summary>
 
-**python**
-- 时间复杂度：`O()`，空间复杂度：`O()`
 ```python
 # Definition for singly-linked list.
 class ListNode:
@@ -51,11 +49,11 @@ class ListNode:
 class Solution:
 
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:  # noqa
-        """"""
         ret = p = ListNode()
 
         s = 0
-        while l1 or l2 or s != 0:  # 注意遍历条件，当三个都不为真时才会结束
+        # 注意遍历条件，当三个都不为真时才会结束
+        while l1 or l2 or s != 0:  # s != 0 表示最后一次相加存在进位的情况
             s += (l1.val if l1 else 0) + (l2.val if l2 else 0)
 
             p.next = ListNode(s % 10)  # 个位
@@ -71,12 +69,5 @@ class Solution:
 
         return ret.next
 ```
-
-</details>
-
-<details><summary><b>备忘</b></summary>
-
-1. 1
-2. 2
 
 </details>
