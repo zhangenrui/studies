@@ -62,7 +62,30 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-LeetCode [24] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 基础-经典问题&代码 [18] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
+
+- [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-no0072-编辑距离-困难-2022-01)
+- [`剑指Offer No.007 重建二叉树 (中等, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no007-重建二叉树-中等-2021-11)
+- [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
+- [`剑指Offer No.024 反转链表 (简单, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no024-反转链表-简单-2021-11)
+- [`剑指Offer No.029 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no029-顺时针打印矩阵3种思路4个写法-中等-2021-11)
+- [`剑指Offer No.031 栈的压入、弹出序列 (中等, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no031-栈的压入弹出序列-中等-2021-11)
+- [`剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no035-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer No.036 二叉搜索树与双向链表 (中等, 2021-12)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no036-二叉搜索树与双向链表-中等-2021-12)
+- [`剑指Offer No.038 字符串的排列（全排列） (中等, 2021-12)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no038-字符串的排列全排列-中等-2021-12)
+- [`剑指Offer No.039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
+- [`剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no040-最小的k个数partition操作-简单-2021-12)
+- [`剑指Offer No.049 丑数 (中等, 2021-12)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no049-丑数-中等-2021-12)
+- [`剑指Offer No.051 数组中的逆序对 (困难, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no051-数组中的逆序对-困难-2022-01)
+- [`剑指Offer No.060 n个骰子的点数 (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no060-n个骰子的点数-中等-2022-01)
+- [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
+- [`剑指Offer No.067 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no067-把字符串转换成整数atoi-中等-2022-01)
+- [`剑指Offer No.068 1-二叉搜索树的最近公共祖先 (简单, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no068-1-二叉搜索树的最近公共祖先-简单-2022-01)
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-02)`](algorithms/topics/基础-经典问题&代码.md#剑指offer2-no001-整数除法-中等-2022-02)
+
+</details>
+
+<details><summary><b> 题集-LeetCode [25] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0002-两数相加-中等-2021-10)
@@ -74,6 +97,7 @@ Algorithm Studies
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
 - [`LeetCode No.0042 接雨水 (困难, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0042-接雨水-困难-2021-10)
+- [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0072-编辑距离-困难-2022-01)
 - [`LeetCode No.0086 分隔链表 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0086-分隔链表-中等-2021-10)
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0111-二叉树的最小深度-简单-2021-10)
@@ -171,35 +195,22 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-剑指Offer2 [2] <a href="algorithms/topics/题集-剑指Offer2.md">¶</a></b></summary>
+<details><summary><b> 题集-剑指Offer2 [3] <a href="algorithms/topics/题集-剑指Offer2.md">¶</a></b></summary>
 
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-02)`](algorithms/topics/题集-剑指Offer2.md#剑指offer2-no001-整数除法-中等-2022-02)
 - [`剑指Offer2 No.069 山峰数组的顶部 (简单, 2022-02)`](algorithms/topics/题集-剑指Offer2.md#剑指offer2-no069-山峰数组的顶部-简单-2022-02)
 - [`剑指Offer2 No.076 数组中的第K大的数字 (中等, 2022-02)`](algorithms/topics/题集-剑指Offer2.md#剑指offer2-no076-数组中的第k大的数字-中等-2022-02)
 
 </details>
 
-<details><summary><b> 题集-经典问题&代码 [16] <a href="algorithms/topics/题集-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 题集-程序员面试金典 [2] <a href="algorithms/topics/题集-程序员面试金典.md">¶</a></b></summary>
 
-- [`剑指Offer No.007 重建二叉树 (中等, 2021-11)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no007-重建二叉树-中等-2021-11)
-- [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
-- [`剑指Offer No.024 反转链表 (简单, 2021-11)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no024-反转链表-简单-2021-11)
-- [`剑指Offer No.029 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no029-顺时针打印矩阵3种思路4个写法-中等-2021-11)
-- [`剑指Offer No.031 栈的压入、弹出序列 (中等, 2021-11)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no031-栈的压入弹出序列-中等-2021-11)
-- [`剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no035-复杂链表的复制深拷贝-中等-2021-12)
-- [`剑指Offer No.036 二叉搜索树与双向链表 (中等, 2021-12)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no036-二叉搜索树与双向链表-中等-2021-12)
-- [`剑指Offer No.038 字符串的排列（全排列） (中等, 2021-12)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no038-字符串的排列全排列-中等-2021-12)
-- [`剑指Offer No.039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
-- [`剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no040-最小的k个数partition操作-简单-2021-12)
-- [`剑指Offer No.049 丑数 (中等, 2021-12)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no049-丑数-中等-2021-12)
-- [`剑指Offer No.051 数组中的逆序对 (困难, 2022-01)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no051-数组中的逆序对-困难-2022-01)
-- [`剑指Offer No.060 n个骰子的点数 (中等, 2022-01)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no060-n个骰子的点数-中等-2022-01)
-- [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
-- [`剑指Offer No.067 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no067-把字符串转换成整数atoi-中等-2022-01)
-- [`剑指Offer No.068 1-二叉搜索树的最近公共祖先 (简单, 2022-01)`](algorithms/topics/题集-经典问题&代码.md#剑指offer-no068-1-二叉搜索树的最近公共祖先-简单-2022-01)
+- [`程序员面试金典 No.0101 判定字符是否唯一 (简单, 2022-01)`](algorithms/topics/题集-程序员面试金典.md#程序员面试金典-no0101-判定字符是否唯一-简单-2022-01)
+- [`程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`](algorithms/topics/题集-程序员面试金典.md#程序员面试金典-no0102-判定是否互为字符重排-简单-2022-01)
 
 </details>
 
-<details><summary><b>More ...<a href="algorithms/README.md">¶</a></b></summary>
+<details><summary><b>更多细分类型 ...<a href="algorithms/README.md">¶</a></b></summary>
 
 <details><summary><b> 基础-模拟、数学、找规律 [18] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
 
@@ -268,7 +279,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-哈希表(Hash) [6] <a href="algorithms/topics/技巧-哈希表(Hash).md">¶</a></b></summary>
+<details><summary><b> 技巧-哈希表(Hash) [7] <a href="algorithms/topics/技巧-哈希表(Hash).md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithms/topics/技巧-哈希表(Hash).md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](algorithms/topics/技巧-哈希表(Hash).md#leetcode-no0187-重复的dna序列-中等-2021-10)
@@ -276,6 +287,7 @@ Algorithm Studies
 - [`剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithms/topics/技巧-哈希表(Hash).md#剑指offer-no035-复杂链表的复制深拷贝-中等-2021-12)
 - [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](algorithms/topics/技巧-哈希表(Hash).md#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`](algorithms/topics/技巧-哈希表(Hash).md#剑指offer-no050-第一个只出现一次的字符-简单-2021-12)
+- [`程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`](algorithms/topics/技巧-哈希表(Hash).md#程序员面试金典-no0102-判定是否互为字符重排-简单-2022-01)
 
 </details>
 
@@ -393,7 +405,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-二分 [11] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
+<details><summary><b> 算法-二分 [12] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
 
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
@@ -405,6 +417,7 @@ Algorithm Studies
 - [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/算法-二分.md#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
 - [`剑指Offer No.053 1-求0～n-1中缺失的数字 (简单, 2022-01)`](algorithms/topics/算法-二分.md#剑指offer-no053-1-求0n-1中缺失的数字-简单-2022-01)
 - [`剑指Offer No.053 2-在排序数组中查找数字 (简单, 2022-01)`](algorithms/topics/算法-二分.md#剑指offer-no053-2-在排序数组中查找数字-简单-2022-01)
+- [`剑指Offer2 No.001 整数除法 (中等, 2022-02)`](algorithms/topics/算法-二分.md#剑指offer2-no001-整数除法-中等-2022-02)
 - [`剑指Offer2 No.069 山峰数组的顶部 (简单, 2022-02)`](algorithms/topics/算法-二分.md#剑指offer2-no069-山峰数组的顶部-简单-2022-02)
 
 </details>
@@ -418,9 +431,10 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [14] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [15] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0005-最长回文子串-中等-2021-10)
+- [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0072-编辑距离-困难-2022-01)
 - [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0343-整数拆分-中等-2021-12)
 - [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no010-斐波那契数列-1-简单-2021-11)
 - [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no010-斐波那契数列-1-简单-2021-11)
@@ -445,13 +459,14 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-排序 [5] <a href="algorithms/topics/算法-排序.md">¶</a></b></summary>
+<details><summary><b> 算法-排序 [6] <a href="algorithms/topics/算法-排序.md">¶</a></b></summary>
 
 - [`剑指Offer No.039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
 - [`剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no040-最小的k个数partition操作-简单-2021-12)
 - [`剑指Offer No.045 把数组排成最小的数 (中等, 2021-12)`](algorithms/topics/算法-排序.md#剑指offer-no045-把数组排成最小的数-中等-2021-12)
 - [`剑指Offer No.061 扑克牌中的顺子 (简单, 2022-01)`](algorithms/topics/算法-排序.md#剑指offer-no061-扑克牌中的顺子-简单-2022-01)
 - [`剑指Offer2 No.076 数组中的第K大的数字 (中等, 2022-02)`](algorithms/topics/算法-排序.md#剑指offer2-no076-数组中的第k大的数字-中等-2022-02)
+- [`程序员面试金典 No.0101 判定字符是否唯一 (简单, 2022-01)`](algorithms/topics/算法-排序.md#程序员面试金典-no0101-判定字符是否唯一-简单-2022-01)
 
 </details>
 

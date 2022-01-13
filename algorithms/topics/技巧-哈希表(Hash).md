@@ -12,6 +12,7 @@ Problems Index
 - [`剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no035-复杂链表的复制深拷贝-中等-2021-12)
 - [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no050-第一个只出现一次的字符-简单-2021-12)
+- [`程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`](#程序员面试金典-no0102-判定是否互为字符重排-简单-2022-01)
 
 ---
 
@@ -289,7 +290,7 @@ class Solution:
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
-[![经典](https://img.shields.io/badge/经典-lightgray.svg)](题集-经典问题&代码.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!-- Tag: 链表、哈希表、经典 -->
@@ -740,6 +741,76 @@ class Solution:
                 return c
 
         return ' '
+```
+
+</details>
+
+---
+
+### `程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`
+
+[![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
+[![程序员面试金典](https://img.shields.io/badge/程序员面试金典-lightgray.svg)](题集-程序员面试金典.md)
+
+<!-- Tag: 哈希表 -->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+判定给定的两个字符串是否互为字符重排。
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+给定两个字符串 s1 和 s2，请编写一个程序，确定其中一个字符串的字符重新排列后，能否变成另一个字符串。
+
+示例 1：
+    输入: s1 = "abc", s2 = "bca"
+    输出: true 
+示例 2：
+    输入: s1 = "abc", s2 = "bad"
+    输出: false
+说明：
+    0 <= len(s1) <= 100
+    0 <= len(s2) <= 100
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/check-permutation-lcci
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路1：哈希表</b></summary>
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def CheckPermutation(self, s1: str, s2: str) -> bool:
+        if len(s1) != len(s2): return False
+        
+        cnt = [0] * 128
+        for c1, c2 in zip(s1, s2):
+            cnt[ord(c1)] += 1  # ord 函数用于获取字符的 ascii 码值
+            cnt[ord(c2)] -= 1
+
+        return not any(cnt)
+```
+
+</details>
+
+<summary><b>思路2：排序</b></summary>
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def CheckPermutation(self, s1: str, s2: str) -> bool:
+        return sorted(s1) == sorted(s2)
 ```
 
 </details>
