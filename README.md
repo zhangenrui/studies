@@ -56,9 +56,10 @@ Repo Index
 Algorithm Studies
 ---
 
-<details><summary><b> 基础-模板 [1] <a href="algorithms/topics/基础-模板.md">¶</a></b></summary>
+<details><summary><b> 基础-模板 [2] <a href="algorithms/topics/基础-模板.md">¶</a></b></summary>
 
-- [`+模板 字符串 split切分 (简单, 模板库-字符串)`](algorithms/topics/基础-模板.md#模板-字符串-split切分-简单-模板库-字符串)
+- [`+模板 字符串 split切分 (简单, 模板库-基础)`](algorithms/topics/基础-模板.md#模板-字符串-split切分-简单-模板库-基础)
+- [`+模板 搜索 二分查找 (简单, 模板库-基础)`](algorithms/topics/基础-模板.md#模板-搜索-二分查找-简单-模板库-基础)
 
 </details>
 
@@ -85,7 +86,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-LeetCode [25] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 题集-LeetCode [26] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0002-两数相加-中等-2021-10)
@@ -104,6 +105,7 @@ Algorithm Studies
 - [`LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0167-两数之和2输入有序数组-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0187-重复的dna序列-中等-2021-10)
 - [`LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0240-搜索二维矩阵2-中等-2021-10)
+- [`LeetCode No.0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0300-最长递增子序列-中等-2022-01)
 - [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithms/topics/题集-LeetCode.md#leetcode-no0343-整数拆分-中等-2021-12)
 - [`LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0352-将数据流变为多个不相交区间-困难-2021-10)
 - [`LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0434-字符串中的单词数-简单-2021-10)
@@ -308,8 +310,9 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 技巧-贪心 [1] <a href="algorithms/topics/技巧-贪心.md">¶</a></b></summary>
+<details><summary><b> 技巧-贪心 [2] <a href="algorithms/topics/技巧-贪心.md">¶</a></b></summary>
 
+- [`LeetCode No.0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/技巧-贪心.md#leetcode-no0300-最长递增子序列-中等-2022-01)
 - [`剑指Offer No.014 1-剪绳子（整数拆分） (中等, 2021-11)`](algorithms/topics/技巧-贪心.md#剑指offer-no014-1-剪绳子整数拆分-中等-2021-11)
 
 </details>
@@ -353,7 +356,7 @@ Algorithm Studies
 
 <details><summary><b> 数据结构-字符串 [8] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
 
-- [`+模板 字符串 split切分 (简单, 模板库-字符串)`](algorithms/topics/数据结构-字符串.md#模板-字符串-split切分-简单-模板库-字符串)
+- [`+模板 字符串 split切分 (简单, 模板库-基础)`](algorithms/topics/数据结构-字符串.md#模板-字符串-split切分-简单-模板库-基础)
 - [`LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`](algorithms/topics/数据结构-字符串.md#leetcode-no0434-字符串中的单词数-简单-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#leetcode-no0859-亲密字符串-简单-2021-11)
 - [`剑指Offer No.005 替换空格 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#剑指offer-no005-替换空格-简单-2021-11)
@@ -416,8 +419,9 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-二分 [12] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
+<details><summary><b> 算法-二分 [13] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
 
+- [`+模板 搜索 二分查找 (简单, 模板库-基础)`](algorithms/topics/算法-二分.md#模板-搜索-二分查找-简单-模板库-基础)
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
 - [`LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0240-搜索二维矩阵2-中等-2021-10)
@@ -442,10 +446,11 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [15] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [16] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0072-编辑距离-困难-2022-01)
+- [`LeetCode No.0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0300-最长递增子序列-中等-2022-01)
 - [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0343-整数拆分-中等-2021-12)
 - [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no010-斐波那契数列-1-简单-2021-11)
 - [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no010-斐波那契数列-1-简单-2021-11)
