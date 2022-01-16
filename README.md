@@ -63,9 +63,10 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 基础-经典问题&代码 [18] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 基础-经典问题&代码 [19] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
 
 - [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-no0072-编辑距离-困难-2022-01)
+- [`LeetCode No.0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-no0300-最长递增子序列-中等-2022-01)
 - [`剑指Offer No.007 重建二叉树 (中等, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no007-重建二叉树-中等-2021-11)
 - [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
 - [`剑指Offer No.024 反转链表 (简单, 2021-11)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-no024-反转链表-简单-2021-11)
