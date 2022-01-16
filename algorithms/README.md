@@ -265,9 +265,10 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [16] <a href="topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [17] <a href="topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0005-最长回文子串-中等-2021-10)
+- [`LeetCode No.0053 最大子数组和 (简单, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0053-最大子数组和-简单-2022-01)
 - [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0072-编辑距离-困难-2022-01)
 - [`LeetCode No.0300 最长递增子序列 (中等, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0300-最长递增子序列-中等-2022-01)
 - [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0343-整数拆分-中等-2021-12)
@@ -339,7 +340,7 @@ Algorithm Studies
 
 </details>
 
-<details><summary><b> 题集-LeetCode [26] <a href="topics/题集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 题集-LeetCode [27] <a href="topics/题集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](topics/题集-LeetCode.md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](topics/题集-LeetCode.md#leetcode-no0002-两数相加-中等-2021-10)
@@ -351,6 +352,7 @@ Algorithm Studies
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](topics/题集-LeetCode.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](topics/题集-LeetCode.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
 - [`LeetCode No.0042 接雨水 (困难, 2021-10)`](topics/题集-LeetCode.md#leetcode-no0042-接雨水-困难-2021-10)
+- [`LeetCode No.0053 最大子数组和 (简单, 2022-01)`](topics/题集-LeetCode.md#leetcode-no0053-最大子数组和-简单-2022-01)
 - [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](topics/题集-LeetCode.md#leetcode-no0072-编辑距离-困难-2022-01)
 - [`LeetCode No.0086 分隔链表 (中等, 2021-10)`](topics/题集-LeetCode.md#leetcode-no0086-分隔链表-中等-2021-10)
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](topics/题集-LeetCode.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
