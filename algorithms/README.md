@@ -1,4 +1,4 @@
-Algorithm Studies
+Algorithms
 ===
 
 <font color="LightGrey"><i> `This README is Auto-generated` </i></font>

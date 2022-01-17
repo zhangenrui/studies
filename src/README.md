@@ -1,6 +1,5 @@
-Coding Lab
+Codes
 ---
-
 <font color="LightGrey"><i> `This README is Auto-generated` </i></font>
 
 <details><summary><b> Work Utils <a href="#work-utils">¶</a></b></summary>

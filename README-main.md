@@ -12,17 +12,19 @@ studies
 <!-- ![user-stars](https://img.shields.io/github/stars/imhuay?style=social) -->
 
 
-### TODO
+<details><summary><b> TODO </b></summary>
 
-- [ ] 自动生成目录结构（books、papers 等）
 <!-- - [ ] 【`2021.11.11`】pytorch_trainer: 为 EvaluateCallback 添加各种预定义评估指标，如 acc、f1 等，目前只有 loss； -->
 <!-- - [ ] 【`2021.11.11`】论文：What does BERT learn about the structure of language? —— Bert 各层的含义； -->
 <!-- - [ ] 【`2021.11.10`】bert-tokenizer 自动识别 `[MASK]` 等特殊标识； -->
 <!-- - [ ] 【`2021.11.07`】面试笔记：通识问题/项目问题 -->
 <!-- - [ ] 【`2021.10.22`】max_batch_size 估算 -->
 
+</details>
+
 <details><summary><b> Done </b></summary>
 
+- [x] 【`2022.01.17`】自动生成目录结构（books、papers 等）
 - [x] 【`2021.11.12`】优化 auto-readme，使用上一次的 commit info，而不是默认 'Auto-README'
     - 参考：`git commit -m "$(git log -"$(git rev-list origin/master..master --count)" --pretty=%B | cat)"`
     - 说明：使用 origin/master 到 master 之间所有的 commit 信息作为这次的 message；
@@ -34,7 +36,11 @@ studies
 
 </details>
 
+<!-- 
+
 ### 其他仓库
 - [Algorithm_Interview_Notes-Chinese](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese_backups): 在校期间的学习/面试笔记；
 - [bert_by_keras](https://github.com/imhuay/bert_by_keras): 使用 keras 重构的 Bert；
 - [algorithm](https://github.com/imhuay/algorithm): 刷题笔记，实际上就是本仓库 algorithm 目录下的内容；
+
+ -->

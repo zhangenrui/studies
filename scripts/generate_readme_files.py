@@ -17,6 +17,7 @@ from types import *
 from typing import *
 from collections import defaultdict, OrderedDict
 from dataclasses import dataclass
+from pathlib import Path
 
 WORK_UTILS = (10, 'Work Utils')
 PYTORCH_MODELS = (20, 'Pytorch Models')
@@ -94,7 +95,7 @@ def hn_line(line, lv=2):
     return f'{"#" * lv} {line}'
 
 
-class AlgorithmReadme:
+class Algorithms:
     """"""
     sp_kw = {'题集', '模板', '经典'}
     more_info = '更多细分类型'
@@ -103,7 +104,7 @@ class AlgorithmReadme:
         """"""
         self.args = args
         self.template_name = '*模板'
-        self.toc_head = 'Algorithm Studies'
+        self.toc_name = self.__class__.__name__
         self.prefix_topics = args.prefix_topics
         self.prefix_problems = args.prefix_problems
         self.prefix_notes = args.prefix_notes
@@ -119,7 +120,7 @@ class AlgorithmReadme:
 
         problems_dt = self.parse_problems()
         append_lines = self.gen_topic_md_sorted(problems_dt)
-        self.readme_append = '\n'.join(append_lines)
+        self.content = '\n'.join(append_lines)
 
         diff = set(os.listdir(args.topics_path)) - set(os.listdir(args.notes_path))
         assert len(diff) == 0, diff
@@ -199,8 +200,8 @@ class AlgorithmReadme:
 
     def gen_topic_md_sorted(self, problems_dt):
         """生成算法专题md，对主页topics排序"""
-        readme_lines = [self.toc_head, '===\n', auto_line]
-        append_lines = [self.toc_head, '---\n']
+        readme_lines = [self.toc_name, '===\n', auto_line]
+        append_lines = [self.toc_name, '---']
 
         append_blocks = []
 
@@ -295,7 +296,7 @@ class AlgorithmReadme:
         return head
 
 
-class CodeReadme:
+class Codes:
     """"""
 
     @dataclass()
@@ -329,10 +330,10 @@ class CodeReadme:
         # self.code_path = args.code_path
         # print(self.code_path)
         self.code_readme_path = os.path.join(args.src_path, 'README.md')
-        self.toc_head = 'Coding Lab'
+        self.toc_name = self.__class__.__name__
         docs_dt = self.parse_docs()
         self.code_basename = os.path.basename(os.path.abspath(args.src_path))
-        self.readme_append = self.gen_readme_md_simply(docs_dt)
+        self.content = self.gen_readme_md_simply(docs_dt)
 
     def parse_docs(self):
         """ 生成 readme for code """
@@ -398,9 +399,8 @@ class CodeReadme:
         # code_prefix = os.path.basename(os.path.abspath(args.code_path))
         # print(code_prefix)
 
-        toc = [self.toc_head, '---\n']
-        append_toc = [self.toc_head, '---\n']
-        # main_toc = ['My Code Lab', '---\n']
+        toc = [self.toc_name, '---']
+        append_toc = [self.toc_name, '---']
         readme_lines = []
         # append_lines = []
 
@@ -440,19 +440,123 @@ class CodeReadme:
         return main_append
 
 
-def gen_main_toc(toc_lines):
+class TreeTOC:
     """"""
+    relative_path = r'.'
+    black_kw = ('_assets',)
+    sort_lv = {}
+    tree: List[str]
+    content: str
 
-    def get_toc_line(line, prefix=''):
+    def __init__(self, dir_path=None):
         """"""
-        toc_line = f'[{line}]({prefix}#{slugify(line)})'
-        return toc_line
+        self.toc_name = self.__class__.__name__
+        self.dir_path = Path(dir_path or self.relative_path)
 
-    lns = ['Repo Index', '---\n']
-    for ln in toc_lines:
-        lns.append('- ' + get_toc_line(ln))
+        self.gen_local_readme_flag = True
+        self.gen_local_readme()
 
-    return lns
+        self.gen_local_readme_flag = False
+        self.gen_main_readme()
+
+    def process_relative_path(self, path: Path):
+        parts = path.parts
+        if self.gen_local_readme_flag:
+            return os.path.join(*parts[2:])  # ../a/b -> b
+        return os.path.join(*parts[1:])  # ../a/b -> a/b
+
+    def get_toc_link(self, path, dir_lv):  # noqa
+        """"""
+        space_prefix = '    ' * dir_lv
+        if str(path.name).startswith('-'):
+            link = space_prefix + '- ~~' + f'[{path.name[1:]}]({self.process_relative_path(path)})~~'
+        else:
+            link = space_prefix + '- ' + f'[{path.name}]({self.process_relative_path(path)})'
+        return link
+
+    def gen_local_readme(self):
+        """"""
+        self.tree = [self.toc_name, '===']
+        self.generate_toc(self.dir_path)
+        content = '\n'.join(self.tree)
+        fp = os.path.join(self.relative_path, 'README.md')
+        file_write_helper(fp, content)
+
+    def gen_main_readme(self):
+        self.tree = [self.toc_name, '---']
+        self.generate_toc(self.dir_path)
+        self.content = '\n'.join(self.tree)
+
+    def generate_toc(self, path: Path, dir_lv=-1, with_top=False, max_lv=10000):
+        """生成树形目录"""
+        if with_top:
+            dir_lv += 1
+
+        if dir_lv >= max_lv:
+            return
+
+        if self.allow_fn(path) and dir_lv >= 0:
+            link = self.get_toc_link(path, dir_lv)
+            self.tree.append(link)
+
+        if path.is_file():
+            return
+
+        path_iter = sorted(path.iterdir(), key=self.key_fn)
+        for dp in path_iter:
+            self.generate_toc(dp, dir_lv + 1)
+
+    def key_fn(self, path: Path):
+        return self.sort_lv.get(path.name, '~'), path.name
+
+    def allow_fn(self, fp: Union[str, Path]):
+        is_dir = os.path.isdir(fp)
+        no_startswith__ = not str(fp.name).startswith('_')
+        no_black_kw = all(kw not in str(fp) for kw in self.black_kw)
+        return is_dir and no_startswith__ and no_black_kw
+
+
+class Notes(TreeTOC):
+    """"""
+    relative_path = r'../notes'
+    sort_lv = {
+        '机器学习': 'note-01',
+        '深度学习': 'note-02',
+        '自然语言处理': 'note-03',
+        '搜索、广告、推荐': 'note-04',
+
+        '预训练语言模型': 'NLP-01',
+        '细粒度情感分析': 'NLP-02',
+
+        'Python': '编程语言-01',
+        'CCpp': '编程语言-02',
+        'Java': '编程语言-03',
+    }
+
+
+class Books(TreeTOC):
+    """"""
+    relative_path = r'../books'
+    sort_lv = {
+
+    }
+
+
+class Papers(TreeTOC):
+    """"""
+    relative_path = r'../papers'
+    sort_lv = {
+
+    }
+
+
+def get_repo_toc(*toc_parts):
+    """"""
+    lns = ['Repo Index', '---']
+    for part in toc_parts:
+        name = part.toc_name
+        lns.append(f'- [{name}](#{slugify(name)})')
+    return '\n'.join(lns)
 
 
 TOTAL_ADD = 0
@@ -486,18 +590,19 @@ def pipeline():
     #     readme_old = ''
     # code_toc, code_append = gen_code_readme(args)
 
-    cr = CodeReadme()
-    ar = AlgorithmReadme()
-
-    block_toc = gen_main_toc([ar.toc_head, cr.toc_head])
+    parts = [
+        Algorithms(),
+        Notes(),
+        Papers(),
+        Books(),
+        Codes()
+    ]
+    repo_toc = get_repo_toc(*parts)
     readme_main_path = os.path.join(args.repo_path, r'README-main.md')
-
     main_auto_line = '<font color="LightGrey"><i> `The following is Auto-generated` </i></font>'
     content = files_concat(src_in=[readme_main_path,
                                    main_auto_line,
-                                   '\n'.join(block_toc),
-                                   ar.readme_append,
-                                   cr.readme_append],
+                                   repo_toc] + [it.content for it in parts],
                            sep='\n---\n\n')
     file_write_helper(args.repo_readme_path, content)
     # readme = open(args.repo_readme_path, encoding='utf8').read()

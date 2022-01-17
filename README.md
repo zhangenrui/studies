@@ -12,17 +12,19 @@ studies
 <!-- ![user-stars](https://img.shields.io/github/stars/imhuay?style=social) -->
 
 
-### TODO
+<details><summary><b> TODO </b></summary>
 
-- [ ] 自动生成目录结构（books、papers 等）
 <!-- - [ ] 【`2021.11.11`】pytorch_trainer: 为 EvaluateCallback 添加各种预定义评估指标，如 acc、f1 等，目前只有 loss； -->
 <!-- - [ ] 【`2021.11.11`】论文：What does BERT learn about the structure of language? —— Bert 各层的含义； -->
 <!-- - [ ] 【`2021.11.10`】bert-tokenizer 自动识别 `[MASK]` 等特殊标识； -->
 <!-- - [ ] 【`2021.11.07`】面试笔记：通识问题/项目问题 -->
 <!-- - [ ] 【`2021.10.22`】max_batch_size 估算 -->
 
+</details>
+
 <details><summary><b> Done </b></summary>
 
+- [x] 【`2022.01.17`】自动生成目录结构（books、papers 等）
 - [x] 【`2021.11.12`】优化 auto-readme，使用上一次的 commit info，而不是默认 'Auto-README'
     - 参考：`git commit -m "$(git log -"$(git rev-list origin/master..master --count)" --pretty=%B | cat)"`
     - 说明：使用 origin/master 到 master 之间所有的 commit 信息作为这次的 message；
@@ -34,10 +36,14 @@ studies
 
 </details>
 
+<!-- 
+
 ### 其他仓库
 - [Algorithm_Interview_Notes-Chinese](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese_backups): 在校期间的学习/面试笔记；
 - [bert_by_keras](https://github.com/imhuay/bert_by_keras): 使用 keras 重构的 Bert；
 - [algorithm](https://github.com/imhuay/algorithm): 刷题笔记，实际上就是本仓库 algorithm 目录下的内容；
+
+ -->
 
 ---
 
@@ -47,15 +53,16 @@ studies
 
 Repo Index
 ---
-
-- [Algorithm Studies](#algorithm-studies)
-- [Coding Lab](#coding-lab)
+- [Algorithms](#algorithms)
+- [Notes](#notes)
+- [Papers](#papers)
+- [Books](#books)
+- [Codes](#codes)
 
 ---
 
-Algorithm Studies
+Algorithms
 ---
-
 <details><summary><b> 基础-模板 [2] <a href="algorithms/topics/基础-模板.md">¶</a></b></summary>
 
 - [`+模板 字符串 split切分 (简单, 模板库-基础)`](algorithms/topics/基础-模板.md#模板-字符串-split切分-简单-模板库-基础)
@@ -528,9 +535,43 @@ Algorithm Studies
 
 ---
 
-Coding Lab
+Notes
+---
+- [深度学习](notes/深度学习)
+    - [小样本学习](notes/深度学习/小样本学习)
+- [自然语言处理](notes/自然语言处理)
+    - [预训练语言模型](notes/自然语言处理/预训练语言模型)
+        - [Bert](notes/自然语言处理/预训练语言模型/Bert)
+        - [Transformer系列模型](notes/自然语言处理/预训练语言模型/Transformer系列模型)
+    - ~~[实体链接](notes/自然语言处理/-实体链接)~~
+    - ~~[细粒度情感分析](notes/自然语言处理/-细粒度情感分析)~~
+    - [关键词挖掘](notes/自然语言处理/关键词挖掘)
+    - [文本生成](notes/自然语言处理/文本生成)
+- ~~[搜索、广告、推荐](notes/-搜索、广告、推荐)~~
+- ~~[机器学习](notes/-机器学习)~~
+- [深度学习框架](notes/深度学习框架)
+    - [Pytorch](notes/深度学习框架/Pytorch)
+- [编程语言](notes/编程语言)
+    - ~~[CCpp](notes/编程语言/-CCpp)~~
+    - [Python](notes/编程语言/Python)
+    - [Java](notes/编程语言/Java)
+
 ---
 
+Papers
+---
+- [实体链接](papers/实体链接)
+
+---
+
+Books
+---
+- [面向对象是怎样工作的（第二版）](books/面向对象是怎样工作的（第二版）)
+
+---
+
+Codes
+---
 ### Work Utils [¶](src/README.md#work-utils)
 
 - [`find_best_threshold: 搜索最佳阈值（二分类）`](src/README.md#find_best_threshold-搜索最佳阈值二分类)
