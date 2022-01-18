@@ -151,6 +151,12 @@ class Algorithms:
 
         return '\n'.join(lns)
 
+    def get_new_file_name(self, info):  # noqa
+        """"""
+        src, no, dif, name = info['来源'], info['编号'], info['难度'], info['标题']
+
+        return f'{src}_{no}_{dif}_{name}.md'
+
     def parse_problems(self):
         """"""
         problems_dt = defaultdict(list)  # {tag: file_txt_ls}
@@ -172,17 +178,24 @@ class Algorithms:
             # fn, _ = os.path.splitext(f)
             # fp = os.path.join(args.problems_path, f)
             # TODO: rename
-            src, pid, lv, pn = fn.rsplit('_', maxsplit=3)
-
+            # src, pid, lv, pn = fn.rsplit('_', maxsplit=3)
+            fp = Path(fp)
             txt = open(fp, encoding='utf8').read()
-            tag_append = [src]  # if src != self.template_name else []
-
             info_ret = RE_INFO.search(txt)
             if not info_ret:
                 print(fn, fp, suffix)
                 continue
 
             info = json.loads(info_ret.group(1))
+
+            new_file_name = self.get_new_file_name(info)
+            if new_file_name != fp.name:
+                logger.info(f'rename {fp.name} to {new_file_name}')
+                fp.rename(fp.parent / new_file_name)
+
+            src, pid, lv, pn = info['来源'], info['编号'], info['难度'], info['标题']
+            tag_append = [src]  # if src != self.template_name else []
+
             # tags = RE_SEP.split(RE_TAG.search(txt).group(1)) + tag_append
             tags = info['tags'] + tag_append
             tags = [tag.strip() for tag in tags]

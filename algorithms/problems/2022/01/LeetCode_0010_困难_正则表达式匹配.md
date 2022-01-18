@@ -1,8 +1,8 @@
 <!--{
-    "tags": ["字符串", "动态规划", "递归"],
-    "来源": "剑指Offer",
-    "编号": "1900",
+    "tags": ["动态规划"],
+    "来源": "LeetCode",
     "难度": "困难",
+    "编号": "0010",
     "标题": "正则表达式匹配"
 }-->
 
@@ -11,46 +11,45 @@
 ```txt
 请实现一个函数用来匹配包含'.'和'*'的正则表达式。
 ```
+> [10. 正则表达式匹配 - 力扣（LeetCode）](https://leetcode-cn.com/problems/regular-expression-matching/)
 
 <details><summary><b>详细描述</b></summary>
 
 ```txt
-请实现一个函数用来匹配包含'.'和'*'的正则表达式。模式中的字符'.'表示任意一个字符，而'*'表示它前面的字符可以出现任意次（含0次）。在本题中，匹配是指字符串的所有字符匹配整个模式。例如，字符串"aaa"与模式"a.a"和"ab*ac*a"匹配，但与"aa.a"和"ab*a"均不匹配。
+给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 '.' 和 '*' 的正则表达式匹配。
+    '.' 匹配任意单个字符
+    '*' 匹配零个或多个前面的那一个元素
+    所谓匹配，是要涵盖 整个 字符串 s的，而不是部分字符串。
 
-示例 1:
-    输入:
-    s = "aa"
-    p = "a"
-    输出: false
-    解释: "a" 无法匹配 "aa" 整个字符串。
+示例 1：
+    输入：s = "aa" p = "a"
+    输出：false
+    解释："a" 无法匹配 "aa" 整个字符串。
 示例 2:
-    输入:
-    s = "aa"
-    p = "a*"
-    输出: true
-    解释: 因为 '*' 代表可以匹配零个或多个前面的那一个元素, 在这里前面的元素就是 'a'。因此，字符串 "aa" 可被视为 'a' 重复了一次。
-示例 3:
-    输入:
-    s = "ab"
-    p = ".*"
-    输出: true
-    解释: ".*" 表示可匹配零个或多个（'*'）任意字符（'.'）。
-示例 4:
-    输入:
-    s = "aab"
-    p = "c*a*b"
-    输出: true
-    解释: 因为 '*' 表示零个或多个，这里 'c' 为 0 个, 'a' 被重复一次。因此可以匹配字符串 "aab"。
-示例 5:
-    输入:
-    s = "mississippi"
-    p = "mis*is*p*."
-    输出: false
-    s 可能为空，且只包含从 a-z 的小写字母。
-    p 可能为空，且只包含从 a-z 的小写字母以及字符 . 和 *，无连续的 '*'。
+    输入：s = "aa" p = "a*"
+    输出：true
+    解释：因为 '*' 代表可以匹配零个或多个前面的那一个元素, 在这里前面的元素就是 'a'。因此，字符串 "aa" 可被视为 'a' 重复了一次。
+示例 3：
+    输入：s = "ab" p = ".*"
+    输出：true
+    解释：".*" 表示可匹配零个或多个（'*'）任意字符（'.'）。
+示例 4：
+    输入：s = "aab" p = "c*a*b"
+    输出：true
+    解释：因为 '*' 表示零个或多个，这里 'c' 为 0 个, 'a' 被重复一次。因此可以匹配字符串 "aab"。
+示例 5：
+    输入：s = "mississippi" p = "mis*is*p*."
+    输出：false
+
+提示：
+    1 <= s.length <= 20
+    1 <= p.length <= 30
+    s 只含小写英文字母。
+    p 只含小写英文字母，以及字符 . 和 *。
+    保证每次出现字符 * 时，前面都匹配到有效的字符
 
 来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof
+链接：https://leetcode-cn.com/problems/regular-expression-matching
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 ```
 
@@ -60,12 +59,9 @@
 
 <summary><b>思路：动态规划</b></summary>
 
-> [正则表达式匹配（动态规划，清晰图解） - Krahets](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/jian-zhi-offer-19-zheng-ze-biao-da-shi-pi-pei-dong/)
-
 - 记主串为 `s`，模式串为 `p`；
 - 将 `s` 的前 i 个 字符记为 `s[:i]`，p 的前 j 个字符记为 `p[:j]`；
 - 整体思路是从 `s[:1]` 和 `p[:1]` 开始，判断 `s[:i]` 和 `p[:j]` 能否匹配；
-
 
 <details><summary><b>Python</b></summary>
 
@@ -109,30 +105,3 @@ class Solution:
 
 </details>
 
-<summary><b>思路2：递归</b></summary>
-
-- 看到一份非常简洁的递归代码；
-    > 见[正则表达式匹配（动态规划，清晰图解） - 评论区](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/jian-zhi-offer-19-zheng-ze-biao-da-shi-pi-pei-dong/)
-
-<details><summary><b>C++</b></summary>
-
-```cpp
-class Solution {
-public:
-    bool isMatch(string s, string p) 
-    {
-        if (p.empty()) 
-            return s.empty();
-        
-        bool first_match = !s.empty() && (s[0] == p[0] || p[0] == '.');
-        
-        // *前字符重复>=1次 || *前字符重复0次（不出现）
-        if (p.size() >= 2 && p[1] == '*')  
-            return (first_match && isMatch(s.substr(1), p)) || isMatch(s, p.substr(2));
-        else  // 不是*，减去已经匹配成功的头部，继续比较
-            return first_match && isMatch(s.substr(1), p.substr(1));    
-    }
-};
-```
-
-</details>
