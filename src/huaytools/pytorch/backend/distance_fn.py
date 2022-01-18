@@ -12,7 +12,7 @@ Subject:
 """
 
 import torch
-import torch.nn.functional as F
+import torch.nn.functional as F  # noqa
 
 from huaytools.pytorch.backend.tensor_op import l2_normalize
 

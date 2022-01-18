@@ -19,6 +19,8 @@ from collections import defaultdict, OrderedDict
 from dataclasses import dataclass
 from pathlib import Path
 
+os.environ['NUMEXPR_MAX_THREADS'] = '8'
+
 WORK_UTILS = (10, 'Work Utils')
 PYTORCH_MODELS = (20, 'Pytorch Models')
 PYTORCH_UTILS = (30, 'Pytorch Utils')
@@ -341,13 +343,14 @@ class Codes:
 
         sys.path.append(args.repo_path)
         for module in module_iter(args.src_path):
-            # print(module.__name__)
             if hasattr(module, '__all__'):
+                # print(module.__name__)
                 for obj_str in module.__all__:
                     obj = getattr(module, obj_str)
                     if isinstance(obj, (ModuleType, FunctionType, type)) \
                             and getattr(obj, '__doc__') \
                             and obj.__doc__.startswith('@'):
+                        # print(obj.__name__)
                         doc = self.parse_doc(obj)
                         docs_dt[doc.flag].append(doc)
 

@@ -24,8 +24,8 @@ import requests
 from datetime import datetime
 from typing import Any
 
-DEFAULT_LOG_FMT = '%(asctime)s - %(levelname)s - %(name)s - %(message)s'
-logging.basicConfig(format=DEFAULT_LOG_FMT, datefmt='%Y.%m.%d %H:%M:%S', level=logging.INFO)
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
+                    datefmt='%Y.%m.%d %H:%M:%S')
 
 __all__ = [
     'get_logger',
