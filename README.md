@@ -556,11 +556,12 @@ Notes
 - [深度学习框架](notes/深度学习框架)
     - [Pytorch](notes/深度学习框架/Pytorch)
 - [编程语言](notes/编程语言)
-    - ~~[CCpp](notes/编程语言/-CCpp)~~
     - [Python](notes/编程语言/Python)
-        - [常见报错记录](notes/编程语言/Python/常见报错记录)
+        - [设计模式](notes/编程语言/Python/设计模式)
         - [语法备忘](notes/编程语言/Python/语法备忘)
+        - [常见报错记录](notes/编程语言/Python/常见报错记录)
     - [Java](notes/编程语言/Java)
+    - ~~[CCpp](notes/编程语言/-CCpp)~~
 
 ---
 
