@@ -1544,7 +1544,7 @@ class Solution:
 
 <!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
 
-<summary><b>思路</b></summary>
+<summary><b>思路：动态规划</b></summary>
 
 - 延续连续子数组最大和的思路，定义 `dp[i]` 表示以 `nums[i]` 结尾的连续最大乘积；
 - 区别在于非0值乘以负数时，最大值会变最小值，最小值变最大值；
