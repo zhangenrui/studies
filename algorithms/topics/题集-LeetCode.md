@@ -21,6 +21,7 @@ Problems Index
 - [`LeetCode No.0086 分隔链表 (中等, 2021-10)`](#leetcode-no0086-分隔链表-中等-2021-10)
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](#leetcode-no0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](#leetcode-no0111-二叉树的最小深度-简单-2021-10)
+- [`LeetCode No.0152 乘积最大子数组 (中等, 2022-01)`](#leetcode-no0152-乘积最大子数组-中等-2022-01)
 - [`LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`](#leetcode-no0167-两数之和2输入有序数组-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](#leetcode-no0187-重复的dna序列-中等-2021-10)
 - [`LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`](#leetcode-no0240-搜索二维矩阵2-中等-2021-10)
@@ -41,7 +42,13 @@ Problems Index
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 哈希表 -->
+<!--{
+    "tags": ["哈希表"],
+    "来源": "LeetCode",
+    "编号": "0001",
+    "难度": "简单",
+    "标题": "两数之和"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -114,7 +121,13 @@ class Solution:
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 链表 -->
+<!--{
+    "tags": ["链表"],
+    "来源": "LeetCode",
+    "编号": "0002",
+    "难度": "中等",
+    "标题": "两数相加"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -197,7 +210,13 @@ class Solution:
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: DP、模拟、双指针 -->
+<!--{
+    "tags": ["DP", "模拟", "双指针"],
+    "来源": "LeetCode",
+    "编号": "0005",
+    "难度": "中等",
+    "标题": "最长回文子串"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -366,7 +385,13 @@ class Solution:
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "LeetCode",
+    "编号": "0011",
+    "难度": "中等",
+    "标题": "盛最多水的容器"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -423,7 +448,13 @@ class Solution:
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "LeetCode",
+    "编号": "0015",
+    "难度": "中等",
+    "标题": "三数之和"
+}-->
 
 <summary><b>问题简述</b></summary> 
 
@@ -527,7 +558,13 @@ class Solution:
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "LeetCode",
+    "编号": "0016",
+    "难度": "中等",
+    "标题": "最接近的三数之和"
+}-->
 
 <summary><b>问题简述</b></summary> 
 
@@ -646,7 +683,13 @@ class Solution:
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 递归 -->
+<!--{
+    "tags": ["递归"],
+    "来源": "LeetCode",
+    "编号": "0021",
+    "难度": "简单",
+    "标题": "合并两个有序链表"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -742,7 +785,13 @@ class Solution:
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 位运算、二分查找 -->
+<!--{
+    "tags": ["位运算", "二分查找"],
+    "来源": "LeetCode",
+    "编号": "0029",
+    "难度": "中等",
+    "标题": "两数相除"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -833,7 +882,13 @@ class Solution:
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 二分查找 -->
+<!--{
+    "tags": ["二分查找"],
+    "来源": "LeetCode",
+    "编号": "0033",
+    "难度": "中等",
+    "标题": "搜索旋转排序数组"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -931,7 +986,13 @@ class Solution:
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "LeetCode",
+    "编号": "0042",
+    "难度": "困难",
+    "标题": "接雨水"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -1019,7 +1080,13 @@ public:
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 动态规划 -->
+<!--{
+    "tags": ["动态规划"],
+    "来源": "LeetCode",
+    "编号": "0053",
+    "难度": "简单",
+    "标题": "最大子数组和"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1086,7 +1153,13 @@ class Solution:
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 动态规划、经典 -->
+<!--{
+    "tags": ["动态规划", "经典"],
+    "来源": "LeetCode",
+    "编号": "0072",
+    "难度": "困难",
+    "标题": "编辑距离"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1218,7 +1291,13 @@ class Solution:
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 链表 -->
+<!--{
+    "tags": ["链表"],
+    "来源": "LeetCode",
+    "编号": "0086",
+    "难度": "中等",
+    "标题": "分隔链表"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -1297,7 +1376,13 @@ class Solution:
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 二叉树，递归 -->
+<!--{
+    "tags": ["二叉树", "递归"],
+    "来源": "LeetCode",
+    "编号": "0104",
+    "难度": "简单",
+    "标题": "二叉树的最大深度"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -1352,7 +1437,13 @@ class Solution:
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 二叉树，DFS -->
+<!--{
+    "tags": ["二叉树", "DFS"],
+    "来源": "LeetCode",
+    "编号": "0111",
+    "难度": "简单",
+    "标题": "二叉树的最小深度"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -1411,12 +1502,87 @@ class Solution:
 
 ---
 
+### `LeetCode No.0152 乘积最大子数组 (中等, 2022-01)`
+
+[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+
+<!--{
+    "tags": ["动态规划"],
+    "来源": "LeetCode",
+    "编号": "0152",
+    "难度": "中等",
+    "标题": "乘积最大子数组"
+}-->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给定整型数组，求乘积最大的非空连续子数组，返回乘积；
+```
+
+<details><summary><b>详细描述</b></summary>
+
+```txt
+给你一个整数数组 nums，请你找出数组中乘积最大的连续子数组（该子数组中至少包含一个数字），并返回该子数组所对应的乘积。
+
+示例 1:
+    输入: [2,3,-2,4]
+    输出: 6
+    解释: 子数组 [2,3] 有最大乘积 6。
+示例 2:
+    输入: [-2,0,-1]
+    输出: 0
+    解释: 结果不能为 2, 因为 [-2,-1] 不是子数组。
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/maximum-product-subarray
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+```
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 延续连续子数组最大和的思路，定义 `dp[i]` 表示以 `nums[i]` 结尾的连续最大乘积；
+- 区别在于非0值乘以负数时，最大值会变最小值，最小值变最大值；
+- 因此可以考虑定义两个 dp：`dp_max[i]` 和 `dp_min[i]` 分别表示最大和最小乘积（详见代码）；
+- 本题同样可以使用“滚动变量”的方式降低空间复杂度；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def maxProduct(self, nums: List[int]) -> int:
+
+        ret = dp_max = dp_min = nums[0]
+        for x in nums[1:]:
+            tmp_mx = dp_max  # 临时变量
+            dp_max = max(x, dp_max * x, dp_min * x)
+            dp_min = min(x, dp_min * x, tmp_mx * x)
+            ret = max(ret, dp_max)
+        
+        return ret
+```
+
+</details>
+
+---
+
 ### `LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "LeetCode",
+    "编号": "0167",
+    "难度": "简单",
+    "标题": "两数之和2(输入有序数组)"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1493,7 +1659,13 @@ class Solution:
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 哈希表、位运算 -->
+<!--{
+    "tags": ["哈希表", "位运算"],
+    "来源": "LeetCode",
+    "编号": "0187",
+    "难度": "中等",
+    "标题": "重复的DNA序列"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1631,7 +1803,13 @@ class Solution:
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 二分查找 -->
+<!--{
+    "tags": ["二分查找"],
+    "来源": "LeetCode",
+    "编号": "0240",
+    "难度": "中等",
+    "标题": "搜索二维矩阵2"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1753,7 +1931,13 @@ class Solution:
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 动态规划、贪心、经典 -->
+<!--{
+    "tags": ["动态规划", "贪心", "经典"],
+    "来源": "LeetCode",
+    "编号": "0300",
+    "难度": "中等",
+    "标题": "最长递增子序列"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1882,7 +2066,13 @@ class Solution:
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 数学、动态规划 -->
+<!--{
+    "tags": ["数学", "动态规划"],
+    "来源": "LeetCode",
+    "编号": "0343",
+    "难度": "中等",
+    "标题": "整数拆分"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2004,7 +2194,13 @@ class Solution:
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 二分查找、模拟 -->
+<!--{
+    "tags": ["二分查找", "模拟"],
+    "来源": "LeetCode",
+    "编号": "0352",
+    "难度": "困难",
+    "标题": "将数据流变为多个不相交区间"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -2173,7 +2369,13 @@ SortedDict({2: 22, 3: 33, 4: 44, 6: 66, 7: 77})
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 字符串 -->
+<!--{
+    "tags": ["字符串"],
+    "来源": "LeetCode",
+    "编号": "0434",
+    "难度": "简单",
+    "标题": "字符串中的单词数"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -2222,7 +2424,13 @@ class Solution:
 [![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 二叉树、深度优先搜索、前缀和 -->
+<!--{
+    "tags": ["二叉树", "深度优先搜索", "前缀和"],
+    "来源": "LeetCode",
+    "编号": "0437",
+    "难度": "中等",
+    "标题": "路径总和3"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -2349,7 +2557,13 @@ class Solution:
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 二分查找、数学 -->
+<!--{
+    "tags": ["二分查找", "数学"],
+    "来源": "LeetCode",
+    "编号": "0441",
+    "难度": "简单",
+    "标题": "排列硬币"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2417,7 +2631,13 @@ class Solution:
 [![单调栈](https://img.shields.io/badge/单调栈-lightgray.svg)](技巧-单调栈、单调队列.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 单调栈 -->
+<!--{
+    "tags": ["单调栈"],
+    "来源": "LeetCode",
+    "编号": "0496",
+    "难度": "简单",
+    "标题": "下一个更大元素"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2498,7 +2718,13 @@ class Solution:
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "LeetCode",
+    "编号": "0611",
+    "难度": "中等",
+    "标题": "有效三角形的个数"
+}-->
 
 <summary><b>问题简述</b></summary> 
 
@@ -2571,7 +2797,13 @@ class Solution:
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 模拟、字符串 -->
+<!--{
+    "tags": ["模拟", "字符串"],
+    "来源": "LeetCode",
+    "编号": "0859",
+    "难度": "简单",
+    "标题": "亲密字符串"
+}-->
 
 <summary><b>问题简述</b></summary>
 

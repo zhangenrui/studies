@@ -11,6 +11,7 @@ Subject:
 import os
 import re
 import sys
+import json
 import inspect
 
 from types import *
@@ -64,6 +65,7 @@ except:
 
 logger = get_logger()
 
+RE_INFO = re.compile(r'<!--(.*?)-->', flags=re.S)
 RE_TAG = re.compile(r'Tag: (.*?)\s')
 RE_SEP = re.compile(r'[,，、]')
 RE_TITLE = re.compile(r'#+\s+(.*?)$')
@@ -169,11 +171,20 @@ class Algorithms:
         for fn, fp, suffix in file_iter:
             # fn, _ = os.path.splitext(f)
             # fp = os.path.join(args.problems_path, f)
+            # TODO: rename
             src, pid, lv, pn = fn.rsplit('_', maxsplit=3)
 
             txt = open(fp, encoding='utf8').read()
             tag_append = [src]  # if src != self.template_name else []
-            tags = RE_SEP.split(RE_TAG.search(txt).group(1)) + tag_append
+
+            info_ret = RE_INFO.search(txt)
+            if not info_ret:
+                print(fn, fp, suffix)
+                continue
+
+            info = json.loads(info_ret.group(1))
+            # tags = RE_SEP.split(RE_TAG.search(txt).group(1)) + tag_append
+            tags = info['tags'] + tag_append
             tags = [tag.strip() for tag in tags]
             tag2topic = {tag: self.tag2topic_map[tag.lower()] for tag in tags}
             topics = list(tag2topic.values())

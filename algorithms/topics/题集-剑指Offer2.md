@@ -18,7 +18,13 @@ Problems Index
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer2](https://img.shields.io/badge/剑指Offer2-lightgray.svg)](题集-剑指Offer2.md)
 
-<!-- Tag: 二分、经典 -->
+<!--{
+    "tags": ["二分", "经典"],
+    "来源": "剑指Offer2",
+    "编号": "001",
+    "难度": "中等",
+    "标题": "整数除法"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -164,7 +170,13 @@ class Solution:
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![剑指Offer2](https://img.shields.io/badge/剑指Offer2-lightgray.svg)](题集-剑指Offer2.md)
 
-<!-- Tag: 二分查找 -->
+<!--{
+    "tags": ["二分查找"],
+    "来源": "剑指Offer2",
+    "编号": "069",
+    "难度": "简单",
+    "标题": "山峰数组的顶部"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -252,7 +264,13 @@ class Solution:
 [![快排](https://img.shields.io/badge/快排-lightgray.svg)](算法-排序.md)
 [![剑指Offer2](https://img.shields.io/badge/剑指Offer2-lightgray.svg)](题集-剑指Offer2.md)
 
-<!-- Tag: 堆、分治、快排 -->
+<!--{
+    "tags": ["堆", "分治", "快排"],
+    "来源": "剑指Offer2",
+    "编号": "076",
+    "难度": "中等",
+    "标题": "数组中的第K大的数字"
+}-->
 
 <summary><b>问题简述</b></summary>
 

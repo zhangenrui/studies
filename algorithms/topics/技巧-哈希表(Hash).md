@@ -8,10 +8,10 @@ Problems Index
 ---
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](#leetcode-no0187-重复的dna序列-中等-2021-10)
-- [`剑指Offer No.003 数组中重复的数字 (简单, 2021-11)`](#剑指offer-no003-数组中重复的数字-简单-2021-11)
-- [`剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no035-复杂链表的复制深拷贝-中等-2021-12)
-- [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
-- [`剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no050-第一个只出现一次的字符-简单-2021-12)
+- [`剑指Offer No.0300 数组中重复的数字 (简单, 2021-11)`](#剑指offer-no0300-数组中重复的数字-简单-2021-11)
+- [`剑指Offer No.3500 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no3500-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer No.4800 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no4800-最长不含重复字符的子字符串-中等-2021-12)
+- [`剑指Offer No.5000 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no5000-第一个只出现一次的字符-简单-2021-12)
 - [`程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`](#程序员面试金典-no0102-判定是否互为字符重排-简单-2022-01)
 
 ---
@@ -21,7 +21,13 @@ Problems Index
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 哈希表 -->
+<!--{
+    "tags": ["哈希表"],
+    "来源": "LeetCode",
+    "编号": "0001",
+    "难度": "简单",
+    "标题": "两数之和"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -95,7 +101,13 @@ class Solution:
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
-<!-- Tag: 哈希表、位运算 -->
+<!--{
+    "tags": ["哈希表", "位运算"],
+    "来源": "LeetCode",
+    "编号": "0187",
+    "难度": "中等",
+    "标题": "重复的DNA序列"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -228,12 +240,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.003 数组中重复的数字 (简单, 2021-11)`
+### `剑指Offer No.0300 数组中重复的数字 (简单, 2021-11)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 哈希表 -->
+<!--{
+    "tags": ["哈希表"],
+    "来源": "剑指Offer",
+    "编号": "0300",
+    "难度": "简单",
+    "标题": "数组中重复的数字"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -286,14 +304,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`
+### `剑指Offer No.3500 复杂链表的复制（深拷贝） (中等, 2021-12)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、哈希表、经典 -->
+<!--{
+    "tags": ["链表", "哈希表", "经典"],
+    "来源": "剑指Offer",
+    "编号": "3500",
+    "难度": "中等",
+    "标题": "复杂链表的复制（深拷贝）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -533,14 +557,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`
+### `剑指Offer No.4800 最长不含重复字符的子字符串 (中等, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 哈希表、双指针、动态规划 -->
+<!--{
+    "tags": ["哈希表", "双指针", "动态规划"],
+    "来源": "剑指Offer",
+    "编号": "4800",
+    "难度": "中等",
+    "标题": "最长不含重复字符的子字符串"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -659,12 +689,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`
+### `剑指Offer No.5000 第一个只出现一次的字符 (简单, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 哈希表 -->
+<!--{
+    "tags": ["哈希表"],
+    "来源": "剑指Offer",
+    "编号": "5000",
+    "难度": "简单",
+    "标题": "第一个只出现一次的字符"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -752,7 +788,13 @@ class Solution:
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![程序员面试金典](https://img.shields.io/badge/程序员面试金典-lightgray.svg)](题集-程序员面试金典.md)
 
-<!-- Tag: 哈希表 -->
+<!--{
+    "tags": ["哈希表"],
+    "来源": "程序员面试金典",
+    "编号": "0102",
+    "难度": "简单",
+    "标题": "判定是否互为字符重排"
+}-->
 
 <summary><b>问题简述</b></summary>
 

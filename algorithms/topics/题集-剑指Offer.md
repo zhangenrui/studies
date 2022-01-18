@@ -6,90 +6,96 @@
 
 Problems Index
 ---
-- [`剑指Offer No.003 数组中重复的数字 (简单, 2021-11)`](#剑指offer-no003-数组中重复的数字-简单-2021-11)
-- [`剑指Offer No.004 二维数组中的查找 (中等, 2021-11)`](#剑指offer-no004-二维数组中的查找-中等-2021-11)
-- [`剑指Offer No.005 替换空格 (简单, 2021-11)`](#剑指offer-no005-替换空格-简单-2021-11)
-- [`剑指Offer No.006 从尾到头打印链表 (简单, 2021-11)`](#剑指offer-no006-从尾到头打印链表-简单-2021-11)
-- [`剑指Offer No.007 重建二叉树 (中等, 2021-11)`](#剑指offer-no007-重建二叉树-中等-2021-11)
-- [`剑指Offer No.009 用两个栈实现队列 (简单, 2021-11)`](#剑指offer-no009-用两个栈实现队列-简单-2021-11)
-- [`剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`](#剑指offer-no010-斐波那契数列-1-简单-2021-11)
-- [`剑指Offer No.010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`](#剑指offer-no010-斐波那契数列-2青蛙跳台阶-简单-2021-11)
-- [`剑指Offer No.011 旋转数组的最小数字 (简单, 2021-11)`](#剑指offer-no011-旋转数组的最小数字-简单-2021-11)
-- [`剑指Offer No.012 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no012-矩阵中的路径-中等-2021-11)
-- [`剑指Offer No.013 机器人的运动范围 (中等, 2021-11)`](#剑指offer-no013-机器人的运动范围-中等-2021-11)
-- [`剑指Offer No.014 1-剪绳子（整数拆分） (中等, 2021-11)`](#剑指offer-no014-1-剪绳子整数拆分-中等-2021-11)
-- [`剑指Offer No.014 2-剪绳子 (中等, 2021-11)`](#剑指offer-no014-2-剪绳子-中等-2021-11)
-- [`剑指Offer No.015 二进制中1的个数 (简单, 2021-11)`](#剑指offer-no015-二进制中1的个数-简单-2021-11)
-- [`剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`](#剑指offer-no016-数值的整数次方快速幂-中等-2021-11)
-- [`剑指Offer No.017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-no017-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
-- [`剑指Offer No.018 删除链表的节点 (简单, 2021-11)`](#剑指offer-no018-删除链表的节点-简单-2021-11)
-- [`剑指Offer No.019 正则表达式匹配 (困难, 2021-11)`](#剑指offer-no019-正则表达式匹配-困难-2021-11)
-- [`剑指Offer No.020 表示数值的字符串 (中等, 2021-11)`](#剑指offer-no020-表示数值的字符串-中等-2021-11)
-- [`剑指Offer No.021 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`](#剑指offer-no021-调整数组顺序使奇数位于偶数前面-简单-2021-11)
-- [`剑指Offer No.022 链表中倒数第k个节点 (简单, 2021-11)`](#剑指offer-no022-链表中倒数第k个节点-简单-2021-11)
-- [`剑指Offer No.024 反转链表 (简单, 2021-11)`](#剑指offer-no024-反转链表-简单-2021-11)
-- [`剑指Offer No.025 合并两个排序的链表 (简单, 2021-11)`](#剑指offer-no025-合并两个排序的链表-简单-2021-11)
-- [`剑指Offer No.026 树的子结构 (中等, 2021-11)`](#剑指offer-no026-树的子结构-中等-2021-11)
-- [`剑指Offer No.027 二叉树的镜像 (简单, 2021-11)`](#剑指offer-no027-二叉树的镜像-简单-2021-11)
-- [`剑指Offer No.028 对称的二叉树 (简单, 2021-11)`](#剑指offer-no028-对称的二叉树-简单-2021-11)
-- [`剑指Offer No.029 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](#剑指offer-no029-顺时针打印矩阵3种思路4个写法-中等-2021-11)
-- [`剑指Offer No.030 包含min函数的栈 (简单, 2021-11)`](#剑指offer-no030-包含min函数的栈-简单-2021-11)
-- [`剑指Offer No.031 栈的压入、弹出序列 (中等, 2021-11)`](#剑指offer-no031-栈的压入弹出序列-中等-2021-11)
-- [`剑指Offer No.032 1-层序遍历二叉树 (简单, 2021-11)`](#剑指offer-no032-1-层序遍历二叉树-简单-2021-11)
-- [`剑指Offer No.032 2-层序遍历二叉树 (简单, 2021-11)`](#剑指offer-no032-2-层序遍历二叉树-简单-2021-11)
-- [`剑指Offer No.032 3-层序遍历二叉树（之字形遍历） (简单, 2021-11)`](#剑指offer-no032-3-层序遍历二叉树之字形遍历-简单-2021-11)
-- [`剑指Offer No.033 二叉搜索树的后序遍历序列 (中等, 2021-12)`](#剑指offer-no033-二叉搜索树的后序遍历序列-中等-2021-12)
-- [`剑指Offer No.034 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no034-二叉树中和为某一值的路径-中等-2021-12)
-- [`剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no035-复杂链表的复制深拷贝-中等-2021-12)
-- [`剑指Offer No.036 二叉搜索树与双向链表 (中等, 2021-12)`](#剑指offer-no036-二叉搜索树与双向链表-中等-2021-12)
-- [`剑指Offer No.037 序列化二叉树 (困难, 2021-12)`](#剑指offer-no037-序列化二叉树-困难-2021-12)
-- [`剑指Offer No.038 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no038-字符串的排列全排列-中等-2021-12)
-- [`剑指Offer No.039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](#剑指offer-no039-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
-- [`剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`](#剑指offer-no040-最小的k个数partition操作-简单-2021-12)
-- [`剑指Offer No.041 数据流中的中位数 (困难, 2021-12)`](#剑指offer-no041-数据流中的中位数-困难-2021-12)
-- [`剑指Offer No.042 连续子数组的最大和 (简单, 2021-12)`](#剑指offer-no042-连续子数组的最大和-简单-2021-12)
-- [`剑指Offer No.043 1～n整数中1出现的次数 (困难, 2021-12)`](#剑指offer-no043-1n整数中1出现的次数-困难-2021-12)
-- [`剑指Offer No.044 数字序列中某一位的数字 (中等, 2021-12)`](#剑指offer-no044-数字序列中某一位的数字-中等-2021-12)
-- [`剑指Offer No.045 把数组排成最小的数 (中等, 2021-12)`](#剑指offer-no045-把数组排成最小的数-中等-2021-12)
-- [`剑指Offer No.046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](#剑指offer-no046-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
-- [`剑指Offer No.047 礼物的最大价值 (中等, 2021-12)`](#剑指offer-no047-礼物的最大价值-中等-2021-12)
-- [`剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no048-最长不含重复字符的子字符串-中等-2021-12)
-- [`剑指Offer No.049 丑数 (中等, 2021-12)`](#剑指offer-no049-丑数-中等-2021-12)
-- [`剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no050-第一个只出现一次的字符-简单-2021-12)
-- [`剑指Offer No.051 数组中的逆序对 (困难, 2022-01)`](#剑指offer-no051-数组中的逆序对-困难-2022-01)
-- [`剑指Offer No.052 两个链表的第一个公共节点 (简单, 2022-01)`](#剑指offer-no052-两个链表的第一个公共节点-简单-2022-01)
-- [`剑指Offer No.053 1-求0～n-1中缺失的数字 (简单, 2022-01)`](#剑指offer-no053-1-求0n-1中缺失的数字-简单-2022-01)
-- [`剑指Offer No.053 2-在排序数组中查找数字 (简单, 2022-01)`](#剑指offer-no053-2-在排序数组中查找数字-简单-2022-01)
-- [`剑指Offer No.054 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no054-二叉搜索树的第k大节点-简单-2022-01)
-- [`剑指Offer No.055 1-求二叉树的深度 (简单, 2022-01)`](#剑指offer-no055-1-求二叉树的深度-简单-2022-01)
-- [`剑指Offer No.055 2-判断是否为平衡二叉树 (简单, 2022-01)`](#剑指offer-no055-2-判断是否为平衡二叉树-简单-2022-01)
-- [`剑指Offer No.056 1-数组中数字出现的次数 (中等, 2022-01)`](#剑指offer-no056-1-数组中数字出现的次数-中等-2022-01)
-- [`剑指Offer No.056 2-数组中数字出现的次数 (中等, 2022-01)`](#剑指offer-no056-2-数组中数字出现的次数-中等-2022-01)
-- [`剑指Offer No.057 1-和为s的两个数字 (简单, 2022-01)`](#剑指offer-no057-1-和为s的两个数字-简单-2022-01)
-- [`剑指Offer No.057 2-和为s的连续正数序列 (简单, 2022-01)`](#剑指offer-no057-2-和为s的连续正数序列-简单-2022-01)
-- [`剑指Offer No.058 1-翻转单词顺序 (简单, 2022-01)`](#剑指offer-no058-1-翻转单词顺序-简单-2022-01)
-- [`剑指Offer No.058 2-左旋转字符串 (简单, 2022-01)`](#剑指offer-no058-2-左旋转字符串-简单-2022-01)
-- [`剑指Offer No.059 1-滑动窗口的最大值 (困难, 2022-01)`](#剑指offer-no059-1-滑动窗口的最大值-困难-2022-01)
-- [`剑指Offer No.059 2-队列的最大值 (中等, 2022-01)`](#剑指offer-no059-2-队列的最大值-中等-2022-01)
-- [`剑指Offer No.060 n个骰子的点数 (中等, 2022-01)`](#剑指offer-no060-n个骰子的点数-中等-2022-01)
-- [`剑指Offer No.061 扑克牌中的顺子 (简单, 2022-01)`](#剑指offer-no061-扑克牌中的顺子-简单-2022-01)
-- [`剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](#剑指offer-no062-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
-- [`剑指Offer No.063 买卖股票的最佳时机 (中等, 2022-01)`](#剑指offer-no063-买卖股票的最佳时机-中等-2022-01)
-- [`剑指Offer No.064 求1~n的和 (中等, 2022-01)`](#剑指offer-no064-求1n的和-中等-2022-01)
-- [`剑指Offer No.065 不用加减乘除做加法 (简单, 2022-01)`](#剑指offer-no065-不用加减乘除做加法-简单-2022-01)
-- [`剑指Offer No.066 构建乘积数组 (中等, 2022-01)`](#剑指offer-no066-构建乘积数组-中等-2022-01)
-- [`剑指Offer No.067 把字符串转换成整数（atoi） (中等, 2022-01)`](#剑指offer-no067-把字符串转换成整数atoi-中等-2022-01)
-- [`剑指Offer No.068 1-二叉搜索树的最近公共祖先 (简单, 2022-01)`](#剑指offer-no068-1-二叉搜索树的最近公共祖先-简单-2022-01)
-- [`剑指Offer No.068 2-二叉树的最近公共祖先 (简单, 2022-01)`](#剑指offer-no068-2-二叉树的最近公共祖先-简单-2022-01)
+- [`剑指Offer No.0300 数组中重复的数字 (简单, 2021-11)`](#剑指offer-no0300-数组中重复的数字-简单-2021-11)
+- [`剑指Offer No.0400 二维数组中的查找 (中等, 2021-11)`](#剑指offer-no0400-二维数组中的查找-中等-2021-11)
+- [`剑指Offer No.0500 替换空格 (简单, 2021-11)`](#剑指offer-no0500-替换空格-简单-2021-11)
+- [`剑指Offer No.0600 从尾到头打印链表 (简单, 2021-11)`](#剑指offer-no0600-从尾到头打印链表-简单-2021-11)
+- [`剑指Offer No.0700 重建二叉树 (中等, 2021-11)`](#剑指offer-no0700-重建二叉树-中等-2021-11)
+- [`剑指Offer No.0900 用两个栈实现队列 (简单, 2021-11)`](#剑指offer-no0900-用两个栈实现队列-简单-2021-11)
+- [`剑指Offer No.1001 斐波那契数列 (简单, 2021-11)`](#剑指offer-no1001-斐波那契数列-简单-2021-11)
+- [`剑指Offer No.1002 跳台阶 (简单, 2021-11)`](#剑指offer-no1002-跳台阶-简单-2021-11)
+- [`剑指Offer No.1100 旋转数组的最小数字 (简单, 2021-11)`](#剑指offer-no1100-旋转数组的最小数字-简单-2021-11)
+- [`剑指Offer No.1200 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no1200-矩阵中的路径-中等-2021-11)
+- [`剑指Offer No.1300 机器人的运动范围 (中等, 2021-11)`](#剑指offer-no1300-机器人的运动范围-中等-2021-11)
+- [`剑指Offer No.1401 剪绳子（整数拆分） (中等, 2021-11)`](#剑指offer-no1401-剪绳子整数拆分-中等-2021-11)
+- [`剑指Offer No.1402 剪绳子 (中等, 2021-11)`](#剑指offer-no1402-剪绳子-中等-2021-11)
+- [`剑指Offer No.1500 二进制中1的个数 (简单, 2021-11)`](#剑指offer-no1500-二进制中1的个数-简单-2021-11)
+- [`剑指Offer No.1600 数值的整数次方（快速幂） (中等, 2021-11)`](#剑指offer-no1600-数值的整数次方快速幂-中等-2021-11)
+- [`剑指Offer No.1700 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-no1700-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
+- [`剑指Offer No.1800 删除链表的节点 (简单, 2021-11)`](#剑指offer-no1800-删除链表的节点-简单-2021-11)
+- [`剑指Offer No.1900 正则表达式匹配 (困难, 2021-11)`](#剑指offer-no1900-正则表达式匹配-困难-2021-11)
+- [`剑指Offer No.2000 表示数值的字符串 (中等, 2021-11)`](#剑指offer-no2000-表示数值的字符串-中等-2021-11)
+- [`剑指Offer No.2100 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`](#剑指offer-no2100-调整数组顺序使奇数位于偶数前面-简单-2021-11)
+- [`剑指Offer No.2200 链表中倒数第k个节点 (简单, 2021-11)`](#剑指offer-no2200-链表中倒数第k个节点-简单-2021-11)
+- [`剑指Offer No.2400 反转链表 (简单, 2021-11)`](#剑指offer-no2400-反转链表-简单-2021-11)
+- [`剑指Offer No.2500 合并两个排序的链表 (简单, 2021-11)`](#剑指offer-no2500-合并两个排序的链表-简单-2021-11)
+- [`剑指Offer No.2600 树的子结构 (中等, 2021-11)`](#剑指offer-no2600-树的子结构-中等-2021-11)
+- [`剑指Offer No.2700 二叉树的镜像 (简单, 2021-11)`](#剑指offer-no2700-二叉树的镜像-简单-2021-11)
+- [`剑指Offer No.2800 对称的二叉树 (简单, 2021-11)`](#剑指offer-no2800-对称的二叉树-简单-2021-11)
+- [`剑指Offer No.2900 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](#剑指offer-no2900-顺时针打印矩阵3种思路4个写法-中等-2021-11)
+- [`剑指Offer No.3000 包含min函数的栈 (简单, 2021-11)`](#剑指offer-no3000-包含min函数的栈-简单-2021-11)
+- [`剑指Offer No.3100 栈的压入、弹出序列 (中等, 2021-11)`](#剑指offer-no3100-栈的压入弹出序列-中等-2021-11)
+- [`剑指Offer No.3201 层序遍历二叉树 (简单, 2021-11)`](#剑指offer-no3201-层序遍历二叉树-简单-2021-11)
+- [`剑指Offer No.3202 层序遍历二叉树 (简单, 2021-11)`](#剑指offer-no3202-层序遍历二叉树-简单-2021-11)
+- [`剑指Offer No.3203 层序遍历二叉树（之字形遍历） (简单, 2021-11)`](#剑指offer-no3203-层序遍历二叉树之字形遍历-简单-2021-11)
+- [`剑指Offer No.3300 二叉搜索树的后序遍历序列 (中等, 2021-12)`](#剑指offer-no3300-二叉搜索树的后序遍历序列-中等-2021-12)
+- [`剑指Offer No.3400 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no3400-二叉树中和为某一值的路径-中等-2021-12)
+- [`剑指Offer No.3500 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no3500-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer No.3600 二叉搜索树与双向链表 (中等, 2021-12)`](#剑指offer-no3600-二叉搜索树与双向链表-中等-2021-12)
+- [`剑指Offer No.3700 序列化二叉树 (困难, 2021-12)`](#剑指offer-no3700-序列化二叉树-困难-2021-12)
+- [`剑指Offer No.3800 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no3800-字符串的排列全排列-中等-2021-12)
+- [`剑指Offer No.3900 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`](#剑指offer-no3900-数组中出现次数超过一半的数字摩尔投票-简单-2021-12)
+- [`剑指Offer No.4000 最小的k个数（partition操作） (简单, 2021-12)`](#剑指offer-no4000-最小的k个数partition操作-简单-2021-12)
+- [`剑指Offer No.4100 数据流中的中位数 (困难, 2021-12)`](#剑指offer-no4100-数据流中的中位数-困难-2021-12)
+- [`剑指Offer No.4200 连续子数组的最大和 (简单, 2021-12)`](#剑指offer-no4200-连续子数组的最大和-简单-2021-12)
+- [`剑指Offer No.4300 1～n整数中1出现的次数 (困难, 2021-12)`](#剑指offer-no4300-1n整数中1出现的次数-困难-2021-12)
+- [`剑指Offer No.4400 数字序列中某一位的数字 (中等, 2021-12)`](#剑指offer-no4400-数字序列中某一位的数字-中等-2021-12)
+- [`剑指Offer No.4500 把数组排成最小的数 (中等, 2021-12)`](#剑指offer-no4500-把数组排成最小的数-中等-2021-12)
+- [`剑指Offer No.4600 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`](#剑指offer-no4600-斐波那契数列-3把数字翻译成字符串-中等-2021-12)
+- [`剑指Offer No.4700 礼物的最大价值 (中等, 2021-12)`](#剑指offer-no4700-礼物的最大价值-中等-2021-12)
+- [`剑指Offer No.4800 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no4800-最长不含重复字符的子字符串-中等-2021-12)
+- [`剑指Offer No.4900 丑数 (中等, 2021-12)`](#剑指offer-no4900-丑数-中等-2021-12)
+- [`剑指Offer No.5000 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no5000-第一个只出现一次的字符-简单-2021-12)
+- [`剑指Offer No.5100 数组中的逆序对 (困难, 2022-01)`](#剑指offer-no5100-数组中的逆序对-困难-2022-01)
+- [`剑指Offer No.5200 两个链表的第一个公共节点 (简单, 2022-01)`](#剑指offer-no5200-两个链表的第一个公共节点-简单-2022-01)
+- [`剑指Offer No.5301 求0～n-1中缺失的数字 (简单, 2022-01)`](#剑指offer-no5301-求0n-1中缺失的数字-简单-2022-01)
+- [`剑指Offer No.5302 在排序数组中查找数字 (简单, 2022-01)`](#剑指offer-no5302-在排序数组中查找数字-简单-2022-01)
+- [`剑指Offer No.5400 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no5400-二叉搜索树的第k大节点-简单-2022-01)
+- [`剑指Offer No.5501 求二叉树的深度 (简单, 2022-01)`](#剑指offer-no5501-求二叉树的深度-简单-2022-01)
+- [`剑指Offer No.5502 判断是否为平衡二叉树 (简单, 2022-01)`](#剑指offer-no5502-判断是否为平衡二叉树-简单-2022-01)
+- [`剑指Offer No.5601 数组中数字出现的次数 (中等, 2022-01)`](#剑指offer-no5601-数组中数字出现的次数-中等-2022-01)
+- [`剑指Offer No.5602 数组中数字出现的次数 (中等, 2022-01)`](#剑指offer-no5602-数组中数字出现的次数-中等-2022-01)
+- [`剑指Offer No.5701 和为s的两个数字 (简单, 2022-01)`](#剑指offer-no5701-和为s的两个数字-简单-2022-01)
+- [`剑指Offer No.5702 和为s的连续正数序列 (简单, 2022-01)`](#剑指offer-no5702-和为s的连续正数序列-简单-2022-01)
+- [`剑指Offer No.5801 翻转单词顺序 (简单, 2022-01)`](#剑指offer-no5801-翻转单词顺序-简单-2022-01)
+- [`剑指Offer No.5802 左旋转字符串 (简单, 2022-01)`](#剑指offer-no5802-左旋转字符串-简单-2022-01)
+- [`剑指Offer No.5901 滑动窗口的最大值 (困难, 2022-01)`](#剑指offer-no5901-滑动窗口的最大值-困难-2022-01)
+- [`剑指Offer No.5902 队列的最大值 (中等, 2022-01)`](#剑指offer-no5902-队列的最大值-中等-2022-01)
+- [`剑指Offer No.6000 n个骰子的点数 (中等, 2022-01)`](#剑指offer-no6000-n个骰子的点数-中等-2022-01)
+- [`剑指Offer No.6100 扑克牌中的顺子 (简单, 2022-01)`](#剑指offer-no6100-扑克牌中的顺子-简单-2022-01)
+- [`剑指Offer No.6200 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](#剑指offer-no6200-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
+- [`剑指Offer No.6300 买卖股票的最佳时机 (中等, 2022-01)`](#剑指offer-no6300-买卖股票的最佳时机-中等-2022-01)
+- [`剑指Offer No.6400 求1~n的和 (中等, 2022-01)`](#剑指offer-no6400-求1n的和-中等-2022-01)
+- [`剑指Offer No.6500 不用加减乘除做加法 (简单, 2022-01)`](#剑指offer-no6500-不用加减乘除做加法-简单-2022-01)
+- [`剑指Offer No.6600 构建乘积数组 (中等, 2022-01)`](#剑指offer-no6600-构建乘积数组-中等-2022-01)
+- [`剑指Offer No.6700 把字符串转换成整数（atoi） (中等, 2022-01)`](#剑指offer-no6700-把字符串转换成整数atoi-中等-2022-01)
+- [`剑指Offer No.6801 二叉搜索树的最近公共祖先 (简单, 2022-01)`](#剑指offer-no6801-二叉搜索树的最近公共祖先-简单-2022-01)
+- [`剑指Offer No.6802 二叉树的最近公共祖先 (简单, 2022-01)`](#剑指offer-no6802-二叉树的最近公共祖先-简单-2022-01)
 
 ---
 
-### `剑指Offer No.003 数组中重复的数字 (简单, 2021-11)`
+### `剑指Offer No.0300 数组中重复的数字 (简单, 2021-11)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 哈希表 -->
+<!--{
+    "tags": ["哈希表"],
+    "来源": "剑指Offer",
+    "编号": "0300",
+    "难度": "简单",
+    "标题": "数组中重复的数字"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -142,12 +148,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.004 二维数组中的查找 (中等, 2021-11)`
+### `剑指Offer No.0400 二维数组中的查找 (中等, 2021-11)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二分查找 -->
+<!--{
+    "tags": ["二分查找"],
+    "来源": "剑指Offer",
+    "编号": "0400",
+    "难度": "中等",
+    "标题": "二维数组中的查找"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -219,12 +231,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.005 替换空格 (简单, 2021-11)`
+### `剑指Offer No.0500 替换空格 (简单, 2021-11)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 字符串 -->
+<!--{
+    "tags": ["字符串"],
+    "来源": "剑指Offer",
+    "编号": "0500",
+    "难度": "简单",
+    "标题": "替换空格"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -314,7 +332,7 @@ public:
 
 ---
 
-### `剑指Offer No.006 从尾到头打印链表 (简单, 2021-11)`
+### `剑指Offer No.0600 从尾到头打印链表 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
@@ -322,7 +340,13 @@ public:
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、栈、DFS、递归 -->
+<!--{
+    "tags": ["链表", "栈", "DFS", "递归"],
+    "来源": "剑指Offer",
+    "编号": "0600",
+    "难度": "简单",
+    "标题": "从尾到头打印链表"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -407,14 +431,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.007 重建二叉树 (中等, 2021-11)`
+### `剑指Offer No.0700 重建二叉树 (中等, 2021-11)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-分治.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树、分治、经典 -->
+<!--{
+    "tags": ["二叉树", "分治", "经典"],
+    "来源": "剑指Offer",
+    "编号": "0700",
+    "难度": "中等",
+    "标题": "重建二叉树"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -495,14 +525,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.009 用两个栈实现队列 (简单, 2021-11)`
+### `剑指Offer No.0900 用两个栈实现队列 (简单, 2021-11)`
 
 [![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
 [![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![设计](https://img.shields.io/badge/设计-lightgray.svg)](数据结构-设计.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 栈、队列、设计 -->
+<!--{
+    "tags": ["栈", "队列", "设计"],
+    "来源": "剑指Offer",
+    "编号": "0900",
+    "难度": "简单",
+    "标题": "用两个栈实现队列"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -580,13 +616,19 @@ class CQueue:
 
 ---
 
-### `剑指Offer No.010 斐波那契数列-1 (简单, 2021-11)`
+### `剑指Offer No.1001 斐波那契数列 (简单, 2021-11)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![记忆化搜索](https://img.shields.io/badge/记忆化搜索-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: DP、记忆化搜索 -->
+<!--{
+    "tags": ["DP", "记忆化搜索"],
+    "来源": "剑指Offer",
+    "编号": "1001",
+    "难度": "简单",
+    "标题": "斐波那契数列"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -672,12 +714,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.010 斐波那契数列-2（青蛙跳台阶） (简单, 2021-11)`
+### `剑指Offer No.1002 跳台阶 (简单, 2021-11)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: DP -->
+<!--{
+    "tags": ["DP"],
+    "来源": "剑指Offer",
+    "编号": "1002",
+    "难度": "简单",
+    "标题": "跳台阶"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -738,12 +786,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.011 旋转数组的最小数字 (简单, 2021-11)`
+### `剑指Offer No.1100 旋转数组的最小数字 (简单, 2021-11)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二分查找 -->
+<!--{
+    "tags": ["二分查找"],
+    "来源": "剑指Offer",
+    "编号": "1100",
+    "难度": "简单",
+    "标题": "旋转数组的最小数字"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -807,13 +861,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.012 矩阵中的路径 (中等, 2021-11)`
+### `剑指Offer No.1200 矩阵中的路径 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![DFS+回溯](https://img.shields.io/badge/DFS+回溯-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: DFS、DFS+回溯 -->
+<!--{
+    "tags": ["DFS", "DFS+回溯"],
+    "来源": "剑指Offer",
+    "编号": "1200",
+    "难度": "中等",
+    "标题": "矩阵中的路径"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -902,12 +962,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.013 机器人的运动范围 (中等, 2021-11)`
+### `剑指Offer No.1300 机器人的运动范围 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: DFS -->
+<!--{
+    "tags": ["DFS"],
+    "来源": "剑指Offer",
+    "编号": "1300",
+    "难度": "中等",
+    "标题": "机器人的运动范围"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -968,14 +1034,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.014 1-剪绳子（整数拆分） (中等, 2021-11)`
+### `剑指Offer No.1401 剪绳子（整数拆分） (中等, 2021-11)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![贪心](https://img.shields.io/badge/贪心-lightgray.svg)](技巧-贪心.md)
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 动态规划、贪心、数学 -->
+<!--{
+    "tags": ["动态规划", "贪心", "数学"],
+    "来源": "剑指Offer",
+    "编号": "1401",
+    "难度": "中等",
+    "标题": "剪绳子（整数拆分）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1090,12 +1162,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.014 2-剪绳子 (中等, 2021-11)`
+### `剑指Offer No.1402 剪绳子 (中等, 2021-11)`
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 数学 -->
+<!--{
+    "tags": ["数学"],
+    "来源": "剑指Offer",
+    "编号": "1402",
+    "难度": "中等",
+    "标题": "剪绳子"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1165,12 +1243,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.015 二进制中1的个数 (简单, 2021-11)`
+### `剑指Offer No.1500 二进制中1的个数 (简单, 2021-11)`
 
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 位运算 -->
+<!--{
+    "tags": ["位运算"],
+    "来源": "剑指Offer",
+    "编号": "1500",
+    "难度": "简单",
+    "标题": "二进制中1的个数"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1252,14 +1336,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.016 数值的整数次方（快速幂） (中等, 2021-11)`
+### `剑指Offer No.1600 数值的整数次方（快速幂） (中等, 2021-11)`
 
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![二分法](https://img.shields.io/badge/二分法-lightgray.svg)](算法-二分.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 递归、二分法、经典 -->
+<!--{
+    "tags": ["递归", "二分法", "经典"],
+    "来源": "剑指Offer",
+    "编号": "1600",
+    "难度": "中等",
+    "标题": "数值的整数次方（快速幂）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1342,12 +1432,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.017 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`
+### `剑指Offer No.1700 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: DFS -->
+<!--{
+    "tags": ["DFS"],
+    "来源": "剑指Offer",
+    "编号": "1700",
+    "难度": "中等",
+    "标题": "打印从1到最大的n位数（N叉树的遍历）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1431,12 +1527,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.018 删除链表的节点 (简单, 2021-11)`
+### `剑指Offer No.1800 删除链表的节点 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表 -->
+<!--{
+    "tags": ["链表"],
+    "来源": "剑指Offer",
+    "编号": "1800",
+    "难度": "简单",
+    "标题": "删除链表的节点"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1506,14 +1608,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.019 正则表达式匹配 (困难, 2021-11)`
+### `剑指Offer No.1900 正则表达式匹配 (困难, 2021-11)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 字符串、动态规划、递归 -->
+<!--{
+    "tags": ["字符串", "动态规划", "递归"],
+    "来源": "剑指Offer",
+    "编号": "1900",
+    "难度": "困难",
+    "标题": "正则表达式匹配"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1648,13 +1756,19 @@ public:
 
 ---
 
-### `剑指Offer No.020 表示数值的字符串 (中等, 2021-11)`
+### `剑指Offer No.2000 表示数值的字符串 (中等, 2021-11)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![有限状态自动机](https://img.shields.io/badge/有限状态自动机-lightgray.svg)](技巧-有限状态自动机.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 字符串、有限状态自动机 -->
+<!--{
+    "tags": ["字符串", "有限状态自动机"],
+    "来源": "剑指Offer",
+    "编号": "2000",
+    "难度": "中等",
+    "标题": "表示数值的字符串"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1771,13 +1885,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.021 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`
+### `剑指Offer No.2100 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`
 
 [![数组](https://img.shields.io/badge/数组-lightgray.svg)](数据结构-数组、矩阵(二维数组).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 数组、双指针 -->
+<!--{
+    "tags": ["数组", "双指针"],
+    "来源": "剑指Offer",
+    "编号": "2100",
+    "难度": "简单",
+    "标题": "调整数组顺序使奇数位于偶数前面"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1835,13 +1955,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.022 链表中倒数第k个节点 (简单, 2021-11)`
+### `剑指Offer No.2200 链表中倒数第k个节点 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![快慢指针（链表）](https://img.shields.io/badge/快慢指针（链表）-lightgray.svg)](技巧-双指针-快慢指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、快慢指针（链表） -->
+<!--{
+    "tags": ["链表", "快慢指针（链表）"],
+    "来源": "剑指Offer",
+    "编号": "2200",
+    "难度": "简单",
+    "标题": "链表中倒数第k个节点"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -1912,7 +2038,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.024 反转链表 (简单, 2021-11)`
+### `剑指Offer No.2400 反转链表 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
@@ -1920,7 +2046,13 @@ class Solution:
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、递归、迭代、经典 -->
+<!--{
+    "tags": ["链表", "递归", "迭代", "经典"],
+    "来源": "剑指Offer",
+    "编号": "2400",
+    "难度": "简单",
+    "标题": "反转链表"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2042,14 +2174,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.025 合并两个排序的链表 (简单, 2021-11)`
+### `剑指Offer No.2500 合并两个排序的链表 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![迭代](https://img.shields.io/badge/迭代-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、递归、迭代 -->
+<!--{
+    "tags": ["链表", "递归", "迭代"],
+    "来源": "剑指Offer",
+    "编号": "2500",
+    "难度": "简单",
+    "标题": "合并两个排序的链表"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2161,13 +2299,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.026 树的子结构 (中等, 2021-11)`
+### `剑指Offer No.2600 树的子结构 (中等, 2021-11)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树、递归 -->
+<!--{
+    "tags": ["二叉树", "递归"],
+    "来源": "剑指Offer",
+    "编号": "2600",
+    "难度": "中等",
+    "标题": "树的子结构"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2309,13 +2453,19 @@ public:
 
 ---
 
-### `剑指Offer No.027 二叉树的镜像 (简单, 2021-11)`
+### `剑指Offer No.2700 二叉树的镜像 (简单, 2021-11)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树、递归 -->
+<!--{
+    "tags": ["二叉树", "递归"],
+    "来源": "剑指Offer",
+    "编号": "2700",
+    "难度": "简单",
+    "标题": "二叉树的镜像"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2400,13 +2550,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.028 对称的二叉树 (简单, 2021-11)`
+### `剑指Offer No.2800 对称的二叉树 (简单, 2021-11)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树、递归 -->
+<!--{
+    "tags": ["二叉树", "递归"],
+    "来源": "剑指Offer",
+    "编号": "2800",
+    "难度": "简单",
+    "标题": "对称的二叉树"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2541,14 +2697,20 @@ public:
 
 ---
 
-### `剑指Offer No.029 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`
+### `剑指Offer No.2900 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`
 
 [![数组](https://img.shields.io/badge/数组-lightgray.svg)](数据结构-数组、矩阵(二维数组).md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 数组、模拟、经典 -->
+<!--{
+    "tags": ["数组", "模拟", "经典"],
+    "来源": "剑指Offer",
+    "编号": "2900",
+    "难度": "中等",
+    "标题": "顺时针打印矩阵（3种思路4个写法）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2762,14 +2924,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.030 包含min函数的栈 (简单, 2021-11)`
+### `剑指Offer No.3000 包含min函数的栈 (简单, 2021-11)`
 
 [![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
 [![数组](https://img.shields.io/badge/数组-lightgray.svg)](数据结构-数组、矩阵(二维数组).md)
 [![设计](https://img.shields.io/badge/设计-lightgray.svg)](数据结构-设计.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 栈、数组、设计 -->
+<!--{
+    "tags": ["栈", "数组", "设计"],
+    "来源": "剑指Offer",
+    "编号": "3000",
+    "难度": "简单",
+    "标题": "包含min函数的栈"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2852,14 +3020,20 @@ class MinStack:
 
 ---
 
-### `剑指Offer No.031 栈的压入、弹出序列 (中等, 2021-11)`
+### `剑指Offer No.3100 栈的压入、弹出序列 (中等, 2021-11)`
 
 [![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
 [![数组](https://img.shields.io/badge/数组-lightgray.svg)](数据结构-数组、矩阵(二维数组).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 栈、数组、经典 -->
+<!--{
+    "tags": ["栈", "数组", "经典"],
+    "来源": "剑指Offer",
+    "编号": "3100",
+    "难度": "中等",
+    "标题": "栈的压入、弹出序列"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -2949,14 +3123,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.032 1-层序遍历二叉树 (简单, 2021-11)`
+### `剑指Offer No.3201 层序遍历二叉树 (简单, 2021-11)`
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: BFS、二叉树、队列 -->
+<!--{
+    "tags": ["BFS", "二叉树", "队列"],
+    "来源": "剑指Offer",
+    "编号": "3201",
+    "难度": "简单",
+    "标题": "层序遍历二叉树"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -3083,14 +3263,20 @@ public:
 
 ---
 
-### `剑指Offer No.032 2-层序遍历二叉树 (简单, 2021-11)`
+### `剑指Offer No.3202 层序遍历二叉树 (简单, 2021-11)`
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: BFS、二叉树、队列 -->
+<!--{
+    "tags": ["BFS", "二叉树", "队列"],
+    "来源": "剑指Offer",
+    "编号": "3202",
+    "难度": "简单",
+    "标题": "层序遍历二叉树"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -3211,14 +3397,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.032 3-层序遍历二叉树（之字形遍历） (简单, 2021-11)`
+### `剑指Offer No.3203 层序遍历二叉树（之字形遍历） (简单, 2021-11)`
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: BFS、二叉树、队列 -->
+<!--{
+    "tags": ["BFS", "二叉树", "队列"],
+    "来源": "剑指Offer",
+    "编号": "3203",
+    "难度": "简单",
+    "标题": "层序遍历二叉树（之字形遍历）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -3312,12 +3504,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.033 二叉搜索树的后序遍历序列 (中等, 2021-12)`
+### `剑指Offer No.3300 二叉搜索树的后序遍历序列 (中等, 2021-12)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树 -->
+<!--{
+    "tags": ["二叉树"],
+    "来源": "剑指Offer",
+    "编号": "3300",
+    "难度": "中等",
+    "标题": "二叉搜索树的后序遍历序列"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -3422,13 +3620,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.034 二叉树中和为某一值的路径 (中等, 2021-12)`
+### `剑指Offer No.3400 二叉树中和为某一值的路径 (中等, 2021-12)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树、DFS -->
+<!--{
+    "tags": ["二叉树", "DFS"],
+    "来源": "剑指Offer",
+    "编号": "3400",
+    "难度": "中等",
+    "标题": "二叉树中和为某一值的路径"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -3514,14 +3718,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.035 复杂链表的复制（深拷贝） (中等, 2021-12)`
+### `剑指Offer No.3500 复杂链表的复制（深拷贝） (中等, 2021-12)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、哈希表、经典 -->
+<!--{
+    "tags": ["链表", "哈希表", "经典"],
+    "来源": "剑指Offer",
+    "编号": "3500",
+    "难度": "中等",
+    "标题": "复杂链表的复制（深拷贝）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -3761,14 +3971,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.036 二叉搜索树与双向链表 (中等, 2021-12)`
+### `剑指Offer No.3600 二叉搜索树与双向链表 (中等, 2021-12)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树、递归、经典 -->
+<!--{
+    "tags": ["二叉树", "递归", "经典"],
+    "来源": "剑指Offer",
+    "编号": "3600",
+    "难度": "中等",
+    "标题": "二叉搜索树与双向链表"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -3859,12 +4075,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.037 序列化二叉树 (困难, 2021-12)`
+### `剑指Offer No.3700 序列化二叉树 (困难, 2021-12)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树 -->
+<!--{
+    "tags": ["二叉树"],
+    "来源": "剑指Offer",
+    "编号": "3700",
+    "难度": "困难",
+    "标题": "序列化二叉树"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -4045,13 +4267,19 @@ class Codec:
 
 ---
 
-### `剑指Offer No.038 字符串的排列（全排列） (中等, 2021-12)`
+### `剑指Offer No.3800 字符串的排列（全排列） (中等, 2021-12)`
 
 [![DFS+剪枝](https://img.shields.io/badge/DFS+剪枝-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: DFS+剪枝、经典 -->
+<!--{
+    "tags": ["DFS+剪枝", "经典"],
+    "来源": "剑指Offer",
+    "编号": "3800",
+    "难度": "中等",
+    "标题": "字符串的排列（全排列）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -4304,7 +4532,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.039 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`
+### `剑指Offer No.3900 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`
 
 [![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
@@ -4312,7 +4540,13 @@ class Solution:
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 排序、模拟、分治、经典 -->
+<!--{
+    "tags": ["排序", "模拟", "分治", "经典"],
+    "来源": "剑指Offer",
+    "编号": "3900",
+    "难度": "简单",
+    "标题": "数组中出现次数超过一半的数字（摩尔投票）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -4451,14 +4685,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.040 最小的k个数（partition操作） (简单, 2021-12)`
+### `剑指Offer No.4000 最小的k个数（partition操作） (简单, 2021-12)`
 
 [![优先队列](https://img.shields.io/badge/优先队列-lightgray.svg)](数据结构-堆、优先队列.md)
 [![快排](https://img.shields.io/badge/快排-lightgray.svg)](算法-排序.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 优先队列、快排、经典 -->
+<!--{
+    "tags": ["优先队列", "快排", "经典"],
+    "来源": "剑指Offer",
+    "编号": "4000",
+    "难度": "简单",
+    "标题": "最小的k个数（partition操作）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -4615,13 +4855,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.041 数据流中的中位数 (困难, 2021-12)`
+### `剑指Offer No.4100 数据流中的中位数 (困难, 2021-12)`
 
 [![设计](https://img.shields.io/badge/设计-lightgray.svg)](数据结构-设计.md)
 [![堆](https://img.shields.io/badge/堆-lightgray.svg)](数据结构-堆、优先队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 设计、堆 -->
+<!--{
+    "tags": ["设计", "堆"],
+    "来源": "剑指Offer",
+    "编号": "4100",
+    "难度": "困难",
+    "标题": "数据流中的中位数"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -4756,12 +5002,18 @@ class MedianFinder:
 
 ---
 
-### `剑指Offer No.042 连续子数组的最大和 (简单, 2021-12)`
+### `剑指Offer No.4200 连续子数组的最大和 (简单, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 动态规划 -->
+<!--{
+    "tags": ["动态规划"],
+    "来源": "剑指Offer",
+    "编号": "4200",
+    "难度": "简单",
+    "标题": "连续子数组的最大和"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -4839,12 +5091,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.043 1～n整数中1出现的次数 (困难, 2021-12)`
+### `剑指Offer No.4300 1～n整数中1出现的次数 (困难, 2021-12)`
 
 [![找规律](https://img.shields.io/badge/找规律-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 找规律 -->
+<!--{
+    "tags": ["找规律"],
+    "来源": "剑指Offer",
+    "编号": "4300",
+    "难度": "困难",
+    "标题": "1～n整数中1出现的次数"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -4911,13 +5169,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.044 数字序列中某一位的数字 (中等, 2021-12)`
+### `剑指Offer No.4400 数字序列中某一位的数字 (中等, 2021-12)`
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![找规律](https://img.shields.io/badge/找规律-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 数学、找规律 -->
+<!--{
+    "tags": ["数学", "找规律"],
+    "来源": "剑指Offer",
+    "编号": "4400",
+    "难度": "中等",
+    "标题": "数字序列中某一位的数字"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -4986,12 +5250,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.045 把数组排成最小的数 (中等, 2021-12)`
+### `剑指Offer No.4500 把数组排成最小的数 (中等, 2021-12)`
 
 [![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 排序 -->
+<!--{
+    "tags": ["排序"],
+    "来源": "剑指Offer",
+    "编号": "4500",
+    "难度": "中等",
+    "标题": "把数组排成最小的数"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -5088,12 +5358,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.046 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`
+### `剑指Offer No.4600 斐波那契数列-3（把数字翻译成字符串） (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 动态规划 -->
+<!--{
+    "tags": ["动态规划"],
+    "来源": "剑指Offer",
+    "编号": "4600",
+    "难度": "中等",
+    "标题": "斐波那契数列-3（把数字翻译成字符串）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -5174,12 +5450,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.047 礼物的最大价值 (中等, 2021-12)`
+### `剑指Offer No.4700 礼物的最大价值 (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 动态规划 -->
+<!--{
+    "tags": ["动态规划"],
+    "来源": "剑指Offer",
+    "编号": "4700",
+    "难度": "中等",
+    "标题": "礼物的最大价值"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -5308,14 +5590,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.048 最长不含重复字符的子字符串 (中等, 2021-12)`
+### `剑指Offer No.4800 最长不含重复字符的子字符串 (中等, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 哈希表、双指针、动态规划 -->
+<!--{
+    "tags": ["哈希表", "双指针", "动态规划"],
+    "来源": "剑指Offer",
+    "编号": "4800",
+    "难度": "中等",
+    "标题": "最长不含重复字符的子字符串"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -5434,13 +5722,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.049 丑数 (中等, 2021-12)`
+### `剑指Offer No.4900 丑数 (中等, 2021-12)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 动态规划、经典 -->
+<!--{
+    "tags": ["动态规划", "经典"],
+    "来源": "剑指Offer",
+    "编号": "4900",
+    "难度": "中等",
+    "标题": "丑数"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -5542,12 +5836,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.050 第一个只出现一次的字符 (简单, 2021-12)`
+### `剑指Offer No.5000 第一个只出现一次的字符 (简单, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 哈希表 -->
+<!--{
+    "tags": ["哈希表"],
+    "来源": "剑指Offer",
+    "编号": "5000",
+    "难度": "简单",
+    "标题": "第一个只出现一次的字符"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -5630,14 +5930,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.051 数组中的逆序对 (困难, 2022-01)`
+### `剑指Offer No.5100 数组中的逆序对 (困难, 2022-01)`
 
 [![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-分治.md)
 [![树状数组](https://img.shields.io/badge/树状数组-lightgray.svg)](数据结构-线段树、树状数组.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 分治、树状数组、经典 -->
+<!--{
+    "tags": ["分治", "树状数组", "经典"],
+    "来源": "剑指Offer",
+    "编号": "5100",
+    "难度": "困难",
+    "标题": "数组中的逆序对"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -5862,13 +6168,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.052 两个链表的第一个公共节点 (简单, 2022-01)`
+### `剑指Offer No.5200 两个链表的第一个公共节点 (简单, 2022-01)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![快慢指针（链表）](https://img.shields.io/badge/快慢指针（链表）-lightgray.svg)](技巧-双指针-快慢指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 链表、快慢指针（链表） -->
+<!--{
+    "tags": ["链表", "快慢指针（链表）"],
+    "来源": "剑指Offer",
+    "编号": "5200",
+    "难度": "简单",
+    "标题": "两个链表的第一个公共节点"
+}-->
 
 <summary><b>问题描述</b></summary>
 
@@ -5974,12 +6286,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.053 1-求0～n-1中缺失的数字 (简单, 2022-01)`
+### `剑指Offer No.5301 求0～n-1中缺失的数字 (简单, 2022-01)`
 
 [![二分](https://img.shields.io/badge/二分-lightgray.svg)](算法-二分.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二分 -->
+<!--{
+    "tags": ["二分"],
+    "来源": "剑指Offer",
+    "编号": "5301",
+    "难度": "简单",
+    "标题": "求0～n-1中缺失的数字"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6038,12 +6356,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.053 2-在排序数组中查找数字 (简单, 2022-01)`
+### `剑指Offer No.5302 在排序数组中查找数字 (简单, 2022-01)`
 
 [![二分](https://img.shields.io/badge/二分-lightgray.svg)](算法-二分.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二分 -->
+<!--{
+    "tags": ["二分"],
+    "来源": "剑指Offer",
+    "编号": "5302",
+    "难度": "简单",
+    "标题": "在排序数组中查找数字"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6120,13 +6444,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.054 二叉搜索树的第k大节点 (简单, 2022-01)`
+### `剑指Offer No.5400 二叉搜索树的第k大节点 (简单, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![dfs](https://img.shields.io/badge/dfs-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树、dfs -->
+<!--{
+    "tags": ["二叉树", "dfs"],
+    "来源": "剑指Offer",
+    "编号": "5400",
+    "难度": "简单",
+    "标题": "二叉搜索树的第k大节点"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6251,12 +6581,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.055 1-求二叉树的深度 (简单, 2022-01)`
+### `剑指Offer No.5501 求二叉树的深度 (简单, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树 -->
+<!--{
+    "tags": ["二叉树"],
+    "来源": "剑指Offer",
+    "编号": "5501",
+    "难度": "简单",
+    "标题": "求二叉树的深度"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6358,12 +6694,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.055 2-判断是否为平衡二叉树 (简单, 2022-01)`
+### `剑指Offer No.5502 判断是否为平衡二叉树 (简单, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树 -->
+<!--{
+    "tags": ["二叉树"],
+    "来源": "剑指Offer",
+    "编号": "5502",
+    "难度": "简单",
+    "标题": "判断是否为平衡二叉树"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6491,12 +6833,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.056 1-数组中数字出现的次数 (中等, 2022-01)`
+### `剑指Offer No.5601 数组中数字出现的次数 (中等, 2022-01)`
 
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 位运算 -->
+<!--{
+    "tags": ["位运算"],
+    "来源": "剑指Offer",
+    "编号": "5601",
+    "难度": "中等",
+    "标题": "数组中数字出现的次数"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6587,12 +6935,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.056 2-数组中数字出现的次数 (中等, 2022-01)`
+### `剑指Offer No.5602 数组中数字出现的次数 (中等, 2022-01)`
 
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 位运算 -->
+<!--{
+    "tags": ["位运算"],
+    "来源": "剑指Offer",
+    "编号": "5602",
+    "难度": "中等",
+    "标题": "数组中数字出现的次数"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6706,12 +7060,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.057 1-和为s的两个数字 (简单, 2022-01)`
+### `剑指Offer No.5701 和为s的两个数字 (简单, 2022-01)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "剑指Offer",
+    "编号": "5701",
+    "难度": "简单",
+    "标题": "和为s的两个数字"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6773,12 +7133,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.057 2-和为s的连续正数序列 (简单, 2022-01)`
+### `剑指Offer No.5702 和为s的连续正数序列 (简单, 2022-01)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "剑指Offer",
+    "编号": "5702",
+    "难度": "简单",
+    "标题": "和为s的连续正数序列"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6885,12 +7251,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.058 1-翻转单词顺序 (简单, 2022-01)`
+### `剑指Offer No.5801 翻转单词顺序 (简单, 2022-01)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 双指针 -->
+<!--{
+    "tags": ["双指针"],
+    "来源": "剑指Offer",
+    "编号": "5801",
+    "难度": "简单",
+    "标题": "翻转单词顺序"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -6974,12 +7346,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.058 2-左旋转字符串 (简单, 2022-01)`
+### `剑指Offer No.5802 左旋转字符串 (简单, 2022-01)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 字符串 -->
+<!--{
+    "tags": ["字符串"],
+    "来源": "剑指Offer",
+    "编号": "5802",
+    "难度": "简单",
+    "标题": "左旋转字符串"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7047,13 +7425,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.059 1-滑动窗口的最大值 (困难, 2022-01)`
+### `剑指Offer No.5901 滑动窗口的最大值 (困难, 2022-01)`
 
 [![滑动窗口](https://img.shields.io/badge/滑动窗口-lightgray.svg)](技巧-双指针-滑动窗口.md)
 [![单调队列](https://img.shields.io/badge/单调队列-lightgray.svg)](技巧-单调栈、单调队列.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 滑动窗口、单调队列 -->
+<!--{
+    "tags": ["滑动窗口", "单调队列"],
+    "来源": "剑指Offer",
+    "编号": "5901",
+    "难度": "困难",
+    "标题": "滑动窗口的最大值"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7133,13 +7517,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.059 2-队列的最大值 (中等, 2022-01)`
+### `剑指Offer No.5902 队列的最大值 (中等, 2022-01)`
 
 [![队列](https://img.shields.io/badge/队列-lightgray.svg)](数据结构-栈、队列.md)
 [![设计](https://img.shields.io/badge/设计-lightgray.svg)](数据结构-设计.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 队列、设计 -->
+<!--{
+    "tags": ["队列", "设计"],
+    "来源": "剑指Offer",
+    "编号": "5902",
+    "难度": "中等",
+    "标题": "队列的最大值"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7227,7 +7617,7 @@ class MaxQueue:
 
 ---
 
-### `剑指Offer No.060 n个骰子的点数 (中等, 2022-01)`
+### `剑指Offer No.6000 n个骰子的点数 (中等, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
@@ -7235,7 +7625,13 @@ class MaxQueue:
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 动态规划、数学、概率、经典 -->
+<!--{
+    "tags": ["动态规划", "数学", "概率", "经典"],
+    "来源": "剑指Offer",
+    "编号": "6000",
+    "难度": "中等",
+    "标题": "n个骰子的点数"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7330,13 +7726,19 @@ class Solution:
 
 ---
 
-### `剑指Offer No.061 扑克牌中的顺子 (简单, 2022-01)`
+### `剑指Offer No.6100 扑克牌中的顺子 (简单, 2022-01)`
 
 [![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 排序、模拟 -->
+<!--{
+    "tags": ["排序", "模拟"],
+    "来源": "剑指Offer",
+    "编号": "6100",
+    "难度": "简单",
+    "标题": "扑克牌中的顺子"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7400,14 +7802,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.062 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`
+### `剑指Offer No.6200 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`
 
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![递推](https://img.shields.io/badge/递推-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 模拟、递推、经典 -->
+<!--{
+    "tags": ["模拟", "递推", "经典"],
+    "来源": "剑指Offer",
+    "编号": "6200",
+    "难度": "中等",
+    "标题": "圆圈中最后剩下的数字（约瑟夫环问题）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7491,12 +7899,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.063 买卖股票的最佳时机 (中等, 2022-01)`
+### `剑指Offer No.6300 买卖股票的最佳时机 (中等, 2022-01)`
 
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 模拟 -->
+<!--{
+    "tags": ["模拟"],
+    "来源": "剑指Offer",
+    "编号": "6300",
+    "难度": "中等",
+    "标题": "买卖股票的最佳时机"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7563,12 +7977,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.064 求1~n的和 (中等, 2022-01)`
+### `剑指Offer No.6400 求1~n的和 (中等, 2022-01)`
 
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 递归 -->
+<!--{
+    "tags": ["递归"],
+    "来源": "剑指Offer",
+    "编号": "6400",
+    "难度": "中等",
+    "标题": "求1~n的和"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7632,12 +8052,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.065 不用加减乘除做加法 (简单, 2022-01)`
+### `剑指Offer No.6500 不用加减乘除做加法 (简单, 2022-01)`
 
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 位运算 -->
+<!--{
+    "tags": ["位运算"],
+    "来源": "剑指Offer",
+    "编号": "6500",
+    "难度": "简单",
+    "标题": "不用加减乘除做加法"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7730,12 +8156,18 @@ public:
 
 ---
 
-### `剑指Offer No.066 构建乘积数组 (中等, 2022-01)`
+### `剑指Offer No.6600 构建乘积数组 (中等, 2022-01)`
 
 [![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 前缀和 -->
+<!--{
+    "tags": ["前缀和"],
+    "来源": "剑指Offer",
+    "编号": "6600",
+    "难度": "中等",
+    "标题": "构建乘积数组"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -7825,14 +8257,20 @@ class Solution:
 
 ---
 
-### `剑指Offer No.067 把字符串转换成整数（atoi） (中等, 2022-01)`
+### `剑指Offer No.6700 把字符串转换成整数（atoi） (中等, 2022-01)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 字符串、模拟、经典 -->
+<!--{
+    "tags": ["字符串", "模拟", "经典"],
+    "来源": "剑指Offer",
+    "编号": "6700",
+    "难度": "中等",
+    "标题": "把字符串转换成整数（atoi）"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -8008,13 +8446,19 @@ class Solution {
 
 ---
 
-### `剑指Offer No.068 1-二叉搜索树的最近公共祖先 (简单, 2022-01)`
+### `剑指Offer No.6801 二叉搜索树的最近公共祖先 (简单, 2022-01)`
 
 [![二叉搜索树](https://img.shields.io/badge/二叉搜索树-lightgray.svg)](数据结构-二叉搜索树.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉搜索树、经典 -->
+<!--{
+    "tags": ["二叉搜索树", "经典"],
+    "来源": "剑指Offer",
+    "编号": "6801",
+    "难度": "简单",
+    "标题": "二叉搜索树的最近公共祖先"
+}-->
 
 <summary><b>问题简述</b></summary>
 
@@ -8280,12 +8724,18 @@ class Solution:
 
 ---
 
-### `剑指Offer No.068 2-二叉树的最近公共祖先 (简单, 2022-01)`
+### `剑指Offer No.6802 二叉树的最近公共祖先 (简单, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
-<!-- Tag: 二叉树 -->
+<!--{
+    "tags": ["二叉树"],
+    "来源": "剑指Offer",
+    "编号": "6802",
+    "难度": "简单",
+    "标题": "二叉树的最近公共祖先"
+}-->
 
 <summary><b>问题简述</b></summary>
 
