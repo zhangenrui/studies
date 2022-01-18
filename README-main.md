@@ -14,6 +14,8 @@ studies
 
 <details><summary><b> TODO </b></summary>
 
+- [ ] 重构 README 生成的 Algorithms 和 Codes 两个类，并迁移至 tools 目录。
+
 <!-- - [ ] 【`2021.11.11`】pytorch_trainer: 为 EvaluateCallback 添加各种预定义评估指标，如 acc、f1 等，目前只有 loss； -->
 <!-- - [ ] 【`2021.11.11`】论文：What does BERT learn about the structure of language? —— Bert 各层的含义； -->
 <!-- - [ ] 【`2021.11.10`】bert-tokenizer 自动识别 `[MASK]` 等特殊标识； -->

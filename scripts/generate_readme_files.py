@@ -58,6 +58,7 @@ try:
     from huaytools.python.code_analysis import module_iter, slugify
     from huaytools.python.file_utils import files_concat
     from huaytools.python.utils import get_logger
+    from huaytools.tools.auto_readme import *
 except:
     ImportError(f'import huaytools error.')
 
@@ -250,7 +251,7 @@ class Algorithms:
             topic_content = '\n'.join(contents)
             f_out = os.path.join(args.repo_path, self.prefix_algorithm_topics, topic_fn)
             content = files_concat([topic_main, topic_main_toc, topic_content], '\n')
-            file_write_helper(f_out, content)
+            fw_helper.write(f_out, content)
 
             # topic_type = topic_name.split('-')[0]
             # append_blocks.append((append_tmp, topic_type, problems_cnt))
@@ -258,7 +259,7 @@ class Algorithms:
 
         # with open(os.path.join(args.algo_path, 'README.md'), 'w', encoding='utf8') as fw:
         #     fw.write('\n'.join(readme_lines))
-        file_write_helper(os.path.join(args.algo_path, 'README.md'), '\n'.join(readme_lines))
+        fw_helper.write(os.path.join(args.algo_path, 'README.md'), '\n'.join(readme_lines))
 
         # append_blocks = sorted(append_blocks, key=lambda x: (x[1], -x[2]))
 
@@ -436,121 +437,11 @@ class Codes:
         code_readme = toc_str + sep + content_str
         # with open(self.code_readme_path, 'w', encoding='utf8') as fw:
         #     fw.write(code_readme)
-        file_write_helper(self.code_readme_path, code_readme)
+        fw_helper.write(self.code_readme_path, code_readme)
 
         append_toc_str = '\n'.join(append_toc)
         main_append = append_toc_str + sep  # + '\n\n'.join(append_lines)
         return main_append
-
-
-class TreeTOC:
-    """"""
-    relative_path = r'.'
-    black_kw = ('_assets',)
-    sort_lv = {}
-    tree: List[str]
-    content: str
-
-    def __init__(self, dir_path=None):
-        """"""
-        self.toc_name = self.__class__.__name__
-        self.dir_path = Path(dir_path or self.relative_path)
-
-        self.gen_local_readme_flag = True
-        self.gen_local_readme()
-
-        self.gen_local_readme_flag = False
-        self.gen_main_readme()
-
-    def process_relative_path(self, path: Path):
-        parts = path.parts
-        if self.gen_local_readme_flag:
-            return os.path.join(*parts[2:])  # ../a/b -> b
-        return os.path.join(*parts[1:])  # ../a/b -> a/b
-
-    def get_toc_link(self, path, dir_lv):  # noqa
-        """"""
-        space_prefix = '    ' * dir_lv
-        if str(path.name).startswith('-'):
-            link = space_prefix + '- ~~' + f'[{path.name[1:]}]({self.process_relative_path(path)})~~'
-        else:
-            link = space_prefix + '- ' + f'[{path.name}]({self.process_relative_path(path)})'
-        return link
-
-    def gen_local_readme(self):
-        """"""
-        self.tree = [self.toc_name, '===']
-        self.generate_toc(self.dir_path)
-        content = '\n'.join(self.tree)
-        fp = os.path.join(self.relative_path, 'README.md')
-        file_write_helper(fp, content)
-
-    def gen_main_readme(self):
-        self.tree = [self.toc_name, '---']
-        self.generate_toc(self.dir_path)
-        self.content = '\n'.join(self.tree)
-
-    def generate_toc(self, path: Path, dir_lv=-1, with_top=False, max_lv=10000):
-        """生成树形目录"""
-        if with_top:
-            dir_lv += 1
-
-        if dir_lv >= max_lv:
-            return
-
-        if self.allow_fn(path) and dir_lv >= 0:
-            link = self.get_toc_link(path, dir_lv)
-            self.tree.append(link)
-
-        if path.is_file():
-            return
-
-        path_iter = sorted(path.iterdir(), key=self.key_fn)
-        for dp in path_iter:
-            self.generate_toc(dp, dir_lv + 1)
-
-    def key_fn(self, path: Path):
-        return self.sort_lv.get(path.name, '~'), path.name
-
-    def allow_fn(self, fp: Union[str, Path]):
-        is_dir = os.path.isdir(fp)
-        no_startswith__ = not str(fp.name).startswith('_')
-        no_black_kw = all(kw not in str(fp) for kw in self.black_kw)
-        return is_dir and no_startswith__ and no_black_kw
-
-
-class Notes(TreeTOC):
-    """"""
-    relative_path = r'../notes'
-    sort_lv = {
-        '机器学习': 'note-01',
-        '深度学习': 'note-02',
-        '自然语言处理': 'note-03',
-        '搜索、广告、推荐': 'note-04',
-
-        '预训练语言模型': 'NLP-01',
-        '细粒度情感分析': 'NLP-02',
-
-        'Python': '编程语言-01',
-        'CCpp': '编程语言-02',
-        'Java': '编程语言-03',
-    }
-
-
-class Books(TreeTOC):
-    """"""
-    relative_path = r'../books'
-    sort_lv = {
-
-    }
-
-
-class Papers(TreeTOC):
-    """"""
-    relative_path = r'../papers'
-    sort_lv = {
-
-    }
 
 
 def get_repo_toc(*toc_parts):
@@ -562,25 +453,25 @@ def get_repo_toc(*toc_parts):
     return '\n'.join(lns)
 
 
-TOTAL_ADD = 0
+# TOTAL_ADD = 0
 
 
-def file_write_helper(abspath, content):
-    """"""
-    global TOTAL_ADD
-
-    old_content = ''
-    if os.path.exists(abspath):
-        old_content = open(abspath, encoding='utf8').read()
-
-    if old_content != content:
-        with open(abspath, 'w', encoding='utf8') as fw:
-            fw.write(content)
-
-        command_ln = f'git add "{abspath}"'
-        logger.info(command_ln)
-        os.system(command_ln)
-        TOTAL_ADD += 1
+# def file_write_helper(abspath, content):
+#     """"""
+#     global TOTAL_ADD
+#
+#     old_content = ''
+#     if os.path.exists(abspath):
+#         old_content = open(abspath, encoding='utf8').read()
+#
+#     if old_content != content:
+#         with open(abspath, 'w', encoding='utf8') as fw:
+#             fw.write(content)
+#
+#         command_ln = f'git add "{abspath}"'
+#         logger.info(command_ln)
+#         os.system(command_ln)
+#         TOTAL_ADD += 1
 
 
 def pipeline():
@@ -607,10 +498,10 @@ def pipeline():
                                    main_auto_line,
                                    repo_toc] + [it.content for it in parts],
                            sep='\n---\n\n')
-    file_write_helper(args.repo_readme_path, content)
+    fw_helper.write(args.repo_readme_path, content)
     # readme = open(args.repo_readme_path, encoding='utf8').read()
     # if readme_old != readme:
-    print(TOTAL_ADD)
+    print(fw_helper.add_cnt)
 
 
 if __name__ == '__main__':
