@@ -177,8 +177,8 @@ class Algorithms:
         for fn, fp, suffix in file_iter:
             # fn, _ = os.path.splitext(f)
             # fp = os.path.join(args.problems_path, f)
-            # TODO: rename
             # src, pid, lv, pn = fn.rsplit('_', maxsplit=3)
+
             fp = Path(fp)
             txt = open(fp, encoding='utf8').read()
             info_ret = RE_INFO.search(txt)
@@ -188,6 +188,7 @@ class Algorithms:
 
             info = json.loads(info_ret.group(1))
 
+            # rename 如果需要
             new_file_name = self.get_new_file_name(info)
             if new_file_name != fp.name:
                 logger.info(f'rename {fp.name} to {new_file_name}')
