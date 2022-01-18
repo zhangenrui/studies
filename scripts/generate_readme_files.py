@@ -192,7 +192,10 @@ class Algorithms:
             new_file_name = self.get_new_file_name(info)
             if new_file_name != fp.name:
                 logger.info(f'rename {fp.name} to {new_file_name}')
-                fp.rename(fp.parent / new_file_name)
+                fp = fp.rename(fp.parent / new_file_name)
+                command_ln = f'git add "{fp}"'
+                logger.info(command_ln)
+                os.system(command_ln)
 
             src, pid, lv, pn = info['来源'], info['编号'], info['难度'], info['标题']
             tag_append = [src]  # if src != self.template_name else []
