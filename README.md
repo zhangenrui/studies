@@ -50,10 +50,6 @@ studies
 
 ---
 
-<font color="LightGrey"><i> `The following is Auto-generated` </i></font>
-
----
-
 Repo Index
 ---
 - [Algorithms](#algorithms)

@@ -523,7 +523,7 @@ def pipeline():
     readme_main_path = os.path.join(args.repo_path, r'README-main.md')
     main_auto_line = '<font color="LightGrey"><i> `The following is Auto-generated` </i></font>'
     content = files_concat(src_in=[readme_main_path,
-                                   main_auto_line,
+                                   # main_auto_line,
                                    repo_toc] + [it.content for it in parts],
                            sep='\n---\n\n')
     fw_helper.write(args.repo_readme_path, content)
