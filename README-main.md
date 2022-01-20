@@ -15,7 +15,7 @@ studies
 <details><summary><b> TODO </b></summary>
 
 - [ ] 重构 README 生成的 Algorithms 和 Codes 两个类，并迁移至 tools 目录。
-- [ ] 优化 algorithm 笔记模板的 tag 部分，使用 json 代替目前的正则抽取。
+- [ ] 优化主页 README 下的 Algorithms 链接，调整为层级目录的形式（类似 Notes）
 
 <!-- - [ ] 【`2021.11.11`】pytorch_trainer: 为 EvaluateCallback 添加各种预定义评估指标，如 acc、f1 等，目前只有 loss； -->
 <!-- - [ ] 【`2021.11.11`】论文：What does BERT learn about the structure of language? —— Bert 各层的含义； -->
@@ -27,6 +27,7 @@ studies
 
 <details><summary><b> Done </b></summary>
 
+- [x] 【`2022.01.18`】优化 algorithm 笔记模板的 tag 部分，使用 json 代替目前的正则抽取。
 - [x] 【`2022.01.17`】自动生成目录结构（books、papers 等）
 - [x] 【`2021.11.12`】优化 auto-readme，使用上一次的 commit info，而不是默认 'Auto-README'
     - 参考：`git commit -m "$(git log -"$(git rev-list origin/master..master --count)" --pretty=%B | cat)"`
