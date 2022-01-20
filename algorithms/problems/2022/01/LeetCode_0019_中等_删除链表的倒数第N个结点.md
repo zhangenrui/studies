@@ -60,7 +60,7 @@ class Solution:
         dummy = ListNode(0)  # 伪头节点
         dummy.next = head
 
-        k = n + 1  # 获取倒数第 k+1 个节点
+        k = n + 1  # 获取倒数第 n+1 个节点
         lp, fp = dummy, dummy
         while fp:
             if k <= 0:
