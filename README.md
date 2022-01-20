@@ -15,7 +15,7 @@ studies
 <details><summary><b> TODO </b></summary>
 
 - [ ] 重构 README 生成的 Algorithms 和 Codes 两个类，并迁移至 tools 目录。
-- [ ] 优化 algorithm 笔记模板的 tag 部分，使用 json 代替目前的正则抽取。
+- [ ] 优化主页 README 下的 Algorithms 链接，调整为层级目录的形式（类似 Notes）
 
 <!-- - [ ] 【`2021.11.11`】pytorch_trainer: 为 EvaluateCallback 添加各种预定义评估指标，如 acc、f1 等，目前只有 loss； -->
 <!-- - [ ] 【`2021.11.11`】论文：What does BERT learn about the structure of language? —— Bert 各层的含义； -->
@@ -27,6 +27,7 @@ studies
 
 <details><summary><b> Done </b></summary>
 
+- [x] 【`2022.01.18`】优化 algorithm 笔记模板的 tag 部分，使用 json 代替目前的正则抽取。
 - [x] 【`2022.01.17`】自动生成目录结构（books、papers 等）
 - [x] 【`2021.11.12`】优化 auto-readme，使用上一次的 commit info，而不是默认 'Auto-README'
     - 参考：`git commit -m "$(git log -"$(git rev-list origin/master..master --count)" --pretty=%B | cat)"`
@@ -62,13 +63,6 @@ Repo Index
 
 Algorithms
 ---
-<details><summary><b> 基础-模板 [2] <a href="algorithms/topics/基础-模板.md">¶</a></b></summary>
-
-- [`+模板 字符串 split切分 (简单, 模板库-基础)`](algorithms/topics/基础-模板.md#模板-字符串-split切分-简单-模板库-基础)
-- [`+模板 搜索 二分查找 (简单, 模板库-基础)`](algorithms/topics/基础-模板.md#模板-搜索-二分查找-简单-模板库-基础)
-
-</details>
-
 <details><summary><b> 基础-经典问题&代码 [19] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
 
 - [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-no0072-编辑距离-困难-2022-01)
@@ -93,7 +87,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 题集-LeetCode [35] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 题集-LeetCode [38] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0002-两数相加-中等-2021-10)
@@ -102,6 +96,7 @@ Algorithms
 - [`LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0011-盛最多水的容器-中等-2021-10)
 - [`LeetCode No.0015 三数之和 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0015-三数之和-中等-2021-10)
 - [`LeetCode No.0016 最接近的三数之和 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0016-最接近的三数之和-中等-2021-10)
+- [`LeetCode No.0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0019-删除链表的倒数第n个结点-中等-2022-01)
 - [`LeetCode No.0021 合并两个有序链表 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0021-合并两个有序链表-简单-2021-10)
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
@@ -117,6 +112,7 @@ Algorithms
 - [`LeetCode No.0121 买卖股票的最佳时机 (简单, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0121-买卖股票的最佳时机-简单-2022-01)
 - [`LeetCode No.0122 买卖股票的最佳时机II (中等, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0122-买卖股票的最佳时机ii-中等-2022-01)
 - [`LeetCode No.0123 买卖股票的最佳时机III (困难, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0123-买卖股票的最佳时机iii-困难-2022-01)
+- [`LeetCode No.0143 重排链表 (中等, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0143-重排链表-中等-2022-01)
 - [`LeetCode No.0152 乘积最大子数组 (中等, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0152-乘积最大子数组-中等-2022-01)
 - [`LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0167-两数之和2输入有序数组-简单-2021-10)
 - [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0187-重复的dna序列-中等-2021-10)
@@ -130,6 +126,7 @@ Algorithms
 - [`LeetCode No.0496 下一个更大元素 (简单, 2021-11)`](algorithms/topics/题集-LeetCode.md#leetcode-no0496-下一个更大元素-简单-2021-11)
 - [`LeetCode No.0611 有效三角形的个数 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0611-有效三角形的个数-中等-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/题集-LeetCode.md#leetcode-no0859-亲密字符串-简单-2021-11)
+- [`LeetCode No.0876 链表的中间结点 (简单, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0876-链表的中间结点-简单-2022-01)
 
 </details>
 
@@ -230,9 +227,10 @@ Algorithms
 
 <details><summary><b>更多细分类型 ...<a href="algorithms/README.md">¶</a></b></summary>
 
-<details><summary><b> 基础-模拟、数学、找规律 [18] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
+<details><summary><b> 基础-模拟、数学、找规律 [19] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0005-最长回文子串-中等-2021-10)
+- [`LeetCode No.0143 重排链表 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0143-重排链表-中等-2022-01)
 - [`LeetCode No.0343 整数拆分 (中等, 2021-12)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0343-整数拆分-中等-2021-12)
 - [`LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0352-将数据流变为多个不相交区间-困难-2021-10)
 - [`LeetCode No.0441 排列硬币 (简单, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0441-排列硬币-简单-2021-10)
@@ -295,8 +293,10 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-双指针-快慢指针 [2] <a href="algorithms/topics/技巧-双指针-快慢指针.md">¶</a></b></summary>
+<details><summary><b> 技巧-双指针-快慢指针 [4] <a href="algorithms/topics/技巧-双指针-快慢指针.md">¶</a></b></summary>
 
+- [`LeetCode No.0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/技巧-双指针-快慢指针.md#leetcode-no0019-删除链表的倒数第n个结点-中等-2022-01)
+- [`LeetCode No.0876 链表的中间结点 (简单, 2022-01)`](algorithms/topics/技巧-双指针-快慢指针.md#leetcode-no0876-链表的中间结点-简单-2022-01)
 - [`剑指Offer No.2200 链表中倒数第k个节点 (简单, 2021-11)`](algorithms/topics/技巧-双指针-快慢指针.md#剑指offer-no2200-链表中倒数第k个节点-简单-2021-11)
 - [`剑指Offer No.5200 两个链表的第一个公共节点 (简单, 2022-01)`](algorithms/topics/技巧-双指针-快慢指针.md#剑指offer-no5200-两个链表的第一个公共节点-简单-2022-01)
 
@@ -370,9 +370,8 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-字符串 [8] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
+<details><summary><b> 数据结构-字符串 [7] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
 
-- [`+模板 字符串 split切分 (简单, 模板库-基础)`](algorithms/topics/数据结构-字符串.md#模板-字符串-split切分-简单-模板库-基础)
 - [`LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`](algorithms/topics/数据结构-字符串.md#leetcode-no0434-字符串中的单词数-简单-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#leetcode-no0859-亲密字符串-简单-2021-11)
 - [`剑指Offer No.0500 替换空格 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#剑指offer-no0500-替换空格-简单-2021-11)
@@ -421,10 +420,13 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-链表 [9] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
+<details><summary><b> 数据结构-链表 [12] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
 
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithms/topics/数据结构-链表.md#leetcode-no0002-两数相加-中等-2021-10)
+- [`LeetCode No.0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#leetcode-no0019-删除链表的倒数第n个结点-中等-2022-01)
 - [`LeetCode No.0086 分隔链表 (中等, 2021-10)`](algorithms/topics/数据结构-链表.md#leetcode-no0086-分隔链表-中等-2021-10)
+- [`LeetCode No.0143 重排链表 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#leetcode-no0143-重排链表-中等-2022-01)
+- [`LeetCode No.0876 链表的中间结点 (简单, 2022-01)`](algorithms/topics/数据结构-链表.md#leetcode-no0876-链表的中间结点-简单-2022-01)
 - [`剑指Offer No.0600 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/数据结构-链表.md#剑指offer-no0600-从尾到头打印链表-简单-2021-11)
 - [`剑指Offer No.1800 删除链表的节点 (简单, 2021-11)`](algorithms/topics/数据结构-链表.md#剑指offer-no1800-删除链表的节点-简单-2021-11)
 - [`剑指Offer No.2200 链表中倒数第k个节点 (简单, 2021-11)`](algorithms/topics/数据结构-链表.md#剑指offer-no2200-链表中倒数第k个节点-简单-2021-11)
@@ -435,9 +437,8 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-二分 [13] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
+<details><summary><b> 算法-二分 [12] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
 
-- [`+模板 搜索 二分查找 (简单, 模板库-基础)`](algorithms/topics/算法-二分.md#模板-搜索-二分查找-简单-模板库-基础)
 - [`LeetCode No.0029 两数相除 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0029-两数相除-中等-2021-10)
 - [`LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0033-搜索旋转排序数组-中等-2021-10)
 - [`LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-no0240-搜索二维矩阵2-中等-2021-10)

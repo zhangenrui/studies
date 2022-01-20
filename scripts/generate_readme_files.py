@@ -186,7 +186,10 @@ class Algorithms:
                 print(fn, fp, suffix)
                 continue
 
-            info = json.loads(info_ret.group(1))
+            try:
+                info = json.loads(info_ret.group(1))
+            except:
+                raise ValueError(f'{fp}')
 
             # rename 如果需要
             new_file_name = self.get_new_file_name(info)

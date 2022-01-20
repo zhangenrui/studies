@@ -1543,7 +1543,7 @@ class Solution:
 <summary><b>问题简述</b></summary>
 
 ```txt
-给单向链表的头指针和要删除的节点的值（链表中的值都不相同），返回删除后的链表的头节点。
+给定单向链表的头节点和要删除的节点的值（链表中的值都不相同），返回删除后链表的头节点。
 ```
 
 <details><summary><b>详细描述</b></summary>
@@ -1574,11 +1574,15 @@ class Solution:
 
 </details>
 
-<summary><b>思路</b></summary>
-
 <!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
 
-<details><summary><b>Python</b></summary>
+<summary><b>思路</b></summary>
+
+- 一般有两种写法：
+    1. 单独处理头结点；
+    2. 建立伪头结点，原头结点跟普通节点一样处理（推荐）
+
+<details><summary><b>Python：写法1</b></summary>
 
 ```python
 # Definition for singly-linked list.
@@ -1593,15 +1597,43 @@ class Solution:
             return head.next
 
         cur = head  # 记录当前遍历的节点
-        pre = None  # 记录 cur 的前一个节点
         while cur:
-            pre = cur
+            pre = cur  # 记录 cur 的前一个节点
             cur = cur.next
             if cur.val == val:  # 移除匹配的节点
                 pre.next = cur.next
                 break
         
         return head
+```
+
+</details>
+
+
+<details><summary><b>Python：写法2</b></summary>
+
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def deleteNode(self, head: ListNode, val: int) -> ListNode:
+        dummy = ListNode(0)
+        dummy.next = head
+
+        pre = dummy  # 记录 cur 的前一个节点
+        cur = dummy.next  # 记录当前遍历的节点
+        while cur:
+            if cur.val == val:  # 移除匹配的节点
+                pre.next = cur.next
+                break
+            pre = cur  
+            cur = cur.next
+        
+        return dummy.next
 ```
 
 </details>
