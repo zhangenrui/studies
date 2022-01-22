@@ -5,10 +5,12 @@ Markdown 备忘
     - [自动更新目录插件（VSCode）](#自动更新目录插件vscode)
 - [常用操作](#常用操作)
     - [换行](#换行)
-- [居中插入图片](#居中插入图片)
+    - [居中插入图片](#居中插入图片)
     - [隐藏块](#隐藏块)
     - [HTML 表格](#html-表格)
-    - [Latex](#latex)
+- [Latex](#latex)
+    - [参考和引用](#参考和引用)
+    - [公式对齐](#公式对齐)
 
 
 ## 插件
@@ -23,7 +25,7 @@ Markdown 备忘
 <br/>
 ```
 
-## 居中插入图片
+### 居中插入图片
 
 <style> 
 .test{width:300px; align:"center"; overflow:hidden} 
@@ -66,12 +68,21 @@ Markdown 备忘
 </table>
 ```
 
-### Latex
+## Latex
 > markdown 专用
 - 在 markdown 内使用：行内使用 `$` 包围，独立行使用 `$$` 包围
 
-**小技巧：参考和引用**
+### 参考和引用
 
-$[1]$ [xxx](xxx) <br/>
+引用[$^{[1]}$](#ref1)
 
-引用$^{[1]}$
+<a name="ref1"> $[1]$ </a> [xxx](xxx) <br/>
+
+### 公式对齐
+
+$$
+\begin{aligned}
+    a &= 1 \\
+    b &= 2
+\end{aligned}
+$$
