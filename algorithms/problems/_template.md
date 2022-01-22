@@ -3,7 +3,8 @@
     "来源": "LeetCode",
     "难度": "",
     "编号": "",
-    "标题": ""
+    "标题": "",
+    "公司": []
 }-->
 
 <summary><b>问题简述</b></summary>
@@ -11,11 +12,14 @@
 ```txt
 xxx
 ```
+> http://
 
+<!-- 
 <details><summary><b>详细描述</b></summary>
 
 ```txt
 ```
+-->
 
 </details>
 

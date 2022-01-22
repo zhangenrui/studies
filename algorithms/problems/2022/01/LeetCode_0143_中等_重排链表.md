@@ -85,7 +85,7 @@ class Solution:
             
             return pre
         
-        mid = get_mid(head)
+        mid = get_mid(head)  # 注意此时还没有断开两个链表
         mid = reverse(mid)
 
         # merge

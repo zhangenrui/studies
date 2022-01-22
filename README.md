@@ -87,7 +87,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 题集-LeetCode [38] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 题集-LeetCode [39] <a href="algorithms/topics/题集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0002-两数相加-中等-2021-10)
@@ -127,6 +127,7 @@ Algorithms
 - [`LeetCode No.0611 有效三角形的个数 (中等, 2021-10)`](algorithms/topics/题集-LeetCode.md#leetcode-no0611-有效三角形的个数-中等-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/题集-LeetCode.md#leetcode-no0859-亲密字符串-简单-2021-11)
 - [`LeetCode No.0876 链表的中间结点 (简单, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0876-链表的中间结点-简单-2022-01)
+- [`LeetCode No.0915 分割数组 (中等, 2022-01)`](algorithms/topics/题集-LeetCode.md#leetcode-no0915-分割数组-中等-2022-01)
 
 </details>
 
@@ -218,6 +219,13 @@ Algorithms
 
 </details>
 
+<details><summary><b> 题集-牛客 [2] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
+
+- [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0001-大数加法-中等-2022-01)
+- [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0002-重排链表-中等-2022-01)
+
+</details>
+
 <details><summary><b> 题集-程序员面试金典 [2] <a href="algorithms/topics/题集-程序员面试金典.md">¶</a></b></summary>
 
 - [`程序员面试金典 No.0101 判定字符是否唯一 (简单, 2022-01)`](algorithms/topics/题集-程序员面试金典.md#程序员面试金典-no0101-判定字符是否唯一-简单-2022-01)
@@ -227,7 +235,7 @@ Algorithms
 
 <details><summary><b>更多细分类型 ...<a href="algorithms/README.md">¶</a></b></summary>
 
-<details><summary><b> 基础-模拟、数学、找规律 [19] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
+<details><summary><b> 基础-模拟、数学、找规律 [21] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0143 重排链表 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0143-重排链表-中等-2022-01)
@@ -235,6 +243,7 @@ Algorithms
 - [`LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0352-将数据流变为多个不相交区间-困难-2021-10)
 - [`LeetCode No.0441 排列硬币 (简单, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0441-排列硬币-简单-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0859-亲密字符串-简单-2021-11)
+- [`LeetCode No.0915 分割数组 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0915-分割数组-中等-2022-01)
 - [`剑指Offer No.1401 剪绳子（整数拆分） (中等, 2021-11)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no1401-剪绳子整数拆分-中等-2021-11)
 - [`剑指Offer No.1402 剪绳子 (中等, 2021-11)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no1402-剪绳子-中等-2021-11)
 - [`剑指Offer No.2900 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no2900-顺时针打印矩阵3种思路4个写法-中等-2021-11)
@@ -248,6 +257,7 @@ Algorithms
 - [`剑指Offer No.6200 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no6200-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 - [`剑指Offer No.6300 买卖股票的最佳时机 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no6300-买卖股票的最佳时机-中等-2022-01)
 - [`剑指Offer No.6700 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no6700-把字符串转换成整数atoi-中等-2022-01)
+- [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#牛客-no0001-大数加法-中等-2022-01)
 
 </details>
 
@@ -370,7 +380,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-字符串 [7] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
+<details><summary><b> 数据结构-字符串 [8] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
 
 - [`LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`](algorithms/topics/数据结构-字符串.md#leetcode-no0434-字符串中的单词数-简单-2021-10)
 - [`LeetCode No.0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#leetcode-no0859-亲密字符串-简单-2021-11)
@@ -379,6 +389,7 @@ Algorithms
 - [`剑指Offer No.2000 表示数值的字符串 (中等, 2021-11)`](algorithms/topics/数据结构-字符串.md#剑指offer-no2000-表示数值的字符串-中等-2021-11)
 - [`剑指Offer No.5802 左旋转字符串 (简单, 2022-01)`](algorithms/topics/数据结构-字符串.md#剑指offer-no5802-左旋转字符串-简单-2022-01)
 - [`剑指Offer No.6700 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/数据结构-字符串.md#剑指offer-no6700-把字符串转换成整数atoi-中等-2022-01)
+- [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/数据结构-字符串.md#牛客-no0001-大数加法-中等-2022-01)
 
 </details>
 
@@ -420,7 +431,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-链表 [12] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
+<details><summary><b> 数据结构-链表 [13] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
 
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithms/topics/数据结构-链表.md#leetcode-no0002-两数相加-中等-2021-10)
 - [`LeetCode No.0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#leetcode-no0019-删除链表的倒数第n个结点-中等-2022-01)
@@ -434,6 +445,7 @@ Algorithms
 - [`剑指Offer No.2500 合并两个排序的链表 (简单, 2021-11)`](algorithms/topics/数据结构-链表.md#剑指offer-no2500-合并两个排序的链表-简单-2021-11)
 - [`剑指Offer No.3500 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithms/topics/数据结构-链表.md#剑指offer-no3500-复杂链表的复制深拷贝-中等-2021-12)
 - [`剑指Offer No.5200 两个链表的第一个公共节点 (简单, 2022-01)`](algorithms/topics/数据结构-链表.md#剑指offer-no5200-两个链表的第一个公共节点-简单-2022-01)
+- [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-no0002-重排链表-中等-2022-01)
 
 </details>
 

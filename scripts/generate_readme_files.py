@@ -166,7 +166,7 @@ class Algorithms:
         for prefix, _, files in os.walk(args.problems_path):
             for f in files:
                 fn, ext = os.path.splitext(f)
-                if ext != '.md' or fn.startswith('-'):
+                if ext != '.md' or fn.startswith('-') or fn.startswith('_'):
                     continue
 
                 fp = os.path.join(prefix, f)
