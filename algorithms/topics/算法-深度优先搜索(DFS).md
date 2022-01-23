@@ -22,6 +22,7 @@ Problems Index
 - [`剑指Offer No.3400 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no3400-二叉树中和为某一值的路径-中等-2021-12)
 - [`剑指Offer No.3800 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no3800-字符串的排列全排列-中等-2021-12)
 - [`剑指Offer No.5400 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no5400-二叉搜索树的第k大节点-简单-2022-01)
+- [`牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`](#牛客-no0005-二叉树根节点到叶子节点的所有路径和-中等-2022-01)
 
 ---
 
@@ -1191,6 +1192,90 @@ class Solution:
             dfs(node.left)
         
         dfs(root)
+        return self.ret
+```
+
+</details>
+
+---
+
+### `牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`
+
+[![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](题集-牛客.md)
+
+<!--{
+    "tags": ["DFS"],
+    "来源": "牛客",
+    "难度": "中等",
+    "编号": "0005",
+    "标题": "二叉树根节点到叶子节点的所有路径和",
+    "公司": ["小米", "快手", "字节"]
+}-->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给定二叉树，求所有路径和，路径定义如下：
+假设某条路径的从根节点到叶节点的值为 1->2->3，则记该条路径表示的值为 123；
+输入确保每个节点的值在 0~9 之间；
+
+示例
+    1
+   2 3
+结果：25（12+13=25）
+```
+> [二叉树根节点到叶子节点的所有路径和_牛客题霸_牛客网](https://www.nowcoder.com/practice/185a87cd29eb42049132aed873273e83)
+
+<!-- 
+<details><summary><b>详细描述</b></summary>
+
+```txt
+```
+-->
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路：DFS</b></summary>
+
+<details><summary><b>Python</b></summary>
+
+```python
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+#
+# 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+#
+# 
+# @param root TreeNode类 
+# @return int整型
+#
+class Solution:
+    def sumNumbers(self , root: TreeNode) -> int:
+        # write code here
+        
+        self.ret = 0
+        
+        def dfs(node: TreeNode, sum_):
+            if not node:
+                return
+            
+            sum_ = sum_ * 10 + node.val
+            if not node.left and not node.right:
+                self.ret += sum_
+                return
+            
+            if node.left:
+                dfs(node.left, sum_)
+            if node.right:
+                dfs(node.right, sum_)
+        
+        dfs(root, 0)
         return self.ret
 ```
 
