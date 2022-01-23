@@ -1201,11 +1201,12 @@ class Solution:
 
 ### `牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`
 
+[![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](题集-牛客.md)
 
 <!--{
-    "tags": ["DFS"],
+    "tags": ["二叉树", "DFS"],
     "来源": "牛客",
     "难度": "中等",
     "编号": "0005",
@@ -1263,6 +1264,7 @@ class Solution:
         
         def dfs(node: TreeNode, sum_):
             if not node:
+                # self.ret += sum_  # 放在这里会导致“加两次”
                 return
             
             sum_ = sum_ * 10 + node.val
