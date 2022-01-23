@@ -219,7 +219,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 题集-牛客 [6] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
+<details><summary><b> 题集-牛客 [8] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
 
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0001-大数加法-中等-2022-01)
 - [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0002-重排链表-中等-2022-01)
@@ -227,6 +227,8 @@ Algorithms
 - [`牛客 No.0004 判断链表中是否有环 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0004-判断链表中是否有环-简单-2022-01)
 - [`牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0005-二叉树根节点到叶子节点的所有路径和-中等-2022-01)
 - [`牛客 No.0006 二叉树中的最大路径和 (困难, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0006-二叉树中的最大路径和-困难-2022-01)
+- [`牛客 No.0007 买卖股票的最好时机(一) (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0007-买卖股票的最好时机一-简单-2022-01)
+- [`牛客 No.0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0008-二叉树中和为某一值的路径二-中等-2022-01)
 
 </details>
 
@@ -239,7 +241,7 @@ Algorithms
 
 <details><summary><b>更多细分类型 ...<a href="algorithms/README.md">¶</a></b></summary>
 
-<details><summary><b> 基础-模拟、数学、找规律 [21] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
+<details><summary><b> 基础-模拟、数学、找规律 [22] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0143 重排链表 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0143-重排链表-中等-2022-01)
@@ -262,6 +264,7 @@ Algorithms
 - [`剑指Offer No.6300 买卖股票的最佳时机 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no6300-买卖股票的最佳时机-中等-2022-01)
 - [`剑指Offer No.6700 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#剑指offer-no6700-把字符串转换成整数atoi-中等-2022-01)
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#牛客-no0001-大数加法-中等-2022-01)
+- [`牛客 No.0007 买卖股票的最好时机(一) (简单, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#牛客-no0007-买卖股票的最好时机一-简单-2022-01)
 
 </details>
 
@@ -355,7 +358,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-二叉树 [20] <a href="algorithms/topics/数据结构-二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-二叉树 [21] <a href="algorithms/topics/数据结构-二叉树.md">¶</a></b></summary>
 
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/数据结构-二叉树.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](algorithms/topics/数据结构-二叉树.md#leetcode-no0111-二叉树的最小深度-简单-2021-10)
@@ -377,6 +380,7 @@ Algorithms
 - [`剑指Offer No.6802 二叉树的最近公共祖先 (简单, 2022-01)`](algorithms/topics/数据结构-二叉树.md#剑指offer-no6802-二叉树的最近公共祖先-简单-2022-01)
 - [`牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-no0005-二叉树根节点到叶子节点的所有路径和-中等-2022-01)
 - [`牛客 No.0006 二叉树中的最大路径和 (困难, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-no0006-二叉树中的最大路径和-困难-2022-01)
+- [`牛客 No.0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-no0008-二叉树中和为某一值的路径二-中等-2022-01)
 
 </details>
 
@@ -534,7 +538,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-深度优先搜索(DFS) [11] <a href="algorithms/topics/算法-深度优先搜索(DFS).md">¶</a></b></summary>
+<details><summary><b> 算法-深度优先搜索(DFS) [12] <a href="algorithms/topics/算法-深度优先搜索(DFS).md">¶</a></b></summary>
 
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](algorithms/topics/算法-深度优先搜索(DFS).md#leetcode-no0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode No.0437 路径总和3 (中等, 2021-10)`](algorithms/topics/算法-深度优先搜索(DFS).md#leetcode-no0437-路径总和3-中等-2021-10)
@@ -547,6 +551,7 @@ Algorithms
 - [`剑指Offer No.3800 字符串的排列（全排列） (中等, 2021-12)`](algorithms/topics/算法-深度优先搜索(DFS).md#剑指offer-no3800-字符串的排列全排列-中等-2021-12)
 - [`剑指Offer No.5400 二叉搜索树的第k大节点 (简单, 2022-01)`](algorithms/topics/算法-深度优先搜索(DFS).md#剑指offer-no5400-二叉搜索树的第k大节点-简单-2022-01)
 - [`牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`](algorithms/topics/算法-深度优先搜索(DFS).md#牛客-no0005-二叉树根节点到叶子节点的所有路径和-中等-2022-01)
+- [`牛客 No.0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`](algorithms/topics/算法-深度优先搜索(DFS).md#牛客-no0008-二叉树中和为某一值的路径二-中等-2022-01)
 
 </details>
 

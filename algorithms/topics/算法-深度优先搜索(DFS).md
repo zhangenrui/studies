@@ -23,6 +23,7 @@ Problems Index
 - [`剑指Offer No.3800 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no3800-字符串的排列全排列-中等-2021-12)
 - [`剑指Offer No.5400 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no5400-二叉搜索树的第k大节点-简单-2022-01)
 - [`牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`](#牛客-no0005-二叉树根节点到叶子节点的所有路径和-中等-2022-01)
+- [`牛客 No.0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`](#牛客-no0008-二叉树中和为某一值的路径二-中等-2022-01)
 
 ---
 
@@ -1279,6 +1280,87 @@ class Solution:
         
         dfs(root, 0)
         return self.ret
+```
+
+</details>
+
+---
+
+### `牛客 No.0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`
+
+[![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
+[![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](题集-牛客.md)
+
+<!--{
+    "tags": ["二叉树", "DFS"],
+    "来源": "牛客",
+    "难度": "中等",
+    "编号": "0008",
+    "标题": "二叉树中和为某一值的路径(二)",
+    "公司": []
+}-->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给定二叉树 root 和目标值 target，返回所有和为 target 的路径。
+路径必须从根节点开始到叶子节点。
+```
+> [二叉树中和为某一值的路径(二)_牛客题霸_牛客网](https://www.nowcoder.com/practice/b736e784e3e34731af99065031301bca)
+
+<!-- 
+<details><summary><b>详细描述</b></summary>
+
+```txt
+```
+-->
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路：DFS</b></summary>
+
+<details><summary><b>Python</b></summary>
+
+```python
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+#
+# 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+#
+# 
+# @param root TreeNode类 
+# @param target int整型 
+# @return int整型二维数组
+#
+class Solution:
+    def FindPath(self , root: TreeNode, target: int) -> List[List[int]]:
+        # write code here
+        
+        ret = []
+        tmp = []
+        
+        def dfs(node, k):
+            if not node: return
+            
+            tmp.append(node.val)
+            k -= node.val
+            
+            if not node.left and not node.right and k == 0:
+                ret.append(tmp[:])
+            
+            dfs(node.left, k)
+            dfs(node.right, k)
+            k += node.val
+            tmp.pop()
+        
+        dfs(root, target)
+        return ret
 ```
 
 </details>
