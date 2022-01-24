@@ -219,7 +219,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 题集-牛客 [16] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
+<details><summary><b> 题集-牛客 [17] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
 
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0001-大数加法-中等-2022-01)
 - [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0002-重排链表-中等-2022-01)
@@ -237,6 +237,7 @@ Algorithms
 - [`牛客 No.0014 按之字形顺序打印二叉树 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0014-按之字形顺序打印二叉树-中等-2022-01)
 - [`牛客 No.0015 求二叉树的层序遍历 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0015-求二叉树的层序遍历-中等-2022-01)
 - [`牛客 No.0016 对称的二叉树 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0016-对称的二叉树-简单-2022-01)
+- [`牛客 No.0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0017-最长回文子串-中等-2022-01)
 
 </details>
 
@@ -249,7 +250,7 @@ Algorithms
 
 <details><summary><b>更多细分类型 ...<a href="algorithms/README.md">¶</a></b></summary>
 
-<details><summary><b> 基础-模拟、数学、找规律 [23] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
+<details><summary><b> 基础-模拟、数学、找规律 [24] <a href="algorithms/topics/基础-模拟、数学、找规律.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0143 重排链表 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#leetcode-no0143-重排链表-中等-2022-01)
@@ -274,6 +275,7 @@ Algorithms
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#牛客-no0001-大数加法-中等-2022-01)
 - [`牛客 No.0007 买卖股票的最好时机(一) (简单, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#牛客-no0007-买卖股票的最好时机一-简单-2022-01)
 - [`牛客 No.0010 大数乘法 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#牛客-no0010-大数乘法-中等-2022-01)
+- [`牛客 No.0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/基础-模拟、数学、找规律.md#牛客-no0017-最长回文子串-中等-2022-01)
 
 </details>
 
@@ -507,7 +509,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [25] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [26] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0010 正则表达式匹配 (困难, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0010-正则表达式匹配-困难-2022-01)
@@ -534,6 +536,7 @@ Algorithms
 - [`剑指Offer No.4900 丑数 (中等, 2021-12)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no4900-丑数-中等-2021-12)
 - [`剑指Offer No.6000 n个骰子的点数 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no6000-n个骰子的点数-中等-2022-01)
 - [`剑指Offer No.6200 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no6200-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
+- [`牛客 No.0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-no0017-最长回文子串-中等-2022-01)
 
 </details>
 
@@ -604,6 +607,10 @@ Notes
     - ~~[GBDT](notes/机器学习/-GBDT)~~
     - [术语wiki](notes/机器学习/术语wiki)
 - [深度学习](notes/深度学习)
+    - ~~[RNN](notes/深度学习/-RNN)~~
+    - [CNN](notes/深度学习/CNN)
+    - [正则化](notes/深度学习/正则化)
+    - [激活函数](notes/深度学习/激活函数)
 - [自然语言处理](notes/自然语言处理)
     - [预训练语言模型](notes/自然语言处理/预训练语言模型)
         - [Bert](notes/自然语言处理/预训练语言模型/Bert)
