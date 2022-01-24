@@ -219,7 +219,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 题集-牛客 [13] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
+<details><summary><b> 题集-牛客 [14] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
 
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0001-大数加法-中等-2022-01)
 - [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0002-重排链表-中等-2022-01)
@@ -234,6 +234,7 @@ Algorithms
 - [`牛客 No.0011 将升序数组转化为平衡二叉搜索树 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0011-将升序数组转化为平衡二叉搜索树-简单-2022-01)
 - [`牛客 No.0012 重建二叉树 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0012-重建二叉树-中等-2022-01)
 - [`牛客 No.0013 二叉树的最大深度 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0013-二叉树的最大深度-简单-2022-01)
+- [`牛客 No.0014 按之字形顺序打印二叉树 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0014-按之字形顺序打印二叉树-中等-2022-01)
 
 </details>
 
@@ -364,7 +365,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-二叉树 [25] <a href="algorithms/topics/数据结构-二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-二叉树 [26] <a href="algorithms/topics/数据结构-二叉树.md">¶</a></b></summary>
 
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/数据结构-二叉树.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](algorithms/topics/数据结构-二叉树.md#leetcode-no0111-二叉树的最小深度-简单-2021-10)
@@ -391,6 +392,7 @@ Algorithms
 - [`牛客 No.0011 将升序数组转化为平衡二叉搜索树 (简单, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-no0011-将升序数组转化为平衡二叉搜索树-简单-2022-01)
 - [`牛客 No.0012 重建二叉树 (中等, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-no0012-重建二叉树-中等-2022-01)
 - [`牛客 No.0013 二叉树的最大深度 (简单, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-no0013-二叉树的最大深度-简单-2022-01)
+- [`牛客 No.0014 按之字形顺序打印二叉树 (中等, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-no0014-按之字形顺序打印二叉树-中等-2022-01)
 
 </details>
 
@@ -425,7 +427,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-栈、队列 [9] <a href="algorithms/topics/数据结构-栈、队列.md">¶</a></b></summary>
+<details><summary><b> 数据结构-栈、队列 [10] <a href="algorithms/topics/数据结构-栈、队列.md">¶</a></b></summary>
 
 - [`剑指Offer No.0600 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0600-从尾到头打印链表-简单-2021-11)
 - [`剑指Offer No.0900 用两个栈实现队列 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no0900-用两个栈实现队列-简单-2021-11)
@@ -436,6 +438,7 @@ Algorithms
 - [`剑指Offer No.3202 层序遍历二叉树 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no3202-层序遍历二叉树-简单-2021-11)
 - [`剑指Offer No.3203 层序遍历二叉树（之字形遍历） (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no3203-层序遍历二叉树之字形遍历-简单-2021-11)
 - [`剑指Offer No.5902 队列的最大值 (中等, 2022-01)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-no5902-队列的最大值-中等-2022-01)
+- [`牛客 No.0014 按之字形顺序打印二叉树 (中等, 2022-01)`](algorithms/topics/数据结构-栈、队列.md#牛客-no0014-按之字形顺序打印二叉树-中等-2022-01)
 
 </details>
 
