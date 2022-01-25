@@ -219,7 +219,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 题集-牛客 [19] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
+<details><summary><b> 题集-牛客 [20] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
 
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0001-大数加法-中等-2022-01)
 - [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0002-重排链表-中等-2022-01)
@@ -239,6 +239,7 @@ Algorithms
 - [`牛客 No.0016 对称的二叉树 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0016-对称的二叉树-简单-2022-01)
 - [`牛客 No.0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0017-最长回文子串-中等-2022-01)
 - [`牛客 No.0018 顺时针旋转矩阵 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0018-顺时针旋转矩阵-简单-2022-01)
+- [`牛客 No.0019 连续子数组的最大和 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0019-连续子数组的最大和-简单-2022-01)
 - [`牛客 No.0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/题集-牛客.md#牛客-no0091-最长上升子序列三-困难-2022-02)
 
 </details>
@@ -512,7 +513,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [27] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [28] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0010 正则表达式匹配 (困难, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0010-正则表达式匹配-困难-2022-01)
@@ -540,6 +541,7 @@ Algorithms
 - [`剑指Offer No.6000 n个骰子的点数 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no6000-n个骰子的点数-中等-2022-01)
 - [`剑指Offer No.6200 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#剑指offer-no6200-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 - [`牛客 No.0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-no0017-最长回文子串-中等-2022-01)
+- [`牛客 No.0019 连续子数组的最大和 (简单, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-no0019-连续子数组的最大和-简单-2022-01)
 - [`牛客 No.0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-no0091-最长上升子序列三-困难-2022-02)
 
 </details>
