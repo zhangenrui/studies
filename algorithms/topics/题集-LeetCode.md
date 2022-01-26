@@ -217,7 +217,7 @@ class Solution:
 ### `LeetCode No.0005 最长回文子串 (中等, 2021-10)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
@@ -2323,7 +2323,7 @@ class Solution:
 ### `LeetCode No.0143 重排链表 (中等, 2022-01)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!--{
@@ -3041,7 +3041,7 @@ class Solution:
 
 ### `LeetCode No.0343 整数拆分 (中等, 2021-12)`
 
-[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-数学.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
@@ -3170,7 +3170,7 @@ class Solution:
 ### `LeetCode No.0352 将数据流变为多个不相交区间 (困难, 2021-10)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!--{
@@ -3533,7 +3533,7 @@ class Solution:
 ### `LeetCode No.0441 排列硬币 (简单, 2021-10)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
-[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-数学.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!--{
@@ -3772,7 +3772,7 @@ class Solution:
 
 ### `LeetCode No.0859 亲密字符串 (简单, 2021-11)`
 
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
@@ -3953,7 +3953,7 @@ class Solution:
 
 ### `LeetCode No.0915 分割数组 (中等, 2022-01)`
 
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
 
 <!--{

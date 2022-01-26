@@ -1038,7 +1038,7 @@ class Solution:
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![贪心](https://img.shields.io/badge/贪心-lightgray.svg)](技巧-贪心.md)
-[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-数学.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!--{
@@ -1164,7 +1164,7 @@ class Solution:
 
 ### `剑指Offer No.1402 剪绳子 (中等, 2021-11)`
 
-[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-数学.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!--{
@@ -2729,7 +2729,7 @@ public:
 ### `剑指Offer No.2900 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`
 
 [![数组](https://img.shields.io/badge/数组-lightgray.svg)](数据结构-数组、矩阵(二维数组).md)
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
@@ -4564,7 +4564,7 @@ class Solution:
 ### `剑指Offer No.3900 数组中出现次数超过一半的数字（摩尔投票） (简单, 2021-12)`
 
 [![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序.md)
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![分治](https://img.shields.io/badge/分治-lightgray.svg)](算法-分治.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -5122,7 +5122,7 @@ class Solution:
 
 ### `剑指Offer No.4300 1～n整数中1出现的次数 (困难, 2021-12)`
 
-[![找规律](https://img.shields.io/badge/找规律-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![找规律](https://img.shields.io/badge/找规律-lightgray.svg)](基础-模拟.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!--{
@@ -5200,12 +5200,11 @@ class Solution:
 
 ### `剑指Offer No.4400 数字序列中某一位的数字 (中等, 2021-12)`
 
-[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
-[![找规律](https://img.shields.io/badge/找规律-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![找规律](https://img.shields.io/badge/找规律-lightgray.svg)](基础-模拟.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!--{
-    "tags": ["数学", "找规律"],
+    "tags": ["找规律"],
     "来源": "剑指Offer",
     "编号": "4400",
     "难度": "中等",
@@ -7649,13 +7648,11 @@ class MaxQueue:
 ### `剑指Offer No.6000 n个骰子的点数 (中等, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-模拟、数学、找规律.md)
-[![概率](https://img.shields.io/badge/概率-lightgray.svg)](基础-模拟、数学、找规律.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!--{
-    "tags": ["动态规划", "数学", "概率", "经典"],
+    "tags": ["动态规划", "经典"],
     "来源": "剑指Offer",
     "编号": "6000",
     "难度": "中等",
@@ -7758,7 +7755,7 @@ class Solution:
 ### `剑指Offer No.6100 扑克牌中的顺子 (简单, 2022-01)`
 
 [![排序](https://img.shields.io/badge/排序-lightgray.svg)](算法-排序.md)
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!--{
@@ -7833,7 +7830,7 @@ class Solution:
 
 ### `剑指Offer No.6200 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`
 
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![递推](https://img.shields.io/badge/递推-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
@@ -7930,7 +7927,7 @@ class Solution:
 
 ### `剑指Offer No.6300 买卖股票的最佳时机 (中等, 2022-01)`
 
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
 <!--{
@@ -8289,7 +8286,7 @@ class Solution:
 ### `剑指Offer No.6700 把字符串转换成整数（atoi） (中等, 2022-01)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
-[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟、数学、找规律.md)
+[![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
 
