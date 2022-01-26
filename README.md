@@ -219,7 +219,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 题集-牛客 [20] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
+<details><summary><b> 题集-牛客 [22] <a href="algorithms/topics/题集-牛客.md">¶</a></b></summary>
 
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0001-大数加法-中等-2022-01)
 - [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0002-重排链表-中等-2022-01)
@@ -240,6 +240,8 @@ Algorithms
 - [`牛客 No.0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0017-最长回文子串-中等-2022-01)
 - [`牛客 No.0018 顺时针旋转矩阵 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0018-顺时针旋转矩阵-简单-2022-01)
 - [`牛客 No.0019 连续子数组的最大和 (简单, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0019-连续子数组的最大和-简单-2022-01)
+- [`牛客 No.0020 数字字符串转化成IP地址 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0020-数字字符串转化成ip地址-中等-2022-01)
+- [`牛客 No.0021 链表内指定区间反转 (中等, 2022-01)`](algorithms/topics/题集-牛客.md#牛客-no0021-链表内指定区间反转-中等-2022-01)
 - [`牛客 No.0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/题集-牛客.md#牛客-no0091-最长上升子序列三-困难-2022-02)
 
 </details>
@@ -467,7 +469,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-链表 [15] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
+<details><summary><b> 数据结构-链表 [16] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
 
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithms/topics/数据结构-链表.md#leetcode-no0002-两数相加-中等-2021-10)
 - [`LeetCode No.0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#leetcode-no0019-删除链表的倒数第n个结点-中等-2022-01)
@@ -484,6 +486,7 @@ Algorithms
 - [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-no0002-重排链表-中等-2022-01)
 - [`牛客 No.0003 链表中环的入口结点 (简单, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-no0003-链表中环的入口结点-简单-2022-01)
 - [`牛客 No.0004 判断链表中是否有环 (简单, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-no0004-判断链表中是否有环-简单-2022-01)
+- [`牛客 No.0021 链表内指定区间反转 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-no0021-链表内指定区间反转-中等-2022-01)
 
 </details>
 
@@ -565,7 +568,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-深度优先搜索(DFS) [13] <a href="algorithms/topics/算法-深度优先搜索(DFS).md">¶</a></b></summary>
+<details><summary><b> 算法-深度优先搜索(DFS) [14] <a href="algorithms/topics/算法-深度优先搜索(DFS).md">¶</a></b></summary>
 
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](algorithms/topics/算法-深度优先搜索(DFS).md#leetcode-no0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode No.0437 路径总和3 (中等, 2021-10)`](algorithms/topics/算法-深度优先搜索(DFS).md#leetcode-no0437-路径总和3-中等-2021-10)
@@ -580,6 +583,7 @@ Algorithms
 - [`牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`](algorithms/topics/算法-深度优先搜索(DFS).md#牛客-no0005-二叉树根节点到叶子节点的所有路径和-中等-2022-01)
 - [`牛客 No.0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`](algorithms/topics/算法-深度优先搜索(DFS).md#牛客-no0008-二叉树中和为某一值的路径二-中等-2022-01)
 - [`牛客 No.0009 二叉树中和为某一值的路径(一) (简单, 2022-01)`](algorithms/topics/算法-深度优先搜索(DFS).md#牛客-no0009-二叉树中和为某一值的路径一-简单-2022-01)
+- [`牛客 No.0020 数字字符串转化成IP地址 (中等, 2022-01)`](algorithms/topics/算法-深度优先搜索(DFS).md#牛客-no0020-数字字符串转化成ip地址-中等-2022-01)
 
 </details>
 
@@ -613,14 +617,17 @@ Notes
     - ~~[GBDT](notes/机器学习/-GBDT)~~
     - [术语wiki](notes/机器学习/术语wiki)
 - [深度学习](notes/深度学习)
-    - ~~[RNN](notes/深度学习/-RNN)~~
+    - [Attention](notes/深度学习/Attention)
     - [CNN](notes/深度学习/CNN)
+    - [RNN](notes/深度学习/RNN)
+    - [损失函数](notes/深度学习/损失函数)
     - [正则化](notes/深度学习/正则化)
     - [激活函数](notes/深度学习/激活函数)
 - [自然语言处理](notes/自然语言处理)
     - [预训练语言模型](notes/自然语言处理/预训练语言模型)
         - [Bert](notes/自然语言处理/预训练语言模型/Bert)
         - [Transformer系列模型](notes/自然语言处理/预训练语言模型/Transformer系列模型)
+        - [词向量](notes/自然语言处理/预训练语言模型/词向量)
     - ~~[实体链接](notes/自然语言处理/-实体链接)~~
     - ~~[细粒度情感分析](notes/自然语言处理/-细粒度情感分析)~~
     - [关键词挖掘](notes/自然语言处理/关键词挖掘)
