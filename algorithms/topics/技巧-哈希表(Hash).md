@@ -19,7 +19,7 @@ Problems Index
 ### `LeetCode No.0001 两数之和 (简单, 2021-10)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["哈希表"],
@@ -99,7 +99,7 @@ class Solution:
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["哈希表", "位运算"],
@@ -243,7 +243,7 @@ class Solution:
 ### `剑指Offer No.0300 数组中重复的数字 (简单, 2021-11)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["哈希表"],
@@ -309,7 +309,7 @@ class Solution:
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["链表", "哈希表", "经典"],
@@ -562,7 +562,7 @@ class Solution:
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["哈希表", "双指针", "动态规划"],
@@ -692,7 +692,7 @@ class Solution:
 ### `剑指Offer No.5000 第一个只出现一次的字符 (简单, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["哈希表"],
@@ -786,7 +786,7 @@ class Solution:
 ### `程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
-[![程序员面试金典](https://img.shields.io/badge/程序员面试金典-lightgray.svg)](题集-程序员面试金典.md)
+[![程序员面试金典](https://img.shields.io/badge/程序员面试金典-lightgray.svg)](合集-程序员面试金典.md)
 
 <!--{
     "tags": ["哈希表"],

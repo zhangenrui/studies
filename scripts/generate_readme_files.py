@@ -102,7 +102,7 @@ def hn_line(line, lv=2):
 
 class Algorithms:
     """"""
-    sp_kw = {'题集', '模板', '经典'}
+    sp_kw = {'合集', '模板', '经典'}
     more_info = '更多细分类型'
 
     def __init__(self):

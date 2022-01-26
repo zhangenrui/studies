@@ -33,7 +33,7 @@ Problems Index
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二叉树", "DFS"],
@@ -105,7 +105,7 @@ class Solution:
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![深度优先搜索](https://img.shields.io/badge/深度优先搜索-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二叉树", "深度优先搜索", "前缀和"],
@@ -240,7 +240,7 @@ class Solution:
 [![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["链表", "栈", "DFS", "递归"],
@@ -337,7 +337,7 @@ class Solution:
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![DFS+回溯](https://img.shields.io/badge/DFS+回溯-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["DFS", "DFS+回溯"],
@@ -438,7 +438,7 @@ class Solution:
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![DFS+回溯](https://img.shields.io/badge/DFS+回溯-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["DFS", "DFS+回溯"],
@@ -538,7 +538,7 @@ class Solution:
 ### `剑指Offer No.1300 机器人的运动范围 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["DFS"],
@@ -610,7 +610,7 @@ class Solution:
 ### `剑指Offer No.1700 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["DFS"],
@@ -706,7 +706,7 @@ class Solution:
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["二叉树", "DFS"],
@@ -804,7 +804,7 @@ class Solution:
 
 [![DFS+剪枝](https://img.shields.io/badge/DFS+剪枝-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["DFS+剪枝", "经典"],
@@ -1069,7 +1069,7 @@ class Solution:
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![dfs](https://img.shields.io/badge/dfs-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](题集-剑指Offer.md)
+[![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
     "tags": ["二叉树", "dfs"],
@@ -1206,7 +1206,7 @@ class Solution:
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](题集-牛客.md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](合集-牛客.md)
 
 <!--{
     "tags": ["二叉树", "DFS"],
@@ -1292,7 +1292,7 @@ class Solution:
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](题集-牛客.md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](合集-牛客.md)
 
 <!--{
     "tags": ["二叉树", "DFS"],
@@ -1373,7 +1373,7 @@ class Solution:
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](题集-牛客.md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](合集-牛客.md)
 
 <!--{
     "tags": ["二叉树", "DFS"],
@@ -1443,7 +1443,7 @@ class Solution:
 ### `牛客 No.0020 数字字符串转化成IP地址 (中等, 2022-01)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](题集-牛客.md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](合集-牛客.md)
 
 <!--{
     "tags": ["DFS"],

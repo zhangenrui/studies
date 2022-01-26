@@ -51,7 +51,7 @@ Problems Index
 ### `LeetCode No.0001 两数之和 (简单, 2021-10)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["哈希表"],
@@ -130,7 +130,7 @@ class Solution:
 ### `LeetCode No.0002 两数相加 (中等, 2021-10)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["链表"],
@@ -219,7 +219,7 @@ class Solution:
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["DP", "模拟", "双指针"],
@@ -393,7 +393,7 @@ class Solution:
 ### `LeetCode No.0010 正则表达式匹配 (困难, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -507,7 +507,7 @@ class Solution:
 ### `LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["双指针"],
@@ -570,7 +570,7 @@ class Solution:
 ### `LeetCode No.0015 三数之和 (中等, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["双指针"],
@@ -680,7 +680,7 @@ class Solution:
 ### `LeetCode No.0016 最接近的三数之和 (中等, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["双指针"],
@@ -806,7 +806,7 @@ class Solution:
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![快慢指针](https://img.shields.io/badge/快慢指针-lightgray.svg)](技巧-双指针-快慢指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["链表", "快慢指针"],
@@ -891,7 +891,7 @@ class Solution:
 ### `LeetCode No.0021 合并两个有序链表 (简单, 2021-10)`
 
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["递归"],
@@ -993,7 +993,7 @@ class Solution:
 
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["位运算", "二分查找"],
@@ -1090,7 +1090,7 @@ class Solution:
 ### `LeetCode No.0033 搜索旋转排序数组 (中等, 2021-10)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二分查找"],
@@ -1194,7 +1194,7 @@ class Solution:
 ### `LeetCode No.0042 接雨水 (困难, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["双指针"],
@@ -1288,7 +1288,7 @@ public:
 ### `LeetCode No.0053 最大子数组和 (简单, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -1360,7 +1360,7 @@ class Solution:
 ### `LeetCode No.0064 最小路径和 (中等, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -1474,7 +1474,7 @@ class Solution:
 ### `LeetCode No.0070 爬楼梯 (简单, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -1549,7 +1549,7 @@ class Solution:
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划", "经典"],
@@ -1687,7 +1687,7 @@ class Solution:
 ### `LeetCode No.0086 分隔链表 (中等, 2021-10)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["链表"],
@@ -1772,7 +1772,7 @@ class Solution:
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![递归](https://img.shields.io/badge/递归-lightgray.svg)](算法-递归、迭代.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二叉树", "递归"],
@@ -1833,7 +1833,7 @@ class Solution:
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二叉树", "DFS"],
@@ -1903,7 +1903,7 @@ class Solution:
 ### `LeetCode No.0120 三角形最小路径和 (中等, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -1991,7 +1991,7 @@ class Solution:
 ### `LeetCode No.0121 买卖股票的最佳时机 (简单, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -2074,7 +2074,7 @@ class Solution:
 ### `LeetCode No.0122 买卖股票的最佳时机II (中等, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -2172,7 +2172,7 @@ class Solution:
 ### `LeetCode No.0123 买卖股票的最佳时机III (困难, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -2324,7 +2324,7 @@ class Solution:
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["链表", "模拟"],
@@ -2484,7 +2484,7 @@ class Solution:
 ### `LeetCode No.0152 乘积最大子数组 (中等, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划"],
@@ -2553,7 +2553,7 @@ class Solution:
 ### `LeetCode No.0167 两数之和2(输入有序数组) (简单, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["双指针"],
@@ -2636,7 +2636,7 @@ class Solution:
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["哈希表", "位运算"],
@@ -2780,7 +2780,7 @@ class Solution:
 ### `LeetCode No.0240 搜索二维矩阵2 (中等, 2021-10)`
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二分查找"],
@@ -2908,7 +2908,7 @@ class Solution:
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![贪心](https://img.shields.io/badge/贪心-lightgray.svg)](技巧-贪心.md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["动态规划", "贪心", "经典"],
@@ -3043,7 +3043,7 @@ class Solution:
 
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-数学.md)
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["数学", "动态规划"],
@@ -3171,7 +3171,7 @@ class Solution:
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二分查找", "模拟"],
@@ -3346,7 +3346,7 @@ SortedDict({2: 22, 3: 33, 4: 44, 6: 66, 7: 77})
 ### `LeetCode No.0434 字符串中的单词数 (简单, 2021-10)`
 
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["字符串"],
@@ -3401,7 +3401,7 @@ class Solution:
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![深度优先搜索](https://img.shields.io/badge/深度优先搜索-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二叉树", "深度优先搜索", "前缀和"],
@@ -3534,7 +3534,7 @@ class Solution:
 
 [![二分查找](https://img.shields.io/badge/二分查找-lightgray.svg)](算法-二分.md)
 [![数学](https://img.shields.io/badge/数学-lightgray.svg)](基础-数学.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["二分查找", "数学"],
@@ -3608,7 +3608,7 @@ class Solution:
 ### `LeetCode No.0496 下一个更大元素 (简单, 2021-11)`
 
 [![单调栈](https://img.shields.io/badge/单调栈-lightgray.svg)](技巧-单调栈、单调队列.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["单调栈"],
@@ -3695,7 +3695,7 @@ class Solution:
 ### `LeetCode No.0611 有效三角形的个数 (中等, 2021-10)`
 
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["双指针"],
@@ -3774,7 +3774,7 @@ class Solution:
 
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
 [![字符串](https://img.shields.io/badge/字符串-lightgray.svg)](数据结构-字符串.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["模拟", "字符串"],
@@ -3880,7 +3880,7 @@ class Solution:
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![快慢指针](https://img.shields.io/badge/快慢指针-lightgray.svg)](技巧-双指针-快慢指针.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["链表", "快慢指针"],
@@ -3954,7 +3954,7 @@ class Solution:
 ### `LeetCode No.0915 分割数组 (中等, 2022-01)`
 
 [![模拟](https://img.shields.io/badge/模拟-lightgray.svg)](基础-模拟.md)
-[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](题集-LeetCode.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
     "tags": ["模拟"],
