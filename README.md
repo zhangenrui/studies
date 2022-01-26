@@ -195,7 +195,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [22] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [23] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0001-大数加法-中等-2022-01)
 - [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0002-重排链表-中等-2022-01)
@@ -218,6 +218,7 @@ Algorithms
 - [`牛客 No.0019 连续子数组的最大和 (简单, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0019-连续子数组的最大和-简单-2022-01)
 - [`牛客 No.0020 数字字符串转化成IP地址 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0020-数字字符串转化成ip地址-中等-2022-01)
 - [`牛客 No.0021 链表内指定区间反转 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0021-链表内指定区间反转-中等-2022-01)
+- [`牛客 No.0022 合并两个有序的数组 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0022-合并两个有序的数组-中等-2022-01)
 - [`牛客 No.0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-no0091-最长上升子序列三-困难-2022-02)
 
 </details>
@@ -317,7 +318,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-双指针 [12] <a href="algorithms/topics/技巧-双指针.md">¶</a></b></summary>
+<details><summary><b> 技巧-双指针 [13] <a href="algorithms/topics/技巧-双指针.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/技巧-双指针.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0011 盛最多水的容器 (中等, 2021-10)`](algorithms/topics/技巧-双指针.md#leetcode-no0011-盛最多水的容器-中等-2021-10)
@@ -331,6 +332,7 @@ Algorithms
 - [`剑指Offer No.5701 和为s的两个数字 (简单, 2022-01)`](algorithms/topics/技巧-双指针.md#剑指offer-no5701-和为s的两个数字-简单-2022-01)
 - [`剑指Offer No.5702 和为s的连续正数序列 (简单, 2022-01)`](algorithms/topics/技巧-双指针.md#剑指offer-no5702-和为s的连续正数序列-简单-2022-01)
 - [`剑指Offer No.5801 翻转单词顺序 (简单, 2022-01)`](algorithms/topics/技巧-双指针.md#剑指offer-no5801-翻转单词顺序-简单-2022-01)
+- [`牛客 No.0022 合并两个有序的数组 (中等, 2022-01)`](algorithms/topics/技巧-双指针.md#牛客-no0022-合并两个有序的数组-中等-2022-01)
 
 </details>
 
@@ -622,15 +624,16 @@ Algorithms
 Notes
 ---
 - [机器学习](notes/机器学习)
+    - [基础知识](notes/机器学习/基础知识)
     - ~~[GBDT](notes/机器学习/-GBDT)~~
-    - [术语wiki](notes/机器学习/术语wiki)
 - [深度学习](notes/深度学习)
     - [Attention](notes/深度学习/Attention)
     - [CNN](notes/深度学习/CNN)
     - [RNN](notes/深度学习/RNN)
     - [损失函数](notes/深度学习/损失函数)
-    - [正则化](notes/深度学习/正则化)
     - [激活函数](notes/深度学习/激活函数)
+    - [过拟合与欠拟合](notes/深度学习/过拟合与欠拟合)
+        - [正则化](notes/深度学习/过拟合与欠拟合/正则化)
 - [自然语言处理](notes/自然语言处理)
     - [预训练语言模型](notes/自然语言处理/预训练语言模型)
         - [Bert](notes/自然语言处理/预训练语言模型/Bert)
