@@ -47,7 +47,7 @@ def negative_likelihood_loss(logits, onehot_labels):
     return -(onehot_labels * logits).sum(-1)
 
 
-def negative_log_likelihood_loss(logits, onehot_labels):
+def negative_log_likelihood_loss(probs, onehot_labels):
     """
     负对数似然损失，相比 `negative_likelihood_loss`，在计算损失之前，先对 `logits` 计算一次 `log`
 
@@ -67,13 +67,13 @@ def negative_log_likelihood_loss(logits, onehot_labels):
         >>> assert torch.allclose(my_ret, official_ret, atol=1e-5)
 
     Args:
-        logits: [B, C], 其中 B 表示 batch_size, C 表示 n_classes
+        probs: [B, C], 其中 B 表示 batch_size, C 表示 n_classes
         onehot_labels: [B, C], same as logits
     """
-    return negative_likelihood_loss(torch.log(logits + _EPSILON), onehot_labels)
+    return negative_likelihood_loss(torch.log(probs + _EPSILON), onehot_labels)
 
 
-def cross_entropy_loss(logits, onehot_labels):
+def cross_entropy_loss(probs, onehot_labels):
     """
     交叉熵损失（不带 softmax）
 
@@ -106,10 +106,10 @@ def cross_entropy_loss(logits, onehot_labels):
         >>> assert torch.allclose(my_ret, tf_ret, atol=1e-5)
 
     Args:
-        logits: [B, C], 其中 B 表示 batch_size, C 表示 n_classes
+        probs: [B, C], 其中 B 表示 batch_size, C 表示 n_classes
         onehot_labels: [B, C], same as logits
     """
-    return negative_log_likelihood_loss(logits, onehot_labels)
+    return negative_log_likelihood_loss(probs, onehot_labels)
 
 
 def cross_entropy_loss_with_logits(logits, onehot_labels, dim=-1):
