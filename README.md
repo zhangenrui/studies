@@ -63,7 +63,7 @@ Repo Index
 
 Algorithms
 ---
-<details><summary><b> 合集-LeetCode [39] <a href="algorithms/topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [40] <a href="algorithms/topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode No.0001 两数之和 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-no0001-两数之和-简单-2021-10)
 - [`LeetCode No.0002 两数相加 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-no0002-两数相加-中等-2021-10)
@@ -82,6 +82,7 @@ Algorithms
 - [`LeetCode No.0070 爬楼梯 (简单, 2022-01)`](algorithms/topics/合集-LeetCode.md#leetcode-no0070-爬楼梯-简单-2022-01)
 - [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](algorithms/topics/合集-LeetCode.md#leetcode-no0072-编辑距离-困难-2022-01)
 - [`LeetCode No.0086 分隔链表 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-no0086-分隔链表-中等-2021-10)
+- [`LeetCode No.0091 解码方法 (中等, 2022-02)`](algorithms/topics/合集-LeetCode.md#leetcode-no0091-解码方法-中等-2022-02)
 - [`LeetCode No.0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-no0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-no0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode No.0120 三角形最小路径和 (中等, 2022-01)`](algorithms/topics/合集-LeetCode.md#leetcode-no0120-三角形最小路径和-中等-2022-01)
@@ -195,7 +196,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [24] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [25] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 No.0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0001-大数加法-中等-2022-01)
 - [`牛客 No.0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0002-重排链表-中等-2022-01)
@@ -221,6 +222,7 @@ Algorithms
 - [`牛客 No.0022 合并两个有序的数组 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0022-合并两个有序的数组-中等-2022-01)
 - [`牛客 No.0023 划分链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-no0023-划分链表-中等-2022-01)
 - [`牛客 No.0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-no0091-最长上升子序列三-困难-2022-02)
+- [`牛客 No.0145 01背包 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-no0145-01背包-中等-2022-02)
 
 </details>
 
@@ -291,6 +293,13 @@ Algorithms
 - [`牛客 No.0007 买卖股票的最好时机(一) (简单, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-no0007-买卖股票的最好时机一-简单-2022-01)
 - [`牛客 No.0010 大数乘法 (中等, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-no0010-大数乘法-中等-2022-01)
 - [`牛客 No.0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-no0017-最长回文子串-中等-2022-01)
+
+</details>
+
+<details><summary><b> 技巧-从暴力递归到动态规划 [2] <a href="algorithms/topics/技巧-从暴力递归到动态规划.md">¶</a></b></summary>
+
+- [`LeetCode No.0091 解码方法 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-no0091-解码方法-中等-2022-02)
+- [`牛客 No.0145 01背包 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#牛客-no0145-01背包-中等-2022-02)
 
 </details>
 
@@ -528,7 +537,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [28] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [30] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
 - [`LeetCode No.0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0005-最长回文子串-中等-2021-10)
 - [`LeetCode No.0010 正则表达式匹配 (困难, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0010-正则表达式匹配-困难-2022-01)
@@ -536,6 +545,7 @@ Algorithms
 - [`LeetCode No.0064 最小路径和 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0064-最小路径和-中等-2022-01)
 - [`LeetCode No.0070 爬楼梯 (简单, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0070-爬楼梯-简单-2022-01)
 - [`LeetCode No.0072 编辑距离 (困难, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0072-编辑距离-困难-2022-01)
+- [`LeetCode No.0091 解码方法 (中等, 2022-02)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0091-解码方法-中等-2022-02)
 - [`LeetCode No.0120 三角形最小路径和 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0120-三角形最小路径和-中等-2022-01)
 - [`LeetCode No.0121 买卖股票的最佳时机 (简单, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0121-买卖股票的最佳时机-简单-2022-01)
 - [`LeetCode No.0122 买卖股票的最佳时机II (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-no0122-买卖股票的最佳时机ii-中等-2022-01)
@@ -558,6 +568,7 @@ Algorithms
 - [`牛客 No.0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-no0017-最长回文子串-中等-2022-01)
 - [`牛客 No.0019 连续子数组的最大和 (简单, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-no0019-连续子数组的最大和-简单-2022-01)
 - [`牛客 No.0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-no0091-最长上升子序列三-困难-2022-02)
+- [`牛客 No.0145 01背包 (中等, 2022-02)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-no0145-01背包-中等-2022-02)
 
 </details>
 
