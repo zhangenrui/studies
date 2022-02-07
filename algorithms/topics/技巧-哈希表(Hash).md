@@ -6,17 +6,17 @@
 
 Problems Index
 ---
-- [`LeetCode No.0001 两数之和 (简单, 2021-10)`](#leetcode-no0001-两数之和-简单-2021-10)
-- [`LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`](#leetcode-no0187-重复的dna序列-中等-2021-10)
-- [`剑指Offer No.0300 数组中重复的数字 (简单, 2021-11)`](#剑指offer-no0300-数组中重复的数字-简单-2021-11)
-- [`剑指Offer No.3500 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-no3500-复杂链表的复制深拷贝-中等-2021-12)
-- [`剑指Offer No.4800 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-no4800-最长不含重复字符的子字符串-中等-2021-12)
-- [`剑指Offer No.5000 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-no5000-第一个只出现一次的字符-简单-2021-12)
-- [`程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`](#程序员面试金典-no0102-判定是否互为字符重排-简单-2022-01)
+- [`LeetCode 0001 两数之和 (简单, 2021-10)`](#leetcode-0001-两数之和-简单-2021-10)
+- [`LeetCode 0187 重复的DNA序列 (中等, 2021-10)`](#leetcode-0187-重复的dna序列-中等-2021-10)
+- [`剑指Offer 0300 数组中重复的数字 (简单, 2021-11)`](#剑指offer-0300-数组中重复的数字-简单-2021-11)
+- [`剑指Offer 3500 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-3500-复杂链表的复制深拷贝-中等-2021-12)
+- [`剑指Offer 4800 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-4800-最长不含重复字符的子字符串-中等-2021-12)
+- [`剑指Offer 5000 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-5000-第一个只出现一次的字符-简单-2021-12)
+- [`程序员面试金典 0102 判定是否互为字符重排 (简单, 2022-01)`](#程序员面试金典-0102-判定是否互为字符重排-简单-2022-01)
 
 ---
 
-### `LeetCode No.0001 两数之和 (简单, 2021-10)`
+### `LeetCode 0001 两数之和 (简单, 2021-10)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
@@ -95,7 +95,7 @@ class Solution:
 
 ---
 
-### `LeetCode No.0187 重复的DNA序列 (中等, 2021-10)`
+### `LeetCode 0187 重复的DNA序列 (中等, 2021-10)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![位运算](https://img.shields.io/badge/位运算-lightgray.svg)](技巧-位运算.md)
@@ -240,7 +240,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0300 数组中重复的数字 (简单, 2021-11)`
+### `剑指Offer 0300 数组中重复的数字 (简单, 2021-11)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
@@ -304,7 +304,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.3500 复杂链表的复制（深拷贝） (中等, 2021-12)`
+### `剑指Offer 3500 复杂链表的复制（深拷贝） (中等, 2021-12)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
@@ -557,7 +557,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.4800 最长不含重复字符的子字符串 (中等, 2021-12)`
+### `剑指Offer 4800 最长不含重复字符的子字符串 (中等, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![双指针](https://img.shields.io/badge/双指针-lightgray.svg)](技巧-双指针.md)
@@ -689,7 +689,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.5000 第一个只出现一次的字符 (简单, 2021-12)`
+### `剑指Offer 5000 第一个只出现一次的字符 (简单, 2021-12)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
@@ -783,7 +783,7 @@ class Solution:
 
 ---
 
-### `程序员面试金典 No.0102 判定是否互为字符重排 (简单, 2022-01)`
+### `程序员面试金典 0102 判定是否互为字符重排 (简单, 2022-01)`
 
 [![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
 [![程序员面试金典](https://img.shields.io/badge/程序员面试金典-lightgray.svg)](合集-程序员面试金典.md)

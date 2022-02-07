@@ -6,13 +6,13 @@
 
 Problems Index
 ---
-- [`剑指Offer No.3201 层序遍历二叉树 (简单, 2021-11)`](#剑指offer-no3201-层序遍历二叉树-简单-2021-11)
-- [`剑指Offer No.3202 层序遍历二叉树 (简单, 2021-11)`](#剑指offer-no3202-层序遍历二叉树-简单-2021-11)
-- [`剑指Offer No.3203 层序遍历二叉树（之字形遍历） (简单, 2021-11)`](#剑指offer-no3203-层序遍历二叉树之字形遍历-简单-2021-11)
+- [`剑指Offer 3201 层序遍历二叉树 (简单, 2021-11)`](#剑指offer-3201-层序遍历二叉树-简单-2021-11)
+- [`剑指Offer 3202 层序遍历二叉树 (简单, 2021-11)`](#剑指offer-3202-层序遍历二叉树-简单-2021-11)
+- [`剑指Offer 3203 层序遍历二叉树（之字形遍历） (简单, 2021-11)`](#剑指offer-3203-层序遍历二叉树之字形遍历-简单-2021-11)
 
 ---
 
-### `剑指Offer No.3201 层序遍历二叉树 (简单, 2021-11)`
+### `剑指Offer 3201 层序遍历二叉树 (简单, 2021-11)`
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
@@ -152,7 +152,7 @@ public:
 
 ---
 
-### `剑指Offer No.3202 层序遍历二叉树 (简单, 2021-11)`
+### `剑指Offer 3202 层序遍历二叉树 (简单, 2021-11)`
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
@@ -286,7 +286,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.3203 层序遍历二叉树（之字形遍历） (简单, 2021-11)`
+### `剑指Offer 3203 层序遍历二叉树（之字形遍历） (简单, 2021-11)`
 
 [![BFS](https://img.shields.io/badge/BFS-lightgray.svg)](算法-广度优先搜索(BFS).md)
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)

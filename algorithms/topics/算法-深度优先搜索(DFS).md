@@ -12,24 +12,24 @@
 
 Problems Index
 ---
-- [`LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`](#leetcode-no0111-二叉树的最小深度-简单-2021-10)
-- [`LeetCode No.0437 路径总和3 (中等, 2021-10)`](#leetcode-no0437-路径总和3-中等-2021-10)
-- [`剑指Offer No.0600 从尾到头打印链表 (简单, 2021-11)`](#剑指offer-no0600-从尾到头打印链表-简单-2021-11)
-- [`剑指Offer No.1200 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no1200-矩阵中的路径-中等-2021-11)
-- [`剑指Offer No.1200 矩阵中的路径 (中等, 2021-11)`](#剑指offer-no1200-矩阵中的路径-中等-2021-11)
-- [`剑指Offer No.1300 机器人的运动范围 (中等, 2021-11)`](#剑指offer-no1300-机器人的运动范围-中等-2021-11)
-- [`剑指Offer No.1700 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-no1700-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
-- [`剑指Offer No.3400 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-no3400-二叉树中和为某一值的路径-中等-2021-12)
-- [`剑指Offer No.3800 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-no3800-字符串的排列全排列-中等-2021-12)
-- [`剑指Offer No.5400 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-no5400-二叉搜索树的第k大节点-简单-2022-01)
-- [`牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`](#牛客-no0005-二叉树根节点到叶子节点的所有路径和-中等-2022-01)
-- [`牛客 No.0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`](#牛客-no0008-二叉树中和为某一值的路径二-中等-2022-01)
-- [`牛客 No.0009 二叉树中和为某一值的路径(一) (简单, 2022-01)`](#牛客-no0009-二叉树中和为某一值的路径一-简单-2022-01)
-- [`牛客 No.0020 数字字符串转化成IP地址 (中等, 2022-01)`](#牛客-no0020-数字字符串转化成ip地址-中等-2022-01)
+- [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](#leetcode-0111-二叉树的最小深度-简单-2021-10)
+- [`LeetCode 0437 路径总和3 (中等, 2021-10)`](#leetcode-0437-路径总和3-中等-2021-10)
+- [`剑指Offer 0600 从尾到头打印链表 (简单, 2021-11)`](#剑指offer-0600-从尾到头打印链表-简单-2021-11)
+- [`剑指Offer 1200 矩阵中的路径 (中等, 2021-11)`](#剑指offer-1200-矩阵中的路径-中等-2021-11)
+- [`剑指Offer 1200 矩阵中的路径 (中等, 2021-11)`](#剑指offer-1200-矩阵中的路径-中等-2021-11)
+- [`剑指Offer 1300 机器人的运动范围 (中等, 2021-11)`](#剑指offer-1300-机器人的运动范围-中等-2021-11)
+- [`剑指Offer 1700 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`](#剑指offer-1700-打印从1到最大的n位数n叉树的遍历-中等-2021-11)
+- [`剑指Offer 3400 二叉树中和为某一值的路径 (中等, 2021-12)`](#剑指offer-3400-二叉树中和为某一值的路径-中等-2021-12)
+- [`剑指Offer 3800 字符串的排列（全排列） (中等, 2021-12)`](#剑指offer-3800-字符串的排列全排列-中等-2021-12)
+- [`剑指Offer 5400 二叉搜索树的第k大节点 (简单, 2022-01)`](#剑指offer-5400-二叉搜索树的第k大节点-简单-2022-01)
+- [`牛客 0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`](#牛客-0005-二叉树根节点到叶子节点的所有路径和-中等-2022-01)
+- [`牛客 0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`](#牛客-0008-二叉树中和为某一值的路径二-中等-2022-01)
+- [`牛客 0009 二叉树中和为某一值的路径(一) (简单, 2022-01)`](#牛客-0009-二叉树中和为某一值的路径一-简单-2022-01)
+- [`牛客 0020 数字字符串转化成IP地址 (中等, 2022-01)`](#牛客-0020-数字字符串转化成ip地址-中等-2022-01)
 
 ---
 
-### `LeetCode No.0111 二叉树的最小深度 (简单, 2021-10)`
+### `LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -100,7 +100,7 @@ class Solution:
 
 ---
 
-### `LeetCode No.0437 路径总和3 (中等, 2021-10)`
+### `LeetCode 0437 路径总和3 (中等, 2021-10)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![深度优先搜索](https://img.shields.io/badge/深度优先搜索-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -234,7 +234,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.0600 从尾到头打印链表 (简单, 2021-11)`
+### `剑指Offer 0600 从尾到头打印链表 (简单, 2021-11)`
 
 [![链表](https://img.shields.io/badge/链表-lightgray.svg)](数据结构-链表.md)
 [![栈](https://img.shields.io/badge/栈-lightgray.svg)](数据结构-栈、队列.md)
@@ -333,7 +333,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.1200 矩阵中的路径 (中等, 2021-11)`
+### `剑指Offer 1200 矩阵中的路径 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![DFS+回溯](https://img.shields.io/badge/DFS+回溯-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -434,7 +434,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.1200 矩阵中的路径 (中等, 2021-11)`
+### `剑指Offer 1200 矩阵中的路径 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![DFS+回溯](https://img.shields.io/badge/DFS+回溯-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -535,7 +535,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.1300 机器人的运动范围 (中等, 2021-11)`
+### `剑指Offer 1300 机器人的运动范围 (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
@@ -607,7 +607,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.1700 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`
+### `剑指Offer 1700 打印从1到最大的n位数（N叉树的遍历） (中等, 2021-11)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
@@ -702,7 +702,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.3400 二叉树中和为某一值的路径 (中等, 2021-12)`
+### `剑指Offer 3400 二叉树中和为某一值的路径 (中等, 2021-12)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -800,7 +800,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.3800 字符串的排列（全排列） (中等, 2021-12)`
+### `剑指Offer 3800 字符串的排列（全排列） (中等, 2021-12)`
 
 [![DFS+剪枝](https://img.shields.io/badge/DFS+剪枝-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
@@ -1065,7 +1065,7 @@ class Solution:
 
 ---
 
-### `剑指Offer No.5400 二叉搜索树的第k大节点 (简单, 2022-01)`
+### `剑指Offer 5400 二叉搜索树的第k大节点 (简单, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![dfs](https://img.shields.io/badge/dfs-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -1202,7 +1202,7 @@ class Solution:
 
 ---
 
-### `牛客 No.0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`
+### `牛客 0005 二叉树根节点到叶子节点的所有路径和 (中等, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -1288,7 +1288,7 @@ class Solution:
 
 ---
 
-### `牛客 No.0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`
+### `牛客 0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -1369,7 +1369,7 @@ class Solution:
 
 ---
 
-### `牛客 No.0009 二叉树中和为某一值的路径(一) (简单, 2022-01)`
+### `牛客 0009 二叉树中和为某一值的路径(一) (简单, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
@@ -1440,7 +1440,7 @@ class Solution:
 
 ---
 
-### `牛客 No.0020 数字字符串转化成IP地址 (中等, 2022-01)`
+### `牛客 0020 数字字符串转化成IP地址 (中等, 2022-01)`
 
 [![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](合集-牛客.md)

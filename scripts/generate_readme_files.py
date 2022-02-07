@@ -209,7 +209,7 @@ class Algorithms:
             tag2topic = {tag: self.tag2topic_map[tag.lower()] for tag in tags}
             topics = list(tag2topic.values())
 
-            pid = f'No.{pid}' if pid.isnumeric() else pid
+            pid = f'{pid}' if pid.isnumeric() else pid
             head = f'`{src} {pid} {pn} ({lv}, {suffix})`'
             lines = txt.split('\n')
             # lines[0] = f'### {head}'
