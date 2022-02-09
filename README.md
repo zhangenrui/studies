@@ -63,7 +63,7 @@ Repo Index
 
 Algorithms
 ---
-<details><summary><b> 合集-LeetCode [40] <a href="algorithms/topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [41] <a href="algorithms/topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -105,6 +105,7 @@ Algorithms
 - [`LeetCode 0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/合集-LeetCode.md#leetcode-0859-亲密字符串-简单-2021-11)
 - [`LeetCode 0876 链表的中间结点 (简单, 2022-01)`](algorithms/topics/合集-LeetCode.md#leetcode-0876-链表的中间结点-简单-2022-01)
 - [`LeetCode 0915 分割数组 (中等, 2022-01)`](algorithms/topics/合集-LeetCode.md#leetcode-0915-分割数组-中等-2022-01)
+- [`LeetCode 110 平衡二叉树 (简单, 2022-02)`](algorithms/topics/合集-LeetCode.md#leetcode-110-平衡二叉树-简单-2022-02)
 
 </details>
 
@@ -293,6 +294,12 @@ Algorithms
 - [`牛客 0007 买卖股票的最好时机(一) (简单, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-0007-买卖股票的最好时机一-简单-2022-01)
 - [`牛客 0010 大数乘法 (中等, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-0010-大数乘法-中等-2022-01)
 - [`牛客 0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-0017-最长回文子串-中等-2022-01)
+
+</details>
+
+<details><summary><b> 技巧-二叉树自底向上的递归技巧（树形DP） [1] <a href="algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md">¶</a></b></summary>
+
+- [`LeetCode 110 平衡二叉树 (简单, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-110-平衡二叉树-简单-2022-02)
 
 </details>
 
