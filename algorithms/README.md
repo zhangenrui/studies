@@ -3,7 +3,7 @@ Algorithms
 
 <font color="LightGrey"><i> `This README is Auto-generated` </i></font>
 
-<details><summary><b> 合集-LeetCode [41] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [42] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -29,6 +29,7 @@ Algorithms
 - [`LeetCode 0121 买卖股票的最佳时机 (简单, 2022-01)`](topics/合集-LeetCode.md#leetcode-0121-买卖股票的最佳时机-简单-2022-01)
 - [`LeetCode 0122 买卖股票的最佳时机II (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0122-买卖股票的最佳时机ii-中等-2022-01)
 - [`LeetCode 0123 买卖股票的最佳时机III (困难, 2022-01)`](topics/合集-LeetCode.md#leetcode-0123-买卖股票的最佳时机iii-困难-2022-01)
+- [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](topics/合集-LeetCode.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
 - [`LeetCode 0143 重排链表 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0143-重排链表-中等-2022-01)
 - [`LeetCode 0152 乘积最大子数组 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0152-乘积最大子数组-中等-2022-01)
 - [`LeetCode 0167 两数之和2(输入有序数组) (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0167-两数之和2输入有序数组-简单-2021-10)
@@ -235,8 +236,9 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-二叉树自底向上的递归技巧（树形DP） [1] <a href="topics/技巧-二叉树自底向上的递归技巧（树形DP）.md">¶</a></b></summary>
+<details><summary><b> 技巧-二叉树自底向上的递归技巧（树形DP） [2] <a href="topics/技巧-二叉树自底向上的递归技巧（树形DP）.md">¶</a></b></summary>
 
+- [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
 - [`LeetCode 110 平衡二叉树 (简单, 2022-02)`](topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-110-平衡二叉树-简单-2022-02)
 
 </details>

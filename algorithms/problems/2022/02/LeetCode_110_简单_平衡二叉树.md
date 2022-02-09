@@ -33,6 +33,10 @@
 - 根据定义，显然需要知道两个信息：
     1. 子树是否为平衡二叉树（`is_balanced: bool`）；
     2. 子树的高度（`height: int`）；
+- 假设子树的这些信息已知，怎么求 X 节点的上述信息：
+    1. `x_is_balanced = l.is_balanced and r.is_balanced and abs(l.height - r.height) <= 1`
+        > 即左右子树都平衡，且高度差小于等于 1
+    2. `x_height = max(l.height, r.height) + 1`
 - 对空节点，有：
     ```python
     is_balanced = True
@@ -61,7 +65,7 @@ class Solution:
                 return Info(True, 0)
             
             l, r = dfs(x.left), dfs(x.right)
-            is_balanced = abs(l.height - r.height) <= 1 and l.is_balanced and r.is_balanced
+            is_balanced = l.is_balanced and r.is_balanced and abs(l.height - r.height) <= 1
             height = max(l.height, r.height) + 1
             return Info(is_balanced, height)
         
