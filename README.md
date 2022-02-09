@@ -103,7 +103,7 @@ Algorithms
 - [`LeetCode 0343 整数拆分 (中等, 2021-12)`](algorithms/topics/合集-LeetCode.md#leetcode-0343-整数拆分-中等-2021-12)
 - [`LeetCode 0352 将数据流变为多个不相交区间 (困难, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0352-将数据流变为多个不相交区间-困难-2021-10)
 - [`LeetCode 0434 字符串中的单词数 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0434-字符串中的单词数-简单-2021-10)
-- [`LeetCode 0437 路径总和3 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0437-路径总和3-中等-2021-10)
+- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/合集-LeetCode.md#leetcode-0437-路径总和iii-中等-2022-02)
 - [`LeetCode 0441 排列硬币 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0441-排列硬币-简单-2021-10)
 - [`LeetCode 0496 下一个更大元素 (简单, 2021-11)`](algorithms/topics/合集-LeetCode.md#leetcode-0496-下一个更大元素-简单-2021-11)
 - [`LeetCode 0611 有效三角形的个数 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0611-有效三角形的个数-中等-2021-10)
@@ -301,10 +301,11 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-二叉树自底向上的递归技巧（树形DP） [2] <a href="algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md">¶</a></b></summary>
+<details><summary><b> 技巧-二叉树自底向上的递归技巧（树形DP） [3] <a href="algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md">¶</a></b></summary>
 
 - [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0110-平衡二叉树-简单-2022-02)
 - [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
+- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0437-路径总和iii-中等-2022-02)
 
 </details>
 
@@ -328,7 +329,7 @@ Algorithms
 
 <details><summary><b> 技巧-前缀和 [2] <a href="algorithms/topics/技巧-前缀和.md">¶</a></b></summary>
 
-- [`LeetCode 0437 路径总和3 (中等, 2021-10)`](algorithms/topics/技巧-前缀和.md#leetcode-0437-路径总和3-中等-2021-10)
+- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/技巧-前缀和.md#leetcode-0437-路径总和iii-中等-2022-02)
 - [`剑指Offer 6600 构建乘积数组 (中等, 2022-01)`](algorithms/topics/技巧-前缀和.md#剑指offer-6600-构建乘积数组-中等-2022-01)
 
 </details>
@@ -413,7 +414,7 @@ Algorithms
 - [`LeetCode 0112 路径总和 (简单, 2022-02)`](algorithms/topics/数据结构-二叉树.md#leetcode-0112-路径总和-简单-2022-02)
 - [`LeetCode 0113 路径总和II (中等, 2022-02)`](algorithms/topics/数据结构-二叉树.md#leetcode-0113-路径总和ii-中等-2022-02)
 - [`LeetCode 0129 求根节点到叶节点数字之和 (中等, 2022-02)`](algorithms/topics/数据结构-二叉树.md#leetcode-0129-求根节点到叶节点数字之和-中等-2022-02)
-- [`LeetCode 0437 路径总和3 (中等, 2021-10)`](algorithms/topics/数据结构-二叉树.md#leetcode-0437-路径总和3-中等-2021-10)
+- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/数据结构-二叉树.md#leetcode-0437-路径总和iii-中等-2022-02)
 - [`剑指Offer 0700 重建二叉树 (中等, 2021-11)`](algorithms/topics/数据结构-二叉树.md#剑指offer-0700-重建二叉树-中等-2021-11)
 - [`剑指Offer 2600 树的子结构 (中等, 2021-11)`](algorithms/topics/数据结构-二叉树.md#剑指offer-2600-树的子结构-中等-2021-11)
 - [`剑指Offer 2700 二叉树的镜像 (简单, 2021-11)`](algorithms/topics/数据结构-二叉树.md#剑指offer-2700-二叉树的镜像-简单-2021-11)
@@ -609,7 +610,7 @@ Algorithms
 <details><summary><b> 算法-深度优先搜索(DFS) [14] <a href="algorithms/topics/算法-深度优先搜索(DFS).md">¶</a></b></summary>
 
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](algorithms/topics/算法-深度优先搜索(DFS).md#leetcode-0111-二叉树的最小深度-简单-2021-10)
-- [`LeetCode 0437 路径总和3 (中等, 2021-10)`](algorithms/topics/算法-深度优先搜索(DFS).md#leetcode-0437-路径总和3-中等-2021-10)
+- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/算法-深度优先搜索(DFS).md#leetcode-0437-路径总和iii-中等-2022-02)
 - [`剑指Offer 0600 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/算法-深度优先搜索(DFS).md#剑指offer-0600-从尾到头打印链表-简单-2021-11)
 - [`剑指Offer 1200 矩阵中的路径 (中等, 2021-11)`](algorithms/topics/算法-深度优先搜索(DFS).md#剑指offer-1200-矩阵中的路径-中等-2021-11)
 - [`剑指Offer 1200 矩阵中的路径 (中等, 2021-11)`](algorithms/topics/算法-深度优先搜索(DFS).md#剑指offer-1200-矩阵中的路径-中等-2021-11)
