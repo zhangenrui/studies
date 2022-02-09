@@ -24,6 +24,7 @@ Algorithms
 - [`LeetCode 0086 分隔链表 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0086-分隔链表-中等-2021-10)
 - [`LeetCode 0091 解码方法 (中等, 2022-02)`](topics/合集-LeetCode.md#leetcode-0091-解码方法-中等-2022-02)
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
+- [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](topics/合集-LeetCode.md#leetcode-0110-平衡二叉树-简单-2022-02)
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode 0120 三角形最小路径和 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0120-三角形最小路径和-中等-2022-01)
 - [`LeetCode 0121 买卖股票的最佳时机 (简单, 2022-01)`](topics/合集-LeetCode.md#leetcode-0121-买卖股票的最佳时机-简单-2022-01)
@@ -46,7 +47,6 @@ Algorithms
 - [`LeetCode 0859 亲密字符串 (简单, 2021-11)`](topics/合集-LeetCode.md#leetcode-0859-亲密字符串-简单-2021-11)
 - [`LeetCode 0876 链表的中间结点 (简单, 2022-01)`](topics/合集-LeetCode.md#leetcode-0876-链表的中间结点-简单-2022-01)
 - [`LeetCode 0915 分割数组 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0915-分割数组-中等-2022-01)
-- [`LeetCode 110 平衡二叉树 (简单, 2022-02)`](topics/合集-LeetCode.md#leetcode-110-平衡二叉树-简单-2022-02)
 
 </details>
 
@@ -238,8 +238,8 @@ Algorithms
 
 <details><summary><b> 技巧-二叉树自底向上的递归技巧（树形DP） [2] <a href="topics/技巧-二叉树自底向上的递归技巧（树形DP）.md">¶</a></b></summary>
 
+- [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0110-平衡二叉树-简单-2022-02)
 - [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
-- [`LeetCode 110 平衡二叉树 (简单, 2022-02)`](topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-110-平衡二叉树-简单-2022-02)
 
 </details>
 
