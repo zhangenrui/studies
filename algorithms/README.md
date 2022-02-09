@@ -3,7 +3,7 @@ Algorithms
 
 <font color="LightGrey"><i> `This README is Auto-generated` </i></font>
 
-<details><summary><b> 合集-LeetCode [45] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [46] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -50,6 +50,7 @@ Algorithms
 - [`LeetCode 0859 亲密字符串 (简单, 2021-11)`](topics/合集-LeetCode.md#leetcode-0859-亲密字符串-简单-2021-11)
 - [`LeetCode 0876 链表的中间结点 (简单, 2022-01)`](topics/合集-LeetCode.md#leetcode-0876-链表的中间结点-简单-2022-01)
 - [`LeetCode 0915 分割数组 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0915-分割数组-中等-2022-01)
+- [`LeetCode 0988 从叶结点开始的最小字符串 (中等, 2022-02)`](topics/合集-LeetCode.md#leetcode-0988-从叶结点开始的最小字符串-中等-2022-02)
 
 </details>
 
@@ -345,7 +346,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-二叉树 [31] <a href="topics/数据结构-二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-二叉树 [32] <a href="topics/数据结构-二叉树.md">¶</a></b></summary>
 
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0111-二叉树的最小深度-简单-2021-10)
@@ -353,6 +354,7 @@ Algorithms
 - [`LeetCode 0113 路径总和II (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0113-路径总和ii-中等-2022-02)
 - [`LeetCode 0129 求根节点到叶节点数字之和 (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0129-求根节点到叶节点数字之和-中等-2022-02)
 - [`LeetCode 0437 路径总和III (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0437-路径总和iii-中等-2022-02)
+- [`LeetCode 0988 从叶结点开始的最小字符串 (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0988-从叶结点开始的最小字符串-中等-2022-02)
 - [`剑指Offer 0700 重建二叉树 (中等, 2021-11)`](topics/数据结构-二叉树.md#剑指offer-0700-重建二叉树-中等-2021-11)
 - [`剑指Offer 2600 树的子结构 (中等, 2021-11)`](topics/数据结构-二叉树.md#剑指offer-2600-树的子结构-中等-2021-11)
 - [`剑指Offer 2700 二叉树的镜像 (简单, 2021-11)`](topics/数据结构-二叉树.md#剑指offer-2700-二叉树的镜像-简单-2021-11)
