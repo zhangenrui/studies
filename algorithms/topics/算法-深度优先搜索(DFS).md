@@ -103,7 +103,7 @@ class Solution:
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![深度优先搜索](https://img.shields.io/badge/深度优先搜索-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
-[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-二叉树自底向上的递归技巧（树形DP）.md)
+[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-二叉树自底向上的递归技巧.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{

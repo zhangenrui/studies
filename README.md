@@ -301,11 +301,11 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-二叉树自底向上的递归技巧（树形DP） [3] <a href="algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md">¶</a></b></summary>
+<details><summary><b> 技巧-二叉树自底向上的递归技巧 [3] <a href="algorithms/topics/技巧-二叉树自底向上的递归技巧.md">¶</a></b></summary>
 
-- [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0110-平衡二叉树-简单-2022-02)
-- [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
-- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md#leetcode-0437-路径总和iii-中等-2022-02)
+- [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧.md#leetcode-0110-平衡二叉树-简单-2022-02)
+- [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
+- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧.md#leetcode-0437-路径总和iii-中等-2022-02)
 
 </details>
 
@@ -653,7 +653,7 @@ Algorithms
 Notes
 ---
 - [算法](notes/算法)
-    - [二叉树自底向上的递归技巧（树形DP）](notes/算法/二叉树自底向上的递归技巧（树形DP）)
+    - [二叉树自底向上的递归技巧](notes/算法/二叉树自底向上的递归技巧)
 - [机器学习](notes/机器学习)
     - [基础知识](notes/机器学习/基础知识)
     - ~~[GBDT](notes/机器学习/-GBDT)~~
