@@ -3,7 +3,7 @@ Algorithms
 
 <font color="LightGrey"><i> `This README is Auto-generated` </i></font>
 
-<details><summary><b> 合集-LeetCode [42] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [43] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -31,6 +31,7 @@ Algorithms
 - [`LeetCode 0122 买卖股票的最佳时机II (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0122-买卖股票的最佳时机ii-中等-2022-01)
 - [`LeetCode 0123 买卖股票的最佳时机III (困难, 2022-01)`](topics/合集-LeetCode.md#leetcode-0123-买卖股票的最佳时机iii-困难-2022-01)
 - [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](topics/合集-LeetCode.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
+- [`LeetCode 0129 求根节点到叶节点数字之和 (中等, 2022-02)`](topics/合集-LeetCode.md#leetcode-0129-求根节点到叶节点数字之和-中等-2022-02)
 - [`LeetCode 0143 重排链表 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0143-重排链表-中等-2022-01)
 - [`LeetCode 0152 乘积最大子数组 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0152-乘积最大子数组-中等-2022-01)
 - [`LeetCode 0167 两数之和2(输入有序数组) (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0167-两数之和2输入有序数组-简单-2021-10)
@@ -341,10 +342,11 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-二叉树 [28] <a href="topics/数据结构-二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-二叉树 [29] <a href="topics/数据结构-二叉树.md">¶</a></b></summary>
 
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0111-二叉树的最小深度-简单-2021-10)
+- [`LeetCode 0129 求根节点到叶节点数字之和 (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0129-求根节点到叶节点数字之和-中等-2022-02)
 - [`LeetCode 0437 路径总和3 (中等, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0437-路径总和3-中等-2021-10)
 - [`剑指Offer 0700 重建二叉树 (中等, 2021-11)`](topics/数据结构-二叉树.md#剑指offer-0700-重建二叉树-中等-2021-11)
 - [`剑指Offer 2600 树的子结构 (中等, 2021-11)`](topics/数据结构-二叉树.md#剑指offer-2600-树的子结构-中等-2021-11)
