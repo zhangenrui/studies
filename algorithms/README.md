@@ -3,7 +3,7 @@ Algorithms
 
 <font color="LightGrey"><i> `This README is Auto-generated` </i></font>
 
-<details><summary><b> 合集-LeetCode [46] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [47] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -39,6 +39,7 @@ Algorithms
 - [`LeetCode 0167 两数之和2(输入有序数组) (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0167-两数之和2输入有序数组-简单-2021-10)
 - [`LeetCode 0187 重复的DNA序列 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0187-重复的dna序列-中等-2021-10)
 - [`LeetCode 0240 搜索二维矩阵2 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0240-搜索二维矩阵2-中等-2021-10)
+- [`LeetCode 0257 二叉树的所有路径 (简单, 2022-02)`](topics/合集-LeetCode.md#leetcode-0257-二叉树的所有路径-简单-2022-02)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0300-最长递增子序列-中等-2022-01)
 - [`LeetCode 0343 整数拆分 (中等, 2021-12)`](topics/合集-LeetCode.md#leetcode-0343-整数拆分-中等-2021-12)
 - [`LeetCode 0352 将数据流变为多个不相交区间 (困难, 2021-10)`](topics/合集-LeetCode.md#leetcode-0352-将数据流变为多个不相交区间-困难-2021-10)
@@ -346,13 +347,14 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-二叉树 [32] <a href="topics/数据结构-二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-二叉树 [33] <a href="topics/数据结构-二叉树.md">¶</a></b></summary>
 
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode 0112 路径总和 (简单, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0112-路径总和-简单-2022-02)
 - [`LeetCode 0113 路径总和II (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0113-路径总和ii-中等-2022-02)
 - [`LeetCode 0129 求根节点到叶节点数字之和 (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0129-求根节点到叶节点数字之和-中等-2022-02)
+- [`LeetCode 0257 二叉树的所有路径 (简单, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0257-二叉树的所有路径-简单-2022-02)
 - [`LeetCode 0437 路径总和III (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0437-路径总和iii-中等-2022-02)
 - [`LeetCode 0988 从叶结点开始的最小字符串 (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0988-从叶结点开始的最小字符串-中等-2022-02)
 - [`剑指Offer 0700 重建二叉树 (中等, 2021-11)`](topics/数据结构-二叉树.md#剑指offer-0700-重建二叉树-中等-2021-11)
