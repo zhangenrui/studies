@@ -1,10 +1,8 @@
 # 广度优先搜索(BFS)
 
-[Problems Index](#problems-index)
-
 <!-- Tag: 广度优先搜索、BFS -->
 
-Problems Index
+Problems
 ---
 - [`剑指Offer 3201 层序遍历二叉树 (简单, 2021-11)`](#剑指offer-3201-层序遍历二叉树-简单-2021-11)
 - [`剑指Offer 3202 层序遍历二叉树 (简单, 2021-11)`](#剑指offer-3202-层序遍历二叉树-简单-2021-11)

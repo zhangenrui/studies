@@ -1,10 +1,8 @@
 # 剑指Offer
 
-[Problems Index](#problems-index)
-
 <!-- Tag: 剑指Offer -->
 
-Problems Index
+Problems
 ---
 - [`剑指Offer 0300 数组中重复的数字 (简单, 2021-11)`](#剑指offer-0300-数组中重复的数字-简单-2021-11)
 - [`剑指Offer 0400 二维数组中的查找 (中等, 2021-11)`](#剑指offer-0400-二维数组中的查找-中等-2021-11)

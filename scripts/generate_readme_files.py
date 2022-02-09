@@ -47,7 +47,7 @@ class args:  # noqa
     algo_path = os.path.join(repo_path, 'algorithms')
     prefix_topics = 'topics'
     prefix_problems = 'problems'
-    prefix_notes = 'notes'
+    prefix_notes = '_notes'
     problems_path = os.path.join(algo_path, prefix_problems)
     notes_path = os.path.join(algo_path, prefix_notes)
     topics_path = os.path.join(algo_path, prefix_topics)
@@ -239,13 +239,15 @@ class Algorithms:
 
         append_blocks = []
 
-        problems_index_ln = 'Problems Index'
+        # problems_index_ln = 'Problems Index'
+        problems_index_ln = 'Problems'
         for tag, problems_txts in problems_dt.items():  # noqa
             """"""
             append_tmp = []
             topic_fn = self.get_topic_fn(tag)
             topic_name, _ = os.path.splitext(topic_fn)
             index_lines = [problems_index_ln, '---']
+            # index_lines = []
             # readme_lines.append(f'- [{topic_fn}]({topic_fn}.md)')
             # append_lines.append(f'- [{topic_fn}]({self.prefix}/{topic_fn}.md)')
             algo_url = os.path.join(self.prefix_topics, topic_fn)
@@ -274,7 +276,7 @@ class Algorithms:
 
             topic_main_lines = open(os.path.join(args.repo_path, self.prefix_algorithm_notes, topic_fn),
                                     encoding='utf8').read().rstrip().split('\n')
-            topic_main_lines.insert(0, f'[{problems_index_ln}](#{slugify(problems_index_ln)})\n')
+            # topic_main_lines.insert(0, f'[{problems_index_ln}](#{slugify(problems_index_ln)})\n')
             topic_main_lines.insert(0, f'# {tag.split("-")[1]}\n')
 
             topic_main = '\n'.join(topic_main_lines)

@@ -1,10 +1,8 @@
 # 哈希表(Hash)
 
-[Problems Index](#problems-index)
-
 <!-- Tag: 哈希表、Hash -->
 
-Problems Index
+Problems
 ---
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0187 重复的DNA序列 (中等, 2021-10)`](#leetcode-0187-重复的dna序列-中等-2021-10)

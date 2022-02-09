@@ -1,10 +1,8 @@
 # 剑指Offer2
 
-[Problems Index](#problems-index)
-
 <!-- Tag: 剑指Offer(突击版)、剑指Offer2 -->
 
-Problems Index
+Problems
 ---
 - [`剑指Offer2 001 整数除法 (中等, 2022-02)`](#剑指offer2-001-整数除法-中等-2022-02)
 - [`剑指Offer2 069 山峰数组的顶部 (简单, 2022-02)`](#剑指offer2-069-山峰数组的顶部-简单-2022-02)

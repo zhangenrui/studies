@@ -1,7 +1,5 @@
 # 深度优先搜索(DFS)
 
-[Problems Index](#problems-index)
-
 <!-- Tag: 深度优先搜索(递归)、深度优先搜索、DFS、DFS+回溯、DFS+剪枝 -->
 
 ## 普通的 DFS
@@ -10,7 +8,7 @@
 ## 回溯的 DFS
 <!-- TODO -->
 
-Problems Index
+Problems
 ---
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](#leetcode-0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode 0437 路径总和III (中等, 2022-02)`](#leetcode-0437-路径总和iii-中等-2022-02)

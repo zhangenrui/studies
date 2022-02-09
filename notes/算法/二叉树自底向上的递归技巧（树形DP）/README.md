@@ -1,7 +1,6 @@
-<!-- Tag: TreeDP -->
-
-> 以下经验总结自[《左程云算法教程》](https://www.bilibili.com/video/BV1NU4y1M7rF?p=47)（P47）
-
+二叉树自底向上的递归技巧（树形DP）
+===
+> 总结自[《左程云算法教程》](https://www.bilibili.com/video/BV1NU4y1M7rF?p=47)（P47）
 
 ### 使用场景
 - 需要自底向上（后序遍历）解决的二叉树问题或递归问题；
@@ -82,59 +81,6 @@ class Solution:
 </details>
 
 
-<!-- #### 示例2：最大二叉搜索子树
-> [333. 最大 BST 子树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/largest-bst-subtree/)
-
-1. 为了找到 X 的最大二叉搜索子树，需要从左右子树知道的信息：
-    1. 子树是否为二叉搜索树（`is_bst: bool`）
-    2. 子树中的最小值（`min: int`）
-    3. 子树中的最大值（`max: int`）
-2. 计算 X 节点的上述信息：
-    1. 
-
-
-<details><summary><b>完整代码（Python）</b></summary>
-
-```python
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-class Solution:
-    def maxBST(self, root: Optional[TreeNode]) -> int:
-        
-        from collections import namedtuple
-
-        # max: 该节点能提供的最大路径（含节点本身）
-        # ret: 该节点下的最大路径（可能不包含该节点）
-        Info = namedtuple('Info', ['is_bst', 'max', 'min'])
-
-        self.ret = None
-        
-        def dfs(x):
-            if not x:
-                # 对空节点，初始化 min=inf, max=-inf
-                return Info(True, float('inf'), float('-inf'))
-            
-            l, r = dfs(x.left), dfs(x.right)
-            is_bst = l.is_bst and r.is_bst and l.max < x.val < r.min
-            x_min = max(x.val, l.min)
-            x_max = max(x.val, r.max)
-
-            if is_bst:
-                self.ret = x
-            return Info(is_bst, x_min, x_max)
-        
-        dfs(root)
-        return self.ret
-```
-
-</details>
- -->
-
-
 #### 示例2：二叉树中的最大路径和
 > [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 
@@ -200,6 +146,7 @@ class Solution:
 
 
 ### 经典问题
+> 详细代码：[](../../../algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md)
 
 - 【简单】[110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - 【简单（中等）】[543. 二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/submissions/)

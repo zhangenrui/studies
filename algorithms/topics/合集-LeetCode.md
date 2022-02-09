@@ -1,10 +1,8 @@
 # LeetCode
 
-[Problems Index](#problems-index)
-
 <!-- Tag: LeetCode -->
 
-Problems Index
+Problems
 ---
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](#leetcode-0002-两数相加-中等-2021-10)

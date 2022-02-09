@@ -127,6 +127,7 @@ class Notes(TreeTOC):
     """"""
     relative_path = r'../notes'
     sort_lv = {
+        '算法': 'note-00',
         '机器学习': 'note-01',
         '深度学习': 'note-02',
         '自然语言处理': 'note-03',
