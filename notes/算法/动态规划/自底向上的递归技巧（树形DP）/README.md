@@ -8,7 +8,7 @@
 
 - [使用场景](#使用场景)
 - [技巧描述](#技巧描述)
-    - [拓展：在自顶向下的过程中怎么使用？](#拓展在自顶向下的过程中怎么使用)
+    - [自顶向下的遍历需要使用这个技巧吗？](#自顶向下的遍历需要使用这个技巧吗)
 - [示例](#示例)
     - [`示例1`：判断是否为平衡二叉树](#示例1判断是否为平衡二叉树)
     - [`示例2`：二叉树中的最大路径和](#示例2二叉树中的最大路径和)
@@ -23,15 +23,16 @@
 
 1. 考虑为了计算出以 X 为头结点的答案，需要从左右子树获得哪些信息；
     > 这一步是需要主动思考和经验积累的；
-2. 假设这些信息是已知的，使用这些信息计算出 X 节点下同样的信息并返回；常见的集中情形：
+2. 假设这些信息是已知的，使用这些信息计算出 X 节点下同样的信息并返回；  
+   **常见的几种情形**：
     1. 答案一定包含 X 节点
         > [110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/submissions/)
     2. 答案不一定经过 X 节点，此时需要根据答案是否包含 X 分情况讨论
         > [124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)  
         > [543. 二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/submissions/)
-    3. 更复杂的分情况讨论
+    3. 更复杂的情况讨论
         > [968. 监控二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-cameras/)
-3. 考虑空节点如何构造这些信息（递归基），一般分两种情况：
+1. 考虑空节点如何构造这些信息（递归基），一般分两种情况：
     1. 空节点有定义，那么就按照定义赋值；
     2. 空节点无定义，则返回 None，然后在使用左右子树的信息时做非空判断；
 
@@ -39,8 +40,13 @@
 
 > **模板或者技巧只是帮我们解决了怎么组织代码的问题，而如何写出正确的代码？一靠观察，二靠积累；**
 
-### 拓展：在自顶向下的过程中怎么使用？
-- 简单来说，就是先先序遍历比·一次做预处理，然后再自底向上遍历；
+### 自顶向下的遍历需要使用这个技巧吗？
+- 在我看来应该是不需要的，即只有当答案是需要从叶子汇总到根的情况才需要用到自底向上的递归，反之**自顶向下**的情况直接前序遍历一次就可以了；
+    > **自顶向下**递归的典型问题：
+    >> [257. 二叉树的所有路径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-paths/)  
+    >> [129. 求根节点到叶节点数字之和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)  
+    >> [988. 从叶结点开始的最小字符串 - 力扣（LeetCode）](https://leetcode-cn.com/problems/smallest-string-starting-from-leaf/)
+- 树形 DP 中也可能用到前序遍历，但一般是用来做一次预处理，最后还是需要自底向上递推；
 
 ## 示例
 
@@ -163,10 +169,14 @@ class Solution:
 
 
 ## 经典问题
-> 详细代码：[](../../../algorithms/topics/技巧-二叉树自底向上的递归技巧（树形DP）.md)
+> 详见[代码合集](../../../../algorithms/topics/技巧-自底向上的递归技巧.md)
 
 - 【简单】[110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - 【简单（中等）】[543. 二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/submissions/)
 - 【困难（中等）】[124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 - 【中等，会员】[333. 最大 BST 子树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/largest-bst-subtree/)
+- 【中等】[437. 路径总和 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/path-sum-iii/)
+    > 本题有更好的自顶向下解法
 - 【困难】[968. 监控二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-cameras/)
+    > 本题有更好的贪心解法
+- ...

@@ -1777,11 +1777,11 @@ class Solution:
 ### `LeetCode 0091 解码方法 (中等, 2022-02)`
 
 [![DP](https://img.shields.io/badge/DP-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![RE2DP](https://img.shields.io/badge/RE2DP-lightgray.svg)](技巧-从暴力递归到动态规划.md)
+[![DFS2DP](https://img.shields.io/badge/DFS2DP-lightgray.svg)](技巧-从暴力递归到动态规划.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
-    "tags": ["DP", "RE2DP"],
+    "tags": ["DP", "DFS2DP"],
     "来源": "LeetCode",
     "难度": "中等",
     "编号": "0091",
@@ -1954,7 +1954,7 @@ class Solution:
 
 ### `LeetCode 0110 平衡二叉树 (简单, 2022-02)`
 
-[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-二叉树自底向上的递归技巧.md)
+[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-自底向上的递归技巧.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
@@ -2674,7 +2674,7 @@ class Solution:
 
 ### `LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`
 
-[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-二叉树自底向上的递归技巧.md)
+[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-自底向上的递归技巧.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
@@ -3996,7 +3996,7 @@ class Solution:
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
 [![深度优先搜索](https://img.shields.io/badge/深度优先搜索-lightgray.svg)](算法-深度优先搜索(DFS).md)
 [![前缀和](https://img.shields.io/badge/前缀和-lightgray.svg)](技巧-前缀和.md)
-[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-二叉树自底向上的递归技巧.md)
+[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-自底向上的递归技巧.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{

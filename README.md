@@ -246,7 +246,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 基础-经典问题&代码 [19] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 基础-经典问题&代码 [18] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
 
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-0300-最长递增子序列-中等-2022-01)
@@ -262,7 +262,6 @@ Algorithms
 - [`剑指Offer 4000 最小的k个数（partition操作） (简单, 2021-12)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-4000-最小的k个数partition操作-简单-2021-12)
 - [`剑指Offer 4900 丑数 (中等, 2021-12)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-4900-丑数-中等-2021-12)
 - [`剑指Offer 5100 数组中的逆序对 (困难, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-5100-数组中的逆序对-困难-2022-01)
-- [`剑指Offer 6000 n个骰子的点数 (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-6000-n个骰子的点数-中等-2022-01)
 - [`剑指Offer 6200 圆圈中最后剩下的数字（约瑟夫环问题） (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-6200-圆圈中最后剩下的数字约瑟夫环问题-中等-2022-01)
 - [`剑指Offer 6700 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-6700-把字符串转换成整数atoi-中等-2022-01)
 - [`剑指Offer 6801 二叉搜索树的最近公共祖先 (简单, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-6801-二叉搜索树的最近公共祖先-简单-2022-01)
@@ -303,17 +302,10 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-二叉树自底向上的递归技巧 [3] <a href="algorithms/topics/技巧-二叉树自底向上的递归技巧.md">¶</a></b></summary>
-
-- [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧.md#leetcode-0110-平衡二叉树-简单-2022-02)
-- [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
-- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/技巧-二叉树自底向上的递归技巧.md#leetcode-0437-路径总和iii-中等-2022-02)
-
-</details>
-
-<details><summary><b> 技巧-从暴力递归到动态规划 [2] <a href="algorithms/topics/技巧-从暴力递归到动态规划.md">¶</a></b></summary>
+<details><summary><b> 技巧-从暴力递归到动态规划 [3] <a href="algorithms/topics/技巧-从暴力递归到动态规划.md">¶</a></b></summary>
 
 - [`LeetCode 0091 解码方法 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0091-解码方法-中等-2022-02)
+- [`剑指Offer 6000 n个骰子的点数 (中等, 2022-01)`](algorithms/topics/技巧-从暴力递归到动态规划.md#剑指offer-6000-n个骰子的点数-中等-2022-01)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#牛客-0145-01背包-中等-2022-02)
 
 </details>
@@ -393,6 +385,14 @@ Algorithms
 <details><summary><b> 技巧-有限状态自动机 [1] <a href="algorithms/topics/技巧-有限状态自动机.md">¶</a></b></summary>
 
 - [`剑指Offer 2000 表示数值的字符串 (中等, 2021-11)`](algorithms/topics/技巧-有限状态自动机.md#剑指offer-2000-表示数值的字符串-中等-2021-11)
+
+</details>
+
+<details><summary><b> 技巧-自底向上的递归技巧 [3] <a href="algorithms/topics/技巧-自底向上的递归技巧.md">¶</a></b></summary>
+
+- [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](algorithms/topics/技巧-自底向上的递归技巧.md#leetcode-0110-平衡二叉树-简单-2022-02)
+- [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](algorithms/topics/技巧-自底向上的递归技巧.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
+- [`LeetCode 0437 路径总和III (中等, 2022-02)`](algorithms/topics/技巧-自底向上的递归技巧.md#leetcode-0437-路径总和iii-中等-2022-02)
 
 </details>
 
@@ -657,8 +657,10 @@ Algorithms
 Notes
 ---
 - [算法](notes/算法)
-    - ~~[二叉树的遍历](notes/算法/-二叉树的遍历)~~
-    - [二叉树自底向上的递归技巧](notes/算法/二叉树自底向上的递归技巧)
+    - ~~[二叉树](notes/算法/-二叉树)~~
+    - [动态规划](notes/算法/动态规划)
+        - [从暴力递归到动态规划](notes/算法/动态规划/从暴力递归到动态规划)
+        - [自底向上的递归技巧（树形DP）](notes/算法/动态规划/自底向上的递归技巧（树形DP）)
 - [机器学习](notes/机器学习)
     - [基础知识](notes/机器学习/基础知识)
     - ~~[GBDT](notes/机器学习/-GBDT)~~
