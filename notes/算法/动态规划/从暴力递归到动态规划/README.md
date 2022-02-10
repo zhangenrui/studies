@@ -3,7 +3,7 @@
 
 - [概述](#概述)
 - [暴力递归的四种尝试模型及其经典问题](#暴力递归的四种尝试模型及其经典问题)
-    - [`1.` **从左往右的尝试模型**](#1-从左往右的尝试模型)
+    - [`1.` **自底向上的尝试模型**](#1-自底向上的尝试模型)
     - [`2.` **多样本位置全对应的尝试模型**](#2-多样本位置全对应的尝试模型)
     - [`3.` 范围内的尝试模型](#3-范围内的尝试模型)
     - [`4.` 寻找业务限制的尝试模型](#4-寻找业务限制的尝试模型)
@@ -12,7 +12,7 @@
 ## 概述
 > 总结自[《左程云算法教程》](https://www.bilibili.com/video/BV1NU4y1M7rF?p=54)（P50-P55）
 - **任何动态规划过程都可以从相应的暴力递归过程转化而来；**
-    > 这里说的递归一般指的是自底向上的递归（二叉树的后序遍历）；这种形式的递归展开后相当于
+    > 这里的递归一般指的是自底向上的递归（二叉树的后序遍历）；
 - **为什么不直接动态规划，而要先考虑暴力递归？**
     > 为了避免直接思考递推过程——动态规划的主要难点是递推过程，如果没有足够的经验或者数学敏感性，想要直接找出递推过程的难度很大；而递归过程与直觉非常接近，一般来说，只要能解释清楚递归的输入和输出是什么，就能按照描述写出递归过程（虽然这也需要大量的练习，但这里的难点主要来源于代码结构，而不是数学能力）
 - **如何将暴力递归转动态规划？** 
@@ -36,25 +36,33 @@
 
 **模型不是模板，而是提供了一种思路，它不是死板的套路**
 
-### `1.` **从左往右的尝试模型**
-> 每次从左往右（或反向）取 1~k 个元素进行尝试，剩余部分作为子问题进行递归；
+### `1.` **自底向上的尝试模型**
+
+> 形式上就是常见的自底向上递归
+>> 自底向上递归的一般过程：
+>> 1. 确定递归基（`k=n` 或 `k=0` 时刻的状态）
+>> 2. 假设已知 `k-1` 或 `k+1` 时刻的状态，推导 `k` 时刻的状态；
+>>
+>> 相关内容：[**自底向上的递归技巧**](../自底向上的递归技巧（树形DP）)  
 
 > **经典问题**
-- 【中等】[01背包_牛客题霸_牛客网](https://www.nowcoder.com/practice/2820ea076d144b30806e72de5e5d4bbf)
-- 【中等】[91. 解码方法 - 力扣（LeetCode）](https://leetcode-cn.com/problems/decode-ways/)
-- 【中等】[剑指 Offer 60. n个骰子的点数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/)
+- 【简单】[跳台阶 - 力扣（LeetCode）](https://leetcode-cn.com/problems/climbing-stairs/)
+    - 【中等】[n个骰子的点数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/)
+    - 【中等】[解码方法 - 力扣（LeetCode）](https://leetcode-cn.com/problems/decode-ways/)
+- 【中等】[01背包_牛客网](https://www.nowcoder.com/practice/2820ea076d144b30806e72de5e5d4bbf)
+
 
 ### `2.` **多样本位置全对应的尝试模型**
 > 一般是两个样本
 
 > **经典问题**
-- 【困难（中等）】[72. 编辑距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/edit-distance/)
-- 【中等】[1143. 最长公共子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-common-subsequence/)
+- 【困难（中等）】[编辑距离 - 力扣（LeetCode）](https://leetcode-cn.com/problems/edit-distance/)
+- 【中等】[最长公共子序列 - 力扣（LeetCode）](https://leetcode-cn.com/problems/longest-common-subsequence/)
 
 ### `3.` 范围内的尝试模型
 
 > **经典问题**
-- 【困难】[排成一条线的纸牌博弈问题__牛客网](https://www.nowcoder.com/questionTerminal/19c98d950b3347d19f991d10bde12288)
+- 【困难】[排成一条线的纸牌博弈问题_牛客网](https://www.nowcoder.com/questionTerminal/19c98d950b3347d19f991d10bde12288)
 
 ### `4.` 寻找业务限制的尝试模型
 
