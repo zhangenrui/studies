@@ -50,7 +50,8 @@
     - 【中等】[n个骰子的点数 - 力扣（LeetCode）](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/)
     - 【中等】[解码方法 - 力扣（LeetCode）](https://leetcode-cn.com/problems/decode-ways/)
 - 【中等】[01背包_牛客网](https://www.nowcoder.com/practice/2820ea076d144b30806e72de5e5d4bbf)
-    - 【中等】[一和零 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ones-and-zeroes/)
+    - 【中等】[打家劫舍 - 力扣（LeetCode）](https://leetcode-cn.com/problems/house-robber/)
+    - 【中等（三维DP）】[一和零 - 力扣（LeetCode）](https://leetcode-cn.com/problems/ones-and-zeroes/)
 
 
 ### `2.` **多样本位置全对应的尝试模型**
