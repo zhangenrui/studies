@@ -169,7 +169,7 @@ class Solution:
 
 
 ## 经典问题
-> 具体代码详见[树形DP解题合集](../../../../algorithms/topics/技巧-自底向上的递归技巧.md)
+> 具体代码详见[《树形 DP 解题合集》](../../../../algorithms/topics/技巧-自底向上的递归技巧.md)
 
 - 【简单】[判断是否为平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - 【简单（中等）】[二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/submissions/)
