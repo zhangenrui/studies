@@ -169,14 +169,13 @@ class Solution:
 
 
 ## 经典问题
-> 详见[代码合集](../../../../algorithms/topics/技巧-自底向上的递归技巧.md)
+> 具体代码详见[树形DP解题合集](../../../../algorithms/topics/技巧-自底向上的递归技巧.md)
 
-- 【简单】[110. 平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
-- 【简单（中等）】[543. 二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/submissions/)
-- 【困难（中等）】[124. 二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
-- 【中等，会员】[333. 最大 BST 子树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/largest-bst-subtree/)
-- 【中等】[437. 路径总和 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/path-sum-iii/)
-    > 本题有更好的自顶向下解法
-- 【困难】[968. 监控二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-cameras/)
-    > 本题有更好的贪心解法
+- 【简单】[判断是否为平衡二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/balanced-binary-tree/)
+- 【简单（中等）】[二叉树的直径 - 力扣（LeetCode）](https://leetcode-cn.com/problems/diameter-of-binary-tree/submissions/)
+- 【困难（中等）】[二叉树中的最大路径和 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
+- 【中等（会员题）】[最大 BST 子树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/largest-bst-subtree/)
+- 【中等】[打家劫舍 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/house-robber-iii/)
+- 【中等】[路径总和 III - 力扣（LeetCode）](https://leetcode-cn.com/problems/path-sum-iii/)
+- 【困难】[监控二叉树 - 力扣（LeetCode）](https://leetcode-cn.com/problems/binary-tree-cameras/)
 - ...
