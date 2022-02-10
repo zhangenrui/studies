@@ -246,7 +246,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 基础-经典问题&代码 [18] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 基础-经典问题&代码 [19] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
 
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-0300-最长递增子序列-中等-2022-01)
@@ -266,6 +266,7 @@ Algorithms
 - [`剑指Offer 6700 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-6700-把字符串转换成整数atoi-中等-2022-01)
 - [`剑指Offer 6801 二叉搜索树的最近公共祖先 (简单, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-6801-二叉搜索树的最近公共祖先-简单-2022-01)
 - [`剑指Offer2 001 整数除法 (中等, 2022-02)`](algorithms/topics/基础-经典问题&代码.md#剑指offer2-001-整数除法-中等-2022-02)
+- [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/基础-经典问题&代码.md#牛客-0145-01背包-中等-2022-02)
 
 </details>
 
