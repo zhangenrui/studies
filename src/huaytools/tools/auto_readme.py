@@ -72,13 +72,20 @@ class TreeTOC:
             return os.path.join(*parts[2:])  # ../a/b -> b
         return os.path.join(*parts[1:])  # ../a/b -> a/b
 
-    def get_toc_link(self, path, dir_lv):  # noqa
+    @staticmethod
+    def no_readme(path: Path):
+        """"""
+        return not (path / 'README.md').exists()
+
+    def get_toc_link(self, path: Path, dir_lv):  # noqa
         """"""
         space_prefix = '    ' * dir_lv
-        if str(path.name).startswith('-'):
-            link = space_prefix + '- ~~' + f'[{path.name[1:]}]({self.process_relative_path(path)})~~'
+        path_name = path.name
+        if self.no_readme(path) or path_name.startswith('-'):
+            path_name = path_name[1:] if path_name.startswith('-') else path_name
+            link = space_prefix + '- ' + f'{path_name}'
         else:
-            link = space_prefix + '- ' + f'[{path.name}]({self.process_relative_path(path)})'
+            link = space_prefix + '- ' + f'[{path_name}]({self.process_relative_path(path)})'
         return link
 
     def gen_local_readme(self):
