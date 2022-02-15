@@ -208,7 +208,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [25] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [27] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -233,6 +233,8 @@ Algorithms
 - [`牛客 0021 链表内指定区间反转 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0021-链表内指定区间反转-中等-2022-01)
 - [`牛客 0022 合并两个有序的数组 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0022-合并两个有序的数组-中等-2022-01)
 - [`牛客 0023 划分链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0023-划分链表-中等-2022-01)
+- [`牛客 0024 删除有序链表中重复的元素-II (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0024-删除有序链表中重复的元素-ii-中等-2022-01)
+- [`牛客 0025 删除有序链表中重复的元素-I (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0025-删除有序链表中重复的元素-i-中等-2022-01)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-02)
 
@@ -519,7 +521,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-链表 [17] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
+<details><summary><b> 数据结构-链表 [19] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
 
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](algorithms/topics/数据结构-链表.md#leetcode-0002-两数相加-中等-2021-10)
 - [`LeetCode 0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#leetcode-0019-删除链表的倒数第n个结点-中等-2022-01)
@@ -538,6 +540,8 @@ Algorithms
 - [`牛客 0004 判断链表中是否有环 (简单, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-0004-判断链表中是否有环-简单-2022-01)
 - [`牛客 0021 链表内指定区间反转 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-0021-链表内指定区间反转-中等-2022-01)
 - [`牛客 0023 划分链表 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-0023-划分链表-中等-2022-01)
+- [`牛客 0024 删除有序链表中重复的元素-II (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-0024-删除有序链表中重复的元素-ii-中等-2022-01)
+- [`牛客 0025 删除有序链表中重复的元素-I (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-0025-删除有序链表中重复的元素-i-中等-2022-01)
 
 </details>
 
