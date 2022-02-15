@@ -63,7 +63,7 @@ Repo Index
 
 Algorithms
 ---
-<details><summary><b> 合集-LeetCode [51] <a href="algorithms/topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [52] <a href="algorithms/topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -102,6 +102,7 @@ Algorithms
 - [`LeetCode 0213 打家劫舍II (中等, 2022-02)`](algorithms/topics/合集-LeetCode.md#leetcode-0213-打家劫舍ii-中等-2022-02)
 - [`LeetCode 0240 搜索二维矩阵2 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0240-搜索二维矩阵2-中等-2021-10)
 - [`LeetCode 0257 二叉树的所有路径 (简单, 2022-02)`](algorithms/topics/合集-LeetCode.md#leetcode-0257-二叉树的所有路径-简单-2022-02)
+- [`LeetCode 0279 完全平方数 (中等, 2022-02)`](algorithms/topics/合集-LeetCode.md#leetcode-0279-完全平方数-中等-2022-02)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/合集-LeetCode.md#leetcode-0300-最长递增子序列-中等-2022-01)
 - [`LeetCode 0337 打家劫舍III (中等, 2022-02)`](algorithms/topics/合集-LeetCode.md#leetcode-0337-打家劫舍iii-中等-2022-02)
 - [`LeetCode 0343 整数拆分 (中等, 2021-12)`](algorithms/topics/合集-LeetCode.md#leetcode-0343-整数拆分-中等-2021-12)
@@ -307,10 +308,11 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-从暴力递归到动态规划 [5] <a href="algorithms/topics/技巧-从暴力递归到动态规划.md">¶</a></b></summary>
+<details><summary><b> 技巧-从暴力递归到动态规划 [6] <a href="algorithms/topics/技巧-从暴力递归到动态规划.md">¶</a></b></summary>
 
 - [`LeetCode 0091 解码方法 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0091-解码方法-中等-2022-02)
 - [`LeetCode 0198 打家劫舍 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0198-打家劫舍-中等-2022-02)
+- [`LeetCode 0279 完全平方数 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0279-完全平方数-中等-2022-02)
 - [`LeetCode 0474 一和零 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0474-一和零-中等-2022-02)
 - [`剑指Offer 6000 n个骰子的点数 (中等, 2022-01)`](algorithms/topics/技巧-从暴力递归到动态规划.md#剑指offer-6000-n个骰子的点数-中等-2022-01)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#牛客-0145-01背包-中等-2022-02)
