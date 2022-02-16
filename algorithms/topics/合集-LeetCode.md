@@ -43,6 +43,7 @@ Problems
 - [`LeetCode 0257 二叉树的所有路径 (简单, 2022-02)`](#leetcode-0257-二叉树的所有路径-简单-2022-02)
 - [`LeetCode 0279 完全平方数 (中等, 2022-02)`](#leetcode-0279-完全平方数-中等-2022-02)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](#leetcode-0300-最长递增子序列-中等-2022-01)
+- [`LeetCode 0322 零钱兑换 (中等, 2022-02)`](#leetcode-0322-零钱兑换-中等-2022-02)
 - [`LeetCode 0337 打家劫舍III (中等, 2022-02)`](#leetcode-0337-打家劫舍iii-中等-2022-02)
 - [`LeetCode 0343 整数拆分 (中等, 2021-12)`](#leetcode-0343-整数拆分-中等-2021-12)
 - [`LeetCode 0352 将数据流变为多个不相交区间 (困难, 2021-10)`](#leetcode-0352-将数据流变为多个不相交区间-困难-2021-10)
@@ -51,6 +52,7 @@ Problems
 - [`LeetCode 0441 排列硬币 (简单, 2021-10)`](#leetcode-0441-排列硬币-简单-2021-10)
 - [`LeetCode 0474 一和零 (中等, 2022-02)`](#leetcode-0474-一和零-中等-2022-02)
 - [`LeetCode 0496 下一个更大元素 (简单, 2021-11)`](#leetcode-0496-下一个更大元素-简单-2021-11)
+- [`LeetCode 0518 零钱兑换II (中等, 2022-02)`](#leetcode-0518-零钱兑换ii-中等-2022-02)
 - [`LeetCode 0611 有效三角形的个数 (中等, 2021-10)`](#leetcode-0611-有效三角形的个数-中等-2021-10)
 - [`LeetCode 0859 亲密字符串 (简单, 2021-11)`](#leetcode-0859-亲密字符串-简单-2021-11)
 - [`LeetCode 0876 链表的中间结点 (简单, 2022-01)`](#leetcode-0876-链表的中间结点-简单-2022-01)
@@ -3979,6 +3981,117 @@ class Solution:
 
 ---
 
+### `LeetCode 0322 零钱兑换 (中等, 2022-02)`
+
+[![DFS2DP](https://img.shields.io/badge/DFS2DP-lightgray.svg)](技巧-从暴力递归到动态规划.md)
+[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
+
+<!--{
+    "tags": ["DFS2DP", "动态规划"],
+    "来源": "LeetCode",
+    "难度": "中等",
+    "编号": "0322",
+    "标题": "零钱兑换",
+    "公司": []
+}-->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给你一个整数数组 coins ，表示不同面额的硬币；以及一个整数 amount ，表示总金额。
+计算并返回可以凑成总金额所需的 最少的硬币个数 。如果没有任何一种硬币组合能组成总金额，返回 -1 。
+你可以认为每种硬币的数量是无限的。
+```
+> [322. 零钱兑换 - 力扣（LeetCode）](https://leetcode-cn.com/problems/coin-change/)
+
+<!-- 
+<details><summary><b>详细描述</b></summary>
+
+```txt
+```
+-->
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路：完全背包</b></summary>
+
+- 定义 `dfs(a)` 表示凑成金额 `a` 需要的最少硬币数；
+- **递归基**：1）显然 `dfs(0) = 0`；2）当 `a` 小于币值时，返回无穷大，表示无效结果；
+
+<details><summary><b>Python：递归</b></summary>
+
+```python
+class Solution:
+    def coinChange(self, coins: List[int], amount: int) -> int:
+
+        from functools import lru_cache
+
+        N = len(coins)
+
+        @lru_cache(maxsize=None)
+        def dfs(a):
+            if a == 0: return 0
+            if a < 0: return float('inf')
+
+            ret = float('inf')
+            for i in range(N):
+                if a >= coins[i]:
+                    ret = min(ret, dfs(a - coins[i]) + 1)
+            return ret
+
+        ret = dfs(amount)
+        return -1 if ret == float('inf') else ret
+```
+
+</details>
+
+
+<details><summary><b>Python：动态规划 写法1）根据递归过程改写</b></summary>
+
+```python
+class Solution:
+    def coinChange(self, coins: List[int], amount: int) -> int:
+
+        N = len(coins)
+        dp = [float('inf')] * (amount + 1)
+        dp[0] = 0
+
+        for a in range(1, amount + 1):
+            for i in range(N):
+                if a >= coins[i]:
+                    dp[a] = min(dp[a], dp[a - coins[i]] + 1)
+        
+        return -1 if dp[-1] == float('inf') else dp[-1]
+```
+
+</details>
+
+<details><summary><b>Python：动态规划 写法2）先遍历“物品”，在遍历“容量”</b></summary>
+
+> 关于先后遍历两者的区别见[完全背包 - 代码随想录](https://programmercarl.com/背包问题理论基础完全背包.html)，本题中没有区别；
+
+```python
+class Solution:
+    def coinChange(self, coins: List[int], amount: int) -> int:
+
+        N = len(coins)
+        dp = [float('inf')] * (amount + 1)
+        dp[0] = 0
+
+        for i in range(N):
+            for a in range(coins[i], amount + 1):
+                dp[a] = min(dp[a], dp[a - coins[i]] + 1)
+        
+        return -1 if dp[-1] == float('inf') else dp[-1]
+```
+
+</details>
+
+---
+
 ### `LeetCode 0337 打家劫舍III (中等, 2022-02)`
 
 [![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-自底向上的递归技巧.md)
@@ -4859,6 +4972,106 @@ class Solution:
             res[num] = stack[-1] if stack else -1  # 如果此时栈不为空，那么栈顶值就是下一个比当前大的值
             stack.append(num)  # 把当前值入栈
         return [res[num] for num in nums1]  # 遍历完 nums2 中的所有元素后，就得到了 nums1 中每个元素下一个比它大的值，因为 num1 是 nums2 的子集
+```
+
+</details>
+
+---
+
+### `LeetCode 0518 零钱兑换II (中等, 2022-02)`
+
+[![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
+[![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
+
+<!--{
+    "tags": ["动态规划"],
+    "来源": "LeetCode",
+    "难度": "中等",
+    "编号": "0518",
+    "标题": "零钱兑换II",
+    "公司": []
+}-->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给你一个整数数组 coins 表示不同面额的硬币，另给一个整数 amount 表示总金额。
+请你计算并返回可以凑成总金额的硬币组合数。如果任何硬币组合都无法凑出总金额，返回 0 。
+假设每一种面额的硬币有无限个。 
+```
+> [518. 零钱兑换 II - 力扣（LeetCode）](https://leetcode-cn.com/problems/coin-change-2/)
+
+<!-- 
+<details><summary><b>详细描述</b></summary>
+
+```txt
+```
+-->
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路1：递归</b></summary>
+
+- 定义 `dfs(a, i)` 表示目标钱数为 `a` 且从第 `i` 种硬币开始取能得到的组合数；
+    > “从第 `i` 种硬币开始取”具体指第 `i` 种之后的硬币可以任意取，前面的 `i-1` 种不能取，详见代码；
+- **递归基**
+    1. 规定 `dfs(0,i) == 1`；
+    2. 隐含中止条件：当 `coins[i] > j` 时，`dfs(a,i) == 0`；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def change(self, amount: int, coins: List[int]) -> int:
+        from functools import lru_cache
+
+        N = len(coins)
+
+        @lru_cache(maxsize=None)
+        def dfs(a, i):  # 目标钱数为 `a` 且从第 `i` 种硬币开始取能得到的组合数
+            if a == 0: return 1
+
+            ret = 0
+            while i < N:
+                if (x := coins[i]) <= a:
+                    ret += dfs(a - x, i)
+                i += 1
+
+            return ret
+
+        return dfs(amount, 0)
+```
+
+</details>
+
+
+<summary><b>思路2：动态规划——基于完全背包的组合数问题</b></summary>
+
+- 定义 `dp[a]` 表示构成目标值 `i` 的组合数；
+- 转移方程 `dp[a] += dp[a - coins[i]]`，当 `a >= coins[i]` 时；
+- 初始状态 `dp[0] = 1`；
+- 关键点：先遍历“物品”（这里是硬币），在遍历“容量”（这里是金额）；
+    > 关于先后遍历两者的区别见[完全背包 - 代码随想录](https://programmercarl.com/背包问题理论基础完全背包.html)；
+
+<details><summary><b>Python：动态规划</b></summary>
+
+```python
+class Solution:
+    def change(self, amount: int, coins: List[int]) -> int:
+        from functools import lru_cache
+
+        N = len(coins)
+        dp = [0] * (amount + 1)
+        dp[0] = 1
+
+        for i in range(N):
+            x = coins[i]
+            for j in range(x, amount + 1):
+                dp[j] += dp[j - x]
+        
+        return dp[amount]
 ```
 
 </details>
