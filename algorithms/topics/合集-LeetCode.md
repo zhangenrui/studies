@@ -3774,7 +3774,10 @@ class Solution:
         def dfs(j):
             if j == 0: return 0
 
-            ret = j
+            # 这里设置初始化为一个上界
+            #   本题中初始化为无穷大、j（全部 1）、4（四平方和定理）都可以；
+            #   为了使解法更通用，故初始化为无穷大
+            ret = float('inf')
             i = 1
             while (x := i * i) <= j:
                 ret = min(ret, dfs(j - x) + 1)
