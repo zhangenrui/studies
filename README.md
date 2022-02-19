@@ -685,14 +685,18 @@ Notes
 - 机器学习
     - [基础知识](notes/机器学习/基础知识)
     - GBDT
+    - [样本不平衡](notes/机器学习/样本不平衡)
 - 深度学习
-    - [Attention](notes/深度学习/Attention)
-    - [CNN](notes/深度学习/CNN)
-    - [RNN](notes/深度学习/RNN)
-    - [损失函数](notes/深度学习/损失函数)
-    - [激活函数](notes/深度学习/激活函数)
-    - [过拟合与欠拟合](notes/深度学习/过拟合与欠拟合)
-        - [正则化](notes/深度学习/过拟合与欠拟合/正则化)
+    - 基础知识
+        - [Attention](notes/深度学习/基础知识/Attention)
+        - [CNN](notes/深度学习/基础知识/CNN)
+        - [RNN](notes/深度学习/基础知识/RNN)
+        - [损失函数](notes/深度学习/基础知识/损失函数)
+        - [正则化](notes/深度学习/基础知识/正则化)
+            - [过拟合与欠拟合](notes/深度学习/基础知识/正则化/过拟合与欠拟合)
+        - [激活函数](notes/深度学习/基础知识/激活函数)
+    - [Transformer](notes/深度学习/Transformer)
+    - [对比学习](notes/深度学习/对比学习)
 - 自然语言处理
     - [预训练语言模型](notes/自然语言处理/预训练语言模型)
         - Bert
@@ -702,8 +706,9 @@ Notes
     - 实体链接
     - 小样本学习
         - [提示学习（Prompt）](notes/自然语言处理/-小样本学习/提示学习（Prompt）)
+    - 文本生成
     - 细粒度情感分析
-    - [文本生成](notes/自然语言处理/文本生成)
+    - [Prompt](notes/自然语言处理/Prompt)
 - 搜索、广告、推荐
 - 深度学习框架
     - Pytorch
