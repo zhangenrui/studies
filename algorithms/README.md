@@ -341,12 +341,13 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-自底向上的递归技巧 [4] <a href="topics/技巧-自底向上的递归技巧.md">¶</a></b></summary>
+<details><summary><b> 技巧-自底向上的递归技巧 [5] <a href="topics/技巧-自底向上的递归技巧.md">¶</a></b></summary>
 
 - [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](topics/技巧-自底向上的递归技巧.md#leetcode-0110-平衡二叉树-简单-2022-02)
 - [`LeetCode 0124 二叉树中的最大路径和 (困难, 2022-02)`](topics/技巧-自底向上的递归技巧.md#leetcode-0124-二叉树中的最大路径和-困难-2022-02)
 - [`LeetCode 0337 打家劫舍III (中等, 2022-02)`](topics/技巧-自底向上的递归技巧.md#leetcode-0337-打家劫舍iii-中等-2022-02)
 - [`LeetCode 0437 路径总和III (中等, 2022-02)`](topics/技巧-自底向上的递归技巧.md#leetcode-0437-路径总和iii-中等-2022-02)
+- [`剑指Offer 6802 二叉树的最近公共祖先 (简单, 2022-01)`](topics/技巧-自底向上的递归技巧.md#剑指offer-6802-二叉树的最近公共祖先-简单-2022-01)
 
 </details>
 

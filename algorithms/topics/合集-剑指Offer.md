@@ -8767,10 +8767,11 @@ class Solution:
 ### `剑指Offer 6802 二叉树的最近公共祖先 (简单, 2022-01)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
+[![TreeDP](https://img.shields.io/badge/TreeDP-lightgray.svg)](技巧-自底向上的递归技巧.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
-    "tags": ["二叉树"],
+    "tags": ["二叉树", "TreeDP"],
     "来源": "剑指Offer",
     "编号": "6802",
     "难度": "简单",
@@ -8782,6 +8783,7 @@ class Solution:
 ```txt
 给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。
 ```
+> [剑指 Offer 68 - II. 二叉树的最近公共祖先 - 力扣（LeetCode）](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/)
 
 <details><summary><b>详细描述</b></summary>
 
@@ -8822,10 +8824,9 @@ class Solution:
 
 <!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
 
-<summary><b>思路</b></summary>
+<summary><b>思路1</b></summary>
 
-- 因为必须先找到目标节点才能确定路线，所以要后序遍历；
-- 当找到目标节点时，返回 flag，指示上级节点是否为祖先节点；
+- 记录 p, q 从上到下的路径，路径中最后一个相同节点即答案；
 
 <details><summary><b>Python</b></summary>
 
@@ -8840,15 +8841,13 @@ class Solution:
 class Solution:
     def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
 
-        # 后序遍历搜索历史祖先，因为是后序遍历，所以 trace 是倒序的
+        # 后序遍历记录所有祖先
         def dfs(node, target, trace):
             if node is None:
                 return False
-            if node.val == target.val:
-                trace.append(node)  # 根据定义，自己也是自己的祖先节点
-                return True
             
-            if dfs(node.left, target, trace) or dfs(node.right, target, trace):
+            # 注意自己也是自己的祖先
+            if node.val == target.val or dfs(node.left, target, trace) or dfs(node.right, target, trace):
                 trace.append(node)
                 return True
             else:
@@ -8876,15 +8875,10 @@ class Solution:
 </details>
 
 
-**优化**：不使用额外空间存储祖先路径，即在遍历过程中判断；
-> [二叉树的最近公共祖先（DFS ，清晰图解） - Krahets](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/solution/mian-shi-ti-68-ii-er-cha-shu-de-zui-jin-gong-gon-7/)
+<summary><b>思路2</b></summary>
 
-- 如果 node 仅是 p 和 q 的公共祖先（但不是最近公共祖先），那么 node 的左右子树之一必也是 p 和 q 的公共祖先；
-- 如果 node 是 p 和 q 的最近公共祖先，那么 node 的左右子树都不是 p 和 q 的公共祖先；
-- 根据以上两条性质，可知，如果 node 是 p、q 的**最近公共祖先**，有：
-    - node 是 p、q 的公共祖先，且 p 和 q 分别在 node 的两侧；
-    - node 是 p 或 q 之一，且是另一个节点的祖先；
-
+- 考虑判断节点 x 是否为 p、q 的最近祖先需要哪些信息：
+- 文字描述太繁琐，直接看代码，非常清晰；
 
 <details><summary><b>Python</b></summary>
 
@@ -8899,28 +8893,35 @@ class Solution:
 class Solution:
     def lowestCommonAncestor(self, root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
         
-        def dfs(node):
-            # 下面两个判断条件可以写在一起，为了使逻辑更清晰，故分开写
-            if node is None:  # 说明当前路径上没有 p 或 q
-                return None
-            if node == p or node == q:  # 说明当前路径上存在 p 或 q
-                return node
+        from dataclasses import dataclass
+
+        @dataclass
+        class Info:  # 判断当前节点是否为答案需要从子节点了解到的信息
+            has_p: bool
+            has_q: bool
+            ret: TreeNode
+        
+        def dfs(x):
+            if not x: return Info(False, False, None)
+
+            # l, r = dfs(x.left), dfs(x.right)
+            # 提前结束
+            l = dfs(x.left)
+            if l.ret: return l
+            r = dfs(x.right)
+            if r.ret: return r
+
+            has_p = x.val == p.val or l.has_p or r.has_p
+            has_q = x.val == q.val or l.has_q or r.has_q
+            ret = None
+
+            if has_p and has_q:
+                ret = l.ret if r.ret is None else r.ret  # 左右子节点
+                ret = x if ret is None else ret  # x 节点才是
             
-            l = dfs(node.left)
-            r = dfs(node.right)
-
-            # 返回的非 None 节点都是 p 和 q 的公共祖先
-            if l is None and r is not None:  # r 是 p 和 q 之一，且是另一个节点的祖先
-                return r
-            elif r is None and l is not None:  # l 是 p 和 q 之一，且是另一个节点的祖先
-                return l
-            elif l and r:  # p 和 q 分别在 node 的两侧
-                return node
-            else:
-                return None
-
-        return dfs(root)
-
+            return Info(has_p, has_q, ret)
+        
+        return dfs(root).ret
 ```
 
 </details>
