@@ -213,7 +213,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [29] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [30] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -242,6 +242,7 @@ Algorithms
 - [`牛客 0025 删除有序链表中重复的元素-I (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0025-删除有序链表中重复的元素-i-中等-2022-01)
 - [`牛客 0026 括号生成 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0026-括号生成-中等-2022-02)
 - [`牛客 0027 集合的所有子集(一) (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0027-集合的所有子集一-中等-2022-02)
+- [`牛客 0028 最小覆盖子串 (较难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0028-最小覆盖子串-较难-2022-02)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-02)
 
@@ -383,10 +384,11 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-双指针-滑动窗口 [2] <a href="algorithms/topics/技巧-双指针-滑动窗口.md">¶</a></b></summary>
+<details><summary><b> 技巧-双指针-滑动窗口 [3] <a href="algorithms/topics/技巧-双指针-滑动窗口.md">¶</a></b></summary>
 
 - [`LeetCode 0003 无重复字符的最长子串 (中等, 2022-02)`](algorithms/topics/技巧-双指针-滑动窗口.md#leetcode-0003-无重复字符的最长子串-中等-2022-02)
 - [`剑指Offer 5901 滑动窗口的最大值 (困难, 2022-01)`](algorithms/topics/技巧-双指针-滑动窗口.md#剑指offer-5901-滑动窗口的最大值-困难-2022-01)
+- [`牛客 0028 最小覆盖子串 (较难, 2022-02)`](algorithms/topics/技巧-双指针-滑动窗口.md#牛客-0028-最小覆盖子串-较难-2022-02)
 
 </details>
 
