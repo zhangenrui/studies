@@ -213,7 +213,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [27] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [28] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -240,6 +240,7 @@ Algorithms
 - [`牛客 0023 划分链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0023-划分链表-中等-2022-01)
 - [`牛客 0024 删除有序链表中重复的元素-II (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0024-删除有序链表中重复的元素-ii-中等-2022-01)
 - [`牛客 0025 删除有序链表中重复的元素-I (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0025-删除有序链表中重复的元素-i-中等-2022-01)
+- [`牛客 0026 括号生成 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0026-括号生成-中等-2022-02)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-02)
 
@@ -657,6 +658,12 @@ Algorithms
 
 </details>
 
+<details><summary><b> 算法-递归-回溯 [1] <a href="algorithms/topics/算法-递归-回溯.md">¶</a></b></summary>
+
+- [`牛客 0026 括号生成 (中等, 2022-02)`](algorithms/topics/算法-递归-回溯.md#牛客-0026-括号生成-中等-2022-02)
+
+</details>
+
 <details><summary><b> 算法-递归、迭代 [14] <a href="algorithms/topics/算法-递归、迭代.md">¶</a></b></summary>
 
 - [`LeetCode 0021 合并两个有序链表 (简单, 2021-10)`](algorithms/topics/算法-递归、迭代.md#leetcode-0021-合并两个有序链表-简单-2021-10)
@@ -725,6 +732,8 @@ Notes
         - [常见报错记录](notes/编程语言/Python/常见报错记录)
     - Java
     - CCpp
+- 计算机基础
+    - [RPC基础](notes/计算机基础/RPC基础)
 
 ---
 
