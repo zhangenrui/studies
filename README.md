@@ -213,7 +213,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [36] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [37] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -249,6 +249,7 @@ Algorithms
 - [`牛客 0032 求平方根 (简单, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0032-求平方根-简单-2022-02)
 - [`牛客 0033 合并两个排序的链表 (简单, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0033-合并两个排序的链表-简单-2022-02)
 - [`牛客 0034 求路径 (简单, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0034-求路径-简单-2022-02)
+- [`牛客 0035 编辑距离(二) (较难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0035-编辑距离二-较难-2022-02)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-02)
 
@@ -325,7 +326,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-从暴力递归到动态规划 [7] <a href="algorithms/topics/技巧-从暴力递归到动态规划.md">¶</a></b></summary>
+<details><summary><b> 技巧-从暴力递归到动态规划 [8] <a href="algorithms/topics/技巧-从暴力递归到动态规划.md">¶</a></b></summary>
 
 - [`LeetCode 0091 解码方法 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0091-解码方法-中等-2022-02)
 - [`LeetCode 0198 打家劫舍 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0198-打家劫舍-中等-2022-02)
@@ -333,6 +334,7 @@ Algorithms
 - [`LeetCode 0322 零钱兑换 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0322-零钱兑换-中等-2022-02)
 - [`LeetCode 0474 一和零 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#leetcode-0474-一和零-中等-2022-02)
 - [`剑指Offer 6000 n个骰子的点数 (中等, 2022-01)`](algorithms/topics/技巧-从暴力递归到动态规划.md#剑指offer-6000-n个骰子的点数-中等-2022-01)
+- [`牛客 0035 编辑距离(二) (较难, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#牛客-0035-编辑距离二-较难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/技巧-从暴力递归到动态规划.md#牛客-0145-01背包-中等-2022-02)
 
 </details>
@@ -596,7 +598,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [35] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [36] <a href="algorithms/topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
 - [`LeetCode 0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0005-最长回文子串-中等-2021-10)
 - [`LeetCode 0010 正则表达式匹配 (困难, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0010-正则表达式匹配-困难-2022-01)
@@ -631,6 +633,7 @@ Algorithms
 - [`牛客 0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-0017-最长回文子串-中等-2022-01)
 - [`牛客 0019 连续子数组的最大和 (简单, 2022-01)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-0019-连续子数组的最大和-简单-2022-01)
 - [`牛客 0034 求路径 (简单, 2022-02)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-0034-求路径-简单-2022-02)
+- [`牛客 0035 编辑距离(二) (较难, 2022-02)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-0035-编辑距离二-较难-2022-02)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-0091-最长上升子序列三-困难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/算法-动态规划(记忆化搜索)、递推.md#牛客-0145-01背包-中等-2022-02)
 
