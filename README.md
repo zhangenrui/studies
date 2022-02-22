@@ -213,7 +213,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [33] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [34] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -246,6 +246,7 @@ Algorithms
 - [`牛客 0029 二维数组中的查找 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0029-二维数组中的查找-中等-2022-02)
 - [`牛客 0030 缺失的第一个正整数 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0030-缺失的第一个正整数-中等-2022-02)
 - [`牛客 0031 第一个只出现一次的字符 (简单, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0031-第一个只出现一次的字符-简单-2022-02)
+- [`牛客 0032 求平方根 (简单, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0032-求平方根-简单-2022-02)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-02)
 
@@ -264,7 +265,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 基础-经典问题&代码 [19] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
+<details><summary><b> 基础-经典问题&代码 [20] <a href="algorithms/topics/基础-经典问题&代码.md">¶</a></b></summary>
 
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#leetcode-0300-最长递增子序列-中等-2022-01)
@@ -284,6 +285,7 @@ Algorithms
 - [`剑指Offer 6700 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-6700-把字符串转换成整数atoi-中等-2022-01)
 - [`剑指Offer 6801 二叉搜索树的最近公共祖先 (简单, 2022-01)`](algorithms/topics/基础-经典问题&代码.md#剑指offer-6801-二叉搜索树的最近公共祖先-简单-2022-01)
 - [`剑指Offer2 001 整数除法 (中等, 2022-02)`](algorithms/topics/基础-经典问题&代码.md#剑指offer2-001-整数除法-中等-2022-02)
+- [`牛客 0032 求平方根 (简单, 2022-02)`](algorithms/topics/基础-经典问题&代码.md#牛客-0032-求平方根-简单-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/基础-经典问题&代码.md#牛客-0145-01背包-中等-2022-02)
 
 </details>
@@ -563,7 +565,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-二分 [13] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
+<details><summary><b> 算法-二分 [14] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
 
 - [`LeetCode 0029 两数相除 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-0029-两数相除-中等-2021-10)
 - [`LeetCode 0033 搜索旋转排序数组 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-0033-搜索旋转排序数组-中等-2021-10)
@@ -578,6 +580,7 @@ Algorithms
 - [`剑指Offer2 001 整数除法 (中等, 2022-02)`](algorithms/topics/算法-二分.md#剑指offer2-001-整数除法-中等-2022-02)
 - [`剑指Offer2 069 山峰数组的顶部 (简单, 2022-02)`](algorithms/topics/算法-二分.md#剑指offer2-069-山峰数组的顶部-简单-2022-02)
 - [`牛客 0029 二维数组中的查找 (中等, 2022-02)`](algorithms/topics/算法-二分.md#牛客-0029-二维数组中的查找-中等-2022-02)
+- [`牛客 0032 求平方根 (简单, 2022-02)`](algorithms/topics/算法-二分.md#牛客-0032-求平方根-简单-2022-02)
 
 </details>
 
