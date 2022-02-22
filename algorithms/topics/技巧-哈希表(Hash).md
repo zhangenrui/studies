@@ -10,6 +10,7 @@ Problems
 - [`剑指Offer 3500 复杂链表的复制（深拷贝） (中等, 2021-12)`](#剑指offer-3500-复杂链表的复制深拷贝-中等-2021-12)
 - [`剑指Offer 4800 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-4800-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer 5000 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-5000-第一个只出现一次的字符-简单-2021-12)
+- [`牛客 0031 第一个只出现一次的字符 (简单, 2022-02)`](#牛客-0031-第一个只出现一次的字符-简单-2022-02)
 - [`程序员面试金典 0102 判定是否互为字符重排 (简单, 2022-01)`](#程序员面试金典-0102-判定是否互为字符重排-简单-2022-01)
 
 ---
@@ -775,6 +776,70 @@ class Solution:
                 return c
 
         return ' '
+```
+
+</details>
+
+---
+
+### `牛客 0031 第一个只出现一次的字符 (简单, 2022-02)`
+
+[![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](合集-牛客.md)
+
+<!--{
+    "tags": ["哈希表"],
+    "来源": "牛客",
+    "难度": "简单",
+    "编号": "0031",
+    "标题": "第一个只出现一次的字符",
+    "公司": []
+}-->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+找到字符串中第一个只出现一次的字符,并返回它的位置, 如果没有则返回 -1（需要区分大小写）.（从0开始计数）
+```
+> [第一个只出现一次的字符_牛客题霸_牛客网](https://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c)
+
+<!-- 
+<details><summary><b>详细描述</b></summary>
+
+```txt
+```
+-->
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 简单题，没有特殊解法；
+
+<details><summary><b>Python</b></summary>
+
+```python
+#
+# 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+#
+# 
+# @param str string字符串 
+# @return int整型
+#
+class Solution:
+    def FirstNotRepeatingChar(self , str: str) -> int:
+        # write code here
+        from collections import Counter
+        
+        cnt = Counter(str)
+        
+        for i, c in enumerate(str):
+            if cnt[c] == 1:
+                return i
+        
+        return -1
 ```
 
 </details>

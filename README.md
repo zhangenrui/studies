@@ -213,7 +213,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [32] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [33] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -245,6 +245,7 @@ Algorithms
 - [`牛客 0028 最小覆盖子串 (较难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0028-最小覆盖子串-较难-2022-02)
 - [`牛客 0029 二维数组中的查找 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0029-二维数组中的查找-中等-2022-02)
 - [`牛客 0030 缺失的第一个正整数 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0030-缺失的第一个正整数-中等-2022-02)
+- [`牛客 0031 第一个只出现一次的字符 (简单, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0031-第一个只出现一次的字符-简单-2022-02)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-02)
 
@@ -394,7 +395,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-哈希表(Hash) [7] <a href="algorithms/topics/技巧-哈希表(Hash).md">¶</a></b></summary>
+<details><summary><b> 技巧-哈希表(Hash) [8] <a href="algorithms/topics/技巧-哈希表(Hash).md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](algorithms/topics/技巧-哈希表(Hash).md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0187 重复的DNA序列 (中等, 2021-10)`](algorithms/topics/技巧-哈希表(Hash).md#leetcode-0187-重复的dna序列-中等-2021-10)
@@ -402,6 +403,7 @@ Algorithms
 - [`剑指Offer 3500 复杂链表的复制（深拷贝） (中等, 2021-12)`](algorithms/topics/技巧-哈希表(Hash).md#剑指offer-3500-复杂链表的复制深拷贝-中等-2021-12)
 - [`剑指Offer 4800 最长不含重复字符的子字符串 (中等, 2021-12)`](algorithms/topics/技巧-哈希表(Hash).md#剑指offer-4800-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer 5000 第一个只出现一次的字符 (简单, 2021-12)`](algorithms/topics/技巧-哈希表(Hash).md#剑指offer-5000-第一个只出现一次的字符-简单-2021-12)
+- [`牛客 0031 第一个只出现一次的字符 (简单, 2022-02)`](algorithms/topics/技巧-哈希表(Hash).md#牛客-0031-第一个只出现一次的字符-简单-2022-02)
 - [`程序员面试金典 0102 判定是否互为字符重排 (简单, 2022-01)`](algorithms/topics/技巧-哈希表(Hash).md#程序员面试金典-0102-判定是否互为字符重排-简单-2022-01)
 
 </details>
