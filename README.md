@@ -214,7 +214,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [37] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [38] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -251,6 +251,7 @@ Algorithms
 - [`牛客 0033 合并两个排序的链表 (简单, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0033-合并两个排序的链表-简单-2022-02)
 - [`牛客 0034 求路径 (简单, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0034-求路径-简单-2022-02)
 - [`牛客 0035 编辑距离(二) (较难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0035-编辑距离二-较难-2022-02)
+- [`牛客 0036 在两个长度相等的排序数组中找到上中位数 (较难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0036-在两个长度相等的排序数组中找到上中位数-较难-2022-02)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-02)
 - [`牛客 0145 01背包 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-02)
 
@@ -571,7 +572,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-二分 [15] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
+<details><summary><b> 算法-二分 [16] <a href="algorithms/topics/算法-二分.md">¶</a></b></summary>
 
 - [`LeetCode 0004 寻找两个正序数组的中位数 (困难, 2022-02)`](algorithms/topics/算法-二分.md#leetcode-0004-寻找两个正序数组的中位数-困难-2022-02)
 - [`LeetCode 0029 两数相除 (中等, 2021-10)`](algorithms/topics/算法-二分.md#leetcode-0029-两数相除-中等-2021-10)
@@ -588,6 +589,7 @@ Algorithms
 - [`剑指Offer2 069 山峰数组的顶部 (简单, 2022-02)`](algorithms/topics/算法-二分.md#剑指offer2-069-山峰数组的顶部-简单-2022-02)
 - [`牛客 0029 二维数组中的查找 (中等, 2022-02)`](algorithms/topics/算法-二分.md#牛客-0029-二维数组中的查找-中等-2022-02)
 - [`牛客 0032 求平方根 (简单, 2022-02)`](algorithms/topics/算法-二分.md#牛客-0032-求平方根-简单-2022-02)
+- [`牛客 0036 在两个长度相等的排序数组中找到上中位数 (较难, 2022-02)`](algorithms/topics/算法-二分.md#牛客-0036-在两个长度相等的排序数组中找到上中位数-较难-2022-02)
 
 </details>
 

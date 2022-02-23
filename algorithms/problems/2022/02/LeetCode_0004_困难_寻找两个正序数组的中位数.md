@@ -30,8 +30,9 @@
 <summary><b>思路</b></summary>
 
 - 二分目标：找到最大的 `i`，使 `A[i - 1] <= B[j]`，其中 `j = (m + n + 1) / 2 - i`，`m, n` 分别为 `A, B` 的长度；
-- 思路简述：将 `A, B` 分别分成如下两组，且保证 `max(A_i-1, B_j-1) <= min(A_i, B_j)`（中位数的性质）；可证，该条件等价于找到最大的 `i`，使 `A[i - 1] <= B[j]`（证明详见参考链接）
-    > 
+- 思路简述：将 `A, B` 分别分成如下两组，且保证 `max(A_i-1, B_j-1) <= min(A_i, B_j)`，根据中位数的性质，目标值即 `max(A_i-1, B_j-1)`；
+    - 可证，该条件等价于找到最大的 `i`，使 `A[i - 1] <= B[j]`（证明详见参考链接）
+    > [寻找两个有序数组的中位数 - 力扣官方题解](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-s-114/)
 
     ```
         A_0, .., A_i-1 | A_i, .., A_m-1
@@ -43,9 +44,7 @@
         偶数时不影响；
     ```
 
-    > [寻找两个有序数组的中位数 - 力扣官方题解](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xun-zhao-liang-ge-you-xu-shu-zu-de-zhong-wei-s-114/)
-
-- 更多细节见代码注释；
+- 关于 `i == 0/m, j == 0/n` 的处理细节见代码；
 
 <details><summary><b>Python</b></summary>
 
@@ -59,7 +58,7 @@ class Solution:
         m, n = len(A), len(B)
         # half 表示一半的数量；+1 是为了使奇数情况时，左侧数量多一个，偶数不影响；
         half = (m + n + 1) // 2
-        l, r = 0, m - 1  # [l, r) 左闭右开区间，循环时要始终保持这个开闭原则
+        l, r = 0, m  # [l, r) 左闭右开区间，循环时要始终保持这个开闭原则
 
         while l < r:  # 因为是左闭右开区间，所以 l 要始终小于 r
             # 这里 i 和 j 指的是数量，而不是下标，即 A 中的前 i 个数，B 中的前 j 个数；
@@ -77,8 +76,8 @@ class Solution:
                 r = i - 1  # [i-1, r) 区间不满足要求，下一轮从 [l, i-1) 继续找符合的，所以令 r = i - 1
 
         # 退出循环时 l == r
-        i = (l + r) // 2
-        j = (m + n + 1) // 2 - i
+        i = (l + r + 1) // 2
+        j = half - i
 
         # 根据 i 和 j 的定义，都表述“数量”，所以
         #   i == 0 表示不从 A 取数，“前一半”数都从 B 中取；
@@ -94,6 +93,7 @@ class Solution:
         m1, m2 = max(a_im1, b_jm1), min(a_i, b_j)
 
         return (m1 + m2) / 2 if (m + n) % 2 == 0 else m1
+
 ```
 
 </details>
