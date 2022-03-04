@@ -30,6 +30,7 @@ PYTHON_UTILS = (40, 'Python Utils')
 TAG_MAPPING = {
     'NLP Utils': WORK_UTILS,
     'Image Utils': WORK_UTILS,
+    'Work Utils': WORK_UTILS,
     'Python Utils': PYTHON_UTILS,
     'Python 自定义数据结构': PYTHON_UTILS,
     'Pytorch Models': PYTORCH_MODELS,

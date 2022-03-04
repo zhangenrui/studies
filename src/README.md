@@ -8,6 +8,7 @@ Codes
 - [`BertTokenizer: Bert 分词器`](#berttokenizer-bert-分词器)
 - [`ner_result_parse: NER 结果解析（基于 BIO 格式）`](#ner_result_parse-ner-结果解析基于-bio-格式)
 - [`split: 将数据按比例切分`](#split-将数据按比例切分)
+- [`XLSHelper: Excel 文件加载（基于 openpyxl）`](#xlshelper-excel-文件加载基于-openpyxl)
 - [`ImageCheck: 图片完整性检查`](#imagecheck-图片完整性检查)
 - [`get_real_ext: 获取图像文件的真实后缀`](#get_real_ext-获取图像文件的真实后缀)
 
@@ -207,6 +208,32 @@ Examples:
 Returns:
     x_train, x_val =  split(x)
     (a_train, b_train, c_train), (a_val, b_train, c_train) = split(a, b, c)
+```
+
+
+### `XLSHelper: Excel 文件加载（基于 openpyxl）`
+> [source](huaytools/utils/excel_helper/_basic.py#L28)
+
+```python
+Excel 文件加载（基于 openpyxl）
+
+Examples:
+    >>> fp = r'./test_data.xlsx'
+    >>> xh = XLSHelper(fp)
+    >>> xh.get_data_from('Sheet2')
+    [['S1', 'S2', 'S3'], ['a', 'b', 'c'], ['aa', 'bb', 'cc']]
+    >>> type(xh.workbook)
+    <class 'openpyxl.workbook.workbook.Workbook'>
+    >>> list(xh.sheet_names)
+    ['Sheet1', 'Sheet2']
+    >>> xh.sheets['Sheet1']
+    [['H1', 'H2', 'H3'], [1, 2, 3], [11, 22, 33]]
+    >>> xh.sheets['Sheet2']
+    [['S1', 'S2', 'S3'], ['a', 'b', 'c'], ['aa', 'bb', 'cc']]
+    >>> xh.first_sheet
+    [['H1', 'H2', 'H3'], [1, 2, 3], [11, 22, 33]]
+    >>> xh.active_sheet
+    [['S1', 'S2', 'S3'], ['a', 'b', 'c'], ['aa', 'bb', 'cc']]
 ```
 
 

@@ -787,6 +787,7 @@ Codes
 - [`BertTokenizer: Bert 分词器`](src/README.md#berttokenizer-bert-分词器)
 - [`ner_result_parse: NER 结果解析（基于 BIO 格式）`](src/README.md#ner_result_parse-ner-结果解析基于-bio-格式)
 - [`split: 将数据按比例切分`](src/README.md#split-将数据按比例切分)
+- [`XLSHelper: Excel 文件加载（基于 openpyxl）`](src/README.md#xlshelper-excel-文件加载基于-openpyxl)
 - [`ImageCheck: 图片完整性检查`](src/README.md#imagecheck-图片完整性检查)
 - [`get_real_ext: 获取图像文件的真实后缀`](src/README.md#get_real_ext-获取图像文件的真实后缀)
 
