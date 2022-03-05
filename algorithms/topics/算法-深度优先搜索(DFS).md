@@ -24,6 +24,7 @@ Problems
 - [`牛客 0008 二叉树中和为某一值的路径(二) (中等, 2022-01)`](#牛客-0008-二叉树中和为某一值的路径二-中等-2022-01)
 - [`牛客 0009 二叉树中和为某一值的路径(一) (简单, 2022-01)`](#牛客-0009-二叉树中和为某一值的路径一-简单-2022-01)
 - [`牛客 0020 数字字符串转化成IP地址 (中等, 2022-01)`](#牛客-0020-数字字符串转化成ip地址-中等-2022-01)
+- [`牛客 0045 实现二叉树先序、中序、后序遍历 (中等, 2022-03)`](#牛客-0045-实现二叉树先序中序后序遍历-中等-2022-03)
 
 ---
 
@@ -1545,6 +1546,78 @@ class Solution:
         
         dfs(0, 0, [])
         return ret
+```
+
+</details>
+
+---
+
+### `牛客 0045 实现二叉树先序、中序、后序遍历 (中等, 2022-03)`
+
+[![DFS](https://img.shields.io/badge/DFS-lightgray.svg)](算法-深度优先搜索(DFS).md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](合集-牛客.md)
+
+<!--{
+    "tags": ["DFS"],
+    "来源": "牛客",
+    "难度": "中等",
+    "编号": "0045",
+    "标题": "实现二叉树先序、中序、后序遍历",
+    "公司": []
+}-->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给定一棵二叉树，分别按照二叉树先序，中序和后序打印所有的节点。
+```
+> [实现二叉树先序，中序和后序遍历_牛客题霸_牛客网](https://www.nowcoder.com/practice/a9fec6c46a684ad5a3abd4e365a9d362)
+
+<!-- 
+<details><summary><b>详细描述</b></summary>
+
+```txt
+```
+-->
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路：DFS</b></summary>
+
+<details><summary><b>Python</b></summary>
+
+```python
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+#
+# 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+# 
+# @param root TreeNode类 the root of binary tree
+# @return int整型二维数组
+#
+class Solution:
+    def threeOrders(self , root: TreeNode) -> List[List[int]]:
+        # write code here
+        
+        p, i, s = [], [], []
+        
+        def dfs(x):
+            if x is None:
+                return 
+            
+            p.append(x.val)
+            dfs(x.left)
+            i.append(x.val)
+            dfs(x.right)
+            s.append(x.val)
+        
+        dfs(root)
+        return [p, i, s]
 ```
 
 </details>
