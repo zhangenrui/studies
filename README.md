@@ -214,7 +214,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [43] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [44] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -255,6 +255,7 @@ Algorithms
 - [`牛客 0037 合并区间 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0037-合并区间-中等-2022-02)
 - [`牛客 0038 螺旋矩阵 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0038-螺旋矩阵-中等-2022-03)
 - [`牛客 0039 N皇后问题 (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0039-n皇后问题-较难-2022-03)
+- [`牛客 0040 链表相加(二) (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0040-链表相加二-中等-2022-03)
 - [`牛客 0045 实现二叉树先序、中序、后序遍历 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0045-实现二叉树先序中序后序遍历-中等-2022-03)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
@@ -555,7 +556,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-链表 [21] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
+<details><summary><b> 数据结构-链表 [22] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
 
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](algorithms/topics/数据结构-链表.md#leetcode-0002-两数相加-中等-2021-10)
 - [`LeetCode 0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#leetcode-0019-删除链表的倒数第n个结点-中等-2022-01)
@@ -578,6 +579,7 @@ Algorithms
 - [`牛客 0024 删除有序链表中重复的元素-II (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-0024-删除有序链表中重复的元素-ii-中等-2022-01)
 - [`牛客 0025 删除有序链表中重复的元素-I (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#牛客-0025-删除有序链表中重复的元素-i-中等-2022-01)
 - [`牛客 0033 合并两个排序的链表 (简单, 2022-02)`](algorithms/topics/数据结构-链表.md#牛客-0033-合并两个排序的链表-简单-2022-02)
+- [`牛客 0040 链表相加(二) (中等, 2022-03)`](algorithms/topics/数据结构-链表.md#牛客-0040-链表相加二-中等-2022-03)
 
 </details>
 
