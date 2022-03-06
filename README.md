@@ -214,7 +214,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [41] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [43] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -253,6 +253,8 @@ Algorithms
 - [`牛客 0035 编辑距离(二) (较难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0035-编辑距离二-较难-2022-02)
 - [`牛客 0036 在两个长度相等的排序数组中找到上中位数 (较难, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0036-在两个长度相等的排序数组中找到上中位数-较难-2022-02)
 - [`牛客 0037 合并区间 (中等, 2022-02)`](algorithms/topics/合集-牛客.md#牛客-0037-合并区间-中等-2022-02)
+- [`牛客 0038 螺旋矩阵 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0038-螺旋矩阵-中等-2022-03)
+- [`牛客 0039 N皇后问题 (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0039-n皇后问题-较难-2022-03)
 - [`牛客 0045 实现二叉树先序、中序、后序遍历 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0045-实现二叉树先序中序后序遍历-中等-2022-03)
 - [`牛客 0091 最长上升子序列(三) (困难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-困难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
@@ -309,7 +311,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 基础-模拟 [17] <a href="algorithms/topics/基础-模拟.md">¶</a></b></summary>
+<details><summary><b> 基础-模拟 [18] <a href="algorithms/topics/基础-模拟.md">¶</a></b></summary>
 
 - [`LeetCode 0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/基础-模拟.md#leetcode-0005-最长回文子串-中等-2021-10)
 - [`LeetCode 0143 重排链表 (中等, 2022-01)`](algorithms/topics/基础-模拟.md#leetcode-0143-重排链表-中等-2022-01)
@@ -328,6 +330,7 @@ Algorithms
 - [`牛客 0007 买卖股票的最好时机(一) (简单, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-0007-买卖股票的最好时机一-简单-2022-01)
 - [`牛客 0010 大数乘法 (中等, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-0010-大数乘法-中等-2022-01)
 - [`牛客 0017 最长回文子串 (中等, 2022-01)`](algorithms/topics/基础-模拟.md#牛客-0017-最长回文子串-中等-2022-01)
+- [`牛客 0038 螺旋矩阵 (中等, 2022-03)`](algorithms/topics/基础-模拟.md#牛客-0038-螺旋矩阵-中等-2022-03)
 
 </details>
 
@@ -345,7 +348,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-位运算 [6] <a href="algorithms/topics/技巧-位运算.md">¶</a></b></summary>
+<details><summary><b> 技巧-位运算 [7] <a href="algorithms/topics/技巧-位运算.md">¶</a></b></summary>
 
 - [`LeetCode 0029 两数相除 (中等, 2021-10)`](algorithms/topics/技巧-位运算.md#leetcode-0029-两数相除-中等-2021-10)
 - [`LeetCode 0187 重复的DNA序列 (中等, 2021-10)`](algorithms/topics/技巧-位运算.md#leetcode-0187-重复的dna序列-中等-2021-10)
@@ -353,6 +356,7 @@ Algorithms
 - [`剑指Offer 5601 数组中数字出现的次数 (中等, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer-5601-数组中数字出现的次数-中等-2022-01)
 - [`剑指Offer 5602 数组中数字出现的次数 (中等, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer-5602-数组中数字出现的次数-中等-2022-01)
 - [`剑指Offer 6500 不用加减乘除做加法 (简单, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer-6500-不用加减乘除做加法-简单-2022-01)
+- [`牛客 0039 N皇后问题 (较难, 2022-03)`](algorithms/topics/技巧-位运算.md#牛客-0039-n皇后问题-较难-2022-03)
 
 </details>
 
@@ -509,7 +513,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-数组、矩阵(二维数组) [6] <a href="algorithms/topics/数据结构-数组、矩阵(二维数组).md">¶</a></b></summary>
+<details><summary><b> 数据结构-数组、矩阵(二维数组) [7] <a href="algorithms/topics/数据结构-数组、矩阵(二维数组).md">¶</a></b></summary>
 
 - [`剑指Offer 2100 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#剑指offer-2100-调整数组顺序使奇数位于偶数前面-简单-2021-11)
 - [`剑指Offer 2900 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#剑指offer-2900-顺时针打印矩阵3种思路4个写法-中等-2021-11)
@@ -517,6 +521,7 @@ Algorithms
 - [`剑指Offer 3100 栈的压入、弹出序列 (中等, 2021-11)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#剑指offer-3100-栈的压入弹出序列-中等-2021-11)
 - [`牛客 0018 顺时针旋转矩阵 (简单, 2022-01)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#牛客-0018-顺时针旋转矩阵-简单-2022-01)
 - [`牛客 0030 缺失的第一个正整数 (中等, 2022-02)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#牛客-0030-缺失的第一个正整数-中等-2022-02)
+- [`牛客 0038 螺旋矩阵 (中等, 2022-03)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#牛客-0038-螺旋矩阵-中等-2022-03)
 
 </details>
 
@@ -695,7 +700,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-递归、迭代 [14] <a href="algorithms/topics/算法-递归、迭代.md">¶</a></b></summary>
+<details><summary><b> 算法-递归、迭代 [15] <a href="algorithms/topics/算法-递归、迭代.md">¶</a></b></summary>
 
 - [`LeetCode 0021 合并两个有序链表 (简单, 2021-10)`](algorithms/topics/算法-递归、迭代.md#leetcode-0021-合并两个有序链表-简单-2021-10)
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/算法-递归、迭代.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
@@ -711,6 +716,7 @@ Algorithms
 - [`剑指Offer 2800 对称的二叉树 (简单, 2021-11)`](algorithms/topics/算法-递归、迭代.md#剑指offer-2800-对称的二叉树-简单-2021-11)
 - [`剑指Offer 3600 二叉搜索树与双向链表 (中等, 2021-12)`](algorithms/topics/算法-递归、迭代.md#剑指offer-3600-二叉搜索树与双向链表-中等-2021-12)
 - [`剑指Offer 6400 求1~n的和 (中等, 2022-01)`](algorithms/topics/算法-递归、迭代.md#剑指offer-6400-求1n的和-中等-2022-01)
+- [`牛客 0039 N皇后问题 (较难, 2022-03)`](algorithms/topics/算法-递归、迭代.md#牛客-0039-n皇后问题-较难-2022-03)
 
 </details>
 
