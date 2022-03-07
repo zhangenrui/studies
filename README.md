@@ -64,7 +64,7 @@ Repo Index
 
 Algorithms
 ---
-<details><summary><b> 合集-LeetCode [57] <a href="algorithms/topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [58] <a href="algorithms/topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -76,6 +76,7 @@ Algorithms
 - [`LeetCode 0015 三数之和 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0015-三数之和-中等-2021-10)
 - [`LeetCode 0016 最接近的三数之和 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0016-最接近的三数之和-中等-2021-10)
 - [`LeetCode 0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/合集-LeetCode.md#leetcode-0019-删除链表的倒数第n个结点-中等-2022-01)
+- [`LeetCode 0020 有效的括号 (简单, 2022-03)`](algorithms/topics/合集-LeetCode.md#leetcode-0020-有效的括号-简单-2022-03)
 - [`LeetCode 0021 合并两个有序链表 (简单, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0021-合并两个有序链表-简单-2021-10)
 - [`LeetCode 0025 K个一组翻转链表 (困难, 2022-02)`](algorithms/topics/合集-LeetCode.md#leetcode-0025-k个一组翻转链表-困难-2022-02)
 - [`LeetCode 0029 两数相除 (中等, 2021-10)`](algorithms/topics/合集-LeetCode.md#leetcode-0029-两数相除-中等-2021-10)
@@ -534,8 +535,9 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-栈、队列 [10] <a href="algorithms/topics/数据结构-栈、队列.md">¶</a></b></summary>
+<details><summary><b> 数据结构-栈、队列 [11] <a href="algorithms/topics/数据结构-栈、队列.md">¶</a></b></summary>
 
+- [`LeetCode 0020 有效的括号 (简单, 2022-03)`](algorithms/topics/数据结构-栈、队列.md#leetcode-0020-有效的括号-简单-2022-03)
 - [`剑指Offer 0600 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-0600-从尾到头打印链表-简单-2021-11)
 - [`剑指Offer 0900 用两个栈实现队列 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-0900-用两个栈实现队列-简单-2021-11)
 - [`剑指Offer 0900 用两个栈实现队列 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-0900-用两个栈实现队列-简单-2021-11)
