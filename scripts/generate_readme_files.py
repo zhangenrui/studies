@@ -520,9 +520,9 @@ def pipeline():
 
     parts = [
         Algorithms(),
-        Notes(),
-        Papers(),
-        Books(),
+        Notes('../notes'),
+        Papers('../papers'),
+        Books('../books'),
         Codes()
     ]
     repo_toc = get_repo_toc(*parts)

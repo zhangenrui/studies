@@ -49,16 +49,16 @@ fw_helper = _FileWriteHelper()
 
 class TreeTOC:
     """"""
-    relative_path = r'.'
+    # relative_path = r'.'
     black_kw = ('_assets',)
     sort_lv = {}
     tree: List[str]
     content: str
 
-    def __init__(self, dir_path=None):
+    def __init__(self, dir_path):
         """"""
         self.toc_name = self.__class__.__name__
-        self.dir_path = Path(dir_path or self.relative_path)
+        self.dir_path = Path(dir_path)
 
         self.gen_local_readme_flag = True
         self.gen_local_readme()
@@ -93,7 +93,7 @@ class TreeTOC:
         self.tree = [self.toc_name, '===']
         self.generate_toc(self.dir_path)
         content = '\n'.join(self.tree)
-        fp = os.path.join(self.relative_path, 'README.md')
+        fp = os.path.join(self.dir_path, 'README.md')
         fw_helper.write(fp, content)
 
     def gen_main_readme(self):
@@ -132,7 +132,7 @@ class TreeTOC:
 
 class Notes(TreeTOC):
     """"""
-    relative_path = r'../notes'
+    # relative_path = r'../notes'
     sort_lv = {
         '算法': 'note-00',
         '机器学习': 'note-01',
@@ -155,7 +155,7 @@ class Notes(TreeTOC):
 
 class Books(TreeTOC):
     """"""
-    relative_path = r'../books'
+    # relative_path = r'../books'
     sort_lv = {
 
     }
@@ -163,7 +163,7 @@ class Books(TreeTOC):
 
 class Papers(TreeTOC):
     """"""
-    relative_path = r'../papers'
+    # relative_path = r'../papers'
     sort_lv = {
 
     }
