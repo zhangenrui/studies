@@ -215,7 +215,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-热门&经典 [22] <a href="algorithms/topics/合集-热门&经典.md">¶</a></b></summary>
+<details><summary><b> 合集-热门&经典 [23] <a href="algorithms/topics/合集-热门&经典.md">¶</a></b></summary>
 
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](algorithms/topics/合集-热门&经典.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/合集-热门&经典.md#leetcode-0300-最长递增子序列-中等-2022-01)
@@ -238,11 +238,12 @@ Algorithms
 - [`牛客 0032 求平方根 (简单, 2022-02)`](algorithms/topics/合集-热门&经典.md#牛客-0032-求平方根-简单-2022-02)
 - [`牛客 0048 在旋转过的有序数组中寻找目标值 (简单, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0048-在旋转过的有序数组中寻找目标值-简单-2022-03)
 - [`牛客 0050 链表中的节点每k个一组翻转 (中等, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0050-链表中的节点每k个一组翻转-中等-2022-03)
+- [`牛客 0054 三数之和 (中等, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0054-三数之和-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0145-01背包-中等-2022-03)
 
 </details>
 
-<details><summary><b> 合集-牛客 [56] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [57] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -297,6 +298,7 @@ Algorithms
 - [`牛客 0051 合并k个已排序的链表 (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0051-合并k个已排序的链表-较难-2022-03)
 - [`牛客 0052 有效括号序列 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0052-有效括号序列-简单-2022-03)
 - [`牛客 0053 删除链表的倒数第n个节点 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0053-删除链表的倒数第n个节点-中等-2022-03)
+- [`牛客 0054 三数之和 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0054-三数之和-中等-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-03)
@@ -406,6 +408,12 @@ Algorithms
 - [`剑指Offer 5702 和为s的连续正数序列 (简单, 2022-01)`](algorithms/topics/技巧-双指针.md#剑指offer-5702-和为s的连续正数序列-简单-2022-01)
 - [`剑指Offer 5801 翻转单词顺序 (简单, 2022-01)`](algorithms/topics/技巧-双指针.md#剑指offer-5801-翻转单词顺序-简单-2022-01)
 - [`牛客 0022 合并两个有序的数组 (中等, 2022-01)`](algorithms/topics/技巧-双指针.md#牛客-0022-合并两个有序的数组-中等-2022-01)
+
+</details>
+
+<details><summary><b> 技巧-双指针-对向双指针 [1] <a href="algorithms/topics/技巧-双指针-对向双指针.md">¶</a></b></summary>
+
+- [`牛客 0054 三数之和 (中等, 2022-03)`](algorithms/topics/技巧-双指针-对向双指针.md#牛客-0054-三数之和-中等-2022-03)
 
 </details>
 
