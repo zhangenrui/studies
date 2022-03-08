@@ -242,7 +242,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [54] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [55] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -295,6 +295,7 @@ Algorithms
 - [`牛客 0049 最长的括号子串 (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0049-最长的括号子串-较难-2022-03)
 - [`牛客 0050 链表中的节点每k个一组翻转 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0050-链表中的节点每k个一组翻转-中等-2022-03)
 - [`牛客 0051 合并k个已排序的链表 (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0051-合并k个已排序的链表-较难-2022-03)
+- [`牛客 0052 有效括号序列 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0052-有效括号序列-简单-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-03)
@@ -542,7 +543,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-栈、队列 [12] <a href="algorithms/topics/数据结构-栈、队列.md">¶</a></b></summary>
+<details><summary><b> 数据结构-栈、队列 [13] <a href="algorithms/topics/数据结构-栈、队列.md">¶</a></b></summary>
 
 - [`LeetCode 0020 有效的括号 (简单, 2022-03)`](algorithms/topics/数据结构-栈、队列.md#leetcode-0020-有效的括号-简单-2022-03)
 - [`剑指Offer 0600 从尾到头打印链表 (简单, 2021-11)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-0600-从尾到头打印链表-简单-2021-11)
@@ -556,6 +557,7 @@ Algorithms
 - [`剑指Offer 5902 队列的最大值 (中等, 2022-01)`](algorithms/topics/数据结构-栈、队列.md#剑指offer-5902-队列的最大值-中等-2022-01)
 - [`牛客 0014 按之字形顺序打印二叉树 (中等, 2022-01)`](algorithms/topics/数据结构-栈、队列.md#牛客-0014-按之字形顺序打印二叉树-中等-2022-01)
 - [`牛客 0049 最长的括号子串 (较难, 2022-03)`](algorithms/topics/数据结构-栈、队列.md#牛客-0049-最长的括号子串-较难-2022-03)
+- [`牛客 0052 有效括号序列 (简单, 2022-03)`](algorithms/topics/数据结构-栈、队列.md#牛客-0052-有效括号序列-简单-2022-03)
 
 </details>
 
