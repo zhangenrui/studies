@@ -13,7 +13,7 @@ Problems
 ### `剑指Offer2 001 整数除法 (中等, 2022-02)`
 
 [![二分](https://img.shields.io/badge/二分-lightgray.svg)](算法-二分.md)
-[![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](合集-热门&经典.md)
 [![剑指Offer2](https://img.shields.io/badge/剑指Offer2-lightgray.svg)](合集-剑指Offer2.md)
 
 <!--{

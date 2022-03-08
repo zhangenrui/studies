@@ -828,7 +828,7 @@ class Solution:
 ### `剑指Offer 3800 字符串的排列（全排列） (中等, 2021-12)`
 
 [![DFS+剪枝](https://img.shields.io/badge/DFS+剪枝-lightgray.svg)](算法-深度优先搜索(DFS).md)
-[![经典](https://img.shields.io/badge/经典-lightgray.svg)](基础-经典问题&代码.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](合集-热门&经典.md)
 [![剑指Offer](https://img.shields.io/badge/剑指Offer-lightgray.svg)](合集-剑指Offer.md)
 
 <!--{
