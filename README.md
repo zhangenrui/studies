@@ -242,7 +242,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [55] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [56] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -296,6 +296,7 @@ Algorithms
 - [`牛客 0050 链表中的节点每k个一组翻转 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0050-链表中的节点每k个一组翻转-中等-2022-03)
 - [`牛客 0051 合并k个已排序的链表 (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0051-合并k个已排序的链表-较难-2022-03)
 - [`牛客 0052 有效括号序列 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0052-有效括号序列-简单-2022-03)
+- [`牛客 0053 删除链表的倒数第n个节点 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0053-删除链表的倒数第n个节点-中等-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-03)
@@ -408,7 +409,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-双指针-快慢指针 [6] <a href="algorithms/topics/技巧-双指针-快慢指针.md">¶</a></b></summary>
+<details><summary><b> 技巧-双指针-快慢指针 [7] <a href="algorithms/topics/技巧-双指针-快慢指针.md">¶</a></b></summary>
 
 - [`LeetCode 0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/技巧-双指针-快慢指针.md#leetcode-0019-删除链表的倒数第n个结点-中等-2022-01)
 - [`LeetCode 0876 链表的中间结点 (简单, 2022-01)`](algorithms/topics/技巧-双指针-快慢指针.md#leetcode-0876-链表的中间结点-简单-2022-01)
@@ -416,6 +417,7 @@ Algorithms
 - [`剑指Offer 5200 两个链表的第一个公共节点 (简单, 2022-01)`](algorithms/topics/技巧-双指针-快慢指针.md#剑指offer-5200-两个链表的第一个公共节点-简单-2022-01)
 - [`牛客 0003 链表中环的入口结点 (简单, 2022-01)`](algorithms/topics/技巧-双指针-快慢指针.md#牛客-0003-链表中环的入口结点-简单-2022-01)
 - [`牛客 0004 判断链表中是否有环 (简单, 2022-01)`](algorithms/topics/技巧-双指针-快慢指针.md#牛客-0004-判断链表中是否有环-简单-2022-01)
+- [`牛客 0053 删除链表的倒数第n个节点 (中等, 2022-03)`](algorithms/topics/技巧-双指针-快慢指针.md#牛客-0053-删除链表的倒数第n个节点-中等-2022-03)
 
 </details>
 
