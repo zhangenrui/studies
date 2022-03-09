@@ -41,6 +41,7 @@ Codes
 - [`Trainer: Trainer 基类`](#trainer-trainer-基类)
 - [`set_seed: 设置全局随机数种子，使实验可复现`](#set_seed-设置全局随机数种子使实验可复现)
 - [`init_weights: 默认参数初始化`](#init_weights-默认参数初始化)
+- [`mixup: mixup 数据增强策略`](#mixup-mixup-数据增强策略)
 
 </details>
 
@@ -703,6 +704,44 @@ Args:
     normal_std:
 
 References: Bert
+```
+
+
+### `mixup: mixup 数据增强策略`
+> [source](huaytools/pytorch/utils/mixup.py#L31)
+
+```python
+mixup 数据增强策略
+
+Args:
+    x:
+    y:
+    a:
+
+Examples:
+    >>> x = torch.randn(3, 5)
+    >>> y = F.one_hot(torch.arange(3)).to(torch.float32)
+    >>> x_, y_ = mixup(x, y, 0.2)
+
+    ```python
+    # How to use mixup in model.
+    def forward(self, x, target=None, use_mixup=False, mixup_alpha=None):
+        x = self.layer1(x)
+
+        if use_mixup and self.training:
+            x, target = mixup(x, target, mixup_alpha)
+
+        x = self.layer2(x)
+
+        if self.training:
+            return x, target
+        else:
+            return x
+    ```
+
+References:
+    https://github.com/vikasverma1077/manifold_mixup/blob/master/supervised/models/utils.py
+    - mixup_process
 ```
 
 

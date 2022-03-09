@@ -871,6 +871,7 @@ Codes
 - [`Trainer: Trainer 基类`](src/README.md#trainer-trainer-基类)
 - [`set_seed: 设置全局随机数种子，使实验可复现`](src/README.md#set_seed-设置全局随机数种子使实验可复现)
 - [`init_weights: 默认参数初始化`](src/README.md#init_weights-默认参数初始化)
+- [`mixup: mixup 数据增强策略`](src/README.md#mixup-mixup-数据增强策略)
 
 
 ### Python Utils [¶](src/README.md#python-utils)
