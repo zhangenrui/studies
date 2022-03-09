@@ -38,10 +38,11 @@ Codes
 - [`TripletLoss: Triplet 损失，常用于无监督学习、few-shot 学习`](#tripletloss-triplet-损失常用于无监督学习few-shot-学习)
 - [`FGM: Fast Gradient Method (对抗训练)`](#fgm-fast-gradient-method-对抗训练)
 - [`PGM: Projected Gradient Method (对抗训练)`](#pgm-projected-gradient-method-对抗训练)
+- [`Mixup: mixup 数据增强策略`](#mixup-mixup-数据增强策略)
+- [`ManifoldMixup: manifold mixup 数据增强策略`](#manifoldmixup-manifold-mixup-数据增强策略)
 - [`Trainer: Trainer 基类`](#trainer-trainer-基类)
 - [`set_seed: 设置全局随机数种子，使实验可复现`](#set_seed-设置全局随机数种子使实验可复现)
 - [`init_weights: 默认参数初始化`](#init_weights-默认参数初始化)
-- [`mixup: mixup 数据增强策略`](#mixup-mixup-数据增强策略)
 
 </details>
 
@@ -653,6 +654,62 @@ References:
 ```
 
 
+### `Mixup: mixup 数据增强策略`
+> [source](huaytools/pytorch/nn/data_augmentation/mixup.py#L33)
+
+```python
+mixup 数据增强策略
+
+Examples:
+    >>> x = torch.randn(3, 5)
+    >>> y = F.one_hot(torch.arange(3)).to(torch.float32)
+    >>> mixup = Mixup()
+    >>> x, y_a, y_b = mixup(x, y)
+
+References:
+    https://github.com/facebookresearch/mixup-cifar10/blob/main/train.py
+```
+
+
+### `ManifoldMixup: manifold mixup 数据增强策略`
+> [source](huaytools/pytorch/nn/data_augmentation/mixup.py#L76)
+
+```python
+manifold mixup 数据增强策略
+
+Examples:
+    >>> x = torch.randn(3, 5)
+    >>> y = F.one_hot(torch.arange(3)).to(torch.float32)
+    >>> mixup = ManifoldMixup()
+    >>> x_, y_ = mixup(x, y)
+
+    ```python
+    # How to use mixup in model.
+    def forward(self, x, target=None, use_mixup=False, mixup_alpha=None):
+        x = self.layer1(x)
+
+        if use_mixup and self.training:
+            x, target = mixup(x, target)
+
+        x = self.layer2(x)
+
+        if self.training:
+            return x, target
+        else:
+            return x
+    ```
+
+Notes:
+    The Difference of Mixup and Manifold_Mixup?
+    - Mixup use for input (before any hidden layer).
+    - Manifold_Mixup use for hidden layer.
+
+References:
+    https://github.com/vikasverma1077/manifold_mixup/blob/master/supervised/utils.py
+    - mixup_process
+```
+
+
 ### `Trainer: Trainer 基类`
 > [source](huaytools/pytorch/train/trainer.py#L53)
 
@@ -704,44 +761,6 @@ Args:
     normal_std:
 
 References: Bert
-```
-
-
-### `mixup: mixup 数据增强策略`
-> [source](huaytools/pytorch/utils/mixup.py#L31)
-
-```python
-mixup 数据增强策略
-
-Args:
-    x:
-    y:
-    a:
-
-Examples:
-    >>> x = torch.randn(3, 5)
-    >>> y = F.one_hot(torch.arange(3)).to(torch.float32)
-    >>> x_, y_ = mixup(x, y, 0.2)
-
-    ```python
-    # How to use mixup in model.
-    def forward(self, x, target=None, use_mixup=False, mixup_alpha=None):
-        x = self.layer1(x)
-
-        if use_mixup and self.training:
-            x, target = mixup(x, target, mixup_alpha)
-
-        x = self.layer2(x)
-
-        if self.training:
-            return x, target
-        else:
-            return x
-    ```
-
-References:
-    https://github.com/vikasverma1077/manifold_mixup/blob/master/supervised/models/utils.py
-    - mixup_process
 ```
 
 

@@ -243,7 +243,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [60] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [61] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -302,6 +302,7 @@ Algorithms
 - [`牛客 0055 最长公共前缀 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0055-最长公共前缀-简单-2022-03)
 - [`牛客 0056 回文数字 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0056-回文数字-简单-2022-03)
 - [`牛客 0057 反转数字 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0057-反转数字-简单-2022-03)
+- [`牛客 0058 找到搜索二叉树中两个错误的节点 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0058-找到搜索二叉树中两个错误的节点-中等-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-03)
@@ -485,7 +486,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-二叉树 [33] <a href="algorithms/topics/数据结构-二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-二叉树 [34] <a href="algorithms/topics/数据结构-二叉树.md">¶</a></b></summary>
 
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/数据结构-二叉树.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](algorithms/topics/数据结构-二叉树.md#leetcode-0111-二叉树的最小深度-简单-2021-10)
@@ -520,6 +521,7 @@ Algorithms
 - [`牛客 0014 按之字形顺序打印二叉树 (中等, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-0014-按之字形顺序打印二叉树-中等-2022-01)
 - [`牛客 0015 求二叉树的层序遍历 (中等, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-0015-求二叉树的层序遍历-中等-2022-01)
 - [`牛客 0016 对称的二叉树 (简单, 2022-01)`](algorithms/topics/数据结构-二叉树.md#牛客-0016-对称的二叉树-简单-2022-01)
+- [`牛客 0058 找到搜索二叉树中两个错误的节点 (中等, 2022-03)`](algorithms/topics/数据结构-二叉树.md#牛客-0058-找到搜索二叉树中两个错误的节点-中等-2022-03)
 
 </details>
 
@@ -868,10 +870,11 @@ Codes
 - [`TripletLoss: Triplet 损失，常用于无监督学习、few-shot 学习`](src/README.md#tripletloss-triplet-损失常用于无监督学习few-shot-学习)
 - [`FGM: Fast Gradient Method (对抗训练)`](src/README.md#fgm-fast-gradient-method-对抗训练)
 - [`PGM: Projected Gradient Method (对抗训练)`](src/README.md#pgm-projected-gradient-method-对抗训练)
+- [`Mixup: mixup 数据增强策略`](src/README.md#mixup-mixup-数据增强策略)
+- [`ManifoldMixup: manifold mixup 数据增强策略`](src/README.md#manifoldmixup-manifold-mixup-数据增强策略)
 - [`Trainer: Trainer 基类`](src/README.md#trainer-trainer-基类)
 - [`set_seed: 设置全局随机数种子，使实验可复现`](src/README.md#set_seed-设置全局随机数种子使实验可复现)
 - [`init_weights: 默认参数初始化`](src/README.md#init_weights-默认参数初始化)
-- [`mixup: mixup 数据增强策略`](src/README.md#mixup-mixup-数据增强策略)
 
 
 ### Python Utils [¶](src/README.md#python-utils)
