@@ -173,6 +173,9 @@ def _test():
     """"""
     doctest.testmod()
 
+    # n = Notes(r'/Users/huayang/workspace/my/studies/notes')
+    # print(n.content)
+
 
 if __name__ == '__main__':
     """"""
