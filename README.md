@@ -243,7 +243,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [57] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [58] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -299,6 +299,7 @@ Algorithms
 - [`牛客 0052 有效括号序列 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0052-有效括号序列-简单-2022-03)
 - [`牛客 0053 删除链表的倒数第n个节点 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0053-删除链表的倒数第n个节点-中等-2022-03)
 - [`牛客 0054 三数之和 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0054-三数之和-中等-2022-03)
+- [`牛客 0055 最长公共前缀 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0055-最长公共前缀-简单-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-03)
@@ -527,7 +528,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-字符串 [9] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
+<details><summary><b> 数据结构-字符串 [10] <a href="algorithms/topics/数据结构-字符串.md">¶</a></b></summary>
 
 - [`LeetCode 0434 字符串中的单词数 (简单, 2021-10)`](algorithms/topics/数据结构-字符串.md#leetcode-0434-字符串中的单词数-简单-2021-10)
 - [`LeetCode 0859 亲密字符串 (简单, 2021-11)`](algorithms/topics/数据结构-字符串.md#leetcode-0859-亲密字符串-简单-2021-11)
@@ -538,10 +539,11 @@ Algorithms
 - [`剑指Offer 6700 把字符串转换成整数（atoi） (中等, 2022-01)`](algorithms/topics/数据结构-字符串.md#剑指offer-6700-把字符串转换成整数atoi-中等-2022-01)
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/数据结构-字符串.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0010 大数乘法 (中等, 2022-01)`](algorithms/topics/数据结构-字符串.md#牛客-0010-大数乘法-中等-2022-01)
+- [`牛客 0055 最长公共前缀 (简单, 2022-03)`](algorithms/topics/数据结构-字符串.md#牛客-0055-最长公共前缀-简单-2022-03)
 
 </details>
 
-<details><summary><b> 数据结构-数组、矩阵(二维数组) [7] <a href="algorithms/topics/数据结构-数组、矩阵(二维数组).md">¶</a></b></summary>
+<details><summary><b> 数据结构-数组、矩阵(二维数组) [8] <a href="algorithms/topics/数据结构-数组、矩阵(二维数组).md">¶</a></b></summary>
 
 - [`剑指Offer 2100 调整数组顺序使奇数位于偶数前面 (简单, 2021-11)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#剑指offer-2100-调整数组顺序使奇数位于偶数前面-简单-2021-11)
 - [`剑指Offer 2900 顺时针打印矩阵（3种思路4个写法） (中等, 2021-11)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#剑指offer-2900-顺时针打印矩阵3种思路4个写法-中等-2021-11)
@@ -550,6 +552,7 @@ Algorithms
 - [`牛客 0018 顺时针旋转矩阵 (简单, 2022-01)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#牛客-0018-顺时针旋转矩阵-简单-2022-01)
 - [`牛客 0030 缺失的第一个正整数 (中等, 2022-02)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#牛客-0030-缺失的第一个正整数-中等-2022-02)
 - [`牛客 0038 螺旋矩阵 (中等, 2022-03)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#牛客-0038-螺旋矩阵-中等-2022-03)
+- [`牛客 0055 最长公共前缀 (简单, 2022-03)`](algorithms/topics/数据结构-数组、矩阵(二维数组).md#牛客-0055-最长公共前缀-简单-2022-03)
 
 </details>
 
