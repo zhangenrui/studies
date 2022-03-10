@@ -39,7 +39,6 @@ Codes
 - [`FGM: Fast Gradient Method (对抗训练)`](#fgm-fast-gradient-method-对抗训练)
 - [`PGM: Projected Gradient Method (对抗训练)`](#pgm-projected-gradient-method-对抗训练)
 - [`Mixup: mixup 数据增强策略`](#mixup-mixup-数据增强策略)
-- [`ManifoldMixup: manifold mixup 数据增强策略`](#manifoldmixup-manifold-mixup-数据增强策略)
 - [`Trainer: Trainer 基类`](#trainer-trainer-基类)
 - [`set_seed: 设置全局随机数种子，使实验可复现`](#set_seed-设置全局随机数种子使实验可复现)
 - [`init_weights: 默认参数初始化`](#init_weights-默认参数初始化)
@@ -655,58 +654,53 @@ References:
 
 
 ### `Mixup: mixup 数据增强策略`
-> [source](huaytools/pytorch/nn/data_augmentation/mixup.py#L33)
+> [source](huaytools/pytorch/nn/data_augmentation/mixup.py#L55)
 
 ```python
 mixup 数据增强策略
 
 Examples:
-    >>> x = torch.randn(3, 5)
-    >>> y = F.one_hot(torch.arange(3)).to(torch.float32)
-    >>> mixup = Mixup()
-    >>> x, y_a, y_b = mixup(x, y)
-
-References:
-    https://github.com/facebookresearch/mixup-cifar10/blob/main/train.py
-```
-
-
-### `ManifoldMixup: manifold mixup 数据增强策略`
-> [source](huaytools/pytorch/nn/data_augmentation/mixup.py#L76)
-
-```python
-manifold mixup 数据增强策略
-
-Examples:
-    >>> x = torch.randn(3, 5)
-    >>> y = F.one_hot(torch.arange(3)).to(torch.float32)
-    >>> mixup = ManifoldMixup()
-    >>> x_, y_ = mixup(x, y)
-
+    # 示例1: 在数据中混合 y（论文中的用法）
     ```python
-    # How to use mixup in model.
-    def forward(self, x, target=None, use_mixup=False, mixup_alpha=None):
-        x = self.layer1(x)
-
-        if use_mixup and self.training:
-            x, target = mixup(x, target)
-
-        x = self.layer2(x)
-
-        if self.training:
-            return x, target
-        else:
-            return x
+    # train in one step
+    mixup = Mixup(manifold_mixup=True)
+    for x, y in data_loader:
+        x, y = mixup(x, y)
+        x = model(x)
+        loss = loss_fn(x, y)  # 法1）推荐用法
+        # loss = mixup.compute_loss(loss_fn, x, y)  # 法2）when `manifold_mixup` is False
+        # 法1 是论文中提出的方法，法2 是论文代码中的实现方式；
+        # 以上两种计算 loss 的方法在使用 交叉熵 损失时是等价的；
+        #   > https://github.com/facebookresearch/mixup-cifar10/issues/18
+        ...
     ```
 
-Notes:
-    The Difference of Mixup and Manifold_Mixup?
-    - Mixup use for input (before any hidden layer).
-    - Manifold_Mixup use for hidden layer.
+    # 示例：Manifold Mixup，用于中间层混合
+    ```
+    class ExampleModel(nn.Module):
+
+        def __init__(self, n_layers):
+            super().__init__()
+
+            self.n_layers = n_layers
+            self.layers = nn.ModuleList([nn.Linear(3, 5) for _ in range(self.n_layers)])
+            self.mixup = Mixup(manifold_mixup=True)
+            self.loss_fn = nn.CrossEntropyLoss()
+
+        def forward(self, x, y):
+            mixup_layer = np.random.randint(self.n_layers)
+            for idx, layer in enumerate(self.layers):
+                # mixup once
+                if idx == mixup_layer:
+                    x, y = self.mixup(x, y)
+                x = layer(x)
+
+            return self.loss_fn(x, y)
+    ```
 
 References:
-    https://github.com/vikasverma1077/manifold_mixup/blob/master/supervised/utils.py
-    - mixup_process
+    - https://github.com/facebookresearch/mixup-cifar10/blob/main/train.py
+    - https://github.com/vikasverma1077/manifold_mixup/blob/master/supervised/utils.py
 ```
 
 

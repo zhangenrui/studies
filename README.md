@@ -871,7 +871,6 @@ Codes
 - [`FGM: Fast Gradient Method (对抗训练)`](src/README.md#fgm-fast-gradient-method-对抗训练)
 - [`PGM: Projected Gradient Method (对抗训练)`](src/README.md#pgm-projected-gradient-method-对抗训练)
 - [`Mixup: mixup 数据增强策略`](src/README.md#mixup-mixup-数据增强策略)
-- [`ManifoldMixup: manifold mixup 数据增强策略`](src/README.md#manifoldmixup-manifold-mixup-数据增强策略)
 - [`Trainer: Trainer 基类`](src/README.md#trainer-trainer-基类)
 - [`set_seed: 设置全局随机数种子，使实验可复现`](src/README.md#set_seed-设置全局随机数种子使实验可复现)
 - [`init_weights: 默认参数初始化`](src/README.md#init_weights-默认参数初始化)
