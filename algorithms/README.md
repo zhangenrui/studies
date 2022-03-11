@@ -3,7 +3,7 @@ Algorithms
 
 <font color="LightGrey"><i> `This README is Auto-generated` </i></font>
 
-<details><summary><b> 合集-LeetCode [58] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [60] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -27,6 +27,7 @@ Algorithms
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](topics/合集-LeetCode.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0086 分隔链表 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0086-分隔链表-中等-2021-10)
 - [`LeetCode 0091 解码方法 (中等, 2022-02)`](topics/合集-LeetCode.md#leetcode-0091-解码方法-中等-2022-02)
+- [`LeetCode 0098 验证二叉搜索树 (中等, 2022-03)`](topics/合集-LeetCode.md#leetcode-0098-验证二叉搜索树-中等-2022-03)
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](topics/合集-LeetCode.md#leetcode-0110-平衡二叉树-简单-2022-02)
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0111-二叉树的最小深度-简单-2021-10)
@@ -62,6 +63,7 @@ Algorithms
 - [`LeetCode 0859 亲密字符串 (简单, 2021-11)`](topics/合集-LeetCode.md#leetcode-0859-亲密字符串-简单-2021-11)
 - [`LeetCode 0876 链表的中间结点 (简单, 2022-01)`](topics/合集-LeetCode.md#leetcode-0876-链表的中间结点-简单-2022-01)
 - [`LeetCode 0915 分割数组 (中等, 2022-01)`](topics/合集-LeetCode.md#leetcode-0915-分割数组-中等-2022-01)
+- [`LeetCode 0958 二叉树的完全性检验 (中等, 2022-03)`](topics/合集-LeetCode.md#leetcode-0958-二叉树的完全性检验-中等-2022-03)
 - [`LeetCode 0988 从叶结点开始的最小字符串 (中等, 2022-02)`](topics/合集-LeetCode.md#leetcode-0988-从叶结点开始的最小字符串-中等-2022-02)
 
 </details>
@@ -158,6 +160,7 @@ Algorithms
 
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](topics/合集-热门&经典.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](topics/合集-热门&经典.md#leetcode-0300-最长递增子序列-中等-2022-01)
+- [`LeetCode 0958 二叉树的完全性检验 (中等, 2022-03)`](topics/合集-热门&经典.md#leetcode-0958-二叉树的完全性检验-中等-2022-03)
 - [`剑指Offer 0700 重建二叉树 (中等, 2021-11)`](topics/合集-热门&经典.md#剑指offer-0700-重建二叉树-中等-2021-11)
 - [`剑指Offer 1600 数值的整数次方（快速幂） (中等, 2021-11)`](topics/合集-热门&经典.md#剑指offer-1600-数值的整数次方快速幂-中等-2021-11)
 - [`剑指Offer 2400 反转链表 (简单, 2021-11)`](topics/合集-热门&经典.md#剑指offer-2400-反转链表-简单-2021-11)
@@ -178,7 +181,6 @@ Algorithms
 - [`牛客 0048 在旋转过的有序数组中寻找目标值 (简单, 2022-03)`](topics/合集-热门&经典.md#牛客-0048-在旋转过的有序数组中寻找目标值-简单-2022-03)
 - [`牛客 0050 链表中的节点每k个一组翻转 (中等, 2022-03)`](topics/合集-热门&经典.md#牛客-0050-链表中的节点每k个一组翻转-中等-2022-03)
 - [`牛客 0054 三数之和 (中等, 2022-03)`](topics/合集-热门&经典.md#牛客-0054-三数之和-中等-2022-03)
-- [`牛客 0060 判断一棵二叉树是否为搜索二叉树和完全二叉树 (中等, 2022-03)`](topics/合集-热门&经典.md#牛客-0060-判断一棵二叉树是否为搜索二叉树和完全二叉树-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](topics/合集-热门&经典.md#牛客-0145-01背包-中等-2022-03)
 
 </details>
@@ -427,8 +429,9 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-二叉树 [34] <a href="topics/数据结构-二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-二叉树 [36] <a href="topics/数据结构-二叉树.md">¶</a></b></summary>
 
+- [`LeetCode 0098 验证二叉搜索树 (中等, 2022-03)`](topics/数据结构-二叉树.md#leetcode-0098-验证二叉搜索树-中等-2022-03)
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode 0111 二叉树的最小深度 (简单, 2021-10)`](topics/数据结构-二叉树.md#leetcode-0111-二叉树的最小深度-简单-2021-10)
 - [`LeetCode 0112 路径总和 (简单, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0112-路径总和-简单-2022-02)
@@ -436,6 +439,7 @@ Algorithms
 - [`LeetCode 0129 求根节点到叶节点数字之和 (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0129-求根节点到叶节点数字之和-中等-2022-02)
 - [`LeetCode 0257 二叉树的所有路径 (简单, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0257-二叉树的所有路径-简单-2022-02)
 - [`LeetCode 0437 路径总和III (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0437-路径总和iii-中等-2022-02)
+- [`LeetCode 0958 二叉树的完全性检验 (中等, 2022-03)`](topics/数据结构-二叉树.md#leetcode-0958-二叉树的完全性检验-中等-2022-03)
 - [`LeetCode 0988 从叶结点开始的最小字符串 (中等, 2022-02)`](topics/数据结构-二叉树.md#leetcode-0988-从叶结点开始的最小字符串-中等-2022-02)
 - [`剑指Offer 0700 重建二叉树 (中等, 2021-11)`](topics/数据结构-二叉树.md#剑指offer-0700-重建二叉树-中等-2021-11)
 - [`剑指Offer 2600 树的子结构 (中等, 2021-11)`](topics/数据结构-二叉树.md#剑指offer-2600-树的子结构-中等-2021-11)
