@@ -11,6 +11,7 @@ Problems
 - [`剑指Offer 4800 最长不含重复字符的子字符串 (中等, 2021-12)`](#剑指offer-4800-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer 5000 第一个只出现一次的字符 (简单, 2021-12)`](#剑指offer-5000-第一个只出现一次的字符-简单-2021-12)
 - [`牛客 0031 第一个只出现一次的字符 (简单, 2022-02)`](#牛客-0031-第一个只出现一次的字符-简单-2022-02)
+- [`牛客 0061 两数之和 (简单, 2022-03)`](#牛客-0061-两数之和-简单-2022-03)
 - [`程序员面试金典 0102 判定是否互为字符重排 (简单, 2022-01)`](#程序员面试金典-0102-判定是否互为字符重排-简单-2022-01)
 
 ---
@@ -840,6 +841,63 @@ class Solution:
                 return i
         
         return -1
+```
+
+</details>
+
+---
+
+### `牛客 0061 两数之和 (简单, 2022-03)`
+
+[![哈希表](https://img.shields.io/badge/哈希表-lightgray.svg)](技巧-哈希表(Hash).md)
+[![牛客](https://img.shields.io/badge/牛客-lightgray.svg)](合集-牛客.md)
+
+<!--{
+    "tags": ["哈希表"],
+    "来源": "牛客",
+    "难度": "简单",
+    "编号": "0061",
+    "标题": "两数之和",
+    "公司": []
+}-->
+
+<summary><b>问题简述</b></summary>
+
+```txt
+给出一个整型数组 numbers 和一个目标值 target，请在数组中找出两个加起来等于目标值的数的下标，返回的下标按升序排列。
+```
+> [两数之和_牛客题霸_牛客网](https://www.nowcoder.com/practice/20ef0972485e41019e39543e8e895b7f)
+
+<!-- 
+<details><summary><b>详细描述</b></summary>
+
+```txt
+```
+-->
+
+</details>
+
+<!-- <div align="center"><img src="../_assets/xxx.png" height="300" /></div> -->
+
+<summary><b>思路</b></summary>
+
+- 使用哈希表保存已经出现过的数字及其下标；
+- 利用差值可以在一次遍历中完成；
+
+<details><summary><b>Python</b></summary>
+
+```python
+class Solution:
+    def twoSum(self , numbers: List[int], target: int) -> List[int]:
+        
+        dt = dict()
+        for i, x in enumerate(numbers):
+            if (r := target - x) in dt:
+                return [dt[r], i + 1]
+            else:
+                dt[x] = i + 1
+        
+        return []
 ```
 
 </details>

@@ -246,7 +246,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [63] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [64] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -308,6 +308,7 @@ Algorithms
 - [`牛客 0058 找到搜索二叉树中两个错误的节点 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0058-找到搜索二叉树中两个错误的节点-中等-2022-03)
 - [`牛客 0059 矩阵的最小路径和 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0059-矩阵的最小路径和-中等-2022-03)
 - [`牛客 0060 判断一棵二叉树是否为搜索二叉树和完全二叉树 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0060-判断一棵二叉树是否为搜索二叉树和完全二叉树-中等-2022-03)
+- [`牛客 0061 两数之和 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0061-两数之和-简单-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-03)
@@ -449,7 +450,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-哈希表(Hash) [8] <a href="algorithms/topics/技巧-哈希表(Hash).md">¶</a></b></summary>
+<details><summary><b> 技巧-哈希表(Hash) [9] <a href="algorithms/topics/技巧-哈希表(Hash).md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](algorithms/topics/技巧-哈希表(Hash).md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0187 重复的DNA序列 (中等, 2021-10)`](algorithms/topics/技巧-哈希表(Hash).md#leetcode-0187-重复的dna序列-中等-2021-10)
@@ -458,6 +459,7 @@ Algorithms
 - [`剑指Offer 4800 最长不含重复字符的子字符串 (中等, 2021-12)`](algorithms/topics/技巧-哈希表(Hash).md#剑指offer-4800-最长不含重复字符的子字符串-中等-2021-12)
 - [`剑指Offer 5000 第一个只出现一次的字符 (简单, 2021-12)`](algorithms/topics/技巧-哈希表(Hash).md#剑指offer-5000-第一个只出现一次的字符-简单-2021-12)
 - [`牛客 0031 第一个只出现一次的字符 (简单, 2022-02)`](algorithms/topics/技巧-哈希表(Hash).md#牛客-0031-第一个只出现一次的字符-简单-2022-02)
+- [`牛客 0061 两数之和 (简单, 2022-03)`](algorithms/topics/技巧-哈希表(Hash).md#牛客-0061-两数之和-简单-2022-03)
 - [`程序员面试金典 0102 判定是否互为字符重排 (简单, 2022-01)`](algorithms/topics/技巧-哈希表(Hash).md#程序员面试金典-0102-判定是否互为字符重排-简单-2022-01)
 
 </details>
