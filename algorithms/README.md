@@ -3,7 +3,7 @@ Algorithms
 
 <font color="LightGrey"><i> `This README is Auto-generated` </i></font>
 
-<details><summary><b> 合集-LeetCode [60] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
+<details><summary><b> 合集-LeetCode [61] <a href="topics/合集-LeetCode.md">¶</a></b></summary>
 
 - [`LeetCode 0001 两数之和 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0001-两数之和-简单-2021-10)
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0002-两数相加-中等-2021-10)
@@ -27,6 +27,7 @@ Algorithms
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](topics/合集-LeetCode.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0086 分隔链表 (中等, 2021-10)`](topics/合集-LeetCode.md#leetcode-0086-分隔链表-中等-2021-10)
 - [`LeetCode 0091 解码方法 (中等, 2022-02)`](topics/合集-LeetCode.md#leetcode-0091-解码方法-中等-2022-02)
+- [`LeetCode 0096 不同的二叉搜索树 (中等, 2022-03)`](topics/合集-LeetCode.md#leetcode-0096-不同的二叉搜索树-中等-2022-03)
 - [`LeetCode 0098 验证二叉搜索树 (中等, 2022-03)`](topics/合集-LeetCode.md#leetcode-0098-验证二叉搜索树-中等-2022-03)
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](topics/合集-LeetCode.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
 - [`LeetCode 0110 平衡二叉树 (简单, 2022-02)`](topics/合集-LeetCode.md#leetcode-0110-平衡二叉树-简单-2022-02)
@@ -607,7 +608,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [38] <a href="topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
+<details><summary><b> 算法-动态规划(记忆化搜索)、递推 [39] <a href="topics/算法-动态规划(记忆化搜索)、递推.md">¶</a></b></summary>
 
 - [`LeetCode 0005 最长回文子串 (中等, 2021-10)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0005-最长回文子串-中等-2021-10)
 - [`LeetCode 0010 正则表达式匹配 (困难, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0010-正则表达式匹配-困难-2022-01)
@@ -616,6 +617,7 @@ Algorithms
 - [`LeetCode 0070 爬楼梯 (简单, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0070-爬楼梯-简单-2022-01)
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0091 解码方法 (中等, 2022-02)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0091-解码方法-中等-2022-02)
+- [`LeetCode 0096 不同的二叉搜索树 (中等, 2022-03)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0096-不同的二叉搜索树-中等-2022-03)
 - [`LeetCode 0120 三角形最小路径和 (中等, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0120-三角形最小路径和-中等-2022-01)
 - [`LeetCode 0121 买卖股票的最佳时机 (简单, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0121-买卖股票的最佳时机-简单-2022-01)
 - [`LeetCode 0122 买卖股票的最佳时机II (中等, 2022-01)`](topics/算法-动态规划(记忆化搜索)、递推.md#leetcode-0122-买卖股票的最佳时机ii-中等-2022-01)
