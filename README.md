@@ -218,7 +218,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-热门&经典 [26] <a href="algorithms/topics/合集-热门&经典.md">¶</a></b></summary>
+<details><summary><b> 合集-热门&经典 [27] <a href="algorithms/topics/合集-热门&经典.md">¶</a></b></summary>
 
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](algorithms/topics/合集-热门&经典.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/合集-热门&经典.md#leetcode-0300-最长递增子序列-中等-2022-01)
@@ -245,11 +245,12 @@ Algorithms
 - [`牛客 0054 三数之和 (中等, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0054-三数之和-中等-2022-03)
 - [`牛客 0066 两个链表的第一个公共结点 (简单, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0066-两个链表的第一个公共结点-简单-2022-03)
 - [`牛客 0067 汉诺塔问题 (中等, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0067-汉诺塔问题-中等-2022-03)
+- [`牛客 0070 单链表的排序 (简单, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0070-单链表的排序-简单-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-热门&经典.md#牛客-0145-01背包-中等-2022-03)
 
 </details>
 
-<details><summary><b> 合集-牛客 [72] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [73] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -320,6 +321,7 @@ Algorithms
 - [`牛客 0067 汉诺塔问题 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0067-汉诺塔问题-中等-2022-03)
 - [`牛客 0068 跳台阶 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0068-跳台阶-简单-2022-03)
 - [`牛客 0069 链表中倒数最后k个结点 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0069-链表中倒数最后k个结点-简单-2022-03)
+- [`牛客 0070 单链表的排序 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0070-单链表的排序-简单-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-03)
@@ -620,7 +622,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-链表 [24] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
+<details><summary><b> 数据结构-链表 [25] <a href="algorithms/topics/数据结构-链表.md">¶</a></b></summary>
 
 - [`LeetCode 0002 两数相加 (中等, 2021-10)`](algorithms/topics/数据结构-链表.md#leetcode-0002-两数相加-中等-2021-10)
 - [`LeetCode 0019 删除链表的倒数第N个结点 (中等, 2022-01)`](algorithms/topics/数据结构-链表.md#leetcode-0019-删除链表的倒数第n个结点-中等-2022-01)
@@ -646,6 +648,7 @@ Algorithms
 - [`牛客 0040 链表相加(二) (中等, 2022-03)`](algorithms/topics/数据结构-链表.md#牛客-0040-链表相加二-中等-2022-03)
 - [`牛客 0050 链表中的节点每k个一组翻转 (中等, 2022-03)`](algorithms/topics/数据结构-链表.md#牛客-0050-链表中的节点每k个一组翻转-中等-2022-03)
 - [`牛客 0066 两个链表的第一个公共结点 (简单, 2022-03)`](algorithms/topics/数据结构-链表.md#牛客-0066-两个链表的第一个公共结点-简单-2022-03)
+- [`牛客 0070 单链表的排序 (简单, 2022-03)`](algorithms/topics/数据结构-链表.md#牛客-0070-单链表的排序-简单-2022-03)
 
 </details>
 
