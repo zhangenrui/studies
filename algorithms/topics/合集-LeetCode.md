@@ -1900,7 +1900,7 @@ class Solution:
 ### `LeetCode 0072 编辑距离 (困难, 2022-01)`
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
-[![经典](https://img.shields.io/badge/经典-lightgray.svg)](合集-热门&经典.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](合集-热门&经典&易错.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
@@ -4336,7 +4336,7 @@ class Solution:
 
 [![动态规划](https://img.shields.io/badge/动态规划-lightgray.svg)](算法-动态规划(记忆化搜索)、递推.md)
 [![贪心](https://img.shields.io/badge/贪心-lightgray.svg)](技巧-贪心.md)
-[![经典](https://img.shields.io/badge/经典-lightgray.svg)](合集-热门&经典.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](合集-热门&经典&易错.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
@@ -5977,7 +5977,7 @@ class Solution:
 ### `LeetCode 0958 二叉树的完全性检验 (中等, 2022-03)`
 
 [![二叉树](https://img.shields.io/badge/二叉树-lightgray.svg)](数据结构-二叉树.md)
-[![经典](https://img.shields.io/badge/经典-lightgray.svg)](合集-热门&经典.md)
+[![经典](https://img.shields.io/badge/经典-lightgray.svg)](合集-热门&经典&易错.md)
 [![LeetCode](https://img.shields.io/badge/LeetCode-lightgray.svg)](合集-LeetCode.md)
 
 <!--{
