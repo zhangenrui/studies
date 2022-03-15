@@ -898,6 +898,7 @@ Codes
 - [`SentenceBert: Bert 句向量`](src/README.md#sentencebert-bert-句向量)
 - [`BertSequenceTagging: Bert 序列标注`](src/README.md#bertsequencetagging-bert-序列标注)
 - [`BertTextClassification: Bert 文本分类`](src/README.md#berttextclassification-bert-文本分类)
+- [`SENet1D: SENETLayer used in FiBiNET.`](src/README.md#senet1d-senetlayer-used-in-fibinet)
 - [`LayerNorm: Layer Normalization`](src/README.md#layernorm-layer-normalization)
 
 

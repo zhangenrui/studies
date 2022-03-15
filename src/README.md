@@ -24,6 +24,7 @@ Codes
 - [`SentenceBert: Bert 句向量`](#sentencebert-bert-句向量)
 - [`BertSequenceTagging: Bert 序列标注`](#bertsequencetagging-bert-序列标注)
 - [`BertTextClassification: Bert 文本分类`](#berttextclassification-bert-文本分类)
+- [`SENet1D: SENETLayer used in FiBiNET.`](#senet1d-senetlayer-used-in-fibinet)
 - [`LayerNorm: Layer Normalization`](#layernorm-layer-normalization)
 
 </details>
@@ -364,6 +365,17 @@ Bert 序列标注
 
 ```python
 Bert 文本分类
+```
+
+
+### `SENet1D: SENETLayer used in FiBiNET.`
+> [source](huaytools/pytorch/nn/layers/se_net.py#L31)
+
+```python
+SENETLayer used in FiBiNET.
+
+References:
+    https://github.com/shenweichen/DeepCTR-Torch/blob/master/deepctr_torch/layers/interaction.py#L64
 ```
 
 
