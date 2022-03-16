@@ -251,7 +251,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [76] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [77] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -325,6 +325,7 @@ Algorithms
 - [`牛客 0070 单链表的排序 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0070-单链表的排序-简单-2022-03)
 - [`牛客 0071 旋转数组的最小数字 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0071-旋转数组的最小数字-简单-2022-03)
 - [`牛客 0072 二叉树的镜像 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0072-二叉树的镜像-简单-2022-03)
+- [`牛客 0073 数组中出现次数超过一半的数字 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0073-数组中出现次数超过一半的数字-简单-2022-03)
 - [`牛客 0080 把二叉树打印成多行 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0080-把二叉树打印成多行-中等-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
@@ -357,7 +358,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 基础-模拟 [20] <a href="algorithms/topics/基础-模拟.md">¶</a></b></summary>
+<details><summary><b> 基础-模拟 [21] <a href="algorithms/topics/基础-模拟.md">¶</a></b></summary>
 
 - [`LeetCode 0005 最长回文子串 (中等, 2021-10)`](algorithms/topics/基础-模拟.md#leetcode-0005-最长回文子串-中等-2021-10)
 - [`LeetCode 0143 重排链表 (中等, 2022-01)`](algorithms/topics/基础-模拟.md#leetcode-0143-重排链表-中等-2022-01)
@@ -379,6 +380,7 @@ Algorithms
 - [`牛客 0038 螺旋矩阵 (中等, 2022-03)`](algorithms/topics/基础-模拟.md#牛客-0038-螺旋矩阵-中等-2022-03)
 - [`牛客 0057 反转数字 (简单, 2022-03)`](algorithms/topics/基础-模拟.md#牛客-0057-反转数字-简单-2022-03)
 - [`牛客 0063 扑克牌顺子 (简单, 2022-03)`](algorithms/topics/基础-模拟.md#牛客-0063-扑克牌顺子-简单-2022-03)
+- [`牛客 0073 数组中出现次数超过一半的数字 (简单, 2022-03)`](algorithms/topics/基础-模拟.md#牛客-0073-数组中出现次数超过一半的数字-简单-2022-03)
 
 </details>
 
