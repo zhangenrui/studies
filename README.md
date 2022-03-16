@@ -218,7 +218,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-热门&经典&易错 [28] <a href="algorithms/topics/合集-热门&经典&易错.md">¶</a></b></summary>
+<details><summary><b> 合集-热门&经典&易错 [29] <a href="algorithms/topics/合集-热门&经典&易错.md">¶</a></b></summary>
 
 - [`LeetCode 0072 编辑距离 (困难, 2022-01)`](algorithms/topics/合集-热门&经典&易错.md#leetcode-0072-编辑距离-困难-2022-01)
 - [`LeetCode 0300 最长递增子序列 (中等, 2022-01)`](algorithms/topics/合集-热门&经典&易错.md#leetcode-0300-最长递增子序列-中等-2022-01)
@@ -246,12 +246,13 @@ Algorithms
 - [`牛客 0066 两个链表的第一个公共结点 (简单, 2022-03)`](algorithms/topics/合集-热门&经典&易错.md#牛客-0066-两个链表的第一个公共结点-简单-2022-03)
 - [`牛客 0067 汉诺塔问题 (中等, 2022-03)`](algorithms/topics/合集-热门&经典&易错.md#牛客-0067-汉诺塔问题-中等-2022-03)
 - [`牛客 0070 单链表的排序 (简单, 2022-03)`](algorithms/topics/合集-热门&经典&易错.md#牛客-0070-单链表的排序-简单-2022-03)
+- [`牛客 0075 数组中只出现一次的两个数字 (中等, 2022-03)`](algorithms/topics/合集-热门&经典&易错.md#牛客-0075-数组中只出现一次的两个数字-中等-2022-03)
 - [`牛客 0080 把二叉树打印成多行 (中等, 2022-03)`](algorithms/topics/合集-热门&经典&易错.md#牛客-0080-把二叉树打印成多行-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-热门&经典&易错.md#牛客-0145-01背包-中等-2022-03)
 
 </details>
 
-<details><summary><b> 合集-牛客 [78] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [79] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -327,6 +328,7 @@ Algorithms
 - [`牛客 0072 二叉树的镜像 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0072-二叉树的镜像-简单-2022-03)
 - [`牛客 0073 数组中出现次数超过一半的数字 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0073-数组中出现次数超过一半的数字-简单-2022-03)
 - [`牛客 0074 数字在升序数组中出现的次数 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0074-数字在升序数组中出现的次数-简单-2022-03)
+- [`牛客 0075 数组中只出现一次的两个数字 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0075-数组中只出现一次的两个数字-中等-2022-03)
 - [`牛客 0080 把二叉树打印成多行 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0080-把二叉树打印成多行-中等-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
@@ -400,7 +402,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 技巧-位运算 [7] <a href="algorithms/topics/技巧-位运算.md">¶</a></b></summary>
+<details><summary><b> 技巧-位运算 [8] <a href="algorithms/topics/技巧-位运算.md">¶</a></b></summary>
 
 - [`LeetCode 0029 两数相除 (中等, 2021-10)`](algorithms/topics/技巧-位运算.md#leetcode-0029-两数相除-中等-2021-10)
 - [`LeetCode 0187 重复的DNA序列 (中等, 2021-10)`](algorithms/topics/技巧-位运算.md#leetcode-0187-重复的dna序列-中等-2021-10)
@@ -409,6 +411,7 @@ Algorithms
 - [`剑指Offer 5602 数组中数字出现的次数 (中等, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer-5602-数组中数字出现的次数-中等-2022-01)
 - [`剑指Offer 6500 不用加减乘除做加法 (简单, 2022-01)`](algorithms/topics/技巧-位运算.md#剑指offer-6500-不用加减乘除做加法-简单-2022-01)
 - [`牛客 0039 N皇后问题 (较难, 2022-03)`](algorithms/topics/技巧-位运算.md#牛客-0039-n皇后问题-较难-2022-03)
+- [`牛客 0075 数组中只出现一次的两个数字 (中等, 2022-03)`](algorithms/topics/技巧-位运算.md#牛客-0075-数组中只出现一次的两个数字-中等-2022-03)
 
 </details>
 

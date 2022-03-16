@@ -6917,47 +6917,33 @@ class Solution:
     ```
 - 根据性质1 和性质2，可以构造如下算法：
     ```
-    定义 all_xor(nums) := nums[0] ^ nums[1] ^ .. ^ nums[-1]
+    定义 all_xor(arr) := arr[0] ^ arr[1] ^ .. ^ arr[-1]
     记这两个不同的数分别为 a 和 b
-    则 ab = a ^ b = all_xor(nums)  # 存在两个相同数字的都被消去
+    则 ab = a ^ b = all_xor(arr)  # 存在两个相同数字的都被消去
     因为 a != b，则 ab 的二进制表示中必然有一个为 1（因为 0^1=1）
-    根据这个位置的 1 将 nums 分为两组 ls 和 rs
-    则结果为 [all_xor(ls), all_xor(rs)]
+    根据这个位置的 1 将 nums 分为两组，则 a 和 b 分别在这两组数字中，分别求一次 all_xor 即可；
     ```
-
 
 <details><summary><b>Python</b></summary>
 
 ```python
 class Solution:
-    def singleNumbers(self, nums: List[int]) -> List[int]:
+    def singleNumbers(self, arr: List[int]) -> List[int]:
         
-        def all_xor(ns):
-            r = 0
-            for x in ns:
-                r ^= x
-            return r
-
-        # 求 a^b
-        ab = all_xor(nums)
-
-        # 找出二进制 ab 中从左往右第一个 1 的索引
-        idx = 0
-        while not ab & 1:
-            ab >>= 1
-            idx += 1
+        ab = 0  # 计算 a ^ b
+        for x in arr:
+            ab ^= x
+            
+        r = ab & (~ab + 1)  # 计算 ab 最右侧的 1
         
-        # 将 nums 根据 1 的位置分为两部分
-        y = 1 << idx
-        ls, rs = [], []
-        for x in nums:
-            if x & y:
-                ls.append(x)
+        a = b = 0
+        for x in arr:  # 根据 r 位置是否为 1 将 arr 分为两组
+            if r & x:
+                a ^= x
             else:
-                rs.append(x)
+                b ^= x
         
-        return [all_xor(ls), all_xor(rs)]
-        
+        return [a, b]
 ```
 
 </details>
