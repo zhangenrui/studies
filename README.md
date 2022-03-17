@@ -254,7 +254,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 合集-牛客 [83] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
+<details><summary><b> 合集-牛客 [84] <a href="algorithms/topics/合集-牛客.md">¶</a></b></summary>
 
 - [`牛客 0001 大数加法 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0001-大数加法-中等-2022-01)
 - [`牛客 0002 重排链表 (中等, 2022-01)`](algorithms/topics/合集-牛客.md#牛客-0002-重排链表-中等-2022-01)
@@ -336,6 +336,7 @@ Algorithms
 - [`牛客 0078 反转链表 (简单, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0078-反转链表-简单-2022-03)
 - [`牛客 0079 丑数 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0079-丑数-中等-2022-03)
 - [`牛客 0080 把二叉树打印成多行 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0080-把二叉树打印成多行-中等-2022-03)
+- [`牛客 0081 二叉搜索树的第k个节点 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0081-二叉搜索树的第k个节点-中等-2022-03)
 - [`牛客 0091 最长上升子序列(三) (较难, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0091-最长上升子序列三-较难-2022-03)
 - [`牛客 0127 最长公共子串 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0127-最长公共子串-中等-2022-03)
 - [`牛客 0145 01背包 (中等, 2022-03)`](algorithms/topics/合集-牛客.md#牛客-0145-01背包-中等-2022-03)
@@ -525,7 +526,7 @@ Algorithms
 
 </details>
 
-<details><summary><b> 数据结构-二叉树 [40] <a href="algorithms/topics/数据结构-二叉树.md">¶</a></b></summary>
+<details><summary><b> 数据结构-二叉树 [41] <a href="algorithms/topics/数据结构-二叉树.md">¶</a></b></summary>
 
 - [`LeetCode 0098 验证二叉搜索树 (中等, 2022-03)`](algorithms/topics/数据结构-二叉树.md#leetcode-0098-验证二叉搜索树-中等-2022-03)
 - [`LeetCode 0104 二叉树的最大深度 (简单, 2021-10)`](algorithms/topics/数据结构-二叉树.md#leetcode-0104-二叉树的最大深度-简单-2021-10)
@@ -567,6 +568,7 @@ Algorithms
 - [`牛客 0064 二叉搜索树与双向链表 (中等, 2022-03)`](algorithms/topics/数据结构-二叉树.md#牛客-0064-二叉搜索树与双向链表-中等-2022-03)
 - [`牛客 0072 二叉树的镜像 (简单, 2022-03)`](algorithms/topics/数据结构-二叉树.md#牛客-0072-二叉树的镜像-简单-2022-03)
 - [`牛客 0080 把二叉树打印成多行 (中等, 2022-03)`](algorithms/topics/数据结构-二叉树.md#牛客-0080-把二叉树打印成多行-中等-2022-03)
+- [`牛客 0081 二叉搜索树的第k个节点 (中等, 2022-03)`](algorithms/topics/数据结构-二叉树.md#牛客-0081-二叉搜索树的第k个节点-中等-2022-03)
 
 </details>
 
