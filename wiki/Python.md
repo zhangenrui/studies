@@ -197,23 +197,26 @@ jupyter notebook list
         Subject:
 
         """
-        import os
-        import sys
-        import json
-        import doctest
+        import os  # noqa
+        import doctest  # noqa
 
-        from typing import *      
-        from collections import defaultdict
+        # from collections import defaultdict
+        # from itertools import islice
+        # from pathlib import Path
+        # from typing import *
+
+        # from tqdm import tqdm
 
 
-        def _test():
-            """"""
-            doctest.testmod()
+        class Test:
+            def __init__(self):
+                """"""
+                doctest.testmod()
 
 
         if __name__ == '__main__':
             """"""
-            _test()
+            Test()
         ```
 
 - 设置 Python Console 模板：`Python Console`
