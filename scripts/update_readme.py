@@ -147,11 +147,22 @@ class AlgorithmReadme:
                     info = json.loads(info_ret.group(1))
                 except:
                     raise ValueError(f'parse info error: {fp}')
-
+                self.try_add_title(fp, txt, name)
                 fp_str = self.try_rename(info, fp)
                 tmp[fp_str] = info
 
         self.all_problems_info = tmp
+
+    def try_add_title(self, fp, txt, name):  # noqa
+        """"""
+        if txt.startswith('##'):
+            return
+        lns = txt.split('\n')
+        info = name.split('_')
+        title = f'## {info[3]}（{info[0]}-{info[1]}, {info[2]}）'
+        lns.insert(0, title)
+        fw = open(fp, 'w', encoding='utf8')
+        fw.write('\n'.join(lns))
 
     def try_rename(self, info, fp):  # noqa
         """"""
