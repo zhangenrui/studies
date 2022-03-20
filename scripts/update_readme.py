@@ -147,18 +147,18 @@ class AlgorithmReadme:
                     info = json.loads(info_ret.group(1))
                 except:
                     raise ValueError(f'parse info error: {fp}')
-                self.try_add_title(fp, txt, name)
-                fp_str = self.try_rename(info, fp)
-                tmp[fp_str] = info
+                fp = self.try_rename(info, fp)
+                self.try_add_title(fp, txt)
+                tmp[str(fp)] = info
 
         self.all_problems_info = tmp
 
-    def try_add_title(self, fp, txt, name):  # noqa
+    def try_add_title(self, fp, txt):  # noqa
         """"""
         if txt.startswith('##'):
             return
         lns = txt.split('\n')
-        info = name.split('_')
+        info = fp.name.split('_')
         title = f'## {info[3]}（{info[0]}-{info[1]}, {info[2]}）'
         lns.insert(0, title)
         fw = open(fp, 'w', encoding='utf8')
@@ -174,7 +174,7 @@ class AlgorithmReadme:
             command_ln = f'git add "{fp}"'
             self.logger.info(command_ln)
             os.system(command_ln)
-        return str(fp)
+        return fp
 
     def get_tag2problems(self):
         """"""
