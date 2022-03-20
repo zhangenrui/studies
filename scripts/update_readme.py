@@ -91,19 +91,28 @@ class AlgorithmReadme:
         """"""
         lns = self.get_main_content(self.algorithm_readme_path)
 
+        # def sort_key(x):
+        #     if x.startswith('合集'):
+        #         return 0, x
+        #     else:
+        #         return 1, x
+        #
+        # tmp = sorted(self.topic2problems.keys(), key=sort_key)
+
         # 合集
         lns.append('')
-        lns.append('## 合集')
-        for topic in self.topic2problems:
+        cnt = [sum(len(it) for k, it in self.topic2problems.items() if k.startswith("合集"))]
+        lns.append(f'## 合集 {cnt}')
+        for topic, ps in self.topic2problems.items():
             if topic.startswith('合集'):
-                lns.append(f'- [{topic}](./{self.NOTES}/{topic}.md)')
+                lns.append(f'- [{topic}](./{self.NOTES}/{topic}.md) [{len(ps)}]')
 
         # 细分类型
         lns.append('')
         lns.append('## 细分类型')
-        for topic in self.topic2problems:
+        for topic, ps in self.topic2problems.items():
             if not topic.startswith('合集'):
-                lns.append(f'- [{topic}](./{self.NOTES}/{topic}.md)')
+                lns.append(f'- [{topic}](./{self.NOTES}/{topic}.md) [{len(ps)}]')
 
         fw = open(self.algorithm_readme_path, 'w', encoding='utf8')
         fw.write('\n'.join(lns))
