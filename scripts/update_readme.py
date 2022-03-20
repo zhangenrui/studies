@@ -35,7 +35,6 @@ class AlgorithmReadme:
     Algorithm README 生成
 
     TODO:
-        - 合集
         - 问题分类、精选问题才会加入
 
     """
@@ -212,18 +211,23 @@ class AlgorithmReadme:
         self.tag2topic = {v.lower(): k for k, vs in tmp.items() for v in vs}
 
 
+def pipeline():
+    """"""
+    AlgorithmReadme()
+
+
 class Test:
     def __init__(self):
         """"""
         doctest.testmod()
-        self.test_AlgorithmReadme()
+        # self.test_AlgorithmReadme()
 
     def test_AlgorithmReadme(self):  # noqa
         """"""
-        ar = AlgorithmReadme()
+        AlgorithmReadme()
         # print(json.dumps(ar.tag2topic, indent=4, ensure_ascii=False))
 
 
 if __name__ == '__main__':
     """"""
-    Test()
+    pipeline()
