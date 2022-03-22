@@ -80,7 +80,8 @@ class AlgorithmReadme:
             return []
 
         lns = []
-        for ln in open(fp, encoding='utf8').read().split('\n'):
+        txt = open(fp, encoding='utf8').read()
+        for ln in txt.split('\n'):
             lns.append(ln)
             if ln == self.AUTO_GENERATED:
                 break
@@ -125,16 +126,15 @@ class AlgorithmReadme:
 
             if not lns:
                 lns.append(f'# {topic}')
-                lns.append('')
-                lns.append(f'- [Problems List](#problems-list)')
+                lns.append(f'> [Problems](#problems)')
                 lns.append('')
                 lns.append(self.AUTO_GENERATED)
 
             lns.append('')
-            lns.append(f'## Problems List')
+            lns.append(f'## Problems')
             for p in problems:
                 p = Path(p)
-                lns.append(f'- [{p.name}]({".." / p.relative_to(self.main_dir)})')
+                lns.append(f'- [`{p.stem}`]({".." / p.relative_to(self.main_dir)})')
 
             fw = open(fp, 'w', encoding='utf8')
             fw.write('\n'.join(lns))
