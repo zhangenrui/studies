@@ -1,4 +1,4 @@
-# studies-[gitbook](https://imhuay.gitbook.io/studies-gitbook)
+# studies-[gitbook](https://imhuay.gitbook.io/studies)
 
 <!-- ![python-version](https://img.shields.io/badge/python-3.8+-green) -->
 <!-- ![pytorch-version](https://img.shields.io/badge/pytorch-1.8+-green) -->
