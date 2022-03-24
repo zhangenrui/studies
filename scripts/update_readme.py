@@ -136,8 +136,16 @@ class AlgorithmReadme:
                 p = Path(p)
                 lns.append(f'- [`{p.stem}`]({".." / p.relative_to(self.main_dir)})')
 
+            flag = not os.path.exists(fp)
             fw = open(fp, 'w', encoding='utf8')
             fw.write('\n'.join(lns))
+            if flag:
+                self.git_add(fp)
+
+    def git_add(self, fp):  # noqa
+        command_ln = f'git add "{fp}"'
+        self.logger.info(command_ln)
+        os.system(command_ln)
 
     def load_all_problems(self):
         """"""
@@ -179,9 +187,7 @@ class AlgorithmReadme:
         if fn != fp.name:
             self.logger.info(f'rename {fp.name} to {fn}')
             fp = fp.rename(fp.parent / fn)
-            command_ln = f'git add "{fp}"'
-            self.logger.info(command_ln)
-            os.system(command_ln)
+            self.git_add(fp)
         return fp
 
     def get_tag2problems(self):
