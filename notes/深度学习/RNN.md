@@ -6,9 +6,8 @@ RNN
 - [LSTM](#lstm)
     - [LSTM 的前向过程](#lstm-的前向过程)
     - [常见问题](#常见问题)
-        - [LSTM 和 RNN 的区别（Cell 状态的作用）](#lstm-和-rnn-的区别cell-状态的作用)
+        - [LSTM 和 RNN 的区别](#lstm-和-rnn-的区别)
         - [Cell state 和 Hidden state 的关系](#cell-state-和-hidden-state-的关系)
-        - [LSTM 是如何实现长短期记忆的？](#lstm-是如何实现长短期记忆的)
         - [LSTM 中各个门的作用是什么？](#lstm-中各个门的作用是什么)
         - [LSTM 前向过程（门的顺序）](#lstm-前向过程门的顺序)
 - [GRU](#gru)
@@ -68,23 +67,21 @@ $$
 
 ### 常见问题
 
-#### LSTM 和 RNN 的区别（Cell 状态的作用）
-> [对LSTM的理解 - 知乎](https://zhuanlan.zhihu.com/p/332736318)
+#### LSTM 和 RNN 的区别
+> 相关问题：**Cell 状态的作用**、**LSTM 是如何实现长短期记忆的？**
 - LSTM 相比 RNN 多了一组 **Cell 隐状态**，记 $C$（Hidden 隐状态两者都有）；
     - $C$ 保存的是当前时间步的隐状态，具体包括来自之前（所有）时间步的隐状态 $C_{t-1}$ 和当前时间步的**临时隐状态** $\tilde{C}_t$。
 - 由于 Cell 的加入，使 LSTM 具备了控制**长期/短期记忆比重**的能力，具体来说：
     - 如果**长期记忆**（之前时间步）的信息不太重要，就**减小** $C_{t-1}$ 的比重，反映在遗忘门的输出 $f_t$ 较小；
     - 如果**短期记忆**（当前时间步）的信息比较重要，就**增大** $\tilde{C}_t$ 的比重，反映在记忆门的输出 $i_t$ 较大；
+- **参考**：
+    - [对LSTM的理解 - 知乎](https://zhuanlan.zhihu.com/p/332736318)
 
 #### Cell state 和 Hidden state 的关系
 > [如何理解 LSTM 中的 cell state 和 hidden state? - 知乎](https://www.zhihu.com/question/68456751?sort=created)
 
-- 计算关系：Hidden state 是 Cell state 经过输出门后得到的结果；
-- 可以认为 Cell 同时包含了长短期记忆，Hidden state 从中提取了一部分作为当前时间步的输出；
-- 
-
-#### LSTM 是如何实现长短期记忆的？
-- 同上
+- 从前向过程可以看到 Cell 存储了全部时间步的信息，而 Hidden 由 Cell 经过输出门后得到，可以把 Hidden 看做是网络在 Cell 基础上进行特征选择的结果；
+- 一种说法是 Cell 偏向长期记忆，Hidden 偏向短期记忆；
 
 #### LSTM 中各个门的作用是什么？
 - “**遗忘门**”控制前一步记忆状态（$C_{t-1}$）中的信息有多大程度被遗忘；
