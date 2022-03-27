@@ -3,7 +3,7 @@
 
 <!-- Auto-generated -->
 
-## Problems
+## Problems <!-- omit in toc --> 
 - [`剑指Offer_0300_简单_数组中重复的数字`](../problems/2021/11/剑指Offer_0300_简单_数组中重复的数字.md)
 - [`剑指Offer_0400_中等_二维数组中的查找`](../problems/2021/11/剑指Offer_0400_中等_二维数组中的查找.md)
 - [`剑指Offer_0500_简单_替换空格`](../problems/2021/11/剑指Offer_0500_简单_替换空格.md)

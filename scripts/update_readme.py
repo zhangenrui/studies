@@ -131,7 +131,7 @@ class AlgorithmReadme:
                 lns.append(self.AUTO_GENERATED)
 
             lns.append('')
-            lns.append(f'## Problems')
+            lns.append(f'## Problems <!-- omit in toc --> ')
             for p in problems:
                 p = Path(p)
                 lns.append(f'- [`{p.stem}`]({".." / p.relative_to(self.main_dir)})')

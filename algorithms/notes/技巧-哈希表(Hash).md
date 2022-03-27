@@ -3,7 +3,7 @@
 
 <!-- Auto-generated -->
 
-## Problems
+## Problems <!-- omit in toc --> 
 - [`LeetCode_0001_简单_两数之和`](../problems/2021/10/LeetCode_0001_简单_两数之和.md)
 - [`LeetCode_0187_中等_重复的DNA序列`](../problems/2021/10/LeetCode_0187_中等_重复的DNA序列.md)
 - [`剑指Offer_0300_简单_数组中重复的数字`](../problems/2021/11/剑指Offer_0300_简单_数组中重复的数字.md)
