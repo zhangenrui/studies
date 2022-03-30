@@ -16,7 +16,7 @@ import json
 
 from pathlib import Path
 
-from collections import defaultdict, OrderedDict
+from collections import defaultdict
 
 # from itertools import islice
 # from pathlib import Path
@@ -171,14 +171,24 @@ class AlgorithmReadme:
 
     def try_add_title(self, fp, txt):  # noqa
         """"""
-        if txt.startswith('##'):
-            return
+        src, no, lv, name = fp.stem.split('_')
+        date = '-'.join(str(fp.parent).split('/')[-2:])
+        title = f'## {name}（{src}-{no}, {lv}, {date}）'
+
+        flag = True
         lns = txt.split('\n')
-        info = fp.name.split('_')
-        title = f'## {info[3]}（{info[0]}-{info[1]}, {info[2]}）'
-        lns.insert(0, title)
-        fw = open(fp, 'w', encoding='utf8')
-        fw.write('\n'.join(lns))
+        first_ln = lns[0]
+        if not first_ln.startswith('##'):
+            lns.insert(0, title)
+        elif first_ln != title:
+            lns[0] = title
+        else:
+            flag = False
+
+        if flag:
+            fw = open(fp, 'w', encoding='utf8')
+            fw.write('\n'.join(lns))
+            self.git_add(fp)
 
     def try_rename(self, info, fp):  # noqa
         """"""
